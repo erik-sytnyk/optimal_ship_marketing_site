@@ -17,7 +17,7 @@ function AppPage(props) {
 
       <Navigation />
 
-      {props.children}
+      <div className="content">{props.children}</div>
     </>
   );
 }
