@@ -1,9 +1,34 @@
-@import './fonts.scss';
+@use 'utilities/colors';
+@use 'utilities/variables' as v;
 
-body {
+@import './fonts.scss';
+@import './navigation.scss';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html,
+body {
+  font-size: 10px;
+}
+
+body {
   font-family: 'Nunito Sans', 'Segoe UI', Ubuntu, Cantarell, Arial, sans-serif;
+  scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: colors.$white;
+}
+
+.content {
+  margin-top: v.$nav-height-mobile;
+
+  @media (min-width: v.$layout-breakpoint-mobile) {
+    margin-top: v.$nav-height;
+  }
 }
