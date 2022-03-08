@@ -3,6 +3,8 @@
 
 @import './fonts.scss';
 @import './navigation.scss';
+@import './input.scss';
+@import './button.scss';
 
 *,
 *::before,
@@ -23,6 +25,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: colors.$white;
+  color: colors.$type-dark;
 }
 
 .content {
@@ -31,4 +34,10 @@ body {
   @media (min-width: v.$layout-breakpoint-mobile) {
     margin-top: v.$nav-height;
   }
+}
+
+.tracking-number-container {
+  display: flex;
+  width: 30.9rem;
+  position: relative;
 }
