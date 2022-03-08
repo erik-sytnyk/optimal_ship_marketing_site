@@ -1,6 +1,7 @@
 import {Helmet, HelmetProvider} from 'react-helmet-async';
 
 import Navigation from '../Navigation';
+import Footer from '../Footer';
 
 function AppPage(props) {
   function getTitle() {
@@ -18,6 +19,8 @@ function AppPage(props) {
       <Navigation />
 
       <div className="content">{props.children}</div>
+
+      <Footer />
     </>
   );
 }
