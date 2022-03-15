@@ -1,0 +1,32 @@
+{
+  "name": "optimal-shipp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "lint": "next lint",
+    "slicemachine": "start-slicemachine",
+    "format": "prettier \"**/*.{js,json,css,jsx}\" --write"
+  },
+  "dependencies": {
+    "@prismicio/client": "6.4.0",
+    "@prismicio/helpers": "2.2.0",
+    "@prismicio/next": "0.1.0",
+    "@prismicio/react": "2.1.2",
+    "@prismicio/slice-simulator-react": "0.2.0",
+    "classnames": "2.3.1",
+    "next": "12.1.0",
+    "next-slicezone": "0.2.2",
+    "prop-types": "15.8.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "1.49.9"
+  },
+  "devDependencies": {
+    "eslint": "8.10.0",
+    "eslint-config-next": "12.1.0",
+    "slice-machine-ui": "0.3.1"
+  }
+}

@@ -1,0 +1,76 @@
+@use 'utilities/variables' as v;
+@use 'utilities/colors';
+@use 'utilities/mixins' as m;
+
+footer {
+  margin-top: auto;
+  padding: 1.8rem 0 10.8rem;
+  background-color: colors.$type-dark;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  @include m.main-font-small-spacing;
+
+  .footer-header {
+    font-family: 'Nunito Sans Bold';
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    color: colors.$white;
+  }
+
+  ul {
+    color: colors.$accent-orange-disabled;
+
+    li {
+      margin-bottom: 1.6rem;
+    }
+  }
+
+  .details {
+    padding-left: 4.6rem;
+
+    .footer-title {
+      font-size: 2.7rem;
+      line-height: 4.8rem;
+      font-weight: 900;
+      letter-spacing: -0.022em;
+      color: colors.$accent-orange;
+      margin-bottom: 2.4rem;
+    }
+    .location {
+      margin-bottom: 2.4rem;
+
+      .location-item {
+        display: flex;
+        align-items: center;
+        color: colors.$white;
+        margin-bottom: 1.2rem;
+
+        > span {
+          margin-right: 0.8rem !important;
+        }
+      }
+    }
+    .social-media {
+      color: colors.$white;
+
+      .social-icons {
+        margin-top: 0.8rem;
+
+        > span {
+          margin-right: 3.2rem !important;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: v.$layout-breakpoint-mobile) {
+  footer {
+    padding: 4rem 0 9rem 13.5rem;
+
+    .details {
+      padding-left: 0;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "description-block",
+  "label": "description-block",
+  "repeatable": true,
+  "json": {
+    "Main": {}
+  },
+  "status": true
+}
