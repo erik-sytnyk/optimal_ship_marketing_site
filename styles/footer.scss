@@ -7,6 +7,7 @@ footer {
   padding: 1.8rem 0 10.8rem;
   background-color: colors.$type-dark;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
   @include m.main-font-small-spacing;
@@ -23,12 +24,20 @@ footer {
 
     li {
       margin-bottom: 1.6rem;
+      cursor: pointer;
+    }
+  }
+
+  .footer-column {
+    padding-left: 4.6rem;
+    margin-bottom: 2.4rem;
+
+    > ul {
+      padding-left: 3rem;
     }
   }
 
   .details {
-    padding-left: 4.6rem;
-
     .footer-title {
       font-size: 2.7rem;
       line-height: 4.8rem;
@@ -63,14 +72,45 @@ footer {
       }
     }
   }
+
+  .legal {
+    > ul > li.hidden {
+      visibility: hidden;
+    }
+
+    .business-owner {
+      margin-bottom: 1.6rem;
+      color: colors.$bg-error-selected;
+    }
+  }
+
+  .trust-badge-container-desktop {
+    display: none;
+  }
+
+  .trust-badge-container-mobile {
+    text-align: center;
+  }
 }
 
 @media (min-width: v.$layout-breakpoint-mobile) {
   footer {
-    padding: 4rem 0 9rem 13.5rem;
+    padding: 4rem 28.4rem 9rem 13.5rem;
+    flex-direction: row;
 
-    .details {
+    .footer-column {
       padding-left: 0;
+      margin-bottom: 0;
+    }
+
+    .trust-badge-container-desktop {
+      display: initial;
+      position: absolute;
+      margin-top: 4.6rem;
+    }
+
+    .trust-badge-container-mobile {
+      display: none;
     }
   }
 }

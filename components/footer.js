@@ -8,6 +8,7 @@ import mailImage from '../public/images/footer/mail.png';
 import facebookImage from '../public/images/footer/facebook.png';
 import instagramImage from '../public/images/footer/instagram.png';
 import linkedinImage from '../public/images/footer/linkedin.png';
+import trustBadgeImage from '../public/images/footer/trust-badge.png';
 
 function Footer() {
   function renderLocations() {
@@ -37,10 +38,14 @@ function Footer() {
     );
   }
 
+  function renderTrustBadge() {
+    return <Image src={trustBadgeImage} alt="Trust badge" />;
+  }
+
   function render() {
     return (
       <footer>
-        <div className="details">
+        <div className="details footer-column">
           <div className="footer-title">OptimalShip</div>
 
           {renderLocations()}
@@ -55,7 +60,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="sitemap">
+        <div className="sitemap footer-column">
           <div className="footer-header">Sitemap</div>
           <ul>
             <li>About Us</li>
@@ -69,8 +74,28 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="tools"></div>
-        <div className="legal"></div>
+        <div className="tools footer-column">
+          <div className="footer-header">Helpfull Tools</div>
+          <ul>
+            <li>Free Shipment Prep Tool</li>
+            <li>Quote Tool</li>
+            <li>Pay Bill Online</li>
+            <li>Pickup scheduler</li>
+          </ul>
+          <div className="trust-badge-container-desktop">{renderTrustBadge()}</div>
+        </div>
+
+        <div className="legal footer-column">
+          <div className="footer-header">Legal</div>
+          <ul>
+            <li>Terms Of Service</li>
+            <li>Privacy policy</li>
+            <li className="hidden" />
+          </ul>
+          <div className="business-owner">&#10086; Woman Owned business</div>
+        </div>
+
+        <div className="trust-badge-container-mobile">{renderTrustBadge()}</div>
       </footer>
     );
   }
