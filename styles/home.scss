@@ -1,0 +1,139 @@
+@use 'utilities/variables' as v;
+@use 'utilities/colors';
+@use 'utilities/mixins' as m;
+
+#intelligent-supply-chain-solutions {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .intelligent-supply-content {
+        margin: 3.2rem 1.6rem;
+        width: auto;
+
+        .intelligent-supply-title {
+            @include m.section-title;
+            margin-bottom: 4rem;
+        }
+        .intelligent-supply-subtitle {
+            @include m.larger-font;
+            margin-bottom: 4rem;
+        }
+        .intelligent-supply-list-header {
+            @include m.larger-font-small-spacing;
+            margin-bottom: 0.8rem;
+        }
+        > ul {
+            @include m.larger-font-small-spacing;
+            font-weight: 400;
+            padding-left: 3rem;
+        }
+    }
+    .intelligent-supply-images {
+        margin-bottom: 3.2rem;
+        position: relative;
+        width: 100%;
+        height: 63.9rem;
+
+        #intelligent-supply-image {
+            position: absolute;
+            top: 2.5rem;
+            z-index: 10;
+        }
+        .rectangle {
+            position: absolute;
+            background: colors.$bg-accent-orange;
+            width: 32.4rem;
+            height: 13rem;
+            top: 0;
+            left: -2.5rem;
+        }
+        .wave {
+            position: absolute;
+            background: no-repeat url(/images/wave.png);
+            background-size: cover;
+            width: 10.1rem;
+            height: 2.9rem;
+            z-index: 20;
+        }
+        .wave-top {
+            top: 2.9rem;
+            left: -5.9rem;
+        }
+        .wave-bottom {
+            bottom: 2.1rem;
+            right: 0;
+        }
+        .tooltip {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: 34rem;
+            padding: 3.2rem 0 2.4rem;
+            background-color: rgba(colors.$type-dark, 0.96);
+            box-shadow: 2rem 2rem 3rem rgba(colors.$black, 0.16);
+            z-index: 30;
+
+            .quote {
+                font-family: 'Nunito Sans Italic';
+                font-size: 2.1rem;
+                line-height: 2.9rem;
+                letter-spacing: -0.022em;
+                color: colors.$white;
+                margin: 0 3rem 3.2rem 3.4rem;
+            }
+            .author {
+                @include m.main-font-small-spacing;
+                font-weight: 700;
+                color: colors.$accent-orange;
+                margin-left: 3rem;
+            }
+        }
+    }
+}
+
+@media (min-width: v.$layout-breakpoint-mobile) {
+    #intelligent-supply-chain-solutions {
+        .intelligent-supply-content {
+            margin: 8rem 0 9.2rem 13.5rem;
+            width: 45.8rem;
+        }
+        .intelligent-supply-images {
+            margin: 4rem 0 5.2rem;
+            width: 71.3rem;
+            height: 72.4rem;
+
+            #intelligent-supply-image {
+                width: 59.3rem;
+                bottom: 4.4rem;
+                right: 0;
+            }
+            .rectangle {
+                width: 49.7rem;
+                height: 20.5rem;
+                top: 0;
+                left: 8rem;
+            }
+            .wave {
+                width: 16rem;
+                height: 4.8rem;
+            }
+            .wave-top {
+                top: 4.6rem;
+                left: -6.7rem;
+            }
+            .wave-bottom {
+                bottom: 3.4rem;
+                right: -6rem;
+            }
+            .tooltip {
+                left: 0;
+                bottom: 0;
+                margin: 0;
+            }
+        }
+    }
+}

@@ -5,8 +5,10 @@ import Image from 'next/image';
 import Layout, {siteTitle} from '../components/layout';
 
 function About(props) {
-  const data = props?.page?.data;
-  console.log(data);
+  const homeData = props?.homePage?.data;
+  const aboutData = props?.aboutPage?.data;
+
+  const homeImage = homeData?.image;
 
   return (
     <Layout>
@@ -16,7 +18,18 @@ function About(props) {
 
       <h2>About Page</h2>
 
-      {data['about-item'].map((item, index) => {
+      <div>{homeData?.title[0]?.text}</div>
+      <div>{homeData?.subtitle[0]?.text}</div>
+      <Image
+        src={homeImage?.url}
+        alt={homeImage?.alt}
+        width={homeImage?.dimensions?.width}
+        height={homeImage?.dimensions?.height}
+      />
+
+      <br />
+
+      {aboutData['about-item'].map((item, index) => {
         const image = item.image;
 
         return (
@@ -41,9 +54,13 @@ export default About;
 export async function getStaticProps({previewData}) {
   const client = createClient({previewData});
 
-  const page = await client.getSingle('about');
+  const homePage = await client.getSingle('home');
+  const aboutPage = await client.getSingle('about');
 
   return {
-    props: {page} // Will be passed to the page component as props
+    props: {
+      homePage,
+      aboutPage
+    }
   };
 }

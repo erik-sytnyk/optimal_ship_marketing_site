@@ -6,6 +6,7 @@
 @import './footer.scss';
 @import './input.scss';
 @import './button.scss';
+@import './home.scss';
 
 *,
 *::before,
@@ -27,6 +28,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: colors.$white;
   color: colors.$type-dark;
+  overflow-x: hidden;
 }
 
 #root {
