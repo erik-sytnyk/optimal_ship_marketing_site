@@ -1,6 +1,6 @@
-@use 'utilities/variables' as v;
-@use 'utilities/colors';
-@use 'utilities/mixins' as m;
+@use '../../styles/utilities/variables' as v;
+@use '../../styles/utilities/colors';
+@use '../../styles/utilities/mixins' as m;
 
 footer {
   margin-top: auto;

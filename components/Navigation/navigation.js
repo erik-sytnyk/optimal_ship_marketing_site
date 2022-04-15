@@ -4,13 +4,13 @@ import {useRouter} from 'next/router';
 import classNames from 'classnames';
 import {useState} from 'react';
 
-import config from '../config';
+import config from '../../config';
 
-import SearchInput from '../components/searchInput';
+import SearchInput from '../searchInput';
 
-import logoImage from '../public/images/logo.png';
-import closeImage from '../public/images/close.png';
-import hamburgerImage from '../public/images/hamburger.png';
+import logoImage from '../../public/images/logo.png';
+import closeImage from '../../public/images/close.png';
+import hamburgerImage from '../../public/images/hamburger.png';
 
 function Navigation() {
   const router = useRouter();

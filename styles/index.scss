@@ -2,10 +2,10 @@
 @use 'utilities/variables' as v;
 
 @import './fonts.scss';
-@import './navigation.scss';
-@import './footer.scss';
-@import './input.scss';
-@import './button.scss';
+@import '../components/Navigation/navigation.module.scss';
+@import '../components/Footer/footer.module.scss';
+@import '../components/SearchInput/searchInput.module.scss';
+@import '../components/Button/button.module.scss';
 @import './home.scss';
 
 *,
