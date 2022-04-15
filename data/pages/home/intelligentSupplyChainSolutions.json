@@ -1,0 +1,26 @@
+{
+  "title": "Intelligent \n Supply Chain Solutions",
+  "description": "OptimalShip can provide your company with the most efficient shipping support.",
+  "list": {
+    "title": "We can offer you:",
+    "items": [
+      "Substantial Discounts",
+      "International and Domestic Services",
+      "Friendly and Helpful Customer Service Team",
+      "Dedicated Account Managers",
+      "Customized Invoicing",
+      "Shipment Tracking",
+      "Easy to Use Online Shipping Tools"
+    ]
+  },
+  "image": {
+    "url": "/images/home/intelligent-supply.png",
+    "alt": "Intelligent Supply",
+    "width": 593,
+    "height": 640
+  },
+  "tooltip": {
+    "quote": "“From routine shipments to extraordinarily difficult ones each has been done in a courteous, professional manner. OptimalShip has stepped outside the box to assist on occasions to communicate and resolve issues and non-issues to make deliveries happen. Thank you for taking care of your customers without us having to work with outsourced departments from other entities.”",
+    "author": "Larry Dube, Axciton"
+  }
+}

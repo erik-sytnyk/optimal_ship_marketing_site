@@ -1,6 +1,6 @@
-@use 'utilities/variables' as v;
-@use 'utilities/colors';
-@use 'utilities/mixins' as m;
+@use '../../../../styles/utilities/variables' as v;
+@use '../../../../styles/utilities/colors';
+@use '../../../../styles/utilities/mixins' as m;
 
 #intelligent-supply-chain-solutions {
   display: flex;
@@ -14,6 +14,7 @@
     .intelligent-supply-title {
       @include m.section-title;
       margin-bottom: 4rem;
+      white-space: pre-line;
     }
     .intelligent-supply-subtitle {
       @include m.larger-font;
