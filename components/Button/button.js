@@ -3,10 +3,11 @@ import classNames from 'classnames';
 
 Button.propTypes = {
   searchButton: PropTypes.bool,
+  outline: PropTypes.bool,
   onClick: PropTypes.func
 };
 
-function Button({children, searchButton, onClick}) {
+function Button({children, searchButton, outline, onClick}) {
   function clickButton() {
     if (!onClick) return;
 
@@ -16,7 +17,8 @@ function Button({children, searchButton, onClick}) {
   function render() {
     const buttonClass = classNames({
       'custom-button': true,
-      'search-button': searchButton
+      'search-button': searchButton,
+      outline
     });
 
     return (

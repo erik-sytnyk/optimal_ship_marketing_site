@@ -30,3 +30,14 @@
   right: 0;
   box-shadow: none;
 }
+
+.outline {
+  background-color: transparent;
+  border: 0.2rem solid colors.$accent-orange;
+  color: colors.$accent-orange;
+  box-shadow: none;
+
+  &:hover {
+    background-color: transparent;
+  }
+}

@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import Layout, {siteTitle} from '../components/layout';
 import IntelligentSupplyChainSolutions from '../components/templates/home/intelligent_supply/IntelligentSupplyChainSolutions';
+import DigitalTools from '../components/templates/home/digital_tools/DigitalTools';
 
 function Home() {
   function render() {
@@ -12,6 +13,7 @@ function Home() {
         </Head>
 
         <IntelligentSupplyChainSolutions />
+        <DigitalTools />
       </Layout>
     );
   }
