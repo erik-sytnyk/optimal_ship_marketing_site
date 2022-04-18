@@ -62,3 +62,10 @@
   line-height: 2.7rem;
   letter-spacing: -0.022em;
 }
+
+@mixin success-font {
+  font-weight: 900;
+  font-size: 8rem;
+  line-height: 4.8rem;
+  letter-spacing: -0.022em;
+}

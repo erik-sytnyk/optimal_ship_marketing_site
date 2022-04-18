@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "header": "More than",
+      "content": "8,000",
+      "footer": "clients"
+    },
+    {
+      "header": "Over",
+      "content": "500,000",
+      "footer": "successful shipments"
+    },
+    {
+      "header": "Average savings",
+      "content": "40%",
+      "footer": "off retail rates "
+    }
+  ]
+}

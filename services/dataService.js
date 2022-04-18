@@ -1,6 +1,7 @@
 const dataService = {
   getIntelligentSupplyChainSolutions,
-  getFreeDigitalTools
+  getFreeDigitalTools,
+  getSuccessNumbers
 };
 
 function getIntelligentSupplyChainSolutions() {
@@ -10,6 +11,11 @@ function getIntelligentSupplyChainSolutions() {
 
 function getFreeDigitalTools() {
   const data = require('../data/pages/home/digitalTools.json');
+  return data;
+}
+
+function getSuccessNumbers() {
+  const data = require('../data/pages/home/successNumbers.json');
   return data;
 }
 
