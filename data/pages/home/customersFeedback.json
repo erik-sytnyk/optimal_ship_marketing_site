@@ -1,0 +1,32 @@
+{
+  "title": "What our customers \n say",
+  "image": {
+    "desktop": {
+      "url": "/images/home/customers-say.png",
+      "alt": "Customers Feedback",
+      "width": 711,
+      "height": 428
+    },
+    "mobile": {
+      "url": "/images/home/customers-say-mobile.png",
+      "alt": "Customers Feedback",
+      "width": 375,
+      "height": 428
+    }
+  },
+  "button": "See More Customer Stories",
+  "list": [
+    {
+      "quote": "“OptimalShip continues to go above and beyond to meet our shipping needs. Whether it is a last-minute shipment to NYC or a cost and time-sensitive export to Japan, they are ready to help us meet our deadlines. The customer service team is top-notch, and if there is ever an issue with a carrier they quickly step in and resolve it. We feel fortunate to work with such a dedicated, professional company.”",
+      "author": "Myra Dillion"
+    },
+    {
+      "quote": "“I have to say that all these months and from last year and prior I have nothing to say except great customer service, patience, attention to detail, and understanding. I feel great and happy to work with you as my favorite and support the Export Shipment team on all our international shipments. Ariana, Jill, and the rest of the staff thank you for your service and help and I hope it continues like this.”",
+      "author": "George L. Flores, International Sales Manager \n Fine Surgical Instruments Inc."
+    },
+    {
+      "quote": "“I'm giving OptimalShip a full five stars. They have helped me with shipments all over the country. I have found them reliable and friendly. Customer Service, Billing, and Account Receivable Team quickly tackle every bottleneck that I have given them.  The people who work there seem to want to work there, which at least to me, seems rare at a shipping company. The company probably treats its employees happy. Happy employees = Happy customers!”",
+      "author": "David, \n My Med Express"
+    }
+  ]
+}

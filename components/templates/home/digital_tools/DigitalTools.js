@@ -3,7 +3,7 @@ import Router from 'next/router';
 import dataService from '../../../../services/dataService';
 
 import ToolItem from './components/ToolItem';
-import Button from '../../../Button';
+import Button from '../../../Button/button';
 
 function DigitalTools() {
   const data = dataService.getFreeDigitalTools();

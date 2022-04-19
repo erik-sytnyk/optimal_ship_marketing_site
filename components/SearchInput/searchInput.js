@@ -2,7 +2,7 @@ import {useState} from 'react';
 
 import navigationHelper from '../../helpers/navigationHelper';
 
-import Button from '../Button';
+import Button from '../Button/button';
 
 function SearchInput() {
   const [trackingNumber, setTrackingNumber] = useState('');

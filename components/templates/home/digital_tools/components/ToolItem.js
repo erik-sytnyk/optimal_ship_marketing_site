@@ -1,4 +1,4 @@
-import Button from '../../../../Button';
+import Button from '../../../../Button/button';
 
 function ToolItem(props) {
   const item = props.item;

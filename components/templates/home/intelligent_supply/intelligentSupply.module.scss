@@ -12,7 +12,7 @@
     width: auto;
 
     .intelligent-supply-title {
-      @include m.section-title;
+      @include m.title-01;
       margin-bottom: 4rem;
       white-space: pre-line;
     }
@@ -75,14 +75,11 @@
       width: 34rem;
       padding: 3.2rem 0 2.4rem;
       background-color: rgba(colors.$type-dark, 0.96);
-      box-shadow: 2rem 2rem 3rem rgba(colors.$black, 0.16);
       z-index: 30;
+      @include m.tooltip-box-shadow;
 
       .quote {
-        font-family: 'Nunito Sans Italic';
-        font-size: 2.1rem;
-        line-height: 2.9rem;
-        letter-spacing: -0.022em;
+        @include m.testimonial-body-01;
         color: colors.$white;
         margin: 0 3rem 3.2rem 3.4rem;
       }

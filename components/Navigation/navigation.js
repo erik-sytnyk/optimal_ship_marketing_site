@@ -6,7 +6,7 @@ import {useState} from 'react';
 
 import config from '../../config';
 
-import SearchInput from '../searchInput';
+import SearchInput from '../SearchInput/searchInput';
 
 import logoImage from '../../public/images/logo.png';
 import closeImage from '../../public/images/close.png';
