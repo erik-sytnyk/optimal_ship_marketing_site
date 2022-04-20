@@ -1,0 +1,61 @@
+{
+  "title": "How it works",
+  "button": "About Our Services",
+  "list": [
+    {
+      "index": "01",
+      "title": "Get a Quote",
+      "description": "Use our Free Quote Tool to obtain a shipping quote",
+      "image": {
+        "url": "/images/home/how_it_works/quote.png",
+        "alt": "Get a Quote",
+        "width": 221,
+        "height": 221
+      }
+    },
+    {
+      "index": "02",
+      "title": "Prep Shipping docs",
+      "description": "Utilize our Free Shipment Prep Tool to generate your shipping documents.",
+      "image": {
+        "url": "/images/home/how_it_works/documents.png",
+        "alt": "Prep Shipping docs",
+        "width": 221,
+        "height": 221
+      }
+    },
+    {
+      "index": "03",
+      "title": "Schedule Pickup",
+      "description": "The carrier will come to your door and pick up your shipment.",
+      "image": {
+        "url": "/images/home/how_it_works/pickup.png",
+        "alt": "Schedule Pickup",
+        "width": 221,
+        "height": 221
+      }
+    },
+    {
+      "index": "04",
+      "title": "Transit & Tracking",
+      "description": "Follow your shipment as it travels by using our Tracking Tool.",
+      "image": {
+        "url": "/images/home/how_it_works/tracking.png",
+        "alt": "Transit & Tracking",
+        "width": 221,
+        "height": 221
+      }
+    },
+    {
+      "index": "05",
+      "title": "Customer Support",
+      "description": "Contact our expert customer service team if you would like assistance.",
+      "image": {
+        "url": "/images/home/how_it_works/support.png",
+        "alt": "Customer Support",
+        "width": 221,
+        "height": 221
+      }
+    }
+  ]
+}
