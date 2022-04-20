@@ -1,0 +1,173 @@
+@use '../../../../styles/utilities/variables' as v;
+@use '../../../../styles/utilities/colors';
+@use '../../../../styles/utilities/mixins' as m;
+
+#services {
+  background-color: colors.$lists-grey;
+  margin: 0;
+
+  .service-row {
+    display: flex;
+    flex-direction: column;
+
+    .service-content {
+      padding: 6rem 0 0 0;
+      width: 100%;
+
+      .service-content-container {
+        padding: 0 1.6rem 2rem;
+
+        #service-header {
+          margin-bottom: 1.6rem;
+          text-transform: uppercase;
+          color: colors.$dark-hover;
+          @include m.body-02;
+          font-weight: 900;
+        }
+        .service-title {
+          margin-bottom: 3.2rem;
+          white-space: pre-line;
+          @include m.title-01;
+        }
+        .service-description {
+          margin-bottom: 3.6rem;
+          @include m.body-01;
+        }
+        .custom-button {
+          width: 100%;
+        }
+      }
+    }
+
+    #service-images-1 {
+      position: relative;
+      height: 64rem;
+      width: 100%;
+      margin-top: 1.6rem;
+      margin-right: 0;
+
+      #service-image-1 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 87%;
+        z-index: 10;
+      }
+      #service-rectangle-1 {
+        position: absolute;
+        height: 52.8rem;
+        width: 100%;
+        top: 2rem;
+        border: 0.4rem solid colors.$accent-orange;
+        border-left: none;
+        border-right: none;
+        z-index: 5;
+      }
+      #service-circle-external,
+      #service-circle-internal {
+        display: none;
+      }
+      .tooltip {
+          position: absolute;
+          background-color: colors.$type-dark;
+        @include m.tooltip-box-shadow;
+        padding: 3.2rem 1.5rem 2.4rem 3rem;
+        z-index: 20;
+
+        .tooltip-quote {
+          margin-bottom: 2.4rem;
+          @include m.testimonial-body-01;
+          color: colors.$white;
+        }
+        .tooltip-author {
+          @include m.testimonial-name-01;
+          color: colors.$accent-orange;
+          white-space: pre-line;
+        }
+      }
+      .tooltip-1 {
+        width: 95%;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: v.$layout-breakpoint-mobile) {
+  #services {
+    margin: 0 4.9rem;
+
+    .service-row {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      .service-content {
+        padding: 6rem 7rem;
+        width: 63rem;
+
+        .service-content-container {
+          #service-header {
+            margin-bottom: 3.2rem;
+          }
+          .service-title {
+            margin-bottom: 4rem;
+          }
+          .service-description {
+            margin-bottom: 4.4rem;
+          }
+        }
+      }
+
+      #service-images-1 {
+        width: 57.7rem;
+        margin-top: 0;
+        margin-right: 8.6rem;
+
+        #service-image-1 {
+          top: 4rem;
+          right: 0;
+          width: auto;
+        }
+        #service-rectangle-1 {
+          width: 52.6rem;
+          top: 6rem;
+          left: 0;
+          border: 0.4rem solid colors.$accent-orange;
+        }
+        #service-circle-external {
+          position: absolute;
+          display: block;
+          width: 12rem;
+          height: 12rem;
+          top: 0;
+          right: 4rem;
+          border: 0.4rem solid colors.$accent-orange;
+          border-radius: 50%;
+          z-index: 20;
+        }
+        #service-circle-internal {
+          position: absolute;
+          display: block;
+          width: 10rem;
+          height: 10rem;
+          top: 1rem;
+          right: 5rem;
+          border: 0.2rem solid colors.$accent-orange;
+          border-radius: 50%;
+          z-index: 20;
+        }
+        .tooltip {
+          padding: 3.2rem 3rem;
+        }
+        .tooltip-1 {
+          width: 42rem;
+          bottom: 0;
+          right: 8.9rem;
+        }
+      }
+    }
+  }
+}

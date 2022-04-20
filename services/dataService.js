@@ -3,7 +3,8 @@ const dataService = {
   getFreeDigitalTools,
   getSuccessNumbers,
   getCustomersFeedback,
-  getHowItWorks
+  getHowItWorks,
+  getServices
 };
 
 function getIntelligentSupplyChainSolutions() {
@@ -28,6 +29,11 @@ function getCustomersFeedback() {
 
 function getHowItWorks() {
   const data = require('../data/pages/home/howItWorks.json');
+  return data;
+}
+
+function getServices() {
+  const data = require('../data/pages/home/services.json');
   return data;
 }
 

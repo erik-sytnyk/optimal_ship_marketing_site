@@ -64,6 +64,12 @@
   letter-spacing: -0.022em;
 }
 
+@mixin body-01 {
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  letter-spacing: -0.022em;
+}
+
 @mixin body-02 {
   font-size: 2rem;
   line-height: 2.7rem;
@@ -92,5 +98,14 @@
   font-family: 'Nunito Sans Italic';
   font-size: 2.1rem;
   line-height: 2.9rem;
+  letter-spacing: -0.022em;
+}
+
+@mixin testimonial-name-01 {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
   letter-spacing: -0.022em;
 }

@@ -6,6 +6,7 @@ import DigitalTools from '../components/templates/home/digital_tools/DigitalTool
 import SuccessNumbers from '../components/templates/home/success_numbers/SuccessNumbers';
 import CustomersSay from '../components/templates/home/customers_say/CustomersSay';
 import HowItWorks from '../components/templates/home/how_it_works/HowItWorks';
+import Services from '../components/templates/home/services/Services';
 
 function Home() {
   function render() {
@@ -20,6 +21,7 @@ function Home() {
         <SuccessNumbers />
         <CustomersSay />
         <HowItWorks />
+        <Services />
       </Layout>
     );
   }
