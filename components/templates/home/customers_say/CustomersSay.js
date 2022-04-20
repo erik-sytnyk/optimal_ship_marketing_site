@@ -34,18 +34,13 @@ function CustomersSay() {
     }
   }
 
-  const imageDesktop = data.image.desktop;
+  const image = feedback.image;
 
   return (
     <div id="customers-say">
       <div id="customers-say-images">
         <div id="customers-say-image">
-          <Image
-            src={imageDesktop.url}
-            alt={imageDesktop.alt}
-            width={imageDesktop.width}
-            height={imageDesktop.height}
-          />
+          <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
         </div>
         <div className="rectangle" />
         <div className="tooltip">
