@@ -1,8 +1,10 @@
+import classNames from 'classnames';
 import Image from 'next/image';
 
 import dataService from '../../../../services/dataService';
 
 import Button from '../../../Button/button';
+import Circles from '../../../Circles/circles';
 
 function Services() {
   const data = dataService.getServices();
@@ -29,16 +31,68 @@ function Services() {
   function renderImages(service, index) {
     const image = service.image;
 
+    const tooltipClass = classNames({
+      tooltip: true,
+      [`tooltip-${index}`]: true
+    });
+
     if (index === 0) {
       return (
-        <div id="service-images-1">
-          <div id="service-image-1">
+        <div id={`service-images-container-${index}`}>
+          <div id={`service-image-${index}`}>
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
           </div>
-          <div id="service-rectangle-1" />
-          <div id="service-circle-external" />
-          <div id="service-circle-internal" />
-          <div className="tooltip tooltip-1">
+          <div id={`service-rectangle-${index}`} />
+          <Circles />
+          <div className={tooltipClass}>
+            <div className="tooltip-quote">{service.tooltip.quote}</div>
+            <div className="tooltip-author">{service.tooltip.author}</div>
+          </div>
+        </div>
+      );
+    }
+
+    if (index === 1) {
+      return (
+        <div id={`service-images-container-${index}`}>
+          <div id={`service-image-${index}`}>
+            <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
+          </div>
+          <div id={`service-rectangle-${index}`} />
+          <div id={`service-wave-${index}`} />
+          <div className={tooltipClass}>
+            <div className="tooltip-quote">{service.tooltip.quote}</div>
+            <div className="tooltip-author">{service.tooltip.author}</div>
+          </div>
+        </div>
+      );
+    }
+
+    if (index === 2) {
+      return (
+        <div id={`service-images-container-${index}`}>
+          <div id={`service-image-${index}`}>
+            <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
+          </div>
+          <div id={`service-rectangle-${index}`} />
+          <Circles />
+          <div className={tooltipClass}>
+            <div className="tooltip-quote">{service.tooltip.quote}</div>
+            <div className="tooltip-author">{service.tooltip.author}</div>
+          </div>
+        </div>
+      );
+    }
+
+    if (index === 3) {
+      return (
+        <div id={`service-images-container-${index}`}>
+          <div id={`service-image-${index}`}>
+            <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
+          </div>
+          <div id={`service-rectangle-${index}`} />
+          <div id={`service-wave-${index}`} />
+          <div className={tooltipClass}>
             <div className="tooltip-quote">{service.tooltip.quote}</div>
             <div className="tooltip-author">{service.tooltip.author}</div>
           </div>
@@ -55,9 +109,14 @@ function Services() {
         {services.map((service, index) => {
           const header = index === 0 ? data.title : '';
 
+          const rowClass = classNames({
+            'service-row': true,
+            [`service-row-${index}`]: true
+          });
+
           if (index % 2) {
             return (
-              <div key={service.title} className="service-row">
+              <div key={service.title} className={rowClass}>
                 {renderImages(service, index)}
                 {renderContent(service)}
               </div>
@@ -65,7 +124,7 @@ function Services() {
           }
 
           return (
-            <div key={service.title} className="service-row">
+            <div key={service.title} className={rowClass}>
               {renderContent(service, header)}
               {renderImages(service, index)}
             </div>

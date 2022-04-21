@@ -38,22 +38,42 @@
         }
       }
     }
+    .tooltip {
+      position: absolute;
+      background-color: colors.$type-dark;
+      @include m.tooltip-box-shadow;
+      z-index: 20;
 
-    #service-images-1 {
+      .tooltip-quote {
+        margin-bottom: 2.4rem;
+        @include m.testimonial-body-01;
+        color: colors.$white;
+      }
+      .tooltip-author {
+        @include m.testimonial-name-01;
+        color: colors.$accent-orange;
+        white-space: pre-line;
+      }
+    }
+  }
+  .service-row-0 {
+    margin-bottom: 0;
+
+    #service-images-container-0 {
       position: relative;
       height: 64rem;
       width: 100%;
       margin-top: 1.6rem;
       margin-right: 0;
 
-      #service-image-1 {
+      #service-image-0 {
         position: absolute;
         top: 0;
         right: 0;
         width: 87%;
         z-index: 10;
       }
-      #service-rectangle-1 {
+      #service-rectangle-0 {
         position: absolute;
         height: 52.8rem;
         width: 100%;
@@ -63,32 +83,148 @@
         border-right: none;
         z-index: 5;
       }
-      #service-circle-external,
-      #service-circle-internal {
+      .circle-external {
         display: none;
       }
-      .tooltip {
-          position: absolute;
-          background-color: colors.$type-dark;
-        @include m.tooltip-box-shadow;
+      .tooltip-0 {
         padding: 3.2rem 1.5rem 2.4rem 3rem;
-        z-index: 20;
-
-        .tooltip-quote {
-          margin-bottom: 2.4rem;
-          @include m.testimonial-body-01;
-          color: colors.$white;
-        }
-        .tooltip-author {
-          @include m.testimonial-name-01;
-          color: colors.$accent-orange;
-          white-space: pre-line;
-        }
-      }
-      .tooltip-1 {
         width: 95%;
         bottom: 0;
         right: 0;
+      }
+    }
+  }
+  .service-row-1 {
+    flex-direction: column-reverse;
+    margin-bottom: 0;
+
+    #service-images-container-1 {
+      position: relative;
+      height: 55rem;
+      width: 100%;
+      margin-left: 0;
+
+      #service-image-1 {
+        position: absolute;
+        right: 0;
+        top: 2.5rem;
+        width: 95%;
+        z-index: 10;
+      }
+      #service-rectangle-1 {
+        position: absolute;
+        height: 36.3rem;
+        width: 30rem;
+        top: 0;
+        right: 0;
+        border: 0.4rem solid colors.$accent-orange;
+        border-right: none;
+        z-index: 5;
+      }
+      #service-wave-1 {
+        position: absolute;
+        right: 0;
+        bottom: 3.8rem;
+        background: no-repeat url(/images/wave.png);
+        background-size: cover;
+        width: 12rem;
+        height: 4.8rem;
+        z-index: 15;
+      }
+      .tooltip-1 {
+        padding: 3.2rem 1rem 3.2rem 1.6rem;
+        width: 100%;
+        top: 11.4rem;
+      }
+    }
+  }
+  .service-row-2 {
+    flex-direction: column;
+    margin-bottom: 0;
+
+    #service-images-container-2 {
+      position: relative;
+      width: 100%;
+      height: 75.9rem;
+      margin-left: 0;
+      margin-top: 2.4rem;
+
+      #service-image-2 {
+        position: absolute;
+        width: auto;
+        z-index: 10;
+      }
+      #service-rectangle-2 {
+        position: absolute;
+        height: 36.3rem;
+        width: 33.1rem;
+        bottom: 0;
+        right: 0;
+        border: 0.4rem solid colors.$accent-orange;
+        border-right: none;
+        z-index: 5;
+      }
+      .circle-external {
+        position: absolute;
+        top: 4rem;
+        right: 0rem;
+        z-index: 15;
+      }
+      .tooltip-2 {
+        position: absolute;
+        right: 0;
+        bottom: 1.6rem;
+        padding: 3.2rem 1.8rem 3.2rem 2.8rem;
+        width: 95%;
+      }
+    }
+  }
+  .service-row-3 {
+    flex-direction: column-reverse;
+
+    #service-images-container-3 {
+      position: relative;
+      width: 100%;
+      height: 66.1rem;
+      margin-left: 0;
+      margin-top: 2.4rem;
+      margin-bottom: 6rem;
+
+      #service-image-3 {
+        position: absolute;
+        width: auto;
+        z-index: 10;
+      }
+      #service-rectangle-3 {
+        position: absolute;
+        height: 36.3rem;
+        width: 33.1rem;
+        bottom: 0;
+        right: 0;
+        border: 0.4rem solid colors.$accent-orange;
+        border-right: none;
+        z-index: 5;
+      }
+      #service-wave-3 {
+        position: absolute;
+        right: 0;
+        top: 3.2rem;
+        background: no-repeat url(/images/wave.png);
+        background-size: cover;
+        width: 12rem;
+        height: 4.8rem;
+        z-index: 15;
+      }
+      .tooltip-3 {
+        position: absolute;
+        left: 0;
+        bottom: 4rem;
+        padding: 3.2rem 2.8rem 3.2rem 1.8rem;
+        width: 95%;
+
+        .tooltip-author {
+          white-space: normal;
+        }
       }
     }
   }
@@ -120,52 +256,137 @@
           }
         }
       }
+    }
+    .service-row-0 {
+      align-items: flex-end;
+      margin-bottom: 8rem;
 
-      #service-images-1 {
+      #service-images-container-0 {
         width: 57.7rem;
         margin-top: 0;
         margin-right: 8.6rem;
 
-        #service-image-1 {
+        #service-image-0 {
           top: 4rem;
           right: 0;
           width: auto;
         }
-        #service-rectangle-1 {
+        #service-rectangle-0 {
           width: 52.6rem;
           top: 6rem;
           left: 0;
           border: 0.4rem solid colors.$accent-orange;
         }
-        #service-circle-external {
+        .circle-external {
           position: absolute;
-          display: block;
-          width: 12rem;
-          height: 12rem;
+          display: flex;
           top: 0;
           right: 4rem;
-          border: 0.4rem solid colors.$accent-orange;
-          border-radius: 50%;
           z-index: 20;
         }
-        #service-circle-internal {
-          position: absolute;
-          display: block;
-          width: 10rem;
-          height: 10rem;
-          top: 1rem;
-          right: 5rem;
-          border: 0.2rem solid colors.$accent-orange;
-          border-radius: 50%;
-          z-index: 20;
-        }
-        .tooltip {
+        .tooltip-0 {
           padding: 3.2rem 3rem;
-        }
-        .tooltip-1 {
           width: 42rem;
           bottom: 0;
           right: 8.9rem;
+        }
+      }
+    }
+    .service-row-1 {
+      align-items: flex-start;
+      margin-bottom: 2.9rem;
+
+      #service-images-container-1 {
+        width: 63.2rem;
+        height: 55rem;
+        margin-left: 3.2rem;
+
+        #service-image-1 {
+          width: auto;
+        }
+        #service-rectangle-1 {
+          width: 36.3rem;
+          right: 2rem;
+          border: 0.4rem solid colors.$accent-orange;
+        }
+        #service-wave-1 {
+          right: 15.7rem;
+          bottom: 3.8rem;
+          width: 16rem;
+          height: 4.8rem;
+        }
+        .tooltip-1 {
+          padding: 3.2rem;
+          width: 42.4rem;
+          left: 0;
+          top: 15.4rem;
+        }
+      }
+    }
+    .service-row-2 {
+      align-items: center;
+      margin-bottom: 8rem;
+
+      #service-images-container-2 {
+        width: 63.2rem;
+        height: 64.7rem;
+        margin-right: 3rem;
+        margin-top: 0;
+
+        #service-image-2 {
+          width: auto;
+          top: 0;
+          left: 0;
+        }
+        #service-rectangle-2 {
+          width: 36.3rem;
+          right: 12.9rem;
+          border: 0.4rem solid colors.$accent-orange;
+        }
+        .circle-external {
+          top: 3.9rem;
+          right: 4.1rem;
+        }
+        .tooltip-2 {
+          width: 47.2rem;
+          padding: 4.2rem 3rem 3.2rem;
+        }
+      }
+    }
+    .service-row-3 {
+      align-items: center;
+
+      #service-images-container-3 {
+        width: 57.5rem;
+        height: 60.4rem;
+        margin-left: 8.8rem;
+        margin-top: 0;
+        margin-bottom: 13.6rem;
+
+        #service-image-3 {
+          width: auto;
+          top: 0;
+          left: 0;
+        }
+        #service-rectangle-3 {
+          width: 36.3rem;
+          right: 11.9rem;
+          border: 0.4rem solid colors.$accent-orange;
+        }
+        #service-wave-3 {
+          width: 16rem;
+          right: 2rem;
+        }
+        .tooltip-3 {
+          width: 44.2rem;
+          padding: 3.2rem 3rem;
+          right: 0;
+          left: auto;
+          bottom: 4rem;
+
+          .tooltip-author {
+            white-space: pre-line;
+          }
         }
       }
     }
