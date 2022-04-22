@@ -4,7 +4,8 @@ const dataService = {
   getSuccessNumbers,
   getCustomersFeedback,
   getHowItWorks,
-  getServices
+  getServices,
+  getOptimalClients
 };
 
 function getIntelligentSupplyChainSolutions() {
@@ -34,6 +35,11 @@ function getHowItWorks() {
 
 function getServices() {
   const data = require('../data/pages/home/services.json');
+  return data;
+}
+
+function getOptimalClients() {
+  const data = require('../data/pages/home/optimalClients.json');
   return data;
 }
 

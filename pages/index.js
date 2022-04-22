@@ -7,6 +7,7 @@ import SuccessNumbers from '../components/templates/home/success_numbers/Success
 import CustomersSay from '../components/templates/home/customers_say/CustomersSay';
 import HowItWorks from '../components/templates/home/how_it_works/HowItWorks';
 import Services from '../components/templates/home/services/Services';
+import OptimalClients from '../components/templates/home/optimal_clients/OptimalClients';
 
 function Home() {
   function render() {
@@ -22,6 +23,7 @@ function Home() {
         <CustomersSay />
         <HowItWorks />
         <Services />
+        <OptimalClients />
       </Layout>
     );
   }
