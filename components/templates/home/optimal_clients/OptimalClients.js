@@ -4,6 +4,7 @@ import Router from 'next/router';
 import dataService from '../../../../services/dataService';
 
 import Button from '../../../Button/button';
+import Tooltip from '../../../Tooltip/tooltip';
 
 function OptimalClients() {
   const data = dataService.getOptimalClients();
@@ -26,10 +27,7 @@ function OptimalClients() {
           <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
         </div>
         <div id="optimal-clients-rectangle" />
-        <div className="tooltip">
-          <div className="tooltip-quote">{data.tooltip.quote}</div>
-          <div className="tooltip-author">{data.tooltip.author}</div>
-        </div>
+        <Tooltip id="optimal-clients-tooltip" tooltip={data.tooltip} />
       </div>
     </div>
   );

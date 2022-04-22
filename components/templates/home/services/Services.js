@@ -5,6 +5,8 @@ import dataService from '../../../../services/dataService';
 
 import Button from '../../../Button/button';
 import Circles from '../../../Circles/circles';
+import Tooltip from '../../../Tooltip/tooltip';
+import Wave from '../../../Wave/wave';
 
 function Services() {
   const data = dataService.getServices();
@@ -31,11 +33,6 @@ function Services() {
   function renderImages(service, index) {
     const image = service.image;
 
-    const tooltipClass = classNames({
-      tooltip: true,
-      [`tooltip-${index}`]: true
-    });
-
     if (index === 0) {
       return (
         <div id={`service-images-container-${index}`}>
@@ -44,10 +41,7 @@ function Services() {
           </div>
           <div id={`service-rectangle-${index}`} />
           <Circles />
-          <div className={tooltipClass}>
-            <div className="tooltip-quote">{service.tooltip.quote}</div>
-            <div className="tooltip-author">{service.tooltip.author}</div>
-          </div>
+          <Tooltip id={`tooltip-${index}`} tooltip={service.tooltip} />
         </div>
       );
     }
@@ -59,11 +53,8 @@ function Services() {
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
           </div>
           <div id={`service-rectangle-${index}`} />
-          <div id={`service-wave-${index}`} />
-          <div className={tooltipClass}>
-            <div className="tooltip-quote">{service.tooltip.quote}</div>
-            <div className="tooltip-author">{service.tooltip.author}</div>
-          </div>
+          <Wave id={`service-wave-${index}`} />
+          <Tooltip id={`tooltip-${index}`} tooltip={service.tooltip} />
         </div>
       );
     }
@@ -76,10 +67,7 @@ function Services() {
           </div>
           <div id={`service-rectangle-${index}`} />
           <Circles />
-          <div className={tooltipClass}>
-            <div className="tooltip-quote">{service.tooltip.quote}</div>
-            <div className="tooltip-author">{service.tooltip.author}</div>
-          </div>
+          <Tooltip id={`tooltip-${index}`} tooltip={service.tooltip} />
         </div>
       );
     }
@@ -91,11 +79,8 @@ function Services() {
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
           </div>
           <div id={`service-rectangle-${index}`} />
-          <div id={`service-wave-${index}`} />
-          <div className={tooltipClass}>
-            <div className="tooltip-quote">{service.tooltip.quote}</div>
-            <div className="tooltip-author">{service.tooltip.author}</div>
-          </div>
+          <Wave id={`service-wave-${index}`} />
+          <Tooltip id={`tooltip-${index}`} tooltip={service.tooltip} />
         </div>
       );
     }

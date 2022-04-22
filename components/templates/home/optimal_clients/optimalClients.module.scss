@@ -37,30 +37,14 @@
       right: 0;
       z-index: 15;
     }
-
     #optimal-clients-rectangle {
       display: none;
     }
-
-    .tooltip {
-      position: absolute;
-      background-color: colors.$type-dark;
-      @include m.tooltip-box-shadow;
+    #optimal-clients-tooltip {
       padding: 3.2rem 1.6rem 3.2rem 3.2rem;
       bottom: 0;
       right: 0;
       width: 95%;
-      z-index: 20;
-
-      .tooltip-quote {
-        margin-bottom: 2.4rem;
-        @include m.testimonial-body-01;
-        color: colors.$white;
-      }
-      .tooltip-author {
-        @include m.testimonial-name-01;
-        color: colors.$accent-orange;
-      }
     }
   }
 }
@@ -93,11 +77,10 @@
         width: 13.8rem;
         bottom: 7.8rem;
         right: 18.3rem;
-        border: 0.4rem solid colors.$accent-orange;
+        border: v.$main-border;
         z-index: 5;
       }
-
-      .tooltip {
+      #optimal-clients-tooltip {
         bottom: 0;
         left: 4rem;
         width: 45.7rem;

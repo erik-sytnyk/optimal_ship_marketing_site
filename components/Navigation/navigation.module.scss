@@ -97,7 +97,7 @@
       }
 
       & .active {
-        border-bottom: 0.4rem solid colors.$accent-orange;
+        border-bottom: v.$main-border;
       }
     }
     .nav-menu {

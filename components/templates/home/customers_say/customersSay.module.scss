@@ -26,33 +26,22 @@
       top: 5rem;
       height: 42.8rem;
       width: 100%;
-      border: 0.4rem solid colors.$accent-orange;
+      border: v.$main-border;
       border-right: none;
       border-left: none;
       z-index: 10;
     }
-    .tooltip {
-      position: absolute;
+    #feedback-tooltip {
       width: 34.3rem;
       top: 5.6rem;
       left: 0;
       right: 0;
       margin-left: auto;
       margin-right: auto;
-      background-color: colors.$type-dark;
       padding: 3.2rem 1.6rem 4.8rem;
       z-index: 30;
-      @include m.tooltip-box-shadow;
 
-      .quote {
-        @include m.testimonial-body-01;
-        color: colors.$white;
-      }
       .author {
-        @include m.main-font-small-spacing;
-        font-weight: 700;
-        color: colors.$accent-orange;
-        white-space: pre-line;
         margin-top: 3rem;
       }
       .toolbar {
@@ -112,9 +101,9 @@
         top: 4rem;
         left: 14rem;
         width: 61.1rem;
-        border: 0.4rem solid colors.$accent-orange;
+        border: v.$main-border;
       }
-      .tooltip {
+      #feedback-tooltip {
         top: 8rem;
         left: 37.2rem;
         width: 45.9rem;
@@ -124,10 +113,10 @@
         .author {
           margin-top: 1.2rem;
         }
-      }
-      .toolbar {
-        .right {
-          margin: 0;
+        .toolbar {
+          .right {
+            margin: 0;
+          }
         }
       }
     }

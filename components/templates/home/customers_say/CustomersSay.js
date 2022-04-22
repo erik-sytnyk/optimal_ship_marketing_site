@@ -43,7 +43,7 @@ function CustomersSay() {
           <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
         </div>
         <div className="rectangle" />
-        <div className="tooltip">
+        <div id="feedback-tooltip" className="tooltip">
           <div className="quote">{feedback?.quote}</div>
           <div className="author">{feedback?.author}</div>
           <div className="toolbar">

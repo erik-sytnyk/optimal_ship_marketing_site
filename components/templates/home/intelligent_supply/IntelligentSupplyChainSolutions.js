@@ -2,6 +2,9 @@ import Image from 'next/image';
 
 import dataService from '../../../../services/dataService';
 
+import Tooltip from '../../../Tooltip/tooltip';
+import Wave from '../../../Wave/wave';
+
 function IntelligentSupplyChainSolutions() {
   const data = dataService.getIntelligentSupplyChainSolutions();
 
@@ -23,14 +26,11 @@ function IntelligentSupplyChainSolutions() {
       <div className="intelligent-supply-images">
         <div id="intelligent-supply-image">
           <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
-          <div className="wave wave-top" />
-          <div className="wave wave-bottom" />
+          <Wave id="wave-top" />
+          <Wave id="wave-bottom" />
         </div>
         <div className="rectangle" />
-        <div className="tooltip">
-          <div className="quote">{data.tooltip.quote}</div>
-          <div className="author">{data.tooltip.author}</div>
-        </div>
+        <Tooltip id="intelligent-supply-tooltip" tooltip={data.tooltip} />
       </div>
     </div>
   );

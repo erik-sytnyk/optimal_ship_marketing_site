@@ -1,4 +1,5 @@
 @use '../../styles/utilities/colors';
+@use '../../styles/utilities/variables' as v;
 
 .circle-external {
   display: flex;
@@ -6,7 +7,7 @@
   justify-content: center;
   width: 12rem;
   height: 12rem;
-  border: 0.4rem solid colors.$accent-orange;
+  border: v.$main-border;
   border-radius: 50%;
 
   .circle-internal {
