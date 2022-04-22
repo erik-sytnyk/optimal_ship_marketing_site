@@ -8,6 +8,7 @@ import CustomersSay from '../components/templates/home/customers_say/CustomersSa
 import HowItWorks from '../components/templates/home/how_it_works/HowItWorks';
 import Services from '../components/templates/home/services/Services';
 import OptimalClients from '../components/templates/home/optimal_clients/OptimalClients';
+import ReadyToShip from '../components/templates/home/ready_to_ship/ReadyToShip';
 
 function Home() {
   function render() {
@@ -24,6 +25,7 @@ function Home() {
         <HowItWorks />
         <Services />
         <OptimalClients />
+        <ReadyToShip />
       </Layout>
     );
   }

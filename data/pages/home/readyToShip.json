@@ -1,0 +1,17 @@
+{
+  "title": "Ready to \n ship?",
+  "list": [
+    {
+      "title": "Prepare a Shipment",
+      "description": "Check out our new OptimalShip Shipment Preparation Tool and start shipping!",
+      "url": "https://portal.optimalship.com/dashboard",
+      "outline": false
+    },
+    {
+      "title": "Get a Quote",
+      "description": "Try our free Quote tool !",
+      "url": "https://portal.optimalship.com/dashboard",
+      "outline": true
+    }
+  ]
+}
