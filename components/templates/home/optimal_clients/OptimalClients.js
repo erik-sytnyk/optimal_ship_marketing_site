@@ -4,7 +4,7 @@ import Router from 'next/router';
 import dataService from '../../../../services/dataService';
 
 import Button from '../../../Button/button';
-import Tooltip from '../../../Tooltip/tooltip';
+import Tooltip from '../../../Tooltip/tooltipComponent';
 
 function OptimalClients() {
   const data = dataService.getOptimalClients();

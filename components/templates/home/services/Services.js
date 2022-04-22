@@ -5,7 +5,7 @@ import dataService from '../../../../services/dataService';
 
 import Button from '../../../Button/button';
 import Circles from '../../../Circles/circles';
-import Tooltip from '../../../Tooltip/tooltip';
+import Tooltip from '../../../Tooltip/tooltipComponent';
 import Wave from '../../../Wave/wave';
 
 function Services() {
