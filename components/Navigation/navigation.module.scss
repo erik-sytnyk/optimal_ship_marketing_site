@@ -31,7 +31,7 @@
     position: absolute;
     top: v.$nav-height-mobile;
     left: 0;
-    background-color: rgba(colors.$type-dark, 0.3);
+    background-color: darkgrey;
     transition: 0.5s;
 
     .nav-menu-container {
@@ -57,10 +57,14 @@
   .nav-links {
     display: flex;
     flex-direction: column;
+    list-style-type: none;
 
-    > a {
-      text-decoration: none;
+    > li {
       padding: 1.4rem 1.6rem;
+    }
+
+    > li > a {
+      text-decoration: none;
       color: colors.$type-dark;
       @include m.large-font;
     }
@@ -85,7 +89,11 @@
     .nav-links {
       flex-direction: row;
 
-      > a {
+      > li {
+        padding: 0;
+      }
+
+      > li > a {
         letter-spacing: -0.022em;
         height: v.$nav-height;
         width: 11.1rem;

@@ -47,20 +47,28 @@ function Navigation() {
 
   function renderNavLinks() {
     return (
-      <div className="nav-links">
-        <Link href="/about" onClick={() => toggleMenu()}>
-          About us
-        </Link>
-        <Link href="/services" onClick={() => toggleMenu()}>
-          Services
-        </Link>
-        <Link href="/pricing" onClick={() => toggleMenu()}>
-          Pricing
-        </Link>
-        <Link href="/support" onClick={() => toggleMenu()}>
-          Support
-        </Link>
-      </div>
+      <ul className="nav-links">
+        <li className={router.pathname == '/about' ? 'active' : ''}>
+          <Link href="/about" onClick={() => toggleMenu()}>
+            About us
+          </Link>
+        </li>
+        <li className={router.pathname == '/services' ? 'active' : ''}>
+          <Link href="/services" onClick={() => toggleMenu()}>
+            Services
+          </Link>
+        </li>
+        <li className={router.pathname == '/pricing' ? 'active' : ''}>
+          <Link href="/pricing" onClick={() => toggleMenu()}>
+            Pricing
+          </Link>
+        </li>
+        <li className={router.pathname == '/support' ? 'active' : ''}>
+          <Link href="/support" onClick={() => toggleMenu()}>
+            Support
+          </Link>
+        </li>
+      </ul>
     );
   }
 
