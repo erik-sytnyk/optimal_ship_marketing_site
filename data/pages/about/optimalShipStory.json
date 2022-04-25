@@ -1,0 +1,20 @@
+{
+  "title": "The OptimalShip \n Story",
+  "description": [
+    "OptimalShip was founded in 2010 in Allen, Texas by Bonnie Wachter, Carolyn Taylor and Leslie Tweed. OptimalShip began as an authorized service provider of DHL International Express and has since expanded to include domestic, international, parcel and heavyweight shipping. Bonnie, Carolyn and Leslie’s goal of making shipping easy has been enormously successful! OpimalShip has grown to serve thousands of shipping clients in all 50 states.",
+    "Our dedicated customer service team and easy-to-use online quote and shipment label preparation tools are available for domestic and international shipping with no monthly fee! We love providing friendly and immediate support to every client and friend.",
+    "More than just shipping",
+    "For years, OptimalShip has provided clients instant support by phone and email. In 2020 OptimalShip added online shipping tools that make international and domestic shipment preparation even easier. Many competing online tools are expensive and unnecessarily complicated and so we developed tools that require no monthly fee and are extremely powerful but very simple to use. When you need instant help by phone or by chat, you will find a friendly OptimalShip customer service representative who will immediately answer your questions. We answer our calls and online chats immediately every day, Monday – Friday, 9 AM to 5 PM in every USA time zone."
+  ],
+  "remark": "OptimalShip will provide you with the easiest, quickest, and most cost-effective way to ship.",
+  "tooltip": {
+    "quote": "I love our wonderful clients! I love that OptimalShip is involved in helping each client succeed as we work diligently to make their shipping tasks easy. If you are seeking a better way to ship, I commit to you that we at Optimal will work very hard for you. Thank you!",
+    "author": "Carolyn Taylor, OptimalShip"
+  },
+  "image": {
+    "url": "/images/about/optimal-ship-story.png",
+    "alt": "OptimalShip Story",
+    "width": 533,
+    "height": 918
+  }
+}

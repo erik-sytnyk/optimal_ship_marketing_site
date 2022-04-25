@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import dataService from '../../../../services/dataService';
 
-import Tooltip from '../../../Tooltip/tooltipComponent';
+import Tooltip from '../../../Tooltip/tooltip';
 import Wave from '../../../Wave/wave';
 
 function IntelligentSupplyChainSolutions() {

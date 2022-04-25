@@ -30,6 +30,13 @@
   font-weight: 900;
 }
 
+@mixin section-title-1 {
+  font-size: 5.2rem;
+  line-height: 5.2rem;
+  letter-spacing: -0.022em;
+  font-weight: 900;
+}
+
 @mixin section-title-2 {
   font-size: 4rem;
   line-height: 4.8rem;

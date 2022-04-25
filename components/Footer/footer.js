@@ -39,7 +39,7 @@ function Footer() {
   }
 
   function renderTrustBadge() {
-    return <Image src={trustBadgeImage} alt="Trust badge" />;
+    return <Image src={trustBadgeImage} alt="Trust badge" priority={true} />;
   }
 
   function render() {

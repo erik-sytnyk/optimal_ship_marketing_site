@@ -6,7 +6,8 @@ const dataService = {
   getHowItWorks,
   getServices,
   getOptimalClients,
-  getReadyToShip
+  getReadyToShip,
+  getOptimalShipStory
 };
 
 function getIntelligentSupplyChainSolutions() {
@@ -20,7 +21,7 @@ function getFreeDigitalTools() {
 }
 
 function getSuccessNumbers() {
-  const data = require('../data/pages/home/successNumbers.json');
+  const data = require('../data/pages/successNumbers.json');
   return data;
 }
 
@@ -46,6 +47,11 @@ function getOptimalClients() {
 
 function getReadyToShip() {
   const data = require('../data/pages/home/readyToShip.json');
+  return data;
+}
+
+function getOptimalShipStory() {
+  const data = require('../data/pages/about/optimalShipStory.json');
   return data;
 }
 
