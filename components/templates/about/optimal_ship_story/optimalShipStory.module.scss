@@ -74,22 +74,22 @@
         background-color: colors.$white;
 
         .statistics-text {
-            @include m.larger-font-small-spacing;
+          @include m.larger-font-small-spacing;
         }
         .success-number {
-            margin: 1rem 0;
-            font-size: 5.6rem;
-            line-height: 4.8rem;
-            letter-spacing: -0.022em;
-            font-weight: 900;
-            color: colors.$accent-orange;
+          margin: 1rem 0;
+          font-size: 5.6rem;
+          line-height: 4.8rem;
+          letter-spacing: -0.022em;
+          font-weight: 900;
+          color: colors.$accent-orange;
         }
         .divider {
-          border-bottom: 0.1rem solid colors.$type-dark;
+          border-bottom: v.$dark-border;
           width: 14rem;
           margin: 2.4rem auto;
         }
-    }
+      }
     }
   }
 
@@ -105,8 +105,8 @@
       justify-content: center;
       width: 80rem;
       height: 17.9rem;
-      border-top: 0.1rem solid colors.$type-dark;
-      border-bottom: 0.1rem solid colors.$type-dark;
+      border-top: v.$dark-border;
+      border-bottom: v.$dark-border;
       text-align: center;
       @include m.larger-font-small-spacing;
     }
@@ -153,10 +153,10 @@
           left: 15.7rem;
         }
         #optimal-story-statistics {
-         bottom: 0;
-         right: 1.6rem;
-         width: 34rem;
-         box-shadow: 1rem 1rem 1rem rgba(107, 107, 107, 0.1);
+          bottom: 0;
+          right: 1.6rem;
+          width: 34rem;
+          box-shadow: 1rem 1rem 1rem rgba(107, 107, 107, 0.1);
         }
       }
     }

@@ -7,7 +7,8 @@ const dataService = {
   getServices,
   getOptimalClients,
   getReadyToShip,
-  getOptimalShipStory
+  getOptimalShipStory,
+  getOurPrinciples
 };
 
 function getIntelligentSupplyChainSolutions() {
@@ -52,6 +53,11 @@ function getReadyToShip() {
 
 function getOptimalShipStory() {
   const data = require('../data/pages/about/optimalShipStory.json');
+  return data;
+}
+
+function getOurPrinciples() {
+  const data = require('../data/pages/about/ourPrinciples.json');
   return data;
 }
 

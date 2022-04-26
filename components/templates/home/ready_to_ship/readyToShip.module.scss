@@ -41,7 +41,7 @@
       }
       & div {
         width: 100%;
-        border-bottom: 0.1rem solid colors.$type-dark;
+        border-bottom: v.$dark-border;
       }
     }
   }
