@@ -4,6 +4,7 @@ import Layout, {siteTitle} from '../components/layout';
 
 import OptimalShipStory from '../components/templates/about/optimal_ship_story/OptimalShipStory';
 import OurPrinciples from '../components/templates/about/our_principles/OurPrinciples';
+import LeadershipTeam from '../components/templates/about/leadership_team/LeadershipTeam';
 
 function About() {
   function render() {
@@ -15,6 +16,7 @@ function About() {
 
         <OptimalShipStory />
         <OurPrinciples />
+        <LeadershipTeam />
       </Layout>
     );
   }

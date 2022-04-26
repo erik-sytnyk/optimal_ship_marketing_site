@@ -1,0 +1,127 @@
+{
+  "title": "Our Leadership Team",
+  "subtitle": "Want to join our team?",
+  "button": "See Our Open Positions",
+  "list": [
+    {
+      "name": "Wade Warren",
+      "position": "Co-founder & CEO",
+      "image": {
+        "url": "/images/about/leadership_team/wade-warren.png",
+        "alt": "Wade Warren",
+        "width": 220,
+        "height": 240
+      }
+    },
+    {
+      "name": "Esther Howard",
+      "position": "Co-founder & COO",
+      "image": {
+        "url": "/images/about/leadership_team/esther-howard.png",
+        "alt": "Esther Howard",
+        "width": 220,
+        "height": 240
+      }
+    },
+    {
+      "name": "Guy Hawkins",
+      "position": "CRO",
+      "image": {
+        "url": "/images/about/leadership_team/guy-hawkins.png",
+        "alt": "Guy Hawkins",
+        "width": 220,
+        "height": 240
+      }
+    },
+    {
+      "name": "Kristin Watson",
+      "position": "CMO",
+      "image": {
+        "url": "/images/about/leadership_team/kristin-watson.png",
+        "alt": "Kristin Watson",
+        "width": 220,
+        "height": 240
+      }
+    },
+    {
+      "name": "Jenny Wilson",
+      "position": "SVP, People",
+      "image": {
+        "url": "/images/about/leadership_team/jenny-wilson.png",
+        "alt": "Jenny Wilson",
+        "width": 220,
+        "height": 240
+      }
+    },
+    {
+      "name": "No Name 1",
+      "position": "No Position",
+      "image": {
+        "url": "/images/about/leadership_team/no-name-1.png",
+        "alt": "No Name",
+        "width": 220,
+        "height": 240
+      }
+    },
+    {
+      "name": "No Name 2",
+      "position": "No Position",
+      "image": {
+        "url": "/images/about/leadership_team/no-name-2.png",
+        "alt": "No Name",
+        "width": 220,
+        "height": 240
+      }
+    },
+    {
+      "name": "Cody Fisher",
+      "position": "VP, Strategy",
+      "image": {
+        "url": "/images/about/leadership_team/cody-fisher.png",
+        "alt": "Cody Fisher",
+        "width": 220,
+        "height": 240
+      }
+    },
+    {
+      "name": "Devon Lane",
+      "position": "VP, Fulfillment",
+      "image": {
+        "url": "/images/about/leadership_team/devon-lane.png",
+        "alt": "Devon Lane",
+        "width": 220,
+        "height": 240
+      }
+    },
+    {
+      "name": "Darlene Robertson",
+      "position": "VP, Merchant Care",
+      "image": {
+        "url": "/images/about/leadership_team/darlene-robertson.png",
+        "alt": "Darlene Robertson",
+        "width": 220,
+        "height": 240
+      }
+    },
+    {
+      "name": "Darrell Steward",
+      "position": "SVP, Product",
+      "image": {
+        "url": "/images/about/leadership_team/darrell-steward.png",
+        "alt": "Darrell Steward",
+        "width": 220,
+        "height": 240
+      }
+    },
+    {
+      "name": "Arlene McCoy",
+      "position": "VP, Legal",
+      "image": {
+        "url": "/images/about/leadership_team/arlene-mccoy.png",
+        "alt": "Arlene McCoy",
+        "width": 220,
+        "height": 240
+      }
+    }
+  ]
+}
