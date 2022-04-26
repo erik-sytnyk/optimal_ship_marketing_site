@@ -1,7 +1,7 @@
 const dataService = {
-  getIntelligentSupplyChainSolutions,
   getFreeDigitalTools,
   getSuccessNumbers,
+  getIntelligentSupplyChainSolutions,
   getCustomersFeedback,
   getHowItWorks,
   getServices,
@@ -12,18 +12,22 @@ const dataService = {
   getLeadershipTeam
 };
 
-function getIntelligentSupplyChainSolutions() {
-  const data = require('../data/pages/home/intelligentSupplyChainSolutions.json');
-  return data;
-}
+// common
 
 function getFreeDigitalTools() {
-  const data = require('../data/pages/home/digitalTools.json');
+  const data = require('../data/pages/digitalTools.json');
   return data;
 }
 
 function getSuccessNumbers() {
   const data = require('../data/pages/successNumbers.json');
+  return data;
+}
+
+// home page
+
+function getIntelligentSupplyChainSolutions() {
+  const data = require('../data/pages/home/intelligentSupplyChainSolutions.json');
   return data;
 }
 
@@ -51,6 +55,8 @@ function getReadyToShip() {
   const data = require('../data/pages/home/readyToShip.json');
   return data;
 }
+
+// about page
 
 function getOptimalShipStory() {
   const data = require('../data/pages/about/optimalShipStory.json');
