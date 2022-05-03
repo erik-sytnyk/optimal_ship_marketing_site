@@ -1,6 +1,6 @@
-import dataService from '../../../../services/dataService';
+import dataService from 'services/dataService';
 
-import Button from '../../../Button/button';
+import Button from 'components/Button';
 
 function ReadyToShip() {
   const data = dataService.getReadyToShip();

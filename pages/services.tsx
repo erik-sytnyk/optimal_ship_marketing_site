@@ -2,7 +2,7 @@ import Head from 'next/head';
 import {createClient} from '../prismicio';
 import Image from 'next/image';
 
-import Layout, {siteTitle} from '../components/layout';
+import Layout, {siteTitle} from 'components/layout';
 
 function Services(props) {
   const homeData = props?.homePage?.data;

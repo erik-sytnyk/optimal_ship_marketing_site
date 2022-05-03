@@ -1,8 +1,8 @@
 import Router from 'next/router';
 
-import dataService from '../../../../services/dataService';
+import dataService from 'services/dataService';
 
-import Button from '../../../Button/button';
+import Button from 'components/Button';
 import ServiceItem from './components/ServiceItem';
 
 function HowItWorks() {

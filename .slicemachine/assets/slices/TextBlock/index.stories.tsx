@@ -1,4 +1,4 @@
-import MyComponent from '../../../../slices/TextBlock';
+import MyComponent from 'slices/TextBlock';
 
 export default {
   title: 'slices/TextBlock'
@@ -16,8 +16,7 @@ export const _Default = () => (
         description: [
           {
             type: 'paragraph',
-            text:
-              'Eiusmod labore laboris consectetur anim voluptate aute proident non qui irure. Ea id est et sit et adipisicing laboris commodo.',
+            text: 'Eiusmod labore laboris consectetur anim voluptate aute proident non qui irure. Ea id est et sit et adipisicing laboris commodo.',
             spans: []
           }
         ]

@@ -1,9 +1,9 @@
 import Router from 'next/router';
 
-import dataService from '../../../../services/dataService';
+import dataService from 'services/dataService';
 
 import ToolItem from './components/ToolItem';
-import Button from '../../../Button/button';
+import Button from 'components/Button';
 
 function DigitalTools() {
   const data = dataService.getFreeDigitalTools();

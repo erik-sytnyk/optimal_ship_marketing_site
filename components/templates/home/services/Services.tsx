@@ -1,12 +1,12 @@
 import classNames from 'classnames';
 import Image from 'next/image';
 
-import dataService from '../../../../services/dataService';
+import dataService from 'services/dataService';
 
-import Button from '../../../Button/button';
-import Circles from '../../../Circles/circles';
-import Tooltip from '../../../Tooltip/tooltip';
-import Wave from '../../../Wave/wave';
+import Button from 'components/Button';
+import Circles from 'components/Circles';
+import Tooltip from 'components/Tooltip';
+import Wave from 'components/Wave';
 
 function Services() {
   const data = dataService.getServices();

@@ -1,9 +1,9 @@
 import Image from 'next/image';
 
-import dataService from '../../../../services/dataService';
+import dataService from 'services/dataService';
 
-import Tooltip from '../../../Tooltip/tooltip';
-import Wave from '../../../Wave/wave';
+import Tooltip from 'components/Tooltip';
+import Wave from 'components/Wave';
 
 function IntelligentSupplyChainSolutions() {
   const data = dataService.getIntelligentSupplyChainSolutions();

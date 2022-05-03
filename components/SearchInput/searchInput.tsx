@@ -1,8 +1,8 @@
 import {useState} from 'react';
 
-import navigationHelper from '../../helpers/navigationHelper';
+import navigationHelper from 'helpers/navigationHelper';
 
-import Button from '../Button/button';
+import Button from 'components/Button';
 
 function SearchInput() {
   const [trackingNumber, setTrackingNumber] = useState('');

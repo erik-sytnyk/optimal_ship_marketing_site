@@ -1,10 +1,10 @@
 import {Fragment} from 'react';
 import Image from 'next/image';
 
-import dataService from '../../../../services/dataService';
+import dataService from 'services/dataService';
 
-import Tooltip from '../../../Tooltip/tooltip';
-import Wave from '../../../Wave/wave';
+import Tooltip from 'components/Tooltip';
+import Wave from 'components/Wave';
 
 function OptimalShipStory() {
   const data = dataService.getOptimalShipStory();

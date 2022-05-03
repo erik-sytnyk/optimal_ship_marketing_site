@@ -1,12 +1,12 @@
 import Head from 'next/head';
 
-import Layout, {siteTitle} from '../components/layout';
-import DigitalTools from '../components/templates/common/digital_tools/DigitalTools';
+import Layout, {siteTitle} from 'components/layout';
+import DigitalTools from 'components/templates/common/digital_tools/DigitalTools';
 
-import OptimalShipStory from '../components/templates/about/optimal_ship_story/OptimalShipStory';
-import OurPrinciples from '../components/templates/about/our_principles/OurPrinciples';
-import LeadershipTeam from '../components/templates/about/leadership_team/LeadershipTeam';
-import CustomersStories from '../components/templates/about/customers_stories/CustomersStories';
+import OptimalShipStory from 'components/templates/about/optimal_ship_story/OptimalShipStory';
+import OurPrinciples from 'components/templates/about/our_principles/OurPrinciples';
+import LeadershipTeam from 'components/templates/about/leadership_team/LeadershipTeam';
+import CustomersStories from 'components/templates/about/customers_stories/CustomersStories';
 
 function About() {
   function render() {

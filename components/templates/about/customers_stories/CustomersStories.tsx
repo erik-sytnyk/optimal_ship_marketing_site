@@ -1,10 +1,10 @@
 import Image from 'next/image';
 
-import dataService from '../../../../services/dataService';
+import dataService from 'services/dataService';
 
-import Circles from '../../../Circles/circles';
-import Wave from '../../../Wave/wave';
-import Tooltip from '../../../Tooltip/tooltip';
+import Circles from 'components/Circles/circles';
+import Wave from 'components/Wave';
+import Tooltip from 'components/Tooltip';
 
 function CustomersStories() {
   const data = dataService.getCustomersStories();

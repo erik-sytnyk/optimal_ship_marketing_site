@@ -2,7 +2,7 @@ import {useState} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import dataService from '../../../../services/dataService';
+import dataService from 'services/dataService';
 
 function CustomersSay() {
   const data = dataService.getCustomersFeedback();

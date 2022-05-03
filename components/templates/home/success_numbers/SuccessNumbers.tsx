@@ -1,6 +1,6 @@
 import {Fragment} from 'react';
 
-import dataService from '../../../../services/dataService';
+import dataService from 'services/dataService';
 
 function SuccessNumbers() {
   const data = dataService.getSuccessNumbers();

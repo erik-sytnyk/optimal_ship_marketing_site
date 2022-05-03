@@ -1,4 +1,4 @@
-import dataService from '../../../../services/dataService';
+import dataService from 'services/dataService';
 
 function OurPrinciples() {
   const data = dataService.getOurPrinciples();

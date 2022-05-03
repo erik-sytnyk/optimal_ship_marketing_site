@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Router from 'next/router';
 
-import dataService from '../../../../services/dataService';
+import dataService from 'services/dataService';
 
-import Button from '../../../Button/button';
-import Tooltip from '../../../Tooltip/tooltip';
+import Button from 'components/Button';
+import Tooltip from 'components/Tooltip';
 
 function OptimalClients() {
   const data = dataService.getOptimalClients();

@@ -1,14 +1,14 @@
 import Image from 'next/image';
 
-import boxImage from '../../public/images/footer/box.png';
-import mapPinImage from '../../public/images/footer/map-pin.png';
-import mapImage from '../../public/images/footer/map.png';
-import phoneImage from '../../public/images/footer/phone.png';
-import mailImage from '../../public/images/footer/mail.png';
-import facebookImage from '../../public/images/footer/facebook.png';
-import instagramImage from '../../public/images/footer/instagram.png';
-import linkedinImage from '../../public/images/footer/linkedin.png';
-import trustBadgeImage from '../../public/images/footer/trust-badge.png';
+import boxImage from 'public/images/footer/box.png';
+import mapPinImage from 'public/images/footer/map-pin.png';
+import mapImage from 'public/images/footer/map.png';
+import phoneImage from 'public/images/footer/phone.png';
+import mailImage from 'public/images/footer/mail.png';
+import facebookImage from 'public/images/footer/facebook.png';
+import instagramImage from 'public/images/footer/instagram.png';
+import linkedinImage from 'public/images/footer/linkedin.png';
+import trustBadgeImage from 'public/images/footer/trust-badge.png';
 
 function Footer() {
   function renderLocations() {
