@@ -49,23 +49,23 @@ function Navigation() {
     return (
       <ul className="nav-links">
         <li className={router.pathname == '/about' ? 'active' : ''}>
-          <Link href="/about" onClick={() => toggleMenu()}>
-            About us
+          <Link href="/about">
+            <a onClick={() => toggleMenu()}>About us</a>
           </Link>
         </li>
         <li className={router.pathname == '/services' ? 'active' : ''}>
-          <Link href="/services" onClick={() => toggleMenu()}>
-            Services
+          <Link href="/services">
+            <a onClick={() => toggleMenu()}>Services</a>
           </Link>
         </li>
         <li className={router.pathname == '/pricing' ? 'active' : ''}>
-          <Link href="/pricing" onClick={() => toggleMenu()}>
-            Pricing
+          <Link href="/pricing">
+            <a onClick={() => toggleMenu()}>Pricing</a>
           </Link>
         </li>
         <li className={router.pathname == '/support' ? 'active' : ''}>
-          <Link href="/support" onClick={() => toggleMenu()}>
-            Support
+          <Link href="/support">
+            <a onClick={() => toggleMenu()}>Support</a>
           </Link>
         </li>
       </ul>
