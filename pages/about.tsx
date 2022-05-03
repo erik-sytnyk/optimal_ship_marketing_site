@@ -6,6 +6,7 @@ import DigitalTools from '../components/templates/common/digital_tools/DigitalTo
 import OptimalShipStory from '../components/templates/about/optimal_ship_story/OptimalShipStory';
 import OurPrinciples from '../components/templates/about/our_principles/OurPrinciples';
 import LeadershipTeam from '../components/templates/about/leadership_team/LeadershipTeam';
+import CustomersStories from '../components/templates/about/customers_stories/CustomersStories';
 
 function About() {
   function render() {
@@ -19,6 +20,7 @@ function About() {
         <OurPrinciples />
         <LeadershipTeam />
         <DigitalTools />
+        <CustomersStories />
       </Layout>
     );
   }

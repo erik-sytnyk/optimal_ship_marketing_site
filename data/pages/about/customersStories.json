@@ -1,0 +1,82 @@
+{
+  "title": "What Our Customers Say",
+  "description": "We help thousands of clients with all their shipping needs. We save them money and our excellent customer service team is there to help them every step of the way. You don't have to take our word for it, see what they have to say!",
+  "image": {
+    "url": "/images/about/customers_stories/header.png",
+    "alt": "What Our Customers Say",
+    "width": 2880,
+    "height": 1300
+  },
+  "tooltip": {
+    "quote": "We have wonderful experience with OptimalShip. Your service is very quick especially when we have a special request.",
+    "author": "Vi Chin, \n Southern Atlantic Export Corporation"
+  },
+  "list": [
+    {
+      "title": "How to Choose the Best Overseas Shippers",
+      "description": "If you're looking for the best international shipping companies, there are a few things that you should keep in mind before making a decision.",
+      "button": "Read Whole Story",
+      "image": {
+        "url": "/images/about/customers_stories/best-overseas-shippers.png",
+        "alt": "How to Choose the Best Overseas Shippers",
+        "width": 616,
+        "height": 440
+      }
+    },
+    {
+      "title": "Online Bill Pay Now Available!",
+      "description": "We have some exciting news to remind you about: OptimalShip supports Online Bill Pay! Our Online Bill Pay is a secure and simple to use bill pay system that affords you peace of mind. Here are some of benefits of using OptimalShip’s Online Bill Pay:",
+      "button": "Read Whole Story",
+      "image": {
+        "url": "/images/about/customers_stories/online-bill-pay.png",
+        "alt": "Online Bill Pay Now Available!",
+        "width": 616,
+        "height": 440
+      }
+    },
+    {
+      "title": "New Export Regulations for Russia, China, and Venezuela.",
+      "description": "The U.S. Department of Commerce has instituted a new regulation for the export, re-export, and in-country transfer of products to the People’s Republic of China, Russia, and Venezuela.",
+      "button": "Read Whole Story",
+      "image": {
+        "url": "/images/about/customers_stories/new-export-regulations.png",
+        "alt": "New Export Regulations for Russia, China, and Venezuela.",
+        "width": 616,
+        "height": 440
+      }
+    },
+    {
+      "title": "Exporting COVID-19 Relief Goods from China",
+      "description": "For several months now special restrictions have been in place for exports of personal protective equipment (PPE), medical, and general COVID-19 relief supplies from China. Although these restrictions have been in place for some time, businesses are still experiencing delays as a result of incorrectly processed shipments. In this post we will cover in detail how to correctly process a shipment affected by this restrictions.",
+      "button": "Read Whole Story",
+      "image": {
+        "url": "/images/about/customers_stories/covid-19.png",
+        "alt": "Exporting COVID-19 Relief Goods from China",
+        "width": 616,
+        "height": 440
+      }
+    },
+    {
+      "title": "Emergency Situation Surcharge (ESS)",
+      "description": "DHL introduced an Emergency Situation Surcharge (ESS) back in April of 2020. Today they have announced new changes that will be effective as of May 24th, 2020.",
+      "button": "Read Whole Story",
+      "image": {
+        "url": "/images/about/customers_stories/ess.png",
+        "alt": "Emergency Situation Surcharge (ESS)",
+        "width": 616,
+        "height": 440
+      }
+    },
+    {
+      "title": "What to Look for (and Avoid) in a Freight Forwarder",
+      "description": "A freight forwarder's marketing strategy - or lack of one - can say a lot about how they will be to work with. As you select your freight forwarder, keep these do's and don'ts in mind.",
+      "button": "Read Whole Story",
+      "image": {
+        "url": "/images/about/customers_stories/freight-forwarder.png",
+        "alt": "What to Look for (and Avoid) in a Freight Forwarder",
+        "width": 616,
+        "height": 440
+      }
+    }
+  ]
+}
