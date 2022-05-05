@@ -1,0 +1,20 @@
+@use 'src/styles/utilities/colors';
+@use 'src/styles/utilities/mixins' as m;
+
+.tooltip {
+  position: absolute;
+  background-color: colors.$type-dark;
+  @include m.tooltip-box-shadow;
+  z-index: 20;
+
+  .quote {
+    margin-bottom: 2.4rem;
+    color: colors.$white;
+    @include m.testimonial-body-01;
+  }
+  .author {
+    @include m.testimonial-name-01;
+    color: colors.$accent-orange;
+    white-space: pre-line;
+  }
+}

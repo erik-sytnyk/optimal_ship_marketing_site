@@ -1,0 +1,25 @@
+@use 'src/styles/utilities/variables' as v;
+@use 'src/styles/utilities/colors';
+@use 'src/styles/utilities/mixins' as m;
+
+.custom-input {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: v.$input-border-radius;
+  padding: 1.2rem 0.8rem;
+  color: colors.$type-dark;
+  border: 0.1rem solid colors.$type-light-passive;
+  height: 4.6rem;
+
+  @include m.main-font;
+
+  &::placeholder {
+    @include m.input-placeholder;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: rgba(colors.$accent-orange, 0.5);
+  }
+}
