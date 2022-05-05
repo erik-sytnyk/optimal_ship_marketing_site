@@ -1,7 +1,6 @@
 import Image from 'next/image';
-import classNames from 'classnames';
 
-import Button from 'src/components/common/Button';
+import * as styled from './styled';
 
 interface PropTypes {
   story: any;
@@ -16,23 +15,18 @@ function CustomerStory({story, isOddNumber}: PropTypes) {
   }
 
   function render() {
-    const storyClass = classNames({
-      'customer-story': true,
-      'customer-story-odd': isOddNumber
-    });
-
     return (
-      <div className={storyClass}>
+      <styled.wrapper isOdd={isOddNumber}>
         {isOddNumber && renderImage()}
 
-        <div className="customer-story-content">
-          <div className="customer-title">{story.title}</div>
-          <div className="customer-description">{story.description}</div>
-          <Button>{story.button}</Button>
-        </div>
+        <styled.content>
+          <styled.title>{story.title}</styled.title>
+          <styled.description>{story.description}</styled.description>
+          <styled.button>{story.button}</styled.button>
+        </styled.content>
 
         {!isOddNumber && renderImage()}
-      </div>
+      </styled.wrapper>
     );
   }
 

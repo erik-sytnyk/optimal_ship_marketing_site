@@ -7,7 +7,11 @@ Button.propTypes = {
   onClick: PropTypes.func
 };
 
-function Button({children, searchButton, outline, onClick}) {
+Button.defaultProps = {
+  className: ''
+};
+
+function Button({children, searchButton, outline, onClick, className}) {
   function clickButton() {
     if (!onClick) return;
 
@@ -18,7 +22,8 @@ function Button({children, searchButton, outline, onClick}) {
     const buttonClass = classNames({
       'custom-button': true,
       'search-button': searchButton,
-      outline
+      outline,
+      [className]: className ? true : false
     });
 
     return (
