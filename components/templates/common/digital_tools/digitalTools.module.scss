@@ -11,7 +11,7 @@
   padding: 6rem 0 5.4rem;
 
   #digital-tools-title {
-    @include m.section-title-2;
+    @include m.title-02;
     margin-bottom: 2.4rem;
     text-align: center;
   }
@@ -31,7 +31,7 @@
       margin: 0 0.8rem 2.4rem;
       padding: 3.2rem 3rem 3.6rem;
       background-color: colors.$white;
-      box-shadow: 1rem 1rem 1rem rgba(107, 107, 107, 0.1);
+      box-shadow: v.$drop-shadow;
 
       .tool-title {
         margin-bottom: 1.6rem;

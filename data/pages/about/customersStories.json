@@ -13,7 +13,7 @@
   },
   "list": [
     {
-      "title": "How to Choose the Best Overseas Shippers",
+      "title": "How to Choose \n the Best Overseas Shippers",
       "description": "If you're looking for the best international shipping companies, there are a few things that you should keep in mind before making a decision.",
       "button": "Read Whole Story",
       "image": {
@@ -24,7 +24,7 @@
       }
     },
     {
-      "title": "Online Bill Pay Now Available!",
+      "title": "Online Bill Pay \n Now Available!",
       "description": "We have some exciting news to remind you about: OptimalShip supports Online Bill Pay! Our Online Bill Pay is a secure and simple to use bill pay system that affords you peace of mind. Here are some of benefits of using OptimalShip’s Online Bill Pay:",
       "button": "Read Whole Story",
       "image": {
@@ -46,7 +46,7 @@
       }
     },
     {
-      "title": "Exporting COVID-19 Relief Goods from China",
+      "title": "Exporting \n COVID-19 Relief Goods from China",
       "description": "For several months now special restrictions have been in place for exports of personal protective equipment (PPE), medical, and general COVID-19 relief supplies from China. Although these restrictions have been in place for some time, businesses are still experiencing delays as a result of incorrectly processed shipments. In this post we will cover in detail how to correctly process a shipment affected by this restrictions.",
       "button": "Read Whole Story",
       "image": {
@@ -57,7 +57,7 @@
       }
     },
     {
-      "title": "Emergency Situation Surcharge (ESS)",
+      "title": "Emergency \n Situation \n Surcharge (ESS)",
       "description": "DHL introduced an Emergency Situation Surcharge (ESS) back in April of 2020. Today they have announced new changes that will be effective as of May 24th, 2020.",
       "button": "Read Whole Story",
       "image": {
@@ -78,5 +78,6 @@
         "height": 440
       }
     }
-  ]
+  ],
+  "button": "Load More Customer Stories"
 }
