@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Layout, {siteTitle} from 'src/components/common/layout';
 
 import ShippingExperience from 'src/components/services/shipping_experience/ShippingExperience';
+import HowItWorks from 'src/components/common/HowItWorks';
 
 function Services() {
   return (
@@ -12,6 +13,7 @@ function Services() {
       </Head>
 
       <ShippingExperience />
+      <HowItWorks pageId="services" />
     </Layout>
   );
 }

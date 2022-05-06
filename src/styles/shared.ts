@@ -16,6 +16,7 @@ export const colors = {
   bg_grey: '#eeeeee',
 
   gray_6: '#f2f2f2',
+  bg_grey_2: '#e9e9e9',
   lists_grey: '#f3f3f3',
   dark_hover: '#484957'
 };
@@ -27,6 +28,13 @@ export const title_02 = css`
   line-height: 4.8rem;
   letter-spacing: -0.022em;
   font-weight: 900;
+`;
+
+export const title_03 = css`
+  font-size: 2.6rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.022em;
+  font-weight: 800;
 `;
 
 export const sectionTitle_1 = css`
@@ -46,6 +54,13 @@ export const sectionTitle_3 = css`
 export const body_01 = css`
   font-size: 2.4rem;
   line-height: 3.3rem;
+  letter-spacing: -0.022em;
+`;
+
+export const body_03 = css`
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  font-weight: 400;
   letter-spacing: -0.022em;
 `;
 

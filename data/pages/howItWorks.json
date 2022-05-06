@@ -3,7 +3,7 @@
   "button": "About Our Services",
   "list": [
     {
-      "index": "01",
+      "index": "1",
       "title": "Get a Quote",
       "description": "Use our Free Quote Tool to obtain a shipping quote",
       "image": {
@@ -14,7 +14,7 @@
       }
     },
     {
-      "index": "02",
+      "index": "2",
       "title": "Prep Shipping docs",
       "description": "Utilize our Free Shipment Prep Tool to generate your shipping documents.",
       "image": {
@@ -25,7 +25,7 @@
       }
     },
     {
-      "index": "03",
+      "index": "3",
       "title": "Schedule Pickup",
       "description": "The carrier will come to your door and pick up your shipment.",
       "image": {
@@ -36,7 +36,7 @@
       }
     },
     {
-      "index": "04",
+      "index": "4",
       "title": "Transit & Tracking",
       "description": "Follow your shipment as it travels by using our Tracking Tool.",
       "image": {
@@ -47,7 +47,7 @@
       }
     },
     {
-      "index": "05",
+      "index": "5",
       "title": "Customer Support",
       "description": "Contact our expert customer service team if you would like assistance.",
       "image": {

@@ -1,9 +1,9 @@
 const dataService = {
   getFreeDigitalTools,
   getSuccessNumbers,
+  getHowItWorks,
   getIntelligentSupplyChainSolutions,
   getCustomersFeedback,
-  getHowItWorks,
   getServices,
   getOptimalClients,
   getReadyToShip,
@@ -26,6 +26,11 @@ function getSuccessNumbers() {
   return data;
 }
 
+function getHowItWorks() {
+  const data = require('../../data/pages/howItWorks.json');
+  return data;
+}
+
 // home page
 
 function getIntelligentSupplyChainSolutions() {
@@ -35,11 +40,6 @@ function getIntelligentSupplyChainSolutions() {
 
 function getCustomersFeedback() {
   const data = require('../../data/pages/home/customersFeedback.json');
-  return data;
-}
-
-function getHowItWorks() {
-  const data = require('../../data/pages/home/howItWorks.json');
   return data;
 }
 
