@@ -1,0 +1,18 @@
+{
+  "title": "SERVICES",
+  "subtitle": "Free Shipment \n Preparation Tool",
+  "description": "Our Shipment Preparation Tool will help you create shipping documents for your domestic and international shipments. This free and easy tool is available to clients and guests alike.",
+  "button": "Prepare a Shipment",
+  "comparisonTableImage": {
+    "url": "/images/services/preparation-tools/comparison-table.png",
+    "alt": "Comparison Table",
+    "width": 640,
+    "height": 716
+  },
+  "demoImage": {
+    "url": "/images/services/preparation-tools/demo.png",
+    "alt": "Demo image",
+    "width": 1049,
+    "height": 544
+  }
+}

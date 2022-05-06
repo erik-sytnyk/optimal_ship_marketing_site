@@ -57,6 +57,12 @@ export const body_01 = css`
   letter-spacing: -0.022em;
 `;
 
+export const body_02 = css`
+  font-size: 2rem;
+  line-height: 2.7rem;
+  letter-spacing: -0.022em;
+`;
+
 export const body_03 = css`
   font-size: 1.8rem;
   line-height: 2.5rem;

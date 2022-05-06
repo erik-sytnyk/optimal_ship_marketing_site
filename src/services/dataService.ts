@@ -11,7 +11,8 @@ const dataService = {
   getOurPrinciples,
   getLeadershipTeam,
   getCustomersStories,
-  getShippingExperience
+  getShippingExperience,
+  getPreparationTools
 };
 
 // common
@@ -84,6 +85,11 @@ function getCustomersStories() {
 
 function getShippingExperience() {
   const data = require('../../data/pages/services/shippingExperience.json');
+  return data;
+}
+
+function getPreparationTools() {
+  const data = require('../../data/pages/services/preparationTools.json');
   return data;
 }
 
