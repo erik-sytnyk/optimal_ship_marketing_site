@@ -10,7 +10,8 @@ const dataService = {
   getOptimalShipStory,
   getOurPrinciples,
   getLeadershipTeam,
-  getCustomersStories
+  getCustomersStories,
+  getShippingExperience
 };
 
 // common
@@ -76,6 +77,13 @@ function getLeadershipTeam() {
 
 function getCustomersStories() {
   const data = require('../../data/pages/about/customersStories.json');
+  return data;
+}
+
+// services page
+
+function getShippingExperience() {
+  const data = require('../../data/pages/services/shippingExperience.json');
   return data;
 }
 
