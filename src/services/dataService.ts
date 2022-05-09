@@ -12,7 +12,8 @@ const dataService = {
   getLeadershipTeam,
   getCustomersStories,
   getShippingExperience,
-  getPreparationTools
+  getPreparationTools,
+  getServicesList
 };
 
 // common
@@ -90,6 +91,11 @@ function getShippingExperience() {
 
 function getPreparationTools() {
   const data = require('../../data/pages/services/preparationTools.json');
+  return data;
+}
+
+function getServicesList() {
+  const data = require('../../data/pages/services/servicesList.json');
   return data;
 }
 
