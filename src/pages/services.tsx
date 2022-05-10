@@ -5,6 +5,7 @@ import Layout, {siteTitle} from 'src/components/common/layout';
 import ShippingExperience from 'src/components/services/shipping_experience/ShippingExperience';
 import HowItWorks from 'src/components/common/HowItWorks';
 import PreparationTools from 'src/components/services/preparation_tools/PreparationTools';
+import ServicesList from 'src/components/services/services_list/ServicesList';
 
 function Services() {
   return (
@@ -18,6 +19,8 @@ function Services() {
       <HowItWorks pageId="services" />
 
       <PreparationTools />
+
+      <ServicesList />
     </Layout>
   );
 }

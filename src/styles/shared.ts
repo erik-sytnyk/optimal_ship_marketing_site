@@ -23,6 +23,8 @@ export const colors = {
 
 export const dropShadow = '1rem 1rem 1rem rgba(107, 107, 107, 0.1)';
 
+export const mainBorder = `0.4rem solid ${colors.accent_orange}`;
+
 export const title_02 = css`
   font-size: 4rem;
   line-height: 4.8rem;
