@@ -1,0 +1,75 @@
+{
+  "title": "All OptimalShip customers get:",
+  "list": [
+    {
+      "text": "Discounted Shipping rates; saving an average of 40% versus retail",
+      "icon": {
+        "url": "/images/pricing/offer/icons/savings.png",
+        "alt": "Savings",
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "text": "Free Shipment Prep Tool",
+      "icon": {
+        "url": "/images/pricing/offer/icons/prep-tool.png",
+        "alt": "Prep Tool",
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "text": "Free Quote Tool",
+      "icon": {
+        "url": "/images/pricing/offer/icons/quote-tool.png",
+        "alt": "Quote Tool",
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "text": "Free Pick-up Scheduling Tool",
+      "icon": {
+        "url": "/images/pricing/offer/icons/pickup.png",
+        "alt": "Pickup",
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "text": "Free Shipment Tracking",
+      "icon": {
+        "url": "/images/pricing/offer/icons/tracking.png",
+        "alt": "Tracking",
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "text": "Friendly and knowledgeable customer service team",
+      "icon": {
+        "url": "/images/pricing/offer/icons/support.png",
+        "alt": "Support",
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "text": "10+ years in business",
+      "icon": {
+        "url": "/images/pricing/offer/icons/experience.png",
+        "alt": "Experience",
+        "width": 44,
+        "height": 44
+      }
+    }
+  ],
+  "button": "Get a Quote",
+  "image": {
+    "url": "/images/pricing/offer/background.png",
+    "alt": "Background",
+    "width": 2880,
+    "height": 1660
+  }
+}

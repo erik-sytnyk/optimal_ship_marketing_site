@@ -1,0 +1,89 @@
+{
+  "title": "Our Partners",
+  "list": [
+    {
+      "partnerName": "DHL",
+      "header": " - Shipping to over 220 countries and territories, DHL is the leader in worldwide logistics with great rates wherever the destination may be.",
+      "icon": {
+        "url": "/images/pricing/partners/dhl.png",
+        "alt": "DHL",
+        "width": 85,
+        "height": 64
+      },
+      "title": "DHL - Shipping to over 220 countries and territories, DHL is the leader in worldwide logistics with great rates wherever the destination may be.",
+      "description": "DHL is our carrier of choice when it comes to international shipping. They have been in business since 1969 and service over 220 countries and territories. They offer a variety of great services at little cost to you.",
+      "items": [
+        {
+          "title": "DISCOUNTED RATES",
+          "description": "We pass along our wholesale rates to you for the best possible price."
+        },
+        {
+          "title": "FREE PICKUPS",
+          "description": "DHL Air Express offers free pickups to most non-remote locations. You can find the nearest DHL service station or drop off station near you here:",
+          "link": "https://locator.dhl.com/"
+        },
+        {
+          "title": "DOOR TO DOOR",
+          "description": "DHL Air Express provides a door to door service. DHL also acts as your broker and clears the shipment on your behalf. You can relax while DHL handles everything for you."
+        },
+        {
+          "title": "3RD PARTY BILLING",
+          "description": "It is easy and secure to bill your shipments to a third party. You can even choose to bill duties/taxes to a third party."
+        },
+        {
+          "title": "INVOICE PREPARATION",
+          "description": "DHL makes it simple when creating your shipment’s commercial or proforma invoice. Save time and let our system generate one for you."
+        },
+        {
+          "title": "TRANSPARENT PRICING",
+          "description": "We provide quotes to you so that you know what to expect. No surprises here."
+        }
+      ]
+    },
+    {
+      "partnerName": "UPS",
+      "header": " - Servicing every single address in North America, UPS is our go-to domestic shipping carrier.",
+      "icon": {
+        "url": "/images/pricing/partners/ups.png",
+        "alt": "UPS",
+        "width": 156,
+        "height": 88
+      },
+      "items": [
+        {
+          "title": "DISCOUNTED RATES",
+          "description": "We pass along our wholesale rates to you for the best possible price."
+        },
+        {
+          "title": "EXPEDITED SERVICES",
+          "description": "You choose when you want your shipment to arrive. From Next Day shipping to regular Ground shipping, we can make sure it arrives on time for the price that you love."
+        },
+        {
+          "title": "EASY SHIPMENT PREPARATION",
+          "description": "It is a fast and easy process to create UPS shipping labels. You can create your documentation, schedule your pickup, and be on with your day. We are always happy to prepare documentation for you, too."
+        }
+      ]
+    },
+    {
+      "partnerName": "FedEx",
+      "header": " - Not only do we utilize domestic services with FedEx, but we also utilize their international shipping services.",
+      "icon": {
+        "url": "/images/pricing/partners/fedex.png",
+        "alt": "FedEx",
+        "width": 136,
+        "height": 38
+      },
+      "title": "Easily Create Discounted UPS Shipping Labels with ShipStation",
+      "items": [
+        {
+          "title": "DISCOUNTED RATES",
+          "description": "We pass along our wholesale rates to you for the best possible price."
+        },
+        {
+          "title": "EXPEDITED SERVICES",
+          "description": "You choose when you want your shipment to arrive. From Next Day shipping to regular Ground shipping, we can make sure it arrives on time for the price that you love."
+        }
+      ]
+    }
+  ]
+}

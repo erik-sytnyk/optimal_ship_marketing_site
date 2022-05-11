@@ -14,7 +14,10 @@ const dataService = {
   getShippingExperience,
   getPreparationTools,
   getServicesList,
-  getPricingIntro
+  getPricingIntro,
+  getPricingOffer,
+  getPartners,
+  getFAQ
 };
 
 // common
@@ -100,8 +103,25 @@ function getServicesList() {
   return data;
 }
 
+// pricing page
+
 function getPricingIntro() {
   const data = require('../../data/pages/pricing/intro.json');
+  return data;
+}
+
+function getPricingOffer() {
+  const data = require('../../data/pages/pricing/offer.json');
+  return data;
+}
+
+function getPartners() {
+  const data = require('../../data/pages/pricing/partners.json');
+  return data;
+}
+
+function getFAQ() {
+  const data = require('../../data/pages/pricing/faq.json');
   return data;
 }
 
