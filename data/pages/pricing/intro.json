@@ -1,0 +1,17 @@
+{
+  "title": "Transparent pricing \n with no hidden costs",
+  "subtitle": "OptimalShip offers the best rates on the market by passing our wholesale savings down to you. Our clients save 40% on average off retail prices.",
+  "description": "You can easily obtain quotes on our website for all of your shipping needs, whether you’re shipping to one of the 220 countries that DHL services or shipping at home within the United States. We are here to make sure that you know exactly what to expect and answer questions when you don’t. Don’t hesitate to give us a call.",
+  "quoteImage": {
+    "url": "/images/pricing/intro/quote.png",
+    "alt": "Quote",
+    "width": 546,
+    "height": 368
+  },
+  "backgroundImage": {
+    "url": "/images/pricing/intro/background.png",
+    "alt": "Background",
+    "width": 528,
+    "height": 610
+  }
+}
