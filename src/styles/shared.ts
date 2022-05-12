@@ -23,6 +23,8 @@ export const colors = {
 
 export const dropShadow = '1rem 1rem 1rem rgba(107, 107, 107, 0.1)';
 
+export const boxShadow = '0 0.4rem 2.4rem rgba(0, 0, 0, 0.25)';
+
 export const mainBorder = `0.4rem solid ${colors.accent_orange}`;
 
 export const title_01 = css`
@@ -89,6 +91,13 @@ export const body_04 = css`
   font-size: 2.4rem;
   line-height: 3.3rem;
   font-weight: 600;
+`;
+
+export const mainFontSmallSpacing = css`
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  letter-spacing: -0.022em;
 `;
 
 export const mediaQueries = {

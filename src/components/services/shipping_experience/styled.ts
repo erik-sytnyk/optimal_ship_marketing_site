@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import Tooltip from 'src/components/common/Tooltip';
 
-import {mediaQueries, sectionTitle_1, body_01} from 'src/styles/shared';
+import {mediaQueries, sectionTitle_1, body_01, boxShadow} from 'src/styles/shared';
 
 export const wrapper = styled.div`
   display: flex;
@@ -62,6 +62,6 @@ export const tooltip = styled(Tooltip)`
     margin: 0;
     width: 52.1rem;
     padding: 3.2rem;
-    box-shadow: 0 0.4rem 2.4rem rgba(0, 0, 0, 0.25);
+    box-shadow: ${boxShadow};
   }
 `;
