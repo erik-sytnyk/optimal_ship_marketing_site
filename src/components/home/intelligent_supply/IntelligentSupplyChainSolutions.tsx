@@ -2,8 +2,7 @@ import Image from 'next/image';
 
 import dataService from 'src/services/dataService';
 
-import Tooltip from 'src/components/common/Tooltip';
-import Wave from 'src/components/common/Wave';
+import * as styled from './styled';
 
 function IntelligentSupplyChainSolutions() {
   const data = dataService.getIntelligentSupplyChainSolutions();
@@ -11,28 +10,31 @@ function IntelligentSupplyChainSolutions() {
   const image = data.image;
 
   return (
-    <div id="intelligent-supply-chain-solutions">
-      <div className="intelligent-supply-content">
-        <div className="intelligent-supply-title">{data.title}</div>
-        <div className="intelligent-supply-subtitle">{data.description}</div>
-        <div className="intelligent-supply-list-header">{data.list.title}</div>
-        <ul>
+    <styled.wrapper>
+      <styled.content>
+        <styled.title>{data.title}</styled.title>
+        <styled.subtitle>{data.description}</styled.subtitle>
+        <styled.listHeader>{data.list.title}</styled.listHeader>
+
+        <styled.list>
           {data.list.items.map(item => {
             return <li key={item}>{item}</li>;
           })}
-        </ul>
-      </div>
+        </styled.list>
+      </styled.content>
 
-      <div className="intelligent-supply-images">
-        <div id="intelligent-supply-image">
+      <styled.imagesWrapper>
+        <styled.imagesContainer>
           <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
-          <Wave id="wave-top" />
-          <Wave id="wave-bottom" />
-        </div>
-        <div className="rectangle" />
-        <Tooltip id="intelligent-supply-tooltip" tooltip={data.tooltip} />
-      </div>
-    </div>
+          <styled.waveTop />
+          <styled.waveBottom />
+        </styled.imagesContainer>
+
+        <styled.rectangle />
+
+        <styled.tooltip tooltip={data.tooltip} />
+      </styled.imagesWrapper>
+    </styled.wrapper>
   );
 }
 

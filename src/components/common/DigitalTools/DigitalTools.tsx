@@ -2,8 +2,9 @@ import Router from 'next/router';
 
 import dataService from 'src/services/dataService';
 
-import ToolItem from './ToolItem';
-import Button from 'src/components/common/Button';
+import ToolItem from './components/ToolItem';
+
+import * as styled from './styled';
 
 function DigitalTools() {
   const data = dataService.getFreeDigitalTools();
@@ -13,19 +14,19 @@ function DigitalTools() {
   }
 
   return (
-    <div id="digital-tools">
-      <div id="digital-tools-title">{data.title}</div>
+    <styled.wrapper>
+      <styled.title>{data.title}</styled.title>
 
-      <div id="digital-items-container">
+      <styled.container>
         {data.list.map(item => {
           return <ToolItem key={item.title} item={item} />;
         })}
-      </div>
+      </styled.container>
 
-      <Button outline onClick={seeAllServices}>
+      <styled.button outline onClick={seeAllServices}>
         {data.button}
-      </Button>
-    </div>
+      </styled.button>
+    </styled.wrapper>
   );
 }
 

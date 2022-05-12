@@ -25,6 +25,12 @@ export const dropShadow = '1rem 1rem 1rem rgba(107, 107, 107, 0.1)';
 
 export const mainBorder = `0.4rem solid ${colors.accent_orange}`;
 
+export const title_01 = css`
+  font-size: 5.2rem;
+  line-height: 6.4rem;
+  font-weight: 900;
+`;
+
 export const title_02 = css`
   font-size: 4rem;
   line-height: 4.8rem;
@@ -53,6 +59,13 @@ export const sectionTitle_3 = css`
   font-weight: 900;
 `;
 
+export const sectionTitle_4 = css`
+  font-size: 2.2rem;
+  line-height: 3rem;
+  font-weight: 800;
+  letter-spacing: -0.022em;
+`;
+
 export const body_01 = css`
   font-size: 2.4rem;
   line-height: 3.3rem;
@@ -70,6 +83,12 @@ export const body_03 = css`
   line-height: 2.5rem;
   font-weight: 400;
   letter-spacing: -0.022em;
+`;
+
+export const body_04 = css`
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  font-weight: 600;
 `;
 
 export const mediaQueries = {

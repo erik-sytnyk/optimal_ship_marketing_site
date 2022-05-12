@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 import Layout, {siteTitle} from 'src/components/common/layout';
-import DigitalTools from 'src/components/common/DigitalTools/DigitalTools';
+import DigitalTools from 'src/components/common/DigitalTools';
 
 import IntelligentSupplyChainSolutions from 'src/components/home/intelligent_supply/IntelligentSupplyChainSolutions';
 import SuccessNumbers from 'src/components/home/success_numbers/SuccessNumbers';

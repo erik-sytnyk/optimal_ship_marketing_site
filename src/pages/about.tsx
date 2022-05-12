@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 import Layout, {siteTitle} from 'src/components/common/layout';
-import DigitalTools from 'src/components/common/DigitalTools/DigitalTools';
+import DigitalTools from 'src/components/common/DigitalTools';
 
 import OptimalShipStory from 'src/components/about/optimal_ship_story/OptimalShipStory';
 import OurPrinciples from 'src/components/about/our_principles/OurPrinciples';
