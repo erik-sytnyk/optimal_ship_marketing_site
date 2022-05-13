@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 import boxImage from 'public/images/footer/box.png';
 import mapPinImage from 'public/images/footer/map-pin.png';
@@ -63,24 +64,58 @@ function Footer() {
         <div className="sitemap footer-column">
           <div className="footer-header">Sitemap</div>
           <ul>
-            <li>About Us</li>
-            <li>Careers</li>
-            <li>Services</li>
-            <li>Pricing</li>
-            <li>Integrations</li>
-            <li>Contact Us</li>
-            <li>FAQs</li>
-            <li>Create an account</li>
+            <li>
+              <Link href="/about">About us</Link>
+            </li>
+            <li>
+              <Link href="/careers">Careers</Link>
+            </li>
+            <li>
+              <Link href="/services">Services</Link>
+            </li>
+            <li>
+              <Link href="/pricing">Pricing</Link>
+            </li>
+            <li>
+              <Link href="/integration">Integrations</Link>
+            </li>
+            <li>
+              <Link href="/contact">Contact Us</Link>
+            </li>
+            <li>
+              <Link href="/support">FAQs</Link>
+            </li>
+            <li>
+              <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
+                Create an account
+              </a>
+            </li>
           </ul>
         </div>
 
         <div className="tools footer-column">
           <div className="footer-header">Helpfull Tools</div>
           <ul>
-            <li>Free Shipment Prep Tool</li>
-            <li>Quote Tool</li>
-            <li>Pay Bill Online</li>
-            <li>Pickup scheduler</li>
+            <li>
+              <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
+                Free Shipment Prep Tool
+              </a>
+            </li>
+            <li>
+              <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
+                Quote Tool
+              </a>
+            </li>
+            <li>
+              <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
+                Pay Bill Online
+              </a>
+            </li>
+            <li>
+              <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
+                Pickup scheduler
+              </a>
+            </li>
           </ul>
           <div className="trust-badge-container-desktop">{renderTrustBadge()}</div>
         </div>
@@ -88,8 +123,12 @@ function Footer() {
         <div className="legal footer-column">
           <div className="footer-header">Legal</div>
           <ul>
-            <li>Terms Of Service</li>
-            <li>Privacy policy</li>
+            <li>
+              <Link href="/terms-of-service">Terms Of Service</Link>
+            </li>
+            <li>
+              <Link href="/privacy-policy">Privacy policy</Link>
+            </li>
             <li className="hidden" />
           </ul>
           <div className="business-owner">&#10086; Woman Owned business</div>

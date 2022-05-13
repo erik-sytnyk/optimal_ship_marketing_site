@@ -1,9 +1,11 @@
+import Router from 'next/router';
+
 import * as styled from './styled';
 
 interface Props {
   title: string;
   description: string;
-  buttons: string[];
+  buttons: any;
   className: string;
 }
 
@@ -12,6 +14,17 @@ Content.defaultProps = {
 };
 
 function Content({title, description, buttons, className}: Props) {
+  function onClickAction(url) {
+    if (!url) return;
+
+    if (url.charAt(0) === '/') {
+      Router.push(url);
+      return;
+    }
+
+    window.open(url, '_blank');
+  }
+
   return (
     <styled.content className={className}>
       <styled.title>{title}</styled.title>
@@ -20,7 +33,11 @@ function Content({title, description, buttons, className}: Props) {
 
       {buttons.length > 0 &&
         buttons.map(button => {
-          return <styled.button key={button}>{button}</styled.button>;
+          return (
+            <styled.button key={button.title} onClick={() => onClickAction(button.url)}>
+              {button.title}
+            </styled.button>
+          );
         })}
     </styled.content>
   );

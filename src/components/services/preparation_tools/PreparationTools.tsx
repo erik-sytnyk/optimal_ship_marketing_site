@@ -9,6 +9,10 @@ function PreparationTools() {
 
   const {comparisonTableImage, demoImage} = data;
 
+  function redirectTo() {
+    window.open(data.url, '_blank');
+  }
+
   return (
     <styled.wrapper>
       <styled.contentWrapper>
@@ -16,7 +20,7 @@ function PreparationTools() {
           <styled.title>{data.title}</styled.title>
           <styled.subtitle>{data.subtitle}</styled.subtitle>
           <styled.description>{data.description}</styled.description>
-          <styled.button>{data.button}</styled.button>
+          <styled.button onClick={redirectTo}>{data.button}</styled.button>
         </styled.content>
 
         <Image

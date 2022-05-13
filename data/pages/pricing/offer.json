@@ -66,6 +66,7 @@
     }
   ],
   "button": "Get a Quote",
+  "url": "https://portal.optimalship.com/dashboard",
   "image": {
     "url": "/images/pricing/offer/background.png",
     "alt": "Background",

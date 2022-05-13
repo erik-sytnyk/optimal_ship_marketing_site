@@ -12,7 +12,7 @@ function OptimalClients() {
   const image = data.image;
 
   function redirectToAboutUsPage() {
-    Router.push('/about');
+    Router.push('/about#customer-stories-section');
   }
 
   return (

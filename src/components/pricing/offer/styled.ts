@@ -69,6 +69,7 @@ export const rectangleBottom = styled.div`
 
 export const content = styled.div`
   padding: 6rem 1.6rem 2rem;
+  z-index: 20;
 
   @media ${mediaQueries.tablet} {
     position: absolute;

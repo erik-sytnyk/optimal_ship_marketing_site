@@ -25,6 +25,11 @@ footer {
     li {
       margin-bottom: 1.6rem;
       cursor: pointer;
+
+      > a {
+        color: colors.$accent-orange-disabled;
+        text-decoration: none;
+      }
     }
   }
 

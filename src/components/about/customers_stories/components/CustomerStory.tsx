@@ -5,9 +5,10 @@ import * as styled from './styled';
 interface PropTypes {
   story: any;
   isOddNumber: boolean;
+  action: () => void;
 }
 
-function CustomerStory({story, isOddNumber}: PropTypes) {
+function CustomerStory({story, isOddNumber, action}: PropTypes) {
   function renderImage() {
     const image = story.image;
 
@@ -22,7 +23,7 @@ function CustomerStory({story, isOddNumber}: PropTypes) {
         <styled.content>
           <styled.title>{story.title}</styled.title>
           <styled.description>{story.description}</styled.description>
-          <styled.button>{story.button}</styled.button>
+          <styled.button onClick={action}>{story.button}</styled.button>
         </styled.content>
 
         {!isOddNumber && renderImage()}

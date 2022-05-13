@@ -9,6 +9,10 @@ function Offer() {
 
   const image = data.image;
 
+  function redirectTo() {
+    window.open(data.url, '_blank');
+  }
+
   return (
     <styled.wrapper>
       <styled.background src={image.url} alt={image.alt} priority={true} layout="fill" objectFit="cover" />
@@ -32,7 +36,9 @@ function Offer() {
         })}
 
         <styled.buttonContainer>
-          <styled.button outline>{data.button}</styled.button>
+          <styled.button outline onClick={redirectTo}>
+            {data.button}
+          </styled.button>
         </styled.buttonContainer>
       </styled.content>
 

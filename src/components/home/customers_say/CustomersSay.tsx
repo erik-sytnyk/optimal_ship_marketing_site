@@ -58,7 +58,7 @@ function CustomersSay() {
       </div>
       <div id="customers-say-content">
         <div id="customers-say-title">{data.title}</div>
-        <Link href="/services">
+        <Link href="/about#customer-stories-section">
           <a>{data.button}</a>
         </Link>
       </div>

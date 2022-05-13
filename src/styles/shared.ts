@@ -93,6 +93,13 @@ export const body_04 = css`
   font-weight: 600;
 `;
 
+export const mainFont = css`
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  letter-spacing: 0.03rem;
+`;
+
 export const mainFontSmallSpacing = css`
   font-size: 1.6rem;
   font-weight: 400;
