@@ -17,7 +17,8 @@ const dataService = {
   getPricingIntro,
   getPricingOffer,
   getPartners,
-  getFAQ
+  getFAQ,
+  getTermsOfServices
 };
 
 // common
@@ -122,6 +123,13 @@ function getPartners() {
 
 function getFAQ() {
   const data = require('../../data/pages/pricing/faq.json');
+  return data;
+}
+
+// terms of services page
+
+function getTermsOfServices() {
+  const data = require('../../data/pages/terms_of_services/termsOfServices.json');
   return data;
 }
 

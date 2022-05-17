@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import Layout, {siteTitle} from 'src/components/common/layout';
 
-import UnderConstruction from 'src/components/common/UnderConstruction';
+import TermsOfServicesComponent from 'src/components/terms_of_services/TermsOfServices';
 
 function TermsOfService() {
   return (
@@ -11,7 +11,7 @@ function TermsOfService() {
         <title>{siteTitle} - Terms Of Service</title>
       </Head>
 
-      <UnderConstruction />
+      <TermsOfServicesComponent />
     </Layout>
   );
 }

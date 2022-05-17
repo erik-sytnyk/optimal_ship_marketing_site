@@ -1,0 +1,352 @@
+{
+  "title": "Terms of Services",
+  "subtitle": "Terms & Conditions",
+  "lastUpdated": "Latest Version Posted: August 3, 2018",
+  "list": [
+    {
+      "title": "Carrier Terms",
+      "description": "You agree to be bound by the terms and conditions of each carrier and partner accessed through the Provider platform and must accept such terms and conditions prior to using such carrier’s services. Please note that each carrier may change their terms and condition within their sole discretion, and we strongly suggest that you visit each carrier’s website regularly, to familiarize yourself with each company’s individual terms and conditions, as well as any potential changes, prior to using each service."
+    },
+    {
+      "title": "Please read these terms of service carefully before using this site and the service",
+      "description": "<strong>IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THIS WEBSITE AND DO NOT SIGN UP FOR A PROVIDER ACCOUNT.</strong><br />IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THIS WEBSITE AND DO NOT SIGN UP FOR A PROVIDER ACCOUNT. <br /> This website, including all content made available through the website, (“Site”) is owned and operated by Optimal Logistics LLC d/b/a OptimalShip (collectively, “Provider”) and the services and products (“Services”) provided to you are subject to the following notices, terms, and conditions. Unless otherwise agreed in writing with Provider, your agreement with Provider will always include, at a minimum, the terms and conditions set out in this document and our <a href=\"/privacy-policy\">Privacy Policy</a>. These terms and the Privacy Policy form a legally binding agreement between you and Provider in relation to your use of Provider’s Services. It is important that you take the time to read them carefully. Provider is firmly committed to protecting the privacy of your personal information and the personal information of your customers. By using the service, you acknowledge and agree that Provider’s collection, usage and disclosure of this personal information is governed by our <a href=\"/privacy-policy\">Privacy Policy</a>. <br/> Collectively, this legal agreement is referred to below as the “Terms.” Provider may, from time to time, modify, amend, or supplement these Terms, and post those changes on the Terms of Service page. If you maintain an account balance with OptimalShip, you hereby agree to and consent to the terms provided in Appendix A which immediately follows these Terms, and shall become a part of these Terms. Modifications, amendments or supplements to these Terms shall automatically be effective seven (7) days after Provider has posted the modifications. If you do not agree to be bound by (or cannot comply with) these Terms, including the Terms as modified, you agree that your sole remedy is to cease using the Services by canceling your account. Your continued use of the Services constitutes your agreement to be bound by the Terms, including the amended Terms. <br/> <strong>Both you and the Provider agree, with the limited exceptions noted below and as further provided below, to resolve all disputes between you and the Provider through BINDING ARBITRATION. ARBITRATION MEANS THAT YOU AND THE PROVIDER ARE EACH WAIVING THE RIGHT TO A JURY TRIAL AND TO PARTICIPATE IN A CLASS</strong>"
+    },
+    {
+      "title": "Account Duration",
+      "description": "Provider reserves the right to cancel your account for lack of use, lack of payment, or breach of these Terms."
+    },
+    {
+      "title": "Method of Payment",
+      "description": "Provider currently accepts Visa, MasterCard, American Express, and Discover. Certain users will be approved to set up an automated debit from your bank savings or checking account. Acceptable payment methods are subject to change at any time. You must include correct information (e.g., the address and phone number the payment credit card issuer has on file for you) when enrolling. Incorrect information may cause delays in establishing service. All information received from you, including credit card and/or bank account information, will be treated in accordance with Provider's Privacy Policy. Please note that Provider may receive updated information regarding your payment card account, debit card account or bank account from your financial institution and by accepting these Terms you hereby consent to such updating. For example, Provider may receive updated card expiration date or account number information. During account registration, Provider may verify that your payment card is valid for the service fees associated with your service plan.",
+      "items": [
+        {
+          "title": "DEBIT NOTICE WAIVER:",
+          "description": "If you elect to pay Provider via a debit card, you hereby waive your rights under 12 C.F.R. 205.10(d) to receive ten days' advance notice of the amount and date of all varying electronic fund transfers, so long as the transfer falls inside the range of $0.01 and the sum of any amounts you authorize for insurance, hidden postage labels, reset fees or other non-recurring charges."
+        }
+      ]
+    },
+    {
+      "title": "Invoicing",
+      "items": [
+        {
+          "title": "INVOICING",
+          "description": "Based on the high volume of shipping through Optimal Ship your rates are highly discounted. To ensure you are invoiced the correct rate, all shipment invoicing is emailed daily as received from the carrier. A STATEMENT recapping you open shipping invoices will be email weekly."
+        },
+        {
+          "title": "DUTIES AND TAXES",
+          "description": "Carriers invoice separately for duties and taxes. These charges are paid by the receiver unless noted otherwise when the shipment is prepared. When you receive an import of a dutiable item, you will receive an invoice from DHL for customs and duties charges. These are not part of Optimal Ship invoicing and will need to be paid directly to carrier"
+        }
+      ]
+    },
+    {
+      "title": "Billing Terms",
+      "items": [
+        {
+          "title": "NET 7",
+          "description": "Payment is due within seven (7) days of receipt of invoice from OptimalShip"
+        },
+        {
+          "title": "LATE PAYMENT FEE",
+          "description": "Any invoice not paid within fourteen (14) days of receipt will be assessed a late payment fee of 5% ($20.00 minimum)"
+        },
+        {
+          "title": "CREDIT HOLD",
+          "description": "Past due invoices can result in DHL Express accounts being put on credit hold. Once your DHL Express accounts are on credit hold, it will take a minimum of 15 working days to activate after receiving payment in full."
+        },
+        {
+          "title": "COLLECTIONS FEE",
+          "description": "Scheduled collections activity will result in a 20% collections fee ($20.00 minimum) on all open invoices."
+        },
+        {
+          "title": "METHODS OF PAYMENT",
+          "description": "Auto Pay by Credit Card, Email Reply with Credit Card on file, Company Check, ACH, Bank Wire Transfers ($20.00 per transaction)"
+        },
+        {
+          "title": "OPTIMAL SHIP PREPARATION FEES",
+          "description": "<strong>THE BELOW FEES ARE ASSESED TO THE OPTIMAL SHIP CLIENT DIRECTLY</strong>"
+        },
+        {
+          "title": "EXPORT PREP FEE A",
+          "description": "fee of $10.00 will be assessed when client requests that OptimalShip prepares export documentation"
+        },
+        {
+          "title": "IMPORT PREP FEE",
+          "description": "A fee of $15.00 will be assessed when client requests that OptimalShip prepares import documentation"
+        },
+        {
+          "title": "THIRD PARTY BILLING PREP FEE A",
+          "description": "fee of $20.00 will be assessed when client requests that OptimalShip prepares third party billing documentation."
+        },
+        {
+          "title": "CARRIER SURCHARGES",
+          "description": "Surcharges apply as indicated in the carrier’s terms of service, and service guides."
+        }
+      ]
+    },
+    {
+      "title": "Shipping Services",
+      "items": [
+        {
+          "title": "Third Party Partners:",
+          "description": "Certain shipping transactions are offered by the carrier. If you ship eligible items to a destination through one of our shipping carriers, you may first be required to ship the item through a third-party parcel processing facility which will then route the item to the destination address. You acknowledge and understand that one or more third-party global shipping provider(s) may oversee the processing, customs clearance, and shipment of the item so long as it meets the terms and conditions of this program and any other applicable third-party requirements. Eligible shipment items and quantities are generally governed by the origin and destination country’s postal regulations, import and export laws, rules, and requirements. Ineligible items that are shipped may be returned, seized, or destroyed pursuant to such laws, rules, and requirements. Please contact us for additional information about eligible items and quantities. You acknowledge and agree that OptimalShip and our third-party partners have the absolute discretion to disable the individual shipping services from your account."
+        },
+        {
+          "title": "Pickup Services:",
+          "description": "If you are using Pickup Services, or any other branded pickup service offered by the carrier, then you are responsible for affixing the designated pickup label on each parcel and may be required to bundle the parcels into a receptacle. The receptacle and/or parcels must be picked up by our assigned carrier(s) at designated time(s)/date(s). In order for the parcel to be picked up successfully, you must follow the carrier’s terms for pickup that can be found on the specific carrier’s website."
+        },
+        {
+          "title": "Interchangeability of Services Used:",
+          "description": "Provider may substitute services in its sole discretion, but Provider generally offers substitute services that are similar to the originally selected service. In the event that another service is used, commercially reasonable efforts will be made to maintain a similar service standard."
+        },
+        {
+          "title": "Fees and Adjustments:",
+          "description": "For parcels where you provide incorrect shipping details about the parcel (such as weight, address, dimensions, service type or package type), The carrier reserves the right, at its sole discretion, to either (i) deliver the parcel(s) at an increased rate that will be automatically charged to you, (ii) return the parcel(s) to you with the cost of the return and processing of the return charged to you, or (iii) destroy the parcel(s). In the event that the assessed rate cannot be calculated using the OptimalShip rates (for example, in the event that the actual weight of the shipment exceeds the maximum weight supported by the program), you will be charged for the replacement service, which may include a domestic label, if applicable"
+        },
+        {
+          "title": "Duties and Taxes:",
+          "description": "Some carrier services offer expedited customs clearance which require full payment of duties and taxes. Most carriers provide several ways to pay duties/taxes. Please refer to the carriers’ guidelines on duty/tax payment. (i) bill to account number (sender or receiver) (ii) Receiver pays however customs lets them in that particular country. If send Duties and Taxes Paid (DDP) on exports the shipper will be billed once OptimalShip receives it from the carrier.  On imports the receiver will receive a bill directly from the carrier. Improper classification of items in your parcel could result in an increase in the amount collected from the recipient, delay, disposal, or return. Note that due to international currency changes, the amounts may vary based on currency conversion at the time of your transaction. An additional administration fee related to the collection of duties and taxes may also apply. If your transaction requires the payment of duties and taxes by the recipient and your recipient refuses to pay for those amounts, you may be required to pay for the goods to be returned/destroyed or for other amounts imposed."
+        },
+        {
+          "title": "Refunds:",
+          "description": "No refunds shall be applicable for a OptimalShip shipment that has been provided to any carrier. In addition, no rate credits shall be applied in the event your shipment could have qualified for a less expensive rate but you did not select that service or rate."
+        },
+        {
+          "title": "Undeliverable Parcels:",
+          "description": "A parcel is considered undeliverable if (i) the recipient’s address is incomplete, illegible, incorrect or cannot be located, (ii) delivery cannot be made because of the unavailability or refusal of an appropriate person to accept delivery or sign for delivery of the shipment on the initial delivery attempt or reattempts, (iii) the parcel is unable to clear customs, (iv) the recipient refused to pay for duties and taxes as required by that method of delivery, (v) the shipment of the parcel would likely cause damage or delay to other shipments or goods, or cause injury, (vi) the parcel contains restricted, illegal, or otherwise prohibited items, or (vii) the parcel’s contents or packaging are damaged to the extent that re-wrapping is not possible.(viii) the package does not meet the carrier’s packing requirements (ix) the package exceeds the maximum parameters for transit on the DHL Express network.  If the parcel is undeliverable for any reason, we may attempt to notify you and to arrange for the return of the parcel, subject to any local regulatory restrictions. Additionally, the carrier may return the parcel to you or dispose of the parcel. You will be liable for any and all costs, charges and fees incurred in returning or disposing of an undeliverable parcel."
+        },
+        {
+          "title": "Appointment of Agent:",
+          "description": "Pursuant to a routed export transaction under the U.S. Export Administration Regulations and Foreign Trade Regulations, your recipient, as the Foreign Principal Party in Interest, will agree to assume responsibility for the export shipment, with Provider’s third-party shipping partner(s) acting as your recipient’s forwarding agent. You remain liable for the accuracy of information you provide about shipments, and you agree to provide timely responses to requests for additional information."
+        },
+        {
+          "title": "Right of Inspection:",
+          "description": "You agree that we, our shipping partners, or any governmental authority including customs and security may open and inspect your shipment at any time. You acknowledge and agree that OptimalShip, our shipping partners, or any governmental authority may, at its sole discretion, decide to dispose of a parcel in the event a determination is made that such destruction is required (for example, prohibited items are shipped through OptimalShip or there is suspected fraud associated with the transaction)."
+        },
+        {
+          "title": "Sharing of Information:",
+          "description": "Notwithstanding anything in the Provider Privacy Policy to the contrary, you consent to the disclosure of certain personally identifiable information, as well as shipping item information, by Provider and its partners to any third party shipping partner utilized as part of the OptimalShip service, and, in addition to other third parties (such as customs and revenue authorities, as well as other government agencies), in connection with the processing, export and customs clearance, and international transportation of any shipment. Provider cannot control the privacy policies of its third party partners their service providers and you hereby waive any claim related to the disclosure of personally identifiable or shipment information as part of OptimalShip."
+        },
+        {
+          "title": "Transit Times:",
+          "description": "Some OptimalShip transactions may include a quoted transit time, which represents an estimate by the carrier for the respective service; actual transit times may vary. Weekend days, public holidays, bank holidays, delays caused by customs, delays attributable to compliance with mandatory local security requirements or other events beyond our control are not included when we quote door to door delivery times in our published literature. The route and the method by which we transport your shipment shall be at our sole discretion."
+        },
+        {
+          "title": "Additional OptimalShip Info:",
+          "description": "Additional information about OptimalShip, including policies governing eligibility, service delivery times, weight and size restrictions, handling of lost, damaged, and undeliverable items, rates, shipment insurance, returns, and refunds can be found by clicking on the OptimalShip webpage."
+        }
+      ]
+    },
+    {
+      "title": "Dispute and claim process terms",
+      "items": [
+        {
+          "title": "DISPUTES",
+          "list": [
+            "Client must notify Provider of Discrepancy within 14 days of invoice date",
+            "Client must provide quote and/or weight and dimensions of shipment for comparison",
+            "If carrier requests photographic proof, client must provide photographic evidence",
+            "Provider will work with carrier on Client’s behalf to receive credit for discrepancy",
+            "Carrier’s Decision is final and Provider is not liable for a denial",
+            "Provider will credit the invoice once credit received from carrier",
+            "Once credit is applied, invoice must be paid within normal payment terms"
+          ]
+        },
+        {
+          "title": "CLAIMS",
+          "list": [
+            "Client must notify Provider of any claim within 21 days of the pick up date.",
+            "Client must be able to provide photographic evidence of packaging materials, product (damage and non damage), proof of product value/cost and anything else carrier requests to process claims. If additional insurance is not added by client the Carrier will process goods value based on Special Drawing Rights.",
+            "If Client is unable to respond in a timely manner, they forfeit their claim rights",
+            "Provider will work with carrier on Client’s behalf for claim amount",
+            "Carrier terms and conditions for claim must be adhered to",
+            "Freight costs may be deducted from any claim amount before crediting Client’s account",
+            "Any remaining balance must be paid within normal terms",
+            "Carrier’s decision is final and provider is not liable for denial"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Content copyright",
+      "description": "You acknowledge that (i) content on the Site and content available through the Services is protected by copyrights, trademarks and other intellectual and proprietary rights (“Rights”); (ii) these Rights are valid and protected in all media and technologies existing now or later developed; and (iii) except as explicitly provided otherwise, the Terms and applicable copyright, trademark and other laws govern your use of such content. Any other use, including but not limited to the reproduction, modification, distribution, transmission, republication, display, or performance, of the content on this Site is strictly prohibited."
+    },
+    {
+      "title": "Trademarks",
+      "description": "Provider, OptimalShip and associated brand names and domain names are trademarks of Provider in the United States and/or other countries. Provider trademarks and trade dress may not be used in connection with any product or service that is likely to cause confusion among your customers, or in any manner can be interpreted as business disparagement. All marks not owned by Provider are the property of their respective owners. You may not use, and nothing contained on the Site or in these Terms grants, by implication, waiver, estoppel or otherwise, any right to use, any trademark displayed on the Site without the written permission of Provider or the respective owner of such trademark, service mark or logo."
+    },
+    {
+      "title": "Use of site",
+      "description": "This Site, any portion of this Site, and any materials made available by Provider through the Site, may not be reproduced, duplicated, copied, sold, resold, or otherwise exploited for any commercial purpose that is not expressly permitted by Provider. Provider reserves the right to refuse service, terminate accounts, and/or cancel orders in its discretion, including, without limitation, if Provider believes that a user’s conduct violates applicable law or is harmful to the interests of Provider. Any use of content or descriptions; any derivative use of this Site or its contents; and any use of data mining, robots, or similar data gathering and extraction tools are strictly prohibited. In no event shall the user frame any portion of the Site or any content contained therein. By using this Site, you agree that you will comply with all applicable laws and regulations, including U.S. export and re-export control laws and regulations."
+    },
+    {
+      "title": "Copyright infringement",
+      "description": "Provider respects the intellectual property of others. Copyright infringement will not be tolerated. If you believe that your work has been copied in a way that constitutes copyright infringement, please alert us at <a href=\"mailto:support@OptimalShip.com\" target=\"_blank\" rel=\"noreferrer\">support@OptimalShip.com</a>."
+    },
+    {
+      "title": "Software available on the site",
+      "description": "Software that is made available from the Site (“Software”) is the copyrighted work of Provider and/or its suppliers. Your use of the Software is governed by the Terms. You may not use any Software or the Site unless you first agree to the Terms, after which Provider hereby grants to you, the user, a personal, nontransferable license to access the Software for viewing and otherwise using the Site in accordance with these Terms, and for no other purpose, provided that you keep intact all copyright and other proprietary notices contained in the Software. All Software is owned by Provider and/or its suppliers and is protected by copyright laws and international treaty provisions. Any reproduction or redistribution of the Software is expressly prohibited by law, and may result in severe civil and criminal penalties. Violators will be prosecuted to the maximum extent possible. <strong>WITHOUT LIMITING THE FOREGOING, COPYING OR REPRODUCTION OF THE SOFTWARE TO ANY SERVER OR OTHER LOCATION FOR REPRODUCTION OR REDISTRIBUTION IS EXPRESSLY PROHIBITED.</strong> You acknowledge that the Software, and any accompanying documentation and/or technical information, is subject to applicable export control laws and regulations of the U.S. You agree not to export or re-export the Software, directly or indirectly, to any countries that are subject to U.S. export restrictions. <br/> Software usage is subject to compliance with the Terms and is provided for no additional consideration on a non-transferable, limited, revocable, royalty-free basis."
+    },
+    {
+      "title": "Limitation of liability",
+      "description": "<strong>IN THE EVENT THE CARRIER IS FOUND TO BE RESPONSIBLE TO YOU FOR DAMAGES IN ANY WAY RELATING TO THIS SITE, THE SERVICES, OR THE SOFTWARE, YOU AGREE THAT THE CARRIER’S LIABILITY TO YOU WILL NOT EXCEED YOUR PREVIOUS MONTH’S PLAN COSTS, WHEN APPLICABLE, FOR SERVICES DURING THE PERIOD IN WHICH YOU INCUR SUCH DAMAGES AND NOTWITHSTANDING THE FAILURE OF ESSENTIAL PURPOSE OF ANY REMEDY. PROVIDER IS NOT LIABLE FOR ANY INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES (SUCH AS LOST PROFITS OR LOST BUSINESS OPPORTUNITIES), PUNITIVE OR EXEMPLARY DAMAGES, THE COST OF ALTERNATIVE SERVICES, OR ATTORNEYS’ FEES AND NOTWITHSTANDING THE FAILURE OF ESSENTIAL PURPOSE OF ANY REMEDY.</strong></br> You should note that, in some circumstances, the liability of a carrier is limited under the Convention of the Unification of Certain Rules Relating to International Carriage by Air (Warsaw, 12 October 1929), Convention of the Unification of Certain Rules Relating to International Carriage by Air (Montreal, 28 May 1999) and the Convention on the Contract for International Carriage of Goods by Road (Geneva, 19 May 1956) or similar international conventions."
+    },
+    {
+      "title": "Disclaimer",
+      "description": "<strong>THIS SITE, SERVICES, AND SOFTWARE ARE PROVIDED BY PROVIDER ON AN “AS IS” BASIS. PROVIDER MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, AS TO THE OPERATION OF THE SITE OR SOFTWARE, OR THE INFORMATION, CONTENT, MATERIALS, OR PRODUCTS INCLUDED ON THIS SITE AND THE SOFTWARE. TO THE FULLEST EXTENT PERMISSIBLE BY APPLICABLE LAW, PROVIDER DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. PROVIDER WILL NOT BE LIABLE FOR ANY DAMAGES OF ANY KIND ARISING FROM THE USE OF THIS SITE, THE SERVICES, OR THE SOFTWARE, INCLUDING, BUT NOT LIMITED TO DIRECT, INDIRECT, INCIDENTAL, PUNITIVE, AND CONSEQUENTIAL DAMAGES. PROVIDER DOES NOT PROMISE OR GUARANTY UNINTERRUPTED OR ERROR-FREE SERVICE.</strong>"
+    },
+    {
+      "title": "Links to third party websites",
+      "description": "The Provider and affiliated websites may contain links to third party websites (“Linked Websites”). The Linked Websites are not under the control of Provider and Provider is not responsible for the contents of any Linked Website, including without limitation any link contained in a Linked Website, or any changes or updates to a Linked Website. You should contact the site administrator or webmaster for those Linked Websites if you have any concerns regarding such links or the content located on such Linked Websites. You are responsible for following the terms and conditions of all Linked Websites, including carriers and other third party providers of services."
+    },
+    {
+      "title": "Dispute resolution; agreement to arbitration; and class waiver",
+      "list": [
+        "<strong>Settlement Offers:</strong> During the arbitration, the amount of any settlement offer made by Provider or you shall not be disclosed to the arbitrator. <br/><br/>",
+        "<strong>Initiating A Claim:</strong> The form required to initiate an arbitration can be printed or downloaded from <a href=\"http://www.adr.org\" target=\"_blank\" rel=\"noreferrer\">www.adr.org</a>. Alternatively, you can contact the arbitration administrator by calling <a href=\"tel:+1-800-778-7879\">800-778-7879</a>.<br/><br/>",
+        "<strong>Fees for Initiating Arbitration:</strong> If you are required to pay a filing fee to initiate arbitration, after Provider receives notice of the initiation of arbitration, it will promptly reimburse you for your payment of the filing fee at the address we have for you on file (or the address provided in the Notice), unless your claim is for greater than US $10,000.<br/><br/>",
+        "<strong>Applicable Rules; Administrator:</strong> The arbitration will be governed by the Commercial Arbitration Rules and the Supplementary Procedures for Consumer Related Disputes (collectively, “AAA Rules”) of the American Arbitration Association (“AAA”), as modified by these Terms, and will be administered by the AAA. The AAA Rules and Forms are available online at www.adr.org, or by calling the AAA at <a href=\"tel:+1-800-778-7879\">1-800-778-7879</a>. The arbitrator is bound by the requirements of this section of the Terms. All issues are for the arbitrator to decide, including issues relating to the scope and enforceability of this Agreement to Arbitrate.<br/><br/>",
+        "<strong>Location of Hearing:</strong> Unless Provider and you agree otherwise, any arbitration hearings will take place in the county (or parish) of your billing address. (If you reside outside of the United States, any arbitration hearings will take place in your country of residence at a location reasonably convenient to you, but will remain subject to the AAA Rules including the AAA rules regarding the selection of an arbitrator). If your claim is for US $10,000 or less, we agree that you may choose whether the arbitration will be conducted solely on the basis of documents submitted to the arbitrator, through a telephonic hearing, or by an in-person hearing as established by the AAA Rules. If your claim exceeds US $10,000, the right to a hearing will be determined by the AAA Rules. Regardless of the manner in which the arbitration is conducted, the arbitrator shall issue a written decision sufficient to explain the essential findings and conclusions on which the award is based.<br/><br/>",
+        "<strong>Award Enhancement:</strong> If the arbitrator issues you an award that is greater than the value of Provider's last written settlement offer made before an arbitrator was selected (or if Provider did not make a settlement offer before an arbitrator was selected), then Provider will pay you the amount of the award or US $1,000, whichever is greater. Except as expressly set forth herein, the payment of all filing, administration and arbitrator fees will be governed by the AAA Rules.<br/><br/>",
+        "<strong>Class Waiver:</strong> YOU AND PROVIDER AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN AN INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING. Further, unless both you and Provider agree otherwise, the arbitrator may not consolidate the claims of more than one party, and may not otherwise preside over any form of a representative or class proceeding. If this specific provision is found to be unenforceable as applied to any claim asserted by you, then the entirety of the arbitration provision set forth in this section shall be null and void.<br/><br/>",
+        "<strong>Injunctive Relief Limitation:</strong> The arbitrator may award declaratory or injunctive relief only in favor of the individual party seeking relief and only to the extent necessary to provide relief warranted by that party's individual claim.<br/><br/>",
+        "<strong>Small Claims Procedure Alternative:</strong> Notwithstanding the foregoing binding arbitration procedure, either party may bring an individual action in small claims court (provided the claim otherwise qualifies for such program) as an alternative to proceeding with arbitration."
+      ]
+    },
+    {
+      "title": "No unlawful or prohibited use",
+      "description": "As a condition of your use of this Site, you warrant to Provider that you will not use the Site for any purpose that is unlawful or prohibited by these Terms, or the laws and regulations of the jurisdiction in which you are located or to which your envelope or parcel was sent. You may not use the Site in any manner that could damage, disable, overburden, or impair the Site. You may not obtain or attempt to obtain any materials or information through any means not intentionally made available or provided through the Site. Provider reserves the right at all times to disclose any information as necessary to satisfy any applicable law, regulation, legal process or governmental request, or to edit, refuse to post or to remove any information or materials, in whole or in part, at Provider’s sole discretion."
+    },
+    {
+      "title": "Indemnification",
+      "description": "You agree to defend, indemnify and hold harmless Provider, its officers, directors, employees and agents, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorney’s fees) arising from: (i) your use of and access to the Site, Services, and Software; (ii) your violation of any term of these Terms; (iii) your violation of any third party right, including without limitation any copyright, property, or privacy right; or (iv) any claim that one of your submissions caused damage to a third party. This defense and indemnification obligation will survive these Terms and your use of the Site."
+    },
+    {
+      "title": "Materials provided to the site",
+      "description": "Users of the Site may post comments, reviews, and other content and submit suggestions, ideas, or other information, provided the content does not contain any unlawful, harmful, threatening, abusive, harassing, defamatory, vulgar, obscene, or hateful content or content which is racially, ethnically or otherwise objectionable, or content which infringes upon the rights of any third party. You agree not to impersonate any person and/or other entity or communicate under a false name or a name that you are not entitled or authorized to use. Provider has the right (but not the obligation) to remove, prohibit, edit or discontinue any content on the Site, including content that has been posted by users. <br/> Provider does not claim ownership of the materials you provide to Provider (including feedback and suggestions) or post, upload, input or submit to Provider or its associated services (collectively “Submissions”). However, by posting, uploading, inputting, providing or submitting your Submission you are granting Provider, its affiliated companies and necessary sublicensees a non-exclusive, worldwide, perpetual, irrevocable, royalty-free, sublicenseable (through multiple tiers) right to use your Submission in connection with the operation of their businesses including, without limitation, the rights to: copy, distribute, transmit, publicly display, publicly perform, reproduce, edit, translate, reformat, prepare derivative works of, and otherwise exploit your Submission; and to publish your name in connection with your Submission. No compensation will be paid with respect to the use of your Submission, as provided herein. Provider is under no obligation to post or use any Submission you may provide and may remove any Submission at any time at Provider’s sole discretion. By posting, uploading, inputting, providing or submitting your Submission, you warrant and represent that you own or otherwise control all of the rights to your Submission as described in this section including, without limitation, all the rights necessary for you to provide, post, upload, input or submit the Submissions and that your Submission is not based on, or derived from, the proprietary information or items of a third party."
+    },
+    {
+      "title": "Governing law",
+      "description": "The Services under these Terms are provided by Provider’s offices in the State of Texas. The Services and Software can be accessed from any of the 50 states in the United States and from other countries of the world. The laws of the State of Texas (or U.S. federal law, if applicable), without regard to conflicts of law provisions, will apply to all matters arising out of or in connection with the Site, the Services and the Software. By using the Site, Services and Software, you submit to the exclusive jurisdiction of Texas courts and further agree that any cause of action arising out of or in connection with these Terms and/or your use of the Site and/or Services and/or Software shall be brought only in the federal or state courts in Collin County, Texas."
+    },
+    {
+      "title": "U.S. Government users restricted rights",
+      "description": "Use, duplication, or disclosure by the Government is subject to restrictions as set forth in applicable laws and regulations. Use of the Site, Services and/or Software by the Government constitutes acknowledgment of Provider’s proprietary rights in them. The Site and Software may contain other proprietary notices and copyright information which should be observed."
+    },
+    {
+      "title": "Prohibited activities",
+      "description": "You shall not transmit to Provider or upload to this Site or the Software any Harmful Code or use or misappropriate the data on this Site for your own commercial gain. “Harmful Code” shall mean any software (sometimes referred to as “viruses,” “worms,” “trojan horses,” “time bombs,” “time locks,” “drop dead devices,” “traps,” “access codes,” “cancelbots” or “trap door devices”) that: (a) is intentionally designed to damage, disrupt, disable, harm, impair, interfere with, intercept, expropriate or otherwise impede in any manner, any data, storage media, program, system, equipment or communication, based on any event, including for example but not limited to (i) exceeding a number of copies, (ii) exceeding a number of users, (iii) passage of a period of time, (iv) advancement to a particular date or other numeral, or (v) use of a certain feature; or (b) would enable an unauthorized person to cause such result; or (c) would enable an unauthorized person to access another person’s information without such other person’s knowledge and permission. <br/><br/> You may not use your password or API keys for any unauthorized purpose. You may not use the Site, Services, or Software for activities that: <br/><br/><ol><li>violate any law, statute, ordinance or regulation relate to sales of (a) narcotics, steroids, certain controlled substances or other products that present a risk to consumer safety, (b) drug paraphernalia, (c) items that encourage, promote, facilitate or instruct others to engage in illegal activity, (d) items that promote hate, violence, racial intolerance, or the financial exploitation of a crime, (e) items that are considered obscene, (f) items that infringe or violate any copyright, trademark, right of publicity or privacy or any other proprietary right under the laws of any jurisdiction, (g) certain sexually oriented materials or services, or (h) ammunition, firearms, or certain firearm parts or accessories, or (i) certain weapons or knives regulated under applicable law;</li><br/><li>relate to transactions that (a) show the personal information of third parties in violation of applicable law, (b) support pyramid or ponzi schemes, matrix programs, other “get rich quick” schemes or certain multi-level marketing programs, (c) are associated with purchases of real property, annuities or lottery contracts, lay-away systems, off-shore banking or transactions to finance or refinance debts funded by a credit card, (d) are for the sale of certain items before the seller has control or possession of the item, (e) are by payment processors to collect payments on behalf of merchants, (f), are associated with the following Money Service Business activities: the sale of traveler’s checks or money orders, currency exchanges or check cashing, or (g) provide certain credit repair or debt settlement services;</li><br/><li>involve the sales of products or services identified by government agencies to have a high likelihood of being fraudulent;</li><br/><li>violate applicable laws or industry regulations regarding the sale of (a) tobacco products, or (b) prescription drugs and devices;</li><br/><li>involve gambling, gaming and/or any other activity with an entry fee and a prize, including, but not limited to casino games, sports betting, horse or greyhound racing, lottery tickets, other ventures that facilitate gambling, games of skill (whether or not it is legally defined as a lottery) and sweepstakes unless the operator has obtained prior approval and the operator and its customers are located exclusively in jurisdictions where such activities are permitted by law.</li></ol>"
+    },
+    {
+      "title": "Terms regarding 3rd party shipping insurance",
+      "description": "The carrier provides shipping insurance. You agree that Provider, OptimalShip, is in no way responsible for any loss, liability, claim, or demand that relates to insurance. <br /> You are solely responsible for ensuring that listings you add insurance to are covered under the applicable coverage, terms, conditions, and exclusions. <br/> All rules, terms and policies related to shipping insurance offered through the Site shall be governed by the Insurance terms and conditions found by <a href='privacy-policy'>clicking here</a>."
+    },
+    {
+      "title": "Terms related to european union data subjects",
+      "description": "Additionally, if: (a) you are established in the European Union (“EU”); (b) you provide goods or services to customers in the EU; or (c) you are otherwise subject to the requirements of the EU General Data Protection Regulation (“GDPR”), Provider’s collection, use and storage of the Personal Data of any EU Data Subject is also subject to the following rules. All defined terms, not otherwise defined herewith shall be interpreted in accordance with the GDPR. <br/> Before you provide Personal Data of your customers or that of other individuals to Provider in order for Provider to provide services, you must be in compliance with the GDPR. <br/> You consent to Provider Processing, and/or as a joint Data Controller, with you, of controlling the Personal Data of you and your customers, for the purpose of it providing the services. Provider may share the Personal Data with its agents or subcontractors or affiliates or other third party service providers for the sole purpose of providing or improving the services. <br/> In relation to any Personal Data provided by you to Provider: <br/> (i) You warrant, undertake and confirm that it has grounds for sharing the Personal Data with Provider as envisaged; <br/> (ii) You process and control the Personal Data in compliance with all applicable laws; <br/> (iii) You consent to its use and you have obtained any necessary consents from the receiver of the goods (your customer) as required under the GDPR to pass to Provider the details required to complete the services requested, including but not limited to name, address, email address, mobile telephone number, and contents of package; <br/> (iv) You have made your customers aware that such details may be used by Provider to enhance the delivery process for your customers and it may use notifications and geodata for that purpose. This may involve Provider sharing such details with limited third parties’ data processors, for the purpose of completing the requested services; and <br/> (v) You have told your customers that you use the Provider’s services, and given them a link to our Privacy Policy. <br/> Personal Data of EU Data Subjects that originates in the EU will be stored in the EU. As part of providing the services, this Personal Data may be transferred to other regions, including the United States, subject to the EU-US Privacy Shield. <br/> Processing Personal Data of EU Data Subjects <br/> Provider may act as a joint Data Controller with you as well as a Data Processor for the Personal Data of EU Data Subjects in the course of providing services to you, Provider will: <br/><br/> <ul><li>Process the Personal Data as a Data Processor, only for the purpose of providing the services in accordance with documented instructions from you (provided that such instructions are commensurate with the functionalities of the services), and as may subsequently be agreed to by you. If Provider is required by law to Process the Personal Data for any other purpose, Provider will provide you with prior notice of this requirement, unless Provider is prohibited by law from providing such notice;</li></br><li>Notify you if, in Provider’s opinion, your instruction for the processing of Personal Data infringes the GDPR;</li></br><li>Notify you promptly, to the extent permitted by law, upon receiving an inquiry or complaint from a Data Subject or Supervisory Authority relating to Provider’s Processing of the Personal Data;</li></br><li>Implement and maintain appropriate technical and organizational measures to protect the Personal Data against unauthorized or unlawful processing and against accidental loss, destruction, damage, theft, alteration or disclosure. These measures shall be appropriate to the harm which might result from any unauthorized or unlawful processing, accidental loss, destruction, damage or theft of Personal Data and appropriate to the nature of the Personal Data which is to be protected;</li></br><li>Notify you promptly upon becoming aware of and confirming any accidental, unauthorized, or unlawful processing of, disclosure of, or access to the Personal Data; and</li></br><li>Ensure that its personnel who access the Personal Data are subject to confidentiality obligations that restrict their ability to disclose Personal Data.</li></br><li>In the course of providing the services, you acknowledge and agree that Provider may use subprocessors to Process the Personal Data. Provider’s use of any specific subprocessor to process the Personal Data must be in compliance with the GDPR and must be governed by a contract between Provider and subprocessor. <br/> You agree to fully indemnify Provider, for any costs, fees, fines, and professional fees incurred due to a breach by you of the provisions of this Section.</li></ul>"
+    },
+    {
+      "title": "Miscellaneous",
+      "description": "The following miscellaneous terms are fully applicable and important. Please read them with the same degree of care you read the preceding provisions.",
+      "items": [
+        {
+          "title": "ACCOUNT ACCESS:",
+          "description": "All transactions originating from your account are your responsibility. Please be mindful of whom is given access to the account, as the account holder is responsible for all charges incurred."
+        },
+        {
+          "title": "ACCOUNT DELINQUENCY:",
+          "description": "If you fail to pay your monthly service fee for three months or longer or you maintain a negative account balance, Provider may elect, in its sole and absolute discretion, to terminate your account. In this event, in addition to all other fees due and owing, Provider may charge a $20.00 processing fee."
+        },
+        {
+          "title": "AUTHORITY:",
+          "description": "By completing the registration process, you agree to pay all fees incurred on your account in accordance with the terms of the service plan selected by you. If you change service plans or your account is automatically converted pursuant to this section of Terms, you agree to be bound by the payment terms of the new plan. If a Provider account is established for a business or other entity, the person establishing the account represents that he or she has all necessary authority to establish an account with Provider on behalf of the business or other entity who is the responsible account holder."
+        },
+        {
+          "title": "COLLECTION:",
+          "description": "Each party agrees that if timely payment by the other of any amounts due is not made, the aggrieved party may pursue the claim directly or assign such claim for collection, and the collection agency may pursue the collection of the past due amounts and any interest or cost of collection permitted by law."
+        },
+        {
+          "title": "CREDIT VERIFICATION:",
+          "description": "Provider reserves the right to verify the credit of all persons or companies applying for services."
+        },
+        {
+          "title": "NO SUBLICENSE OR THIRD PARTY USE:",
+          "description": "You may use your Provider account for transactions for your own direct use. Provider does not grant the right to sublicense, resell, offer, or utilize any Provider products or services such that Provider products or services are stored, loaded, installed, combined, integrated or displayed as part of a product or software offering (including as part of an application programming interface) of yours to other third-party products and services. Provider does not allow you to sublicense, resell, offer, or utilize Provider products or services to third parties (including customers of yours). If Provider determines, in its sole and absolute discretion, that you have violated the foregoing limitations, Provider reserves the right to immediately suspend or terminate your service/account (without notice)."
+        },
+        {
+          "title": "ORDER ACCEPTANCE/REJECTION:",
+          "description": "Provider reserves the right at any time after receipt of an order for products or services to accept or decline the order for any reason."
+        },
+        {
+          "title": "RELOCATION:",
+          "description": "You agree to provide updated address information to Provider in the event of relocation."
+        },
+        {
+          "title": "RISK OF LOSS:",
+          "description": "The risk of loss and title for non-postage products purchased from Provider passes to you upon our delivery of the purchase to our common carrier for delivery to you."
+        },
+        {
+          "title": "SALES AND VALUE ADDED TAXES:",
+          "description": "Tax is not collectable on the purchase of postage. If required by applicable law, sales / value added tax (VAT) is charged/collected on non-postage purchases. You are responsible for the payment of all sales, use, VAT, or other taxes owed on products or taxable items utilized regardless of whether such taxes are collected by Provider at the time of purchase."
+        },
+        {
+          "title": "SEVERABILITY:",
+          "description": "If any provision of these Terms is held to be invalid or unenforceable, such provision will be deemed to be restated to reflect as nearly as possible the original intention in accordance with applicable law, and the remainder of the Terms will remain in full force and effect. These Terms constitute the entire agreement between the parties with respect to the subject matter hereof and supersedes and replaces all prior or contemporaneous understandings or agreements, written or oral, regarding such subject matter. Any waiver of any provision of the Terms will be effective only if in writing and signed by Provider. The failure to enforce any right under these Terms shall not be a waiver of the provision or the right to enforce it at a later time."
+        },
+        {
+          "title": "THIRD PARTY TERMS AND CONDITIONS:",
+          "description": "You are responsible for following the terms and conditions of all carriers and partners accessed through the Site. Please visit each individual website to obtain and review their terms and conditions. Use of carrier services via the Provider platform is at your own risk. Provider is not responsible for your use of carrier services. Your use of carrier services is as a direct customer of the specific carrier of your choosing and you agree to be bound by the terms and conditions of that carrier for use of services, including the payment of any fees associated and a carrier’s right to open, inspect and assess your package before and after collection."
+        },
+        {
+          "title": "SITE MISTAKES:",
+          "description": "Although we make reasonable efforts to provide accurate pricing information and product descriptions, pricing mistakes, typographical errors or mistakes regarding product availability may occur. We reserve the right to correct such mistakes and errors."
+        },
+        {
+          "title": "VIOLATIONS OF LAW:",
+          "description": "Provider services may not be used in violation of any law or in any way that interferes unreasonably with others' use of the services."
+        }
+      ]
+    },
+    {
+      "title": "Appendix A",
+      "description": "This Appendix A to the OptimalShip Terms of Service (“Terms”) is applicable for all OptimalShip Carrier Services users. If there is a conflict between the Terms and Appendix A, the terms of Appendix A shall control. All defined terms not herein defined are defined in Terms.OptimalShip Carrier Services will allow you to maintain an account balance with Provider, such that payment for various carriers and services can be by Provider on your behalf, using rates provided to Provider by the carriers or partners of Provider. You hereby authorize Provider to maintain a carrier account for you that will only be valid on the OptimalShip Carrier Services platform and will not be portable or transferable outside OptimalShip Carrier Services, unless allowed by Provider and the individual carrier, at their sole discretion. Prior to accessing each carrier through OptimalShip Carrier Services, you must accept any terms and conditions required by such carrier for their services. You are not required to accept accounts from each carrier offered by OptimalShip Carrier Services, as you will be able to opt out of any carriers that you do not intend to use, or for which you have a pre-existing relationship. You may not use your own account number, not created through a relationship with Provider, within OptimalShip Carrier Services and instead must use the standard Provider platform. Notwithstanding anything in this Appendix A to the contrary, all applicable carrier rules and terms shall be applicable for the services provided and Provider accepts no liability or responsibility for the failure of delivery or failure of the services of any carrier. <br/> You acknowledge and agree that all mailing and shipping transaction pricing through a Provider user account is controlled by Provider. Provider business partners, including mailing and shipping carriers, consolidators, resellers, wholesalers, among others, provide certain rates that may be made available through OptimalShip Carrier Services by Provider in its sole and absolute discretion. <br/> We do not always provide the lowest rates that may be available for your transaction, as rates are dependent on the service you choose and a variety of factors driven by your actions in using our software and by decisions from OptimalShip and other business partners of OptimalShip. You agree to the rate provided and displayed at the time of the transaction, as that amount may fluctuate. No refunds shall be applicable to transactions that could have been obtained at a less expensive rate, unless the transaction qualifies for a refund as provided for elsewhere in our terms."
+    },
+    {
+      "title": "Cost adjustment transactions",
+      "description": "If you conduct a transaction with OptimalShip Carrier Services that is paid only when the label is used or if it is determined by Provider or a carrier partner of Provider that a mailing or shipping transaction did not contain sufficient funds (for example, not enough postage to cover a USPS shipment due to an underreporting of weight at time of print), Provider may automatically deduct the amount for the unpaid or short-paid transaction from your account balance. Provider also has the right, in its sole discretion, to make adjustments for surcharges, duties and fees determined by the carriers or the country shipped to. You will be able to review these adjustments in your account history and reports. If one or more of these payments cannot be collected from your account due to a lack of available funds, in our complete discretion, we may either, (i) charge the method of payment on file for the shortfall or (ii) your account may be suspended until you fund your account to cover all outstanding payments."
+    },
+    {
+      "title": "User refunds for unused or misprinted transactions; destruction of unused or misprinted transactions",
+      "description": "You may request a refund for mailing and shipping unused transactions through OptimalShip Carrier Services, subject to the following rules and limitations, for any unused or misprinted items:",
+      "items": [
+        {
+          "title": "AUTHORIZED USER REQUEST:",
+          "description": "You acknowledge and agree that Provider and/or its authorized partners, to the extent necessary by any carrier service, is appointed to act on your behalf to request and obtain refunds. In addition to Provider's refund requirements set forth in this agreement, refund requests are further subject to the rules and requirements of Provider's third party carrier services, including the USPS. Provider makes no guarantee that a refund will be made."
+        },
+        {
+          "title": "UNUSED OR MISPRINTED CARRIER LABELS:",
+          "description": "Unused and/or misprinted pre-paid carrier shipping labels shall be defined as an envelope, label, plain paper containing carrier-compliant labels, or electronic image files, with full, intact indicium which is scan-able and unused. Labels handled and/or returned to sender shall not be considered a valid unused and/or misprinted label."
+        },
+        {
+          "title": "TIME LIMIT:",
+          "description": "You must complete the refund request within the time limit required by each carrier. Please see each carrier’s terms and conditions on their website for additional information. If you have any questions, please email <a href=\"mailto:support@OptimalShip.com\" target=\"_blank\" rel=\"noreferrer\">support@OptimalShip.com</a> or <br/> see <a href=\"http://www.OptimalShip.com\" target=\"_blank\" rel=\"noreferrer\">www.OptimalShip.com</a> for additional information."
+        },
+        {
+          "title": "ACTIVE ACCOUNT REQUIRED:",
+          "description": "Your account must be active and in good standing to request a refund and at the time the refund is to be credited to your account, in order for the refund to be processed and your account to be credited."
+        },
+        {
+          "title": "REFUND PROCESS:",
+          "description": "Please visit our refund page to learn how to submit your refund request. You must follow all of the steps listed and provide all of the required information to initiate and complete your refund request, including the return or destruction, if required, of the printed or misprinted but unused mailing and shipping labels. Incomplete requests will not be processed."
+        },
+        {
+          "title": "REFUND REJECTIONS:",
+          "description": "You take the risk of the carrier partner improperly rejecting a refund request. Provider will not refund the transaction unless the relevant carrier partner approves the refund."
+        },
+        {
+          "title": "REIMBURSEMENT OF PROVIDER ACCOUNT:",
+          "description": "If a refund request is properly initiated by you within the timeframe required pursuant to Provider and carrier requirements, your account is active and in good standing, and the relevant carrier approves the refund, Provider will credit your account for the full value of the transaction to be refunded, as approved by the carrier. Refund processing times may vary. If you have an outstanding balance in any amount (including but not limited to for unpaid service fees or unpaid termination fees) you may not receive any reimbursement credit until your account is brought current. In addition, Provider may, in its sole and absolute discretion, deduct such unpaid fees from any refund otherwise due."
+        }
+      ]
+    }
+  ]
+}
