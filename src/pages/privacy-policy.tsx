@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import Layout, {siteTitle} from 'src/components/common/layout';
 
-import UnderConstruction from 'src/components/common/UnderConstruction';
+import PrivacyPolicyComponent from 'src/components/privacy_policy/PrivacyPolicy';
 
 function PrivacyPolicy() {
   return (
@@ -11,7 +11,7 @@ function PrivacyPolicy() {
         <title>{siteTitle} - Privacy Policy</title>
       </Head>
 
-      <UnderConstruction />
+      <PrivacyPolicyComponent />
     </Layout>
   );
 }

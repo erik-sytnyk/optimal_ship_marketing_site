@@ -18,7 +18,8 @@ const dataService = {
   getPricingOffer,
   getPartners,
   getFAQ,
-  getTermsOfServices
+  getTermsOfServices,
+  getPrivacyPolicy
 };
 
 // common
@@ -130,6 +131,13 @@ function getFAQ() {
 
 function getTermsOfServices() {
   const data = require('../../data/pages/terms_of_services/termsOfServices.json');
+  return data;
+}
+
+// privacy policy page
+
+function getPrivacyPolicy() {
+  const data = require('../../data/pages/privacy_policy/privacyPolicy.json');
   return data;
 }
 
