@@ -1,0 +1,205 @@
+{
+  "items": [
+    {
+      "title": "Platform \n Integrations",
+      "description": [
+        "You can now receive your discounted OptimalShip shipping rates with the following platform integrations. We have created tutorials on how to receive our discounted shipping rates with each platform.",
+        "<strong>Not finding an integration for your platform? Send us a request by clicking <a href=\"/contact-us\">here</a>.</strong>",
+        "We are continually adding more platforms. Contact IT with any platform you recommend we add.",
+        "If your platform prompts you to enter a site <strong>ID</strong> and <strong>password</strong>, you will need to register for these credentials through DHL XML Services which can be found at <a href=\"https://xmlportal.dhl.com/register\" target=\"_blank\" rel=\"noreferrer\">https://xmlportal.dhl.com/register</a>. DHL will typically send you these credentials within 1-2 days."
+      ],
+      "list": [
+        {
+          "title": "ShipStation",
+          "description": "This integration helps businesses with e-commerce order fulfillment and automation, with a monthly subscription fee.",
+          "icon": {
+            "url": "/images/integrations/icons/shipstation.png",
+            "alt": "ShipStation",
+            "width": 147,
+            "height": 25
+          },
+          "url": "/integrations/ship-station"
+        },
+        {
+          "title": "Shopify",
+          "description": "This integration helps businesses with e-commerce order fulfillment and automation, with a monthly subscription fee.",
+          "icon": {
+            "url": "/images/integrations/icons/shopify.png",
+            "alt": "Shopify",
+            "width": 86,
+            "height": 25
+          },
+          "url": "/integrations/shopify"
+        },
+        {
+          "title": "WooCommerce",
+          "description": "The e-commerce platform of WordPress, WooCommerce, offers full customizability and a customer service team.",
+          "icon": {
+            "url": "/images/integrations/icons/woocommerce.png",
+            "alt": "WooCommerce",
+            "width": 122,
+            "height": 25
+          },
+          "url": "/integrations/woo-commerce"
+        },
+        {
+          "title": "Magento",
+          "description": "An Adobe Company, Magento Commerce, strives to give users the most customizable and engaging shopping solutions.",
+          "icon": {
+            "url": "/images/integrations/icons/magento.png",
+            "alt": "Magento",
+            "width": 91,
+            "height": 25
+          },
+          "buttons": [
+            {
+              "title": "Magento 1.9",
+              "url": "/integrations/magento"
+            },
+            {
+              "title": "Magento 2.0",
+              "url": "/integrations/magento-2"
+            }
+          ]
+        },
+        {
+          "title": "OpenCart",
+          "description": "This platform offers free and open.source e.commerce with built-in SEO features, as well as a supportive community.",
+          "icon": {
+            "url": "/images/integrations/icons/opencart.png",
+            "alt": "OpenCart",
+            "width": 122,
+            "height": 25
+          },
+          "url": "/integrations/open-cart"
+        },
+        {
+          "title": "3DCart",
+          "description": "As an all-in-one software, 3dcart can help entrepreneurs who want to increase visitors, sales, and conversion rates",
+          "icon": {
+            "url": "/images/integrations/icons/3dcart.png",
+            "alt": "3DCart",
+            "width": 85,
+            "height": 25
+          },
+          "url": "/integrations/3d-cart"
+        },
+        {
+          "title": "Volusion",
+          "description": "With a monthly subscription fee, Volusion offers clients who do not write code, the ability to create unique e-commerce stores",
+          "icon": {
+            "url": "/images/integrations/icons/volusion.png",
+            "alt": "Volusion",
+            "width": 128,
+            "height": 25
+          },
+          "url": "/integrations/volusion"
+        },
+        {
+          "title": "Ubercart",
+          "description": "Web developers can use Ubercart \n (a selling point) with Drupal (an entire PHP platform). Ubercart also offers full customizability.",
+          "icon": {
+            "url": "/images/integrations/icons/ubercart.png",
+            "alt": "Ubercart",
+            "width": 78,
+            "height": 25
+          },
+          "url": "/integrations/ubercart.png"
+        },
+        {
+          "title": "ShipWorks",
+          "description": "Paid service shipment preparation.",
+          "icon": {
+            "url": "/images/integrations/icons/shipworks.png",
+            "alt": "ShipWorks",
+            "width": 129,
+            "height": 25
+          },
+          "url": "/integrations/ship-works"
+        },
+        {
+          "title": "ShippingEasy",
+          "description": "Paid service for shipment preparation.",
+          "icon": {
+            "url": "/images/integrations/icons/shippingeasy.png",
+            "alt": "ShippingEasy",
+            "width": 47,
+            "height": 25
+          },
+          "url": "/integrations/shipping-easy"
+        },
+        {
+          "title": "Zen-Cart",
+          "description": "Open Source eCommerce Platform",
+          "icon": {
+            "url": "/images/integrations/icons/zencart.png",
+            "alt": "Zen-Cart",
+            "width": 50,
+            "height": 25
+          },
+          "url": "/integrations/zen-cart"
+        },
+        {
+          "title": "EasyCart",
+          "description": "A Pro plugin is available that allows your customers to take advantage of OptimalShip rates at checkout.",
+          "icon": {
+            "url": "/images/integrations/icons/easycart.png",
+            "alt": "EasyCart",
+            "width": 62,
+            "height": 25
+          },
+          "url": "/integrations/easy-cart"
+        }
+      ]
+    },
+    {
+      "title": "Integrations currently \n unavailable on:",
+      "list": [
+        {
+          "title": "PostalMate",
+          "description": "Unable to offer our discounted rates for retail storefront operations.",
+          "icon": {
+            "url": "/images/integrations/icons/postalmate.png",
+            "alt": "PostalMate",
+            "width": 57,
+            "height": 25
+          },
+          "url": "/integrations/postal-mate"
+        },
+        {
+          "title": "BigCommerce",
+          "description": "BigCommerce recently updated their API. An integration with this platform is being prepared.",
+          "icon": {
+            "url": "/images/integrations/icons/bigcommerce.png",
+            "alt": "BigCommerce",
+            "width": 111,
+            "height": 25
+          },
+          "url": "/integrations/big-commerce"
+        },
+        {
+          "title": "Amazon",
+          "description": "Custom rate tables required.",
+          "icon": {
+            "url": "/images/integrations/icons/amazon.png",
+            "alt": "Amazon",
+            "width": 63,
+            "height": 25
+          },
+          "url": "/integrations/amazon"
+        },
+        {
+          "title": "WorldShip",
+          "description": "UPS Proprietarity/Free software. Does not offer DHL Express integration.",
+          "icon": {
+            "url": "/images/integrations/icons/ups.png",
+            "alt": "WorldShip",
+            "width": 22,
+            "height": 26
+          },
+          "url": "/integrations/world-ship"
+        }
+      ]
+    }
+  ]
+}

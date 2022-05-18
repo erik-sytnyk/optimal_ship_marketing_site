@@ -24,6 +24,7 @@ export const colors = {
 export const dropShadow = '1rem 1rem 1rem rgba(107, 107, 107, 0.1)';
 
 export const boxShadow = '0 0.4rem 2.4rem rgba(0, 0, 0, 0.25)';
+export const boxShadow_2 = '0 0.4rem 2rem rgba(0, 0, 0, 0.12)';
 
 export const mainBorder = `0.4rem solid ${colors.accent_orange}`;
 

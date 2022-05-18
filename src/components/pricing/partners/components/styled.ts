@@ -1,10 +1,10 @@
 import styled, {css} from 'styled-components';
 
-import {colors, mediaQueries, mainFontSmallSpacing} from 'src/styles/shared';
+import {colors, mediaQueries, mainFontSmallSpacing, boxShadow_2} from 'src/styles/shared';
 
 export const wrapper = styled.div`
   background-color: ${colors.white};
-  box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.12);
+  box-shadow: ${boxShadow_2};
   width: 100%;
   margin-bottom: 2.4rem;
 `;

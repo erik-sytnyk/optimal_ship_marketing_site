@@ -77,7 +77,7 @@ function Footer() {
               <Link href="/pricing">Pricing</Link>
             </li>
             <li>
-              <Link href="/integration">Integrations</Link>
+              <Link href="/integrations">Integrations</Link>
             </li>
             <li>
               <Link href="/contact">Contact Us</Link>
