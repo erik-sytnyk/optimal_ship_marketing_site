@@ -18,6 +18,7 @@ const dataService = {
   getPricingOffer,
   getPartners,
   getFAQ,
+  getSupportFAQ,
   getTermsOfServices,
   getPrivacyPolicy,
   getIntegrations
@@ -125,6 +126,13 @@ function getPartners() {
 
 function getFAQ() {
   const data = require('../../data/pages/pricing/faq.json');
+  return data;
+}
+
+// support page
+
+function getSupportFAQ() {
+  const data = require('../../data/pages/support/support.json');
   return data;
 }
 

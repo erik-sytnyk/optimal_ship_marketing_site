@@ -1,0 +1,178 @@
+{
+  "title": "Frequently \n Asked Questions",
+  "list": [
+    {
+      "title": "Account Questions",
+      "icon": {
+        "url": "/images/support/account.png",
+        "alt": "Account Questions",
+        "width": 48,
+        "height": 48
+      },
+      "questions": [
+        {
+          "question": "I cannot locate the DHL Export or Import numbers Optimal Logistics provided me. What can I do?",
+          "answer": "Our customer service department can provide you with your import and export numbers. To get in contact with us, please send an email to customerservice@optimalship.com or call 972-383-9901 (7:00 AM - 7:00 PM CST, M-F)."
+        },
+        {
+          "question": "I have forgotten my Username or Password for OptimalShip Online Tools, what can I do?",
+          "answer": "You can still create a shipment or get a quote with just your export or import number. You can also contact customerservice@optimalship.com or 972-383-9901 to reset your password."
+        }
+      ]
+    },
+    {
+      "title": "Domestic Shipping Questions",
+      "icon": {
+        "url": "/images/support/domestic.png",
+        "alt": "Domestic Shipping Questions",
+        "width": 48,
+        "height": 48
+      },
+      "questions": [
+        {
+          "question": "Does OptimalShip provide domestic shipping?",
+          "answer": "Yes, we have partnered with multiple companies to provide discounted domestic small package and freight options."
+        },
+        {
+          "question": "How do I know if my shipment is small package or freight?",
+          "answer": "A package is considered small package if it is under 150 pounds. Anything over 150 pounds will be shipped via a freight option."
+        },
+        {
+          "question": "How do I get a quote?",
+          "answer": "You can get a quote by visiting www.optimalship.com and selecting “Get a Quote” at the top of the homepage. \n\n You can also call our customer service team at 972-383-9901 or send an email to usaship@optimalship.com. \n\n The information needed to provide you with an accurate quote is origin zip code, destination zip code, shipment weight, and shipment dimensions."
+        },
+        {
+          "question": "How frequently does the fuel-surcharge percentage change?",
+          "answer": "The fuel surcharge is reviewed and updated weekly. This weekly change is depending on competitive fuel surcharge rates of domestic carriers."
+        },
+        {
+          "question": "Will I be charged a pickup fee?",
+          "answer": "Small package shipments do have a pickup fee ranging from $5-$10."
+        },
+        {
+          "question": "How do I schedule a pickup?",
+          "answer": "You can schedule a pickup by vising www.optimalship.com and selecting “Schedule a Pickup”  at the top of the homepage."
+        },
+        {
+          "question": "How will I receive my invoice for my domestic shipment?",
+          "answer": "Invoices are sent out 5-7 business days after the shipment has been delivered."
+        }
+      ]
+    },
+    {
+      "title": "International Shipping Questions",
+      "icon": {
+        "url": "/images/support/international.png",
+        "alt": "International Shipping Questions",
+        "width": 48,
+        "height": 48
+      },
+      "questions": {
+        "DANGEROUS GOODS": [
+          {
+            "question": "What are the requirements for shipping dangerous goods through DHL Express?",
+            "answer": "1.  Dangerous Goods shipments presented to DHL Express for transport must be prepared in accordance with the International Air Transport Association (IATA) regulations. The individuals preparing the shipments must be formally trained on the IATA regulations. \n\n 2.  An Optimal Logistics/DHL Express account number is required. \n\n 3.  The shipper must be recognized as a \"Known Shipper\". \n\n 4. The shipper must be approved to ship dangerous goods internationally."
+          },
+          {
+            "question": "Is there a charge for shipping dangerous goods?",
+            "answer": "Shipments containing dangerous goods incur an additional fee of $117.50."
+          },
+          {
+            "question": "How do I contact a DHL Dangerous Goods Specialist?",
+            "answer": "If you need to speak with a DG Specialist, you can call the DHL dangerous goods department directly at 866-817-3794, or reach out to OptimalShip customer service at 972-383-9901."
+          }
+        ],
+        "DUTY AND TAX FEES": [
+          {
+            "question": "Who determines duty or tax charges?",
+            "answer": "Duty or tax charges are determined by the customs department of each country and not by the carrier or OptimalShip. The charges are country specific and based upon the product type, value of the shipment, and country of manufacture."
+          },
+          {
+            "question": "Who pays duty and tax fees?",
+            "answer": "Duties and taxes can be paid by either the shipper or receiver. The selection of who pays duties and taxes is chosen when the shipping documents are created. A $15 fee applies if the duties and taxes get billed back to the shipper’s account."
+          },
+          {
+            "question": "Will there be charges if a product is designated as a duty free good?",
+            "answer": "Even though duty-free goods are not subject to duty, VAT or other import fees may still be assessed by customs."
+          },
+          {
+            "question": "How do I know if my shipment is dutiable?",
+            "answer": "Each country establishes its own standards as to which goods are considered dutiable. Most product shipment sold for commercial value are considered dutiable. You can refer to each country’s customs website for more information."
+          },
+          {
+            "question": "What does USMCA mean, and do I have to do anything different?",
+            "answer": "The United States-Mexico-Canada Agreement (USMCA) replaced NAFTA in 2020. The agreement between the United States, Canada, and Mexico allows commodities that qualify to receive preferential treatment, such as free or lower rates of duty when shipped between these countries. All shipments, whether they qualify for USMCA preferential treatment, must be cleared by the customs authority of the country they are entering."
+          }
+        ],
+        "FUEL SURCHARGE": [
+          {
+            "question": "How frequently does the fuel-surcharge percentage change?",
+            "answer": "The fuel surcharge is reviewed and updated monthly. This monthly change is depending on competitive fuel surcharge rates of international express carriers, and the jet fuel index."
+          }
+        ],
+        "OVERWEIGHT OR OVERSIZED PACKAGE": [
+          {
+            "question": "Why did I receive an overweight/oversized fee?",
+            "answer": "DHL deems a shipment overweight if it weights 150 lbs. or more (actual weight or dimensional weight) and oversized if any single dimensions exceed 48 inches. Each piece in your shipment that falls into these categories, will incur the overweight/oversized fee of $94.00"
+          },
+          {
+            "question": "Does DHL Express have a maximum weight and size limit?",
+            "answer": "Yes, DHL has a weight limit of 660 lbs. per piece and the total weight for a multi-piece shipment cannot exceed 2,200 lbs. \n\n Length, width, and height of a piece cannot surpass 118 inches."
+          }
+        ],
+        "PICK UP AND DELIVERY": [
+          {
+            "question": "Will I be charged a pickup fee?",
+            "answer": "Optimal Logistics customers receive free pickups for their international shipments."
+          },
+          {
+            "question": "Does Optimal Logistics charge a delivery fee?",
+            "answer": "There is no charge for delivery, unless a delivery is to a residential address ($4.95), or if the delivery is to an extremely rural international location ($0.42 per lb., min. $42)."
+          },
+          {
+            "question": "I was not home when the driver attempted delivery. Will DHL make another attempt?",
+            "answer": "Yes, the driver will automatically attempt delivery the next business day. For a residence before 8:00 PM, for a business before 6:00 PM. After two attempts, the package will be held at the local DHL office until delivery arrangements are made. In most cases, the local DHL office will return the package to the sender in 7 business days unless previous arrangements have been made."
+          },
+          {
+            "question": "How do I schedule a pickup for my packages?",
+            "answer": "There are three ways to schedule a pickup: \n\n You can schedule a pick up on the OptimalShip Online tool. \n\n Or you can contact customerservice@optimalship.com \n\n Or call us at 972-383-9901."
+          }
+        ],
+        "REMOTE LOCATIONS": [
+          {
+            "question": "How do I know if the address I am shipping to is a remote area?",
+            "answer": "Remote areas will vary based on your shipping carrier.  Our customer service team can verify if the zip code you are shipping to is a remote location."
+          },
+          {
+            "question": "Is there a charge for delivery to a Remote Location?",
+            "answer": "Yes.  The DHL fee for delivery to a remote location is $42.00 or $0.42 per pound, if more than 100 lbs."
+          }
+        ],
+        "SHIPPING QUESTIONS": [
+          {
+            "question": "Does DHL Express deliver to APO box addresses?",
+            "answer": "Although DHL Express cannot deliver to PO, APO, or FPO box address you may request the shipment to be held for pickup at the nearest service station. The receiver will need to make pick up arrangements.  Note: The receiver address is still required for customs on international shipments."
+          },
+          {
+            "question": "How can I request an Internal Transaction Number (ITN) for high value commodities \n (Exports valued at $2500 or more) while preparing my waybill?",
+            "answer": "During the online shipment preparation process , you can choose to have DHL file the Electronic Export Information (EEI) with AESDirect on your behalf. If your declared value is $2,500 or more, the section to find this will automatically pop up."
+          }
+        ],
+        "TRACKING A PACKAGE": [
+          {
+            "question": "What is a tracking/air-waybill number (AWB)?",
+            "answer": "Tracking numbers, also referred to as air-waybill numbers are used to identify and track your shipments. This 10-digit number is found under the first barcode of the airway bill. \n\n To check the status of your shipment you may enter your tracking number on the Optimalship Online Tool."
+          },
+          {
+            "question": "What address information is shown on the tracking screen?",
+            "answer": "Due to international privacy laws, DHL can only display limited information. The information usually shown is the city, state, and country for origin and destination locations."
+          },
+          {
+            "question": "How long does DHL hold my shipment tracking information?",
+            "answer": "Full tracking information is retained for only 90 days from the ship date."
+          }
+        ]
+      }
+    }
+  ]
+}
