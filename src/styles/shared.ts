@@ -28,6 +28,11 @@ export const boxShadow_2 = '0 0.4rem 2rem rgba(0, 0, 0, 0.12)';
 
 export const mainBorder = `0.4rem solid ${colors.accent_orange}`;
 
+export const link = css`
+  text-decoration: none;
+  color: ${colors.accent_orange};
+`;
+
 export const title_01 = css`
   font-size: 5.2rem;
   line-height: 6.4rem;

@@ -10,6 +10,7 @@ export const button = styled(Button)`
   padding: 0;
   border-radius: 0.3rem;
   min-width: 3.3rem;
+  box-shadow: none;
 `;
 
 export const arrow = styled.span`

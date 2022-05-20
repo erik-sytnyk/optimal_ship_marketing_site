@@ -12,11 +12,11 @@
       "questions": [
         {
           "question": "I cannot locate the DHL Export or Import numbers Optimal Logistics provided me. What can I do?",
-          "answer": "Our customer service department can provide you with your import and export numbers. To get in contact with us, please send an email to customerservice@optimalship.com or call 972-383-9901 (7:00 AM - 7:00 PM CST, M-F)."
+          "answer": "Our customer service department can provide you with your import and export numbers. To get in contact with us, please send an email to <a href=\"mailto:customerservice@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">customerservice@optimalship.com</a> or call <a href=\"tel:+1-972-383-9901\">972-383-9901</a> (7:00 AM - 7:00 PM CST, M-F)."
         },
         {
           "question": "I have forgotten my Username or Password for OptimalShip Online Tools, what can I do?",
-          "answer": "You can still create a shipment or get a quote with just your export or import number. You can also contact customerservice@optimalship.com or 972-383-9901 to reset your password."
+          "answer": "You can still create a shipment or get a quote with just your export or import number. You can also contact <a href=\"mailto:customerservice@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">customerservice@optimalship.com</a> or <a href=\"tel:+1-972-383-9901\">972-383-9901</a> to reset your password."
         }
       ]
     },
@@ -39,7 +39,7 @@
         },
         {
           "question": "How do I get a quote?",
-          "answer": "You can get a quote by visiting www.optimalship.com and selecting “Get a Quote” at the top of the homepage. \n\n You can also call our customer service team at 972-383-9901 or send an email to usaship@optimalship.com. \n\n The information needed to provide you with an accurate quote is origin zip code, destination zip code, shipment weight, and shipment dimensions."
+          "answer": "You can get a quote by visiting <a href=\"https://www.optimalship.com\" target=\"_blank\" rel=\"noreferrer\">www.optimalship.com</a> and selecting “Get a Quote” at the top of the homepage. <br/><br/> You can also call our customer service team at <a href=\"tel:+1-972-383-9901\">972-383-9901</a> or send an email to <a href=\"mailto:usaship@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">usaship@optimalship.com</a>. <br/><br/> The information needed to provide you with an accurate quote is origin zip code, destination zip code, shipment weight, and shipment dimensions."
         },
         {
           "question": "How frequently does the fuel-surcharge percentage change?",
@@ -51,7 +51,7 @@
         },
         {
           "question": "How do I schedule a pickup?",
-          "answer": "You can schedule a pickup by vising www.optimalship.com and selecting “Schedule a Pickup”  at the top of the homepage."
+          "answer": "You can schedule a pickup by vising <a href=\"https://www.optimalship.com\" target=\"_blank\" rel=\"noreferrer\">www.optimalship.com</a> and selecting “Schedule a Pickup”  at the top of the homepage."
         },
         {
           "question": "How will I receive my invoice for my domestic shipment?",
@@ -71,15 +71,15 @@
         "DANGEROUS GOODS": [
           {
             "question": "What are the requirements for shipping dangerous goods through DHL Express?",
-            "answer": "1.  Dangerous Goods shipments presented to DHL Express for transport must be prepared in accordance with the International Air Transport Association (IATA) regulations. The individuals preparing the shipments must be formally trained on the IATA regulations. \n\n 2.  An Optimal Logistics/DHL Express account number is required. \n\n 3.  The shipper must be recognized as a \"Known Shipper\". \n\n 4. The shipper must be approved to ship dangerous goods internationally."
+            "answer": "<ol><li>Dangerous Goods shipments presented to DHL Express for transport must be prepared in accordance with the International Air Transport Association (IATA) regulations. The individuals preparing the shipments must be formally trained on the IATA regulations.</li><br/><li>An Optimal Logistics/DHL Express account number is required.</li><br/><li>The shipper must be recognized as a \"Known Shipper\".</li><br/><li>The shipper must be approved to ship dangerous goods internationally.</li></ol>"
           },
           {
             "question": "Is there a charge for shipping dangerous goods?",
-            "answer": "Shipments containing dangerous goods incur an additional fee of $117.50."
+            "answer": "Shipments containing dangerous goods incur an additional fee of <strong>$117.50</strong>."
           },
           {
             "question": "How do I contact a DHL Dangerous Goods Specialist?",
-            "answer": "If you need to speak with a DG Specialist, you can call the DHL dangerous goods department directly at 866-817-3794, or reach out to OptimalShip customer service at 972-383-9901."
+            "answer": "If you need to speak with a DG Specialist, you can call the DHL dangerous goods department directly at <a href=\"tel:+1-866-817-3794\">866-817-3794</a>, or reach out to OptimalShip customer service at <a href=\"tel:+1-972-383-9901\">972-383-9901</a>."
           }
         ],
         "DUTY AND TAX FEES": [
@@ -113,11 +113,11 @@
         "OVERWEIGHT OR OVERSIZED PACKAGE": [
           {
             "question": "Why did I receive an overweight/oversized fee?",
-            "answer": "DHL deems a shipment overweight if it weights 150 lbs. or more (actual weight or dimensional weight) and oversized if any single dimensions exceed 48 inches. Each piece in your shipment that falls into these categories, will incur the overweight/oversized fee of $94.00"
+            "answer": "DHL deems a shipment overweight if it weights <strong>150 lbs</strong>. or more (actual weight or dimensional weight) and oversized if any single dimensions exceed <strong>48 inches</strong>. Each piece in your shipment that falls into these categories, will incur the overweight/oversized fee of <strong>$94.00</strong>"
           },
           {
             "question": "Does DHL Express have a maximum weight and size limit?",
-            "answer": "Yes, DHL has a weight limit of 660 lbs. per piece and the total weight for a multi-piece shipment cannot exceed 2,200 lbs. \n\n Length, width, and height of a piece cannot surpass 118 inches."
+            "answer": "Yes, DHL has a weight limit of <strong>660 lbs.</strong> per piece and the total weight for a multi-piece shipment cannot exceed <strong>2,200 lbs.</strong> <br/><br/> Length, width, and height of a piece cannot surpass <strong>118 inches</strong>."
           }
         ],
         "PICK UP AND DELIVERY": [
@@ -127,15 +127,15 @@
           },
           {
             "question": "Does Optimal Logistics charge a delivery fee?",
-            "answer": "There is no charge for delivery, unless a delivery is to a residential address ($4.95), or if the delivery is to an extremely rural international location ($0.42 per lb., min. $42)."
+            "answer": "There is no charge for delivery, unless a delivery is to a residential address <strong>($4.95)</strong>, or if the delivery is to an extremely rural international location <strong>($0.42 per lb., min. $42)</strong>."
           },
           {
             "question": "I was not home when the driver attempted delivery. Will DHL make another attempt?",
-            "answer": "Yes, the driver will automatically attempt delivery the next business day. For a residence before 8:00 PM, for a business before 6:00 PM. After two attempts, the package will be held at the local DHL office until delivery arrangements are made. In most cases, the local DHL office will return the package to the sender in 7 business days unless previous arrangements have been made."
+            "answer": "Yes, the driver will automatically attempt delivery the next business day. For a residence before <strong>8:00 PM</strong>, for a business before <strong>6:00 PM</strong>. After two attempts, the package will be held at the local DHL office until delivery arrangements are made. In most cases, the local DHL office will return the package to the sender in <strong>7 business days</strong> unless previous arrangements have been made."
           },
           {
             "question": "How do I schedule a pickup for my packages?",
-            "answer": "There are three ways to schedule a pickup: \n\n You can schedule a pick up on the OptimalShip Online tool. \n\n Or you can contact customerservice@optimalship.com \n\n Or call us at 972-383-9901."
+            "answer": "There are three ways to schedule a pickup: <br/><br/> You can schedule a pick up on the <a href=\"https://portal.optimalship.com/dashboard\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Online tool</a>. <br/><br/> Or you can contact <a href=\"mailto:customerservice@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">customerservice@optimalship.com</a> <br/><br/> Or call us at <a href=\"tel:+1-972-383-9901\">972-383-9901</a>."
           }
         ],
         "REMOTE LOCATIONS": [
@@ -145,7 +145,7 @@
           },
           {
             "question": "Is there a charge for delivery to a Remote Location?",
-            "answer": "Yes.  The DHL fee for delivery to a remote location is $42.00 or $0.42 per pound, if more than 100 lbs."
+            "answer": "Yes.  The DHL fee for delivery to a remote location is <strong>$42.00</strong> or <strong>$0.42</strong> per pound, if more than <strong>100 lbs</strong>."
           }
         ],
         "SHIPPING QUESTIONS": [
@@ -161,7 +161,7 @@
         "TRACKING A PACKAGE": [
           {
             "question": "What is a tracking/air-waybill number (AWB)?",
-            "answer": "Tracking numbers, also referred to as air-waybill numbers are used to identify and track your shipments. This 10-digit number is found under the first barcode of the airway bill. \n\n To check the status of your shipment you may enter your tracking number on the Optimalship Online Tool."
+            "answer": "Tracking numbers, also referred to as air-waybill numbers are used to identify and track your shipments. This 10-digit number is found under the first barcode of the airway bill. <br/><br/> To check the status of your shipment you may enter your tracking number on the Optimalship Online Tool."
           },
           {
             "question": "What address information is shown on the tracking screen?",
@@ -169,7 +169,7 @@
           },
           {
             "question": "How long does DHL hold my shipment tracking information?",
-            "answer": "Full tracking information is retained for only 90 days from the ship date."
+            "answer": "Full tracking information is retained for only <strong>90 days</strong> from the ship date."
           }
         ]
       }

@@ -13,6 +13,7 @@ export const searchInput = styled.input`
   ${mainFont};
   height: 7.8rem;
   padding-left: 2.9rem;
+  margin-bottom: 2rem;
 
   ::placeholder {
     color: ${colors.type_light_passive};

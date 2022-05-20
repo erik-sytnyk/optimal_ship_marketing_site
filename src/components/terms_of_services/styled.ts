@@ -1,11 +1,6 @@
-import styled, {css} from 'styled-components';
+import styled from 'styled-components';
 
-import {mediaQueries, title_01, body_01, mainFontSmallSpacing, colors} from 'src/styles/shared';
-
-const LINK = css`
-  text-decoration: none;
-  color: ${colors.accent_orange};
-`;
+import {mediaQueries, title_01, body_01, mainFontSmallSpacing, colors, link} from 'src/styles/shared';
 
 export const wrapper = styled.div`
   display: flex;
@@ -41,7 +36,7 @@ export const description = styled.div`
   ${mainFontSmallSpacing};
 
   > a {
-    ${LINK};
+    ${link};
   }
   & li {
     margin-left: 2.5rem;
@@ -73,6 +68,6 @@ export const childListItem = styled.li`
   margin-left: 2.8rem;
 
   > a {
-    ${LINK};
+    ${link};
   }
 `;
