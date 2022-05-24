@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import config from 'src/config';
+
 import boxImage from 'public/images/footer/box.png';
 import mapPinImage from 'public/images/footer/map-pin.png';
 import mapImage from 'public/images/footer/map.png';
@@ -54,9 +56,15 @@ function Footer() {
           <div className="social-media">
             OptimalShip on Social media:
             <div className="social-icons">
-              <Image src={facebookImage} alt="Facebook" />
-              <Image src={instagramImage} alt="Instagram" />
-              <Image src={linkedinImage} alt="LinkedIn" />
+              <a href={config.socialMedia.facebook} target="_blank" rel="noreferrer">
+                <Image src={facebookImage} alt="Facebook" />
+              </a>
+              <a href={config.socialMedia.instagram} target="_blank" rel="noreferrer">
+                <Image src={instagramImage} alt="Instagram" />
+              </a>
+              <a href={config.socialMedia.linkedIn} target="_blank" rel="noreferrer">
+                <Image src={linkedinImage} alt="LinkedIn" />
+              </a>
             </div>
           </div>
         </div>
