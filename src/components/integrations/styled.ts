@@ -57,6 +57,7 @@ export const card = styled.div`
   box-shadow: ${boxShadow_2};
   border-radius: 0.6rem;
   padding: 3.2rem 2.4rem 2.4rem;
+  cursor: pointer;
 `;
 
 export const cardTitle = styled.div`

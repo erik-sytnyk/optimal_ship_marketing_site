@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Router from 'next/router';
 
 import dataService from 'src/services/dataService';
 
@@ -21,7 +22,7 @@ function Integrations() {
               {item.list.map((card, index) => {
                 const image = card.icon;
                 return (
-                  <styled.card key={index}>
+                  <styled.card key={index} onClick={() => Router.push(card.url)}>
                     <div>
                       <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
                       <styled.cardTitle>{card.title}</styled.cardTitle>

@@ -21,7 +21,8 @@ const dataService = {
   getSupportFAQ,
   getTermsOfServices,
   getPrivacyPolicy,
-  getIntegrations
+  getIntegrations,
+  getIntegrationShipStation
 };
 
 // common
@@ -154,6 +155,11 @@ function getPrivacyPolicy() {
 
 function getIntegrations() {
   const data = require('../../data/pages/integrations/platformIntegrations.json');
+  return data;
+}
+
+function getIntegrationShipStation() {
+  const data = require('../../data/pages/integrations/shipStation.json');
   return data;
 }
 
