@@ -1,5 +1,3 @@
-import Router from 'next/router';
-
 import dataService from 'src/services/dataService';
 
 import Button from 'src/components/common/Button';
@@ -12,10 +10,6 @@ function CustomersStories() {
   const data = dataService.getCustomersStories();
 
   const image = data.image;
-
-  function seeStory() {
-    Router.push('/story');
-  }
 
   return (
     <styled.wrapper id="customer-stories-section">
@@ -35,12 +29,12 @@ function CustomersStories() {
         {data.list.map((item, index) => {
           const isOddNumber = index % 2 ? true : false;
 
-          return <CustomerStory key={item.title} story={item} isOddNumber={isOddNumber} action={seeStory} />;
+          return <CustomerStory key={item.title} story={item} isOddNumber={isOddNumber} />;
         })}
       </styled.list>
 
       <styled.buttonContainer>
-        <Button outline onClick={seeStory}>
+        <Button outline onClick={null}>
           {data.button}
         </Button>
       </styled.buttonContainer>
