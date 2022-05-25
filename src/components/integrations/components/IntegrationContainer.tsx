@@ -4,12 +4,13 @@ import * as styled from './IntegrationContainer.styled';
 
 interface Props {
   title: string;
-  subtitle?: string;
+  subtitle: string;
   description?: string;
   items: any;
+  extraItems?: any;
 }
 
-function IntegrationContainer({title, subtitle, description, items}: Props) {
+function IntegrationContainer({title, subtitle, description, items, extraItems}: Props) {
   const navigationTitle = (
     <span>
       Platform Integrations {'>'} <strong>{title}</strong>
@@ -24,17 +25,23 @@ function IntegrationContainer({title, subtitle, description, items}: Props) {
 
       {description && <styled.description dangerouslySetInnerHTML={{__html: description}} />}
 
-      {subtitle && <styled.subtitle>{subtitle}</styled.subtitle>}
+      <styled.subtitle>{subtitle}</styled.subtitle>
 
       <ol>
         {items.map((item, index) => {
           const image = item.image;
 
           return (
-            <styled.listItem key={index}>
+            <styled.listItem key={index} withMargin={!image}>
               <span dangerouslySetInnerHTML={{__html: item.title}} />
 
-              {image && <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />}
+              {image && (
+                <div>
+                  <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
+                </div>
+              )}
+
+              {extraItems && extraItems?.[index] && <>{extraItems[index]}</>}
             </styled.listItem>
           );
         })}

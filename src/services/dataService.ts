@@ -22,7 +22,8 @@ const dataService = {
   getTermsOfServices,
   getPrivacyPolicy,
   getIntegrations,
-  getIntegrationShipStation
+  getIntegrationShipStation,
+  getIntegrationWoocommerce
 };
 
 // common
@@ -160,6 +161,11 @@ function getIntegrations() {
 
 function getIntegrationShipStation() {
   const data = require('../../data/pages/integrations/shipStation.json');
+  return data;
+}
+
+function getIntegrationWoocommerce() {
+  const data = require('../../data/pages/integrations/woocommerce.json');
   return data;
 }
 

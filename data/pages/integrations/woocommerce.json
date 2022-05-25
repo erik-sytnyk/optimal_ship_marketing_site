@@ -1,0 +1,91 @@
+{
+  "title": "Woocommerce",
+  "subtitle": "Steps for WooCommerce integration:",
+  "list": [
+    {
+      "title": "Download latest version of plug-in (version 1.3) Click here to download: <a href=''>optimalship.zip</a>"
+    },
+    {
+      "title": "Open your Wordpress Admin panel, click on Plugins, and select Add New",
+      "image": {
+        "url": "/images/integrations/woocommerce/woocommerce-1.png",
+        "alt": "Add New",
+        "width": 625,
+        "height": 416
+      }
+    },
+    {
+      "title": "Click \"Upload Plugin\" and select the downloaded ZIP.",
+      "image": {
+        "url": "/images/integrations/woocommerce/woocommerce-2.png",
+        "alt": "Upload Plugin",
+        "width": 387,
+        "height": 103
+      }
+    },
+    {
+      "title": "Find Optimal Ship Express International Shipping in your list of plugins and click Activate (if necessary)",
+      "image": {
+        "url": "/images/integrations/woocommerce/woocommerce-3.png",
+        "alt": "Activate",
+        "width": 624,
+        "height": 113
+      }
+    },
+    {
+      "title": "Go to Woocommerce → Settings",
+      "image": {
+        "url": "/images/integrations/woocommerce/woocommerce-4.png",
+        "alt": "Settings",
+        "width": 268,
+        "height": 219
+      }
+    },
+    {
+      "title": "Click on the Shipping Tab",
+      "image": {
+        "url": "/images/integrations/woocommerce/woocommerce-5.png",
+        "alt": "Shipping Tab",
+        "width": 625,
+        "height": 96
+      }
+    },
+    {
+      "title": "Click \"Optimal Ship\" in the Shipping panel sub-menu.",
+      "image": {
+        "url": "/images/integrations/woocommerce/woocommerce-6.png",
+        "alt": "Shipping panel",
+        "width": 625,
+        "height": 97
+      },
+      "content": {
+        "title": "Configuration menu",
+        "image": {
+          "url": "/images/integrations/woocommerce/woocommerce-7.png",
+          "alt": "Configuration menu",
+          "width": 623,
+          "height": 506
+        },
+        "unorderedList": [
+          "<strong>Export Number:</strong> Enter Optimal Ship Export Number. If you do not know your Export Number, please contact <a href=\"mailto:customerservice@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">customerservice@optimalship.com</a> <br/>",
+          "<strong>Enable:</strong> Click the Enable checkbox to begin showing DHL Express with OptimalShip rates in your shopping cart. To remove this shipping service but not uninstall the plugin, uncheck this box. <br/>",
+          "<strong>Enable Dimensional Weights:</strong> If your products have dimensions, click Enable Dimensions Weights. This will allow dimensional weights to be used, resulting in much more accurate rates on larger items. <br/>",
+          "<strong>Custom Surcharge:</strong> Add a Custom Surcharge as desired. This is a flat rate that will be added to the total charge of the shipment and passed on to the client in their shopping cart. <br/>",
+          "<strong>Title:</strong> Adjust title as desired. This is the name that will appear in your client's shopping cart."
+        ]
+      }
+    },
+    {
+      "title": "<strong>Shipping Zones</strong>: Add <strong>DHL with OptimalShip</strong> to international shipping zones as desired."
+    },
+    {
+      "title": "Verify everything is working by adding items to your shopping cart and calculating the shipping cost. You should see <strong>DHL with OptimalShip</strong> (or the name of the service you've provided in Settings) appear as one of the shipping options for international orders.",
+      "image": {
+        "url": "/images/integrations/woocommerce/woocommerce-8.png",
+        "alt": "DHL with OptimalShip",
+        "width": 622,
+        "height": 321
+      }
+    }
+  ]
+}

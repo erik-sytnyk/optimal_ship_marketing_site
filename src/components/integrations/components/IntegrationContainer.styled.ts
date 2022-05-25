@@ -1,16 +1,16 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
 import {mediaQueries, mainFontSmallSpacing, title_01, title_03, body_01, link} from 'src/styles/shared';
 
 export const wrapper = styled.div`
-  padding: 1.6rem 1.6rem 6rem;
+  padding: 1.6rem 1.6rem 4rem;
 
   & a {
     ${link};
   }
 
   @media ${mediaQueries.tablet} {
-    padding: 3.2rem 4rem 6rem 13.5rem;
+    padding: 3.2rem 4rem 4rem 13.5rem;
     max-width: 98.9rem;
   }
 `;
@@ -42,8 +42,14 @@ export const listItem = styled.li`
   list-style-position: inside;
   ${body_01};
 
+  ${props =>
+    props.withMargin &&
+    css`
+      margin-bottom: 4rem;
+    `}
+
   @media ${mediaQueries.tablet} {
     list-style-position: initial;
-    margin-left: 2rem;
+    margin-left: 2.3rem;
   }
 `;
