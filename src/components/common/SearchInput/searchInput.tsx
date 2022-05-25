@@ -4,6 +4,8 @@ import navigationHelper from 'src/helpers/navigationHelper';
 
 import Button from 'src/components/common/Button';
 
+import * as styled from './styled';
+
 function SearchInput() {
   const [trackingNumber, setTrackingNumber] = useState('');
 
@@ -15,10 +17,9 @@ function SearchInput() {
   }
 
   return (
-    <div className="tracking-number-container">
-      <input
+    <styled.container className="tracking-number-container">
+      <styled.input
         name="trackingNumber"
-        className="custom-input search-input"
         placeholder="Enter Any Tracking Nr."
         value={trackingNumber}
         onChange={e => setTrackingNumber(e.target.value)}
@@ -27,7 +28,7 @@ function SearchInput() {
       <Button searchButton onClick={trackingHandler}>
         Search
       </Button>
-    </div>
+    </styled.container>
   );
 }
 

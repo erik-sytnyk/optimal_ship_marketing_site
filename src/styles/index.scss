@@ -4,7 +4,6 @@
 @import './fonts.scss';
 @import '../components/common/Navigation/navigation.module.scss';
 @import '../components/common/Footer/footer.module.scss';
-@import '../components/common/SearchInput/searchInput.module.scss';
 @import '../components/common/Button/button.module.scss';
 @import '../components/common/Circles/circles.module.scss';
 @import '../components/common/Tooltip/tooltip.module.scss';
@@ -56,10 +55,4 @@ body {
   @media (min-width: v.$layout-breakpoint-mobile) {
     margin-top: v.$nav-height;
   }
-}
-
-.tracking-number-container {
-  display: flex;
-  width: 30.9rem;
-  position: relative;
 }

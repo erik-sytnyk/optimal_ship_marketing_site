@@ -1,0 +1,40 @@
+{
+  "title": "Shopify",
+  "description": "The native DHL Express app in Shopify does not provide accurate rates for our users nor does it account for remote area fees when applicable. Use the OptimalShip Shopify app to add your rates into Shopify. <br/><br/> Note: The OptimalShip app is not currently available in the Shopify App Store. We are still working on adding features to the app to enhance its functionality prior to its official release.",
+  "subtitle": "Install the OptimalShip App in Shopify",
+  "list": [
+    {
+      "title": "Log into your store admin panel in Shopify."
+    },
+    {
+      "title": "Find your store's Shopify URL. This should be the URL for your admin panel. For example, our store's Shopify URL is <a href=\"https://optimal-ship.myshopify.com\" target=\"_blank\" rel=\"noreferrer\">https://optimal-ship.myshopify.com</a>. Copy your store's URL and paste it in the box below. Then click Generate Installation URL. Once the link has been generated, click the link. This will begin the installation process."
+    },
+    {
+      "title": "Shopify will show a installation confirmation screen. Click Install unlisted app.",
+      "image": {
+        "url": "/images/integrations/shopify/shopify-1.png",
+        "alt": "Click Install",
+        "width": 858,
+        "height": 733
+      }
+    },
+    {
+      "title": "The app should now be installed in Shopify. From the Shopify Admin Panel, go to Apps and select OptimalShip. Click on the Account Info button. Enter your account information and click Save Account Info. The app should not be enabled in your Shopify store!",
+      "image": {
+        "url": "/images/integrations/shopify/shopify-2.png",
+        "alt": "Add Shopify",
+        "width": 862,
+        "height": 674
+      }
+    },
+    {
+      "title": "Verify that the shipping rate appears in your shopping cart.",
+      "image": {
+        "url": "/images/integrations/shopify/shopify-3.png",
+        "alt": "Verification",
+        "width": 865,
+        "height": 537
+      }
+    }
+  ]
+}
