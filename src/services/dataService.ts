@@ -25,7 +25,8 @@ const dataService = {
   getIntegrationShipStation,
   getIntegrationWoocommerce,
   getIntegrationShopify,
-  getIntegrationMagento
+  getIntegrationMagento,
+  getIntegrationMagento2
 };
 
 // common
@@ -178,6 +179,11 @@ function getIntegrationShopify() {
 
 function getIntegrationMagento() {
   const data = require('../../data/pages/integrations/magento.json');
+  return data;
+}
+
+function getIntegrationMagento2() {
+  const data = require('../../data/pages/integrations/magento2.json');
   return data;
 }
 

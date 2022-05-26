@@ -1,0 +1,99 @@
+{
+  "title": "Magento 2.0",
+  "description": "<strong>Note:</strong> These rates are estimates only they are purely based on the items weight. OptimalShip does pricing based on weight or dimensions based on whichever is greater. There may be some discrepancies based on dimensional weight and actual weight",
+  "button": "Download Zip File",
+  "image": {
+    "url": "/images/integrations/magento_2/magento_2_1.png",
+    "alt": "Note",
+    "width": 650,
+    "height": 140
+  },
+  "subtitle": "Steps to Install OptimalShip Module",
+  "list": [
+    {
+      "title": "Extract the file into the app/code directory in your Magento folder",
+      "image": {
+        "url": "/images/integrations/magento_2/magento_2_2.png",
+        "alt": "Extract",
+        "width": 505,
+        "height": 163
+      },
+      "content": {
+        "title": "If you don't have a app/code folder you can just create one."
+      }
+    },
+    {
+      "title": "Make sure the file structure looks like this after extracting. /path/to/magento2/app/code/OptimalShip/Customshipping/"
+    },
+    {
+      "title": "Open a terminal in the root directory of your magento install and run the following commands:",
+      "content": {
+        "title": "php bin/magento module:enable OptimalShip_Customshipping --clear-static-content <br/> php bin/magento setup:upgrade"
+      }
+    },
+    {
+      "title": "Go to you admin page and open Stores → Config and make sure it is installed <br/><br/> You should see OptimalShip in your side bar we aren't going to change anything in this tab",
+      "images": [
+        {
+          "url": "/images/integrations/magento_2/magento_2_3.png",
+          "alt": "Config",
+          "width": 388,
+          "height": 426
+        },
+        {
+          "url": "/images/integrations/magento_2/magento_2_4.png",
+          "alt": "Config installed",
+          "width": 269,
+          "height": 212
+        }
+      ]
+    },
+    {
+      "title": "Open up the shipping methods page and enable the extension. (full address Stores>Config>Sales>Shipping Methods)",
+      "images": [
+        {
+          "url": "/images/integrations/magento_2/magento_2_5.png",
+          "alt": "Enable",
+          "width": 221,
+          "height": 201
+        },
+        {
+          "url": "/images/integrations/magento_2/magento_2_6.png",
+          "alt": "Enabled",
+          "width": 530,
+          "height": 150
+        }
+      ]
+    },
+    {
+      "title": "Add your account #",
+      "image": {
+        "url": "/images/integrations/magento_2/magento_2_7.png",
+        "alt": "Add account",
+        "width": 862,
+        "height": 204
+      },
+      "content": {
+        "title": "It may be a good idea to add a custom % increase to shipping costs to accommodate dimensional weights."
+      }
+    },
+    {
+      "title": "Set the countries <br/><br/> Since we only do international shipping we need to highlight all of the countries except for the United States. An easy way to do this is to Shift+click the top country and Shift+click the bottom country. This should highlight all the countries. Then Ctrl + click on the United States. All the countries should be highlighted except for the United States.",
+      "image": {
+        "url": "/images/integrations/magento_2/magento_2_8.png",
+        "alt": "Set countries",
+        "width": 503,
+        "height": 361
+      }
+    },
+    {
+      "title": "Test it",
+      "image": {
+        "url": "/images/integrations/magento_2/magento_2_9.png",
+        "alt": "Test it",
+        "width": 678,
+        "height": 235
+      }
+    }
+  ]
+}

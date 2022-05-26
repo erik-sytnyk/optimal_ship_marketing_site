@@ -1,17 +1,21 @@
 import Image from 'next/image';
 
+import Button from 'src/components/common/Button';
+
 import * as styled from './IntegrationContainer.styled';
 
 interface Props {
   title: string;
-  subtitle: string;
   description?: string;
+  button?: string;
+  headerImage?: any;
+  subtitle: string;
   items: any;
   extraItems?: any;
   children?: any;
 }
 
-function IntegrationContainer({title, subtitle, description, items, extraItems, children}: Props) {
+function IntegrationContainer({title, description, button, headerImage, subtitle, items, extraItems, children}: Props) {
   const navigationTitle = (
     <span>
       Platform Integrations {'>'} <strong>{title}</strong>
@@ -26,6 +30,14 @@ function IntegrationContainer({title, subtitle, description, items, extraItems, 
 
       {description && <styled.description dangerouslySetInnerHTML={{__html: description}} />}
 
+      {button && <styled.button>{button}</styled.button>}
+
+      {headerImage && (
+        <div>
+          <Image src={headerImage.url} alt={headerImage.alt} width={headerImage.width} height={headerImage.height} />
+        </div>
+      )}
+
       <styled.subtitle>{subtitle}</styled.subtitle>
 
       <ol>
@@ -34,11 +46,19 @@ function IntegrationContainer({title, subtitle, description, items, extraItems, 
 
           return (
             <styled.listItem key={index} withMargin={!image}>
-              <span dangerouslySetInnerHTML={{__html: item.title}} />
+              <styled.listItemText dangerouslySetInnerHTML={{__html: item.title}} />
 
               {image && (
                 <div>
                   <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
+                </div>
+              )}
+
+              {item.images && (
+                <div>
+                  {item.images.map(img => {
+                    return <Image key={img.alt} src={img.url} alt={img.alt} width={img.width} height={img.height} />;
+                  })}
                 </div>
               )}
 

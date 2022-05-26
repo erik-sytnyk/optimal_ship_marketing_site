@@ -14,7 +14,7 @@ function Magento() {
   const contentImage = content.image;
 
   const extraItems = {
-    [9]: (
+    [index]: (
       <div>
         <ul>
           {content.unorderedList.map((item, index) => {

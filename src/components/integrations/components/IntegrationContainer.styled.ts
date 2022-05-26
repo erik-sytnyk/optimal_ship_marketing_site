@@ -1,5 +1,7 @@
 import styled, {css} from 'styled-components';
 
+import Button from 'src/components/common/Button';
+
 import {mediaQueries, mainFontSmallSpacing, title_01, title_03, body_01, link} from 'src/styles/shared';
 
 export const wrapper = styled.div`
@@ -38,6 +40,14 @@ export const description = styled.div`
   margin-bottom: 3.2rem;
 `;
 
+export const button = styled(Button)`
+  margin: 0 auto 2rem;
+
+  @media ${mediaQueries.tablet} {
+    margin: 0 1.6rem 1.6rem;
+  }
+`;
+
 export const listItem = styled.li`
   list-style-position: inside;
   ${body_01};
@@ -52,4 +62,8 @@ export const listItem = styled.li`
     list-style-position: initial;
     margin-left: 2.3rem;
   }
+`;
+
+export const listItemText = styled.span`
+  word-break: break-word;
 `;
