@@ -8,6 +8,12 @@ import * as styled from './styled';
 function Integrations() {
   const data = dataService.getIntegrations();
 
+  function redirectTo(url) {
+    if (!url) return null;
+
+    Router.push(url);
+  }
+
   return (
     <styled.wrapper>
       {data.items.map(item => {
@@ -21,17 +27,22 @@ function Integrations() {
             <styled.cardList>
               {item.list.map((card, index) => {
                 const image = card.icon;
+                const anyButtons = card.buttons ? true : false;
+
                 return (
-                  <styled.card key={index} onClick={() => Router.push(card.url)}>
+                  <styled.card key={index} clickable={!anyButtons} onClick={() => redirectTo(card.url)}>
                     <div>
                       <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
                       <styled.cardTitle>{card.title}</styled.cardTitle>
                       <styled.cardDescription>{card.description}</styled.cardDescription>
                     </div>
-                    {card.buttons && (
+
+                    {anyButtons && (
                       <styled.cardButtons>
                         {card.buttons.map((button, index) => (
-                          <styled.cardButton key={index}>{button.title}</styled.cardButton>
+                          <styled.cardButton key={index} onClick={() => redirectTo(button.url)}>
+                            {button.title}
+                          </styled.cardButton>
                         ))}
                       </styled.cardButtons>
                     )}

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
 import {mediaQueries, sectionTitle_1, body_01, colors, boxShadow_2, body_03, mainFont} from 'src/styles/shared';
 
@@ -57,7 +57,12 @@ export const card = styled.div`
   box-shadow: ${boxShadow_2};
   border-radius: 0.6rem;
   padding: 3.2rem 2.4rem 2.4rem;
-  cursor: pointer;
+
+  ${props =>
+    props.clickable &&
+    css`
+      cursor: pointer;
+    `}
 `;
 
 export const cardTitle = styled.div`
@@ -77,10 +82,15 @@ export const cardButtons = styled.div`
 
 export const cardButton = styled.button`
   background: ${colors.type_dark};
-  width: 15.2rem;
+  width: 14.4rem;
   height: 3.4rem;
   border-radius: 0.6rem;
   ${mainFont};
   color: ${colors.white};
   border: none;
+  cursor: pointer;
+
+  @media ${mediaQueries.tablet} {
+    width: 15.2rem;
+  }
 `;

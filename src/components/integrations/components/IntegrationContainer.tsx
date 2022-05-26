@@ -8,9 +8,10 @@ interface Props {
   description?: string;
   items: any;
   extraItems?: any;
+  children?: any;
 }
 
-function IntegrationContainer({title, subtitle, description, items, extraItems}: Props) {
+function IntegrationContainer({title, subtitle, description, items, extraItems, children}: Props) {
   const navigationTitle = (
     <span>
       Platform Integrations {'>'} <strong>{title}</strong>
@@ -46,6 +47,8 @@ function IntegrationContainer({title, subtitle, description, items, extraItems}:
           );
         })}
       </ol>
+
+      {children}
     </styled.wrapper>
   );
 }
