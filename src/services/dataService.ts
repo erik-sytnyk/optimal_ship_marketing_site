@@ -26,7 +26,8 @@ const dataService = {
   getIntegrationWoocommerce,
   getIntegrationShopify,
   getIntegrationMagento,
-  getIntegrationMagento2
+  getIntegrationMagento2,
+  getIntegrationOpenCart
 };
 
 // common
@@ -184,6 +185,11 @@ function getIntegrationMagento() {
 
 function getIntegrationMagento2() {
   const data = require('../../data/pages/integrations/magento2.json');
+  return data;
+}
+
+function getIntegrationOpenCart() {
+  const data = require('../../data/pages/integrations/openCart.json');
   return data;
 }
 
