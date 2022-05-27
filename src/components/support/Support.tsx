@@ -1,4 +1,4 @@
-import {useState, useEffect, Fragment} from 'react';
+import {useState, Fragment} from 'react';
 import Image from 'next/image';
 
 import dataService from 'src/services/dataService';
@@ -14,17 +14,51 @@ function Support() {
   const [selectedCategory, setSelectedCategory] = useState<string>('');
   const [search, setSearch] = useState<string>('');
   const [isSearchMode, setIsSearchMode] = useState<boolean>(false);
+  const [foundQuestions, setFoundQuestions] = useState([]);
 
   const data = dataService.getSupportFAQ();
 
-  useEffect(() => {
-    if (!isSearchMode) return;
-
-    if (selectedCategory) setSelectedCategory('');
-  }, [isSearchMode, selectedCategory]);
-
   function onSearchHandler() {
-    setIsSearchMode(search ? true : false);
+    if (!search) {
+      setIsSearchMode(false);
+      setFoundQuestions([]);
+      return;
+    }
+
+    const searchStr = search.toLowerCase();
+
+    let result = [];
+
+    const searchQuestions = arrayToSearch => {
+      arrayToSearch.forEach(item => {
+        if (item.question.toLowerCase().includes(searchStr) || item.answer.toLowerCase().includes(searchStr)) {
+          result.push(item);
+        }
+      });
+    };
+
+    data.list.forEach(listItem => {
+      if (selectedCategory && listItem.title !== selectedCategory) return;
+
+      if (Array.isArray(listItem.questions)) {
+        searchQuestions(listItem.questions);
+      } else {
+        Object.values(listItem.questions).forEach(values => {
+          searchQuestions(values);
+        });
+      }
+    });
+
+    setIsSearchMode(true);
+    setFoundQuestions(result);
+  }
+
+  function renderSearchState() {
+    if (foundQuestions.length === 0) return null;
+
+    return foundQuestions.map((item, index) => {
+      return <Question key={index} questionItem={item} initiallyOpened search={search} />;
+    });
   }
 
   function renderRegularState() {
@@ -90,6 +124,8 @@ function Support() {
         {initialMode && renderInitialState()}
 
         {regularMode && renderRegularState()}
+
+        {isSearchMode && renderSearchState()}
       </styled.wrapper>
     );
   }
