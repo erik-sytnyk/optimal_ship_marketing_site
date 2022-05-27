@@ -11,7 +11,7 @@ function Shopify() {
 
   const [url, setUrl] = useState<string>('');
 
-  const extraItems = {
+  const customItems = {
     [1]: (
       <styled.form>
         <styled.input name="url" placeholder="URL" value={url} onChange={e => setUrl(e.target.value)} />
@@ -26,7 +26,7 @@ function Shopify() {
       description={data.description}
       subtitle={data.subtitle}
       items={data.list}
-      extraItems={extraItems}
+      customItems={customItems}
     />
   );
 }

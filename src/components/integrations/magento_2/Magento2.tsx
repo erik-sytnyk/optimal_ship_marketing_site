@@ -11,7 +11,7 @@ function Magento2() {
     return data.list[index].content.title;
   }
 
-  const extraItems = {
+  const customItems = {
     0: <styled.title>{getExtraItemByIndex(0)}</styled.title>,
     2: <styled.title dangerouslySetInnerHTML={{__html: getExtraItemByIndex(2)}} />,
     5: <styled.title>{getExtraItemByIndex(5)}</styled.title>
@@ -25,7 +25,7 @@ function Magento2() {
       headerImage={data.image}
       subtitle={data.subtitle}
       items={data.list}
-      extraItems={extraItems}
+      customItems={customItems}
     />
   );
 }

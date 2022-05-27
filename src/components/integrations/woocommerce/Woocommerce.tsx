@@ -13,7 +13,7 @@ function Woocommerce() {
   const content = data.list[index].content;
   const contentImage = content.image;
 
-  const extraItems = {
+  const customItems = {
     [index]: (
       <div>
         <styled.title>{content.title}</styled.title>
@@ -29,7 +29,9 @@ function Woocommerce() {
     )
   };
 
-  return <IntegrationContainer title={data.title} subtitle={data.subtitle} items={data.list} extraItems={extraItems} />;
+  return (
+    <IntegrationContainer title={data.title} subtitle={data.subtitle} items={data.list} customItems={customItems} />
+  );
 }
 
 export default Woocommerce;

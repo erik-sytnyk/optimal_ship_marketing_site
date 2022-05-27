@@ -13,7 +13,7 @@ function Magento() {
   const content = data.installList[index].content;
   const contentImage = content.image;
 
-  const extraItems = {
+  const customItems = {
     [index]: (
       <div>
         <ul>
@@ -33,7 +33,7 @@ function Magento() {
       description={data.description}
       subtitle={data.subtitleToInstall}
       items={data.installList}
-      extraItems={extraItems}>
+      customItems={customItems}>
       <styled.subtitle>{data.subtitleToUninstall}</styled.subtitle>
 
       {data.uninstallList.map((item, index) => {

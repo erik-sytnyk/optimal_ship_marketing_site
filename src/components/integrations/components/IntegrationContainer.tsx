@@ -11,11 +11,20 @@ interface Props {
   headerImage?: any;
   subtitle: string;
   items: any;
-  extraItems?: any;
+  customItems?: any;
   children?: any;
 }
 
-function IntegrationContainer({title, description, button, headerImage, subtitle, items, extraItems, children}: Props) {
+function IntegrationContainer({
+  title,
+  description,
+  button,
+  headerImage,
+  subtitle,
+  items,
+  customItems,
+  children
+}: Props) {
   const navigationTitle = (
     <span>
       Platform Integrations {'>'} <strong>{title}</strong>
@@ -62,7 +71,7 @@ function IntegrationContainer({title, description, button, headerImage, subtitle
                 </div>
               )}
 
-              {extraItems && extraItems?.[index] && <>{extraItems[index]}</>}
+              {customItems && customItems?.[index] && <>{customItems[index]}</>}
             </styled.listItem>
           );
         })}

@@ -1,0 +1,107 @@
+{
+  "title": "3DCart",
+  "subtitle": "Steps for 3DCart  integration:",
+  "list": [
+    {
+      "title": "Add DHL as a shipping option with an OptimalShip neutral account #",
+      "image": {
+        "url": "/images/integrations/3d_cart/3dcart_1.png",
+        "alt": "Add DHL",
+        "width": 268,
+        "height": 248
+      },
+      "content": {
+        "orderedList": [
+          "In your 3dcart admin panel click on \"Settings\"",
+          "Click on Shipping",
+          "In the Shipping Settings section click on \"Edit Settings\"",
+          "Click Enter Credentials for DHL",
+          "Enter DHL Neutral Account # for OptimalShip",
+          "Click Save"
+        ],
+        "images": {
+          "2": {
+            "url": "/images/integrations/3d_cart/3dcart_2.png",
+            "alt": "Shipping Settings",
+            "width": 624,
+            "height": 258
+          },
+          "3": {
+            "url": "/images/integrations/3d_cart/3dcart_3.png",
+            "alt": "Click Enter Credentials for DHL",
+            "width": 861,
+            "height": 154
+          },
+          "5": {
+            "url": "/images/integrations/3d_cart/3dcart_4.png",
+            "alt": "Save",
+            "width": 624,
+            "height": 193
+          }
+        }
+      }
+    },
+    {
+      "title": "Modify Shipping Rate",
+      "image": {
+        "url": "/images/integrations/3d_cart/3dcart_5.png",
+        "alt": "Modify Shipping Rate",
+        "width": 221,
+        "height": 201
+      },
+      "content": {
+        "orderedList": [
+          "In your 3dcart admin panel click on \"Settings\"",
+          "Click on Shipping",
+          "In the Shipping Methods section click on \"Select Methods\"",
+          "Find DHL and click \"add methods\"",
+          "Set Shipping Country to \"ALL\" and Shipping State to \"ALL\"",
+          "Select \"Express Worldwide\"",
+          "Click \"Add\"",
+          "In the Express WorldWide method that you just created click \"Settings”",
+          "Enter the discount amount given to you by OptimalShip. Make sure the '%' box is checked and you have a '-' in front to indicate a discounted rate.",
+          "Click \"Save\" in the top right corner of the page",
+          "Appropriate DHL Express rates should now populate for international shipments"
+        ],
+        "images": {
+          "2": {
+            "url": "/images/integrations/3d_cart/3dcart_6.png",
+            "alt": "Shipping Methods",
+            "width": 624,
+            "height": 230
+          },
+          "3": {
+            "url": "/images/integrations/3d_cart/3dcart_7.png",
+            "alt": "Add Methods",
+            "width": 506,
+            "height": 157
+          },
+          "6": {
+            "url": "/images/integrations/3d_cart/3dcart_8.png",
+            "alt": "Add Method",
+            "width": 625,
+            "height": 279
+          },
+          "7": {
+            "url": "/images/integrations/3d_cart/3dcart_9.png",
+            "alt": "Settings",
+            "width": 506,
+            "height": 163
+          },
+          "9": {
+            "url": "/images/integrations/3d_cart/3dcart_10.png",
+            "alt": "Save",
+            "width": 862,
+            "height": 172
+          },
+          "10": {
+            "url": "/images/integrations/3d_cart/3dcart_11.png",
+            "alt": "Refresh rates",
+            "width": 506,
+            "height": 265
+          }
+        }
+      }
+    }
+  ]
+}
