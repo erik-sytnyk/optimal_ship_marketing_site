@@ -29,7 +29,8 @@ const dataService = {
   getIntegrationMagento2,
   getIntegrationOpenCart,
   getIntegration3DCart,
-  getIntegrationVolusion
+  getIntegrationVolusion,
+  getIntegrationUbercart
 };
 
 // common
@@ -202,6 +203,11 @@ function getIntegration3DCart() {
 
 function getIntegrationVolusion() {
   const data = require('../../data/pages/integrations/volusion.json');
+  return data;
+}
+
+function getIntegrationUbercart() {
+  const data = require('../../data/pages/integrations/ubercart.json');
   return data;
 }
 

@@ -9,7 +9,7 @@ interface Props {
 
 function OrderedList({list, images}: Props) {
   return (
-    <ol type="a">
+    <styled.orderedList type="a">
       {list.map((item, index) => {
         const image = images[index];
 
@@ -24,7 +24,7 @@ function OrderedList({list, images}: Props) {
           </styled.listItem>
         );
       })}
-    </ol>
+    </styled.orderedList>
   );
 }
 

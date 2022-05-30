@@ -5,7 +5,7 @@
     {
       "title": "Add DHL International Express as a shiping option",
       "content": {
-        "title": "<br/>*Currently the DHL international express option does not work on volusion.* <br/> It does not connect to their rates and has an error and will give back the back up rate. <br/> If they do get this fixed, this walk through will show you how to set up DHL rates to reflect your optimal ship discounts.<br/><br/>",
+        "title": "<br/>*Currently the DHL international express option does not work on volusion.* <br/> It does not connect to their rates and has an error and will give back the back up rate. <br/> If they do get this fixed, this walk through will show you how to set up DHL rates to reflect your optimal ship discounts.",
         "orderedList": [
           "From the admin panel click Settings -> Shipping",
           "Scroll down to advanced settings",
