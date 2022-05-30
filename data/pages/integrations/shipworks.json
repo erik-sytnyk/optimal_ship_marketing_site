@@ -1,0 +1,46 @@
+{
+  "title": "Shipworks",
+  "description": "DHL shipment preparation is available through Shipworks using your export or import number provided to you by OptimalShip. <strong>Your DHL shipping rates will not appear within Shipworks.</strong> In order to check your rates prior to shipping with DHL, please use the OptimalShip quote tool found here: <a href=\"https://portal.optimalship.com/dashboard\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Quote Tool</a>",
+  "subtitle": "Steps to Configurate Shipworks Account",
+  "list": [
+    {
+      "title": "Log into Shipworks and go to <strong>Manage → Shipping Settings</strong>",
+      "image": {
+        "url": "/images/integrations/shipworks/shipworks-1.png",
+        "alt": "Shipworks 1",
+        "width": 862,
+        "height": 419
+      }
+    },
+    {
+      "title": "Select <strong>DHL Express</strong> and then click <strong>Setup</strong>",
+      "image": {
+        "url": "/images/integrations/shipworks/shipworks-2.png",
+        "alt": "Shipworks 2",
+        "width": 861,
+        "height": 362
+      }
+    },
+    {
+      "title": "Enter your DHL export or import number provided to you by OptimalShip and click <strong>Next</strong>",
+      "image": {
+        "url": "/images/integrations/shipworks/shipworks-3.png",
+        "alt": "Shipworks 3",
+        "width": 861,
+        "height": 869
+      }
+    },
+    {
+      "title": "Complete setup by adding and confirming the remainder of the shipper information."
+    },
+    {
+      "title": "Once the shipping account is configured, Shipworks will allow you to print labels and retrieve tracking details. Shipworks will not be able to pull the shipment rate internally, but you can still complete your shipment within the system.",
+      "image": {
+        "url": "/images/integrations/shipworks/shipworks-5.png",
+        "alt": "Shipworks 5",
+        "width": 625,
+        "height": 378
+      }
+    }
+  ]
+}

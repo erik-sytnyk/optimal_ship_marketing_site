@@ -30,7 +30,8 @@ const dataService = {
   getIntegrationOpenCart,
   getIntegration3DCart,
   getIntegrationVolusion,
-  getIntegrationUbercart
+  getIntegrationUbercart,
+  getIntegrationShipworks
 };
 
 // common
@@ -208,6 +209,11 @@ function getIntegrationVolusion() {
 
 function getIntegrationUbercart() {
   const data = require('../../data/pages/integrations/ubercart.json');
+  return data;
+}
+
+function getIntegrationShipworks() {
+  const data = require('../../data/pages/integrations/shipworks.json');
   return data;
 }
 
