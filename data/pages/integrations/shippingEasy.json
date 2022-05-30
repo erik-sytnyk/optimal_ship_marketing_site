@@ -1,0 +1,46 @@
+{
+  "title": "ShippingEasy",
+  "description": "DHL Express shipment preparation is available through ShippingEasy using your export or import number provided to you by OptimalShip. Your DHL shipping rates will not appear within ShippingEasy. In order to check your rates prior to shipping with DHL, please use the OptimalShip quote tool found here: <a href=\"https://portal.optimalship.com/dashboard\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Quote Tool</a>",
+  "subtitle": "Steps to Configurate ShippingEasy Account",
+  "list": [
+    {
+      "title": "Log into ShippingEasy and go to <strong>Settings</strong> and select <strong>One Balance and Carriers</strong>",
+      "images": [
+        {
+          "url": "/images/integrations/shipping_easy/shipping-easy-1_1.png",
+          "alt": "Shipping Easy 1-1",
+          "width": 624,
+          "height": 180
+        },
+        {
+          "url": "/images/integrations/shipping_easy/shipping-easy-1_2.png",
+          "alt": "Shipping Easy 1-2",
+          "width": 507,
+          "height": 402
+        }
+      ]
+    },
+    {
+      "title": "Select <strong>DHL Express</strong> and then click <strong>Setup</strong>",
+      "image": {
+        "url": "/images/integrations/shipping_easy/shipping-easy-2.png",
+        "alt": "Shipping Easy 2",
+        "width": 863,
+        "height": 160
+      }
+    },
+    {
+      "title": "Enter your DHL export or import number provided to you by OptimalShip and click <strong>Connect Account</strong>",
+      "image": {
+        "url": "/images/integrations/shipping_easy/shipping-easy-3.png",
+        "alt": "Shipping Easy 3",
+        "width": 862,
+        "height": 398
+      }
+    },
+    {
+      "title": "Complete setup by adding and confirming the remainder of the shipper information."
+    }
+  ],
+  "context": "Once the shipping account is configured, ShippingEasy will allow you to print labels and retrieve tracking details. ShippingEasy will not be able to pull the shipment rate internally, but you can still complete your shipment within the system."
+}
