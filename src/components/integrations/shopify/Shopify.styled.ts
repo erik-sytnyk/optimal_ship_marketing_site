@@ -2,8 +2,7 @@ import styled from 'styled-components';
 
 import Button from 'src/components/common/Button';
 
-import {mediaQueries} from 'src/styles/shared';
-import {input as StyledInput} from 'src/components/common/SearchInput/styled';
+import {mediaQueries, input as inputStyles} from 'src/styles/shared';
 
 export const form = styled.div`
   display: flex;
@@ -16,7 +15,8 @@ export const form = styled.div`
   }
 `;
 
-export const input = styled(StyledInput)`
+export const input = styled.input`
+  ${inputStyles};
   flex: 1;
 `;
 

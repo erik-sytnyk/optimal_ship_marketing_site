@@ -21,6 +21,7 @@ const dataService = {
   getSupportFAQ,
   getTermsOfServices,
   getPrivacyPolicy,
+  getContactUs,
   getIntegrations,
   getIntegrationShipStation,
   getIntegrationWoocommerce,
@@ -158,6 +159,13 @@ function getTermsOfServices() {
 
 function getPrivacyPolicy() {
   const data = require('../../data/pages/privacy_policy/privacyPolicy.json');
+  return data;
+}
+
+// contact us page
+
+function getContactUs() {
+  const data = require('../../data/pages/contact_us/contactUs.json');
   return data;
 }
 

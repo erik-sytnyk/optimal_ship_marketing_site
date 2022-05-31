@@ -15,6 +15,7 @@ export const colors = {
   bg_accent_orange: '#ffeae4',
   bg_grey: '#eeeeee',
 
+  gray_2: '4F4F4F',
   gray_6: '#f2f2f2',
   bg_grey_2: '#e9e9e9',
   lists_grey: '#f3f3f3',
@@ -118,3 +119,26 @@ export const mediaQueries = {
   tablet: 'screen and (min-width: 768px)',
   laptop: 'screen and (min-width: 1200px)'
 };
+
+export const input = css`
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  padding: 1.2rem 0.8rem;
+  color: ${colors.type_dark};
+  border: 0.1rem solid ${colors.type_light_passive};
+  height: 4.6rem;
+  ${mainFont};
+
+  &::placeholder {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: ${colors.type_light_passive};
+  }
+
+  &:focus {
+    outline: none;
+    border-color: rgba(${colors.accent_orange}, 0.5);
+  }
+`;

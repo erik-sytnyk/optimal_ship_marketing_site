@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import Layout, {siteTitle} from 'src/components/common/layout';
 
-import UnderConstruction from 'src/components/common/UnderConstruction';
+import ContactUs from 'src/components/contact/ContactUs';
 
 function Contact() {
   return (
@@ -11,7 +11,7 @@ function Contact() {
         <title>{siteTitle} - Contact Us</title>
       </Head>
 
-      <UnderConstruction />
+      <ContactUs />
     </Layout>
   );
 }

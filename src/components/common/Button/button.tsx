@@ -4,14 +4,16 @@ import classNames from 'classnames';
 Button.propTypes = {
   searchButton: PropTypes.bool,
   outline: PropTypes.bool,
-  onClick: PropTypes.func
+  onClick: PropTypes.func,
+  disabled: PropTypes.bool
 };
 
 Button.defaultProps = {
-  className: ''
+  className: '',
+  disabled: false
 };
 
-function Button({children, searchButton, outline, onClick, className}) {
+function Button({children, searchButton, outline, disabled, onClick, className}) {
   function clickButton() {
     if (!onClick) return;
 
@@ -27,7 +29,7 @@ function Button({children, searchButton, outline, onClick, className}) {
     });
 
     return (
-      <button className={buttonClass} onClick={clickButton}>
+      <button className={buttonClass} disabled={disabled} onClick={clickButton}>
         {children}
       </button>
     );
