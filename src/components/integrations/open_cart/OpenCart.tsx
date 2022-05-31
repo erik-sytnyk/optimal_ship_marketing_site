@@ -7,8 +7,12 @@ import * as styled from './OpenCart.styled';
 function ShipStation() {
   const data = dataService.getIntegrationOpenCart();
 
+  function downloadFile() {
+    window.open('https://www.optimalship.com/helps/opencart/optimalship.ocmod.zip', '_blank');
+  }
+
   const customItems = {
-    0: <styled.button>Download OpenChart File</styled.button>,
+    0: <styled.button onClick={downloadFile}>Download OpenChart File</styled.button>,
     7: (
       <ol type="a">
         {data.list[7].content.orderedList.map((item, index) => {

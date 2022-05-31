@@ -6,7 +6,7 @@
       "title": "Install OptimalShip Module",
       "content": {
         "orderedList": [
-          "Download the OptimalShip module for Drupal/Ubercart. This can be found here: <a href=\"\">Download ZIP file</a>",
+          "Download the OptimalShip module for Drupal/Ubercart. This can be found here: <a href=\"https://www.optimalship.com/helps/drupal/optimal_shipping-master.zip\" target=\"_blank\" rel=\"noreferrer\">Download ZIP file</a>",
           "Go to the Admin Panel of your Drupal/Ubercart store. Click Modules.",
           "Click \"Install new module\" in the Modules window.",
           "Click on \"Choose File\" and find the download module ZIP file. Click \"Install.\"",

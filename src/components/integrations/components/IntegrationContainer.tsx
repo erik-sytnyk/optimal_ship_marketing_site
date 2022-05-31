@@ -7,7 +7,7 @@ import * as styled from './IntegrationContainer.styled';
 interface Props {
   title: string;
   description?: string;
-  button?: string;
+  button?: any;
   headerImage?: any;
   subtitle: string;
   items: any;
@@ -25,6 +25,10 @@ function IntegrationContainer({
   customItems,
   children
 }: Props) {
+  function onButtonClick() {
+    window.open(button.url, '_blank');
+  }
+
   const navigationTitle = (
     <span>
       Platform Integrations {'>'} <strong>{title}</strong>
@@ -39,7 +43,7 @@ function IntegrationContainer({
 
       {description && <styled.description dangerouslySetInnerHTML={{__html: description}} />}
 
-      {button && <styled.button>{button}</styled.button>}
+      {button && <styled.button onClick={onButtonClick}>{button.text}</styled.button>}
 
       {headerImage && (
         <div>

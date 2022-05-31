@@ -1,7 +1,10 @@
 {
   "title": "Magento 2.0",
   "description": "<strong>Note:</strong> These rates are estimates only they are purely based on the items weight. OptimalShip does pricing based on weight or dimensions based on whichever is greater. There may be some discrepancies based on dimensional weight and actual weight",
-  "button": "Download Zip File",
+  "button": {
+    "url": "https://www.optimalship.com/helps/magento_/OptimalShip.zip",
+    "text": "Download Zip File"
+  },
   "image": {
     "url": "/images/integrations/magento_2/magento_2_1.png",
     "alt": "Note",

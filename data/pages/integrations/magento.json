@@ -4,7 +4,7 @@
   "subtitleToInstall": "Steps to Install OptimalShip Module",
   "installList": [
     {
-      "title": "Download the <a href=''>TGZ file here</a>"
+      "title": "Download the <a href=\"https://www.optimalship.com/helps/magento_1.9/Optimal_Shipping-1.0.0.tgz\" target=\"_blank\" rel=\"noreferrer\">TGZ file here</a>"
     },
     {
       "title": "Open your Wordpress Admin panel, click on Plugins, and select Add New",
