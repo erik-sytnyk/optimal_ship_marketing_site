@@ -59,7 +59,9 @@ function ContactUsForm({emailTo}: Props) {
             <styled.description>Send us a message!</styled.description>
           </div>
 
-          <Image src="/images/plane.png" alt="Plane" width="102" height="102" />
+          <styled.imageContainer>
+            <Image src="/images/plane.png" alt="Plane" width="102" height="102" />
+          </styled.imageContainer>
         </styled.header>
 
         <styled.row>

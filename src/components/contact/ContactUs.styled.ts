@@ -6,7 +6,7 @@ export const wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 3.2rem 1.6rem 6rem;
+  padding: 3.2rem 1.6rem 8rem;
 
   @media ${mediaQueries.tablet} {
     padding: 6rem 13.5rem 11.8rem;

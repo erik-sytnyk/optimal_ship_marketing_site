@@ -6,48 +6,56 @@ import {mediaQueries, colors, boxShadow_2, title_02, body_02, mainFont, input as
 
 export const form = styled.div`
   width: 100%;
-  background: ${colors.white};
-  box-shadow: ${boxShadow_2};
-  padding: 3.2rem 2.6rem 4rem;
 
   @media ${mediaQueries.tablet} {
     width: 57.7rem;
+    background: ${colors.white};
+    box-shadow: ${boxShadow_2};
+    padding: 3.2rem 2.6rem 4rem;
   }
 `;
 
 export const header = styled.div`
   display: flex;
   align-items: flex-start;
-  margin-bottom: 3.5rem;
+  margin-bottom: 12.4rem;
+  position: relative;
 
   @media ${mediaQueries.tablet} {
     align-items: flex-end;
+    margin-bottom: 3.5rem;
   }
 `;
 
 export const title = styled.div`
   ${title_02};
   margin-bottom: 1.2rem;
-  margin-right: 3.2rem;
+
+  @media ${mediaQueries.tablet} {
+    margin-right: 3.2rem;
+  }
 `;
 
 export const description = styled.div`
   ${body_02};
 `;
 
+export const imageContainer = styled.div`
+  position: absolute;
+  right: 0;
+  top: 6rem;
+
+  @media ${mediaQueries.tablet} {
+    position: initial;
+  }
+`;
+
 export const row = styled.div`
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 
   > div {
-    width: 100%;
-  }
-
-  @media ${mediaQueries.tablet} {
-    > div {
-      width: auto;
-    }
+    width: auto;
   }
 `;
 
@@ -66,7 +74,7 @@ export const label = styled.div`
 `;
 
 export const input = styled.input`
-  width: 100%;
+  width: 16.8rem;
   margin-bottom: 4rem;
   ${inputStyles};
 
