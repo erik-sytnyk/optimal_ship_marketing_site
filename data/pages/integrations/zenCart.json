@@ -1,0 +1,59 @@
+{
+  "title": "Zen Cart",
+  "description": "Once installed in Zen Cart, this plugin will show your DHL Express through OptimalShip rates in your online store.",
+  "subtitle": "Steps to Configurate Zen Cart Account",
+  "list": [
+    {
+      "title": "Download the latest version of the Zen Cart plugin (version 1.0.1). Click here to download: <a href=\"https://www.optimalship.com/helps/zen-cart/optimalship-1.0.1.zip\" target=\"_blank\" rel=\"noreferrer\">optimalship-1.0.1.zip</a>"
+    },
+    {
+      "title": "Extract the contents of the zip and move the files into their respective locations in your store's installation files. The file path should match the zip file from your site's root folder. There are two files to add: one to root\\includes\\modules\\shipping\\ and the other to root\\includes\\languages\\english\\modules\\shipping\\."
+    },
+    {
+      "title": "From your store's admin page, go to <strong>Modules</strong> and select <strong>Shipping</strong>",
+      "image": {
+        "url": "/images/integrations/zen_cart/zen_cart-3.png",
+        "alt": "From your store's admin page, go to Modules and select Shipping",
+        "width": 505,
+        "height": 234
+      }
+    },
+    {
+      "title": "Find the module named <strong>DHL Express with Optimalship</strong> under Shipping Modules. If necessary, click <strong>Install Module</strong>",
+      "image": {
+        "url": "/images/integrations/zen_cart/zen_cart-4.png",
+        "alt": "Find the module named",
+        "width": 506,
+        "height": 205
+      }
+    },
+    {
+      "title": "Once the module is installed, edit the settings as needed:",
+      "content": {
+        "unorderedList": [
+          "<strong>Enable DHL Express Shipping</strong>: Select True to enable DHL Express rates in your store's shopping cart.",
+          "<strong>OptimalShip Account Number</strong>: Enter your account number provided by OptimalShip.",
+          "<strong>Shipping Surcharge</strong>: Add a flat fee to your shipping rates for your clients. Enter '0.00' for no fee.",
+          "<strong>Shipping Zone</strong>: Select shipping zones where to display DHL Express shipping rates.",
+          "<strong>Sort Order</strong>: Adjust number to order DHL Express against other shipping methods offered."
+        ],
+        "title": "Click <strong>Update</strong> to save configuration.",
+        "image": {
+          "url": "/images/integrations/zen_cart/zen_cart-5.png",
+          "alt": "Click Update",
+          "width": 506,
+          "height": 687
+        }
+      }
+    },
+    {
+      "title": "DHL Express with OptimalShip will now appear as a shipping option for <strong>international shipments</strong>",
+      "image": {
+        "url": "/images/integrations/zen_cart/zen_cart-6.png",
+        "alt": "DHL Express with OptimalShip will now appear as a shipping option",
+        "width": 862,
+        "height": 311
+      }
+    }
+  ]
+}
