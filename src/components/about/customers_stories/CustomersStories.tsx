@@ -1,7 +1,8 @@
+import FEATURE from 'src/constants/features';
+
 import dataService from 'src/services/dataService';
 
 import Button from 'src/components/common/Button';
-
 import CustomerStory from './components/CustomerStory';
 
 import * as styled from './styled';
@@ -33,11 +34,13 @@ function CustomersStories() {
         })}
       </styled.list>
 
-      <styled.buttonContainer>
-        <Button outline onClick={null}>
-          {data.button}
-        </Button>
-      </styled.buttonContainer>
+      {FEATURE.loadMoreCustomerStories && (
+        <styled.buttonContainer>
+          <Button outline onClick={null}>
+            {data.button}
+          </Button>
+        </styled.buttonContainer>
+      )}
     </styled.wrapper>
   );
 }
