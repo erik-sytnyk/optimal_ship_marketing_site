@@ -1,7 +1,5 @@
 import Image from 'next/image';
 
-import Button from 'src/components/common/Button';
-
 import * as styled from './IntegrationContainer.styled';
 
 interface Props {
@@ -13,7 +11,12 @@ interface Props {
   items: any;
   customItems?: any;
   children?: any;
+  childrenPosition?: 'top' | 'bottom';
 }
+
+IntegrationContainer.defaultProps = {
+  childrenPosition: 'bottom'
+};
 
 function IntegrationContainer({
   title,
@@ -23,7 +26,8 @@ function IntegrationContainer({
   subtitle,
   items,
   customItems,
-  children
+  children,
+  childrenPosition
 }: Props) {
   function onButtonClick() {
     window.open(button.url, '_blank');
@@ -50,6 +54,8 @@ function IntegrationContainer({
           <Image src={headerImage.url} alt={headerImage.alt} width={headerImage.width} height={headerImage.height} />
         </div>
       )}
+
+      {childrenPosition === 'top' && children}
 
       <styled.subtitle>{subtitle}</styled.subtitle>
 
@@ -81,7 +87,7 @@ function IntegrationContainer({
         })}
       </ol>
 
-      {children}
+      {childrenPosition === 'bottom' && children}
     </styled.wrapper>
   );
 }

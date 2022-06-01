@@ -15,6 +15,7 @@ export const wrapper = styled.div`
 
 export const container = styled.div`
   max-width: 117rem;
+  width: 100%;
   padding: 0 1.6rem;
   margin-bottom: 6rem;
 `;

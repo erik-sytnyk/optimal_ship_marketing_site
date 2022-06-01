@@ -149,6 +149,17 @@
             "height": 25
           },
           "url": "/integrations/easy-cart"
+        },
+        {
+          "title": "BigCommerce",
+          "description": "BigCommerce recently updated their API. An integration with this platform is being prepared.",
+          "icon": {
+            "url": "/images/integrations/icons/bigcommerce.png",
+            "alt": "BigCommerce",
+            "width": 111,
+            "height": 25
+          },
+          "url": "/integrations/big-commerce"
         }
       ]
     },
@@ -163,19 +174,7 @@
             "alt": "PostalMate",
             "width": 57,
             "height": 25
-          },
-          "url": "/integrations/postal-mate"
-        },
-        {
-          "title": "BigCommerce",
-          "description": "BigCommerce recently updated their API. An integration with this platform is being prepared.",
-          "icon": {
-            "url": "/images/integrations/icons/bigcommerce.png",
-            "alt": "BigCommerce",
-            "width": 111,
-            "height": 25
-          },
-          "url": "/integrations/big-commerce"
+          }
         },
         {
           "title": "Amazon",
@@ -185,8 +184,7 @@
             "alt": "Amazon",
             "width": 63,
             "height": 25
-          },
-          "url": "/integrations/amazon"
+          }
         },
         {
           "title": "WorldShip",
@@ -196,8 +194,7 @@
             "alt": "WorldShip",
             "width": 22,
             "height": 26
-          },
-          "url": "/integrations/world-ship"
+          }
         }
       ]
     }

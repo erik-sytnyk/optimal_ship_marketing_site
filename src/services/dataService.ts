@@ -35,7 +35,8 @@ const dataService = {
   getIntegrationShipworks,
   getIntegrationShippingEasy,
   getIntegrationZenCart,
-  getIntegrationEasyCart
+  getIntegrationEasyCart,
+  getIntegrationBigCommerce
 };
 
 // common
@@ -240,6 +241,11 @@ function getIntegrationZenCart() {
 
 function getIntegrationEasyCart() {
   const data = require('../../data/pages/integrations/easyCart.json');
+  return data;
+}
+
+function getIntegrationBigCommerce() {
+  const data = require('../../data/pages/integrations/bigCommerce.json');
   return data;
 }
 
