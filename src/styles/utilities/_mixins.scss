@@ -6,18 +6,6 @@
   letter-spacing: 0.03rem;
 }
 
-@mixin main-font-small-spacing {
-  font-size: 1.6rem;
-  line-height: 2.2rem;
-  letter-spacing: -0.022em;
-}
-
-@mixin large-font {
-  font-size: 1.8rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.03rem;
-}
-
 @mixin title-01 {
   font-size: 5.2rem;
   line-height: 6.4rem;

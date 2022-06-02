@@ -17,7 +17,7 @@ function SearchInput() {
   }
 
   return (
-    <styled.container className="tracking-number-container">
+    <styled.container>
       <styled.input
         name="trackingNumber"
         placeholder="Enter Any Tracking Nr."

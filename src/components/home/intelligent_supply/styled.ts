@@ -122,7 +122,7 @@ export const tooltip = styled(Tooltip)`
   margin-right: auto;
   width: 34rem;
   padding: 3.2rem 0 2.4rem;
-  background-color: rgba(${colors.type_dark}, 0.96);
+  background-color: rgba(#363740, 0.96);
   z-index: 30;
 
   .quote {

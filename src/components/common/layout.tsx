@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
-import Navigation from './Navigation/navigation';
-import Footer from './Footer/footer';
+import Navigation from './Navigation';
+import Footer from './Footer';
 
 export const siteTitle = 'OptimalShip';
 

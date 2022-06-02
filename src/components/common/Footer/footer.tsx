@@ -13,31 +13,47 @@ import instagramImage from 'public/images/footer/instagram.png';
 import linkedinImage from 'public/images/footer/linkedin.png';
 import trustBadgeImage from 'public/images/footer/trust-badge.png';
 
+import * as styled from './Footer.styled';
+
 function Footer() {
-  function renderLocations() {
+  function renderLocation() {
     return (
-      <div className="location">
-        <div className="location-item">
-          <Image src={boxImage} alt="Optimal Logistics LLC" />
+      <styled.location>
+        <styled.locationItem>
+          <styled.locationIcon>
+            <Image src={boxImage} alt="Optimal Logistics LLC" />
+          </styled.locationIcon>
           Optimal Logistics LLC
-        </div>
-        <div className="location-item">
-          <Image src={mapPinImage} alt="PO BOX 1779" />
+        </styled.locationItem>
+
+        <styled.locationItem>
+          <styled.locationIcon>
+            <Image src={mapPinImage} alt="PO BOX 1779" />
+          </styled.locationIcon>
           PO BOX 1779
-        </div>
-        <div className="location-item">
-          <Image src={mapImage} alt="Allen, TX 75013-0030" />
+        </styled.locationItem>
+
+        <styled.locationItem>
+          <styled.locationIcon>
+            <Image src={mapImage} alt="Allen, TX 75013-0030" />
+          </styled.locationIcon>
           Allen, TX 75013-0030
-        </div>
-        <div className="location-item">
-          <Image src={phoneImage} alt="(972) 383-9901" />
+        </styled.locationItem>
+
+        <styled.locationItem>
+          <styled.locationIcon>
+            <Image src={phoneImage} alt="(972) 383-9901" />
+          </styled.locationIcon>
           (972) 383-9901
-        </div>
-        <div className="location-item">
-          <Image src={mailImage} alt="customerservice@optimalship.com" />
+        </styled.locationItem>
+
+        <styled.locationItem>
+          <styled.locationIcon>
+            <Image src={mailImage} alt="customerservice@optimalship.com" />
+          </styled.locationIcon>
           customerservice@optimalship.com
-        </div>
-      </div>
+        </styled.locationItem>
+      </styled.location>
     );
   }
 
@@ -47,103 +63,105 @@ function Footer() {
 
   function render() {
     return (
-      <footer>
-        <div className="details footer-column">
-          <div className="footer-title">OptimalShip</div>
+      <styled.footer>
+        <styled.column>
+          <styled.header>OptimalShip</styled.header>
 
-          {renderLocations()}
+          {renderLocation()}
 
-          <div className="social-media">
+          <styled.socialMedia>
             OptimalShip on Social media:
-            <div className="social-icons">
-              <a href={config.socialMedia.facebook} target="_blank" rel="noreferrer">
+            <styled.socialIcons className="social-icons">
+              <styled.socialIcon href={config.socialMedia.facebook} target="_blank" rel="noreferrer">
                 <Image src={facebookImage} alt="Facebook" />
-              </a>
-              <a href={config.socialMedia.instagram} target="_blank" rel="noreferrer">
-                <Image src={instagramImage} alt="Instagram" />
-              </a>
-              <a href={config.socialMedia.linkedIn} target="_blank" rel="noreferrer">
-                <Image src={linkedinImage} alt="LinkedIn" />
-              </a>
-            </div>
-          </div>
-        </div>
+              </styled.socialIcon>
 
-        <div className="sitemap footer-column">
-          <div className="footer-header">Sitemap</div>
-          <ul>
-            <li>
+              <styled.socialIcon href={config.socialMedia.instagram} target="_blank" rel="noreferrer">
+                <Image src={instagramImage} alt="Instagram" />
+              </styled.socialIcon>
+
+              <styled.socialIcon href={config.socialMedia.linkedIn} target="_blank" rel="noreferrer">
+                <Image src={linkedinImage} alt="LinkedIn" />
+              </styled.socialIcon>
+            </styled.socialIcons>
+          </styled.socialMedia>
+        </styled.column>
+
+        <styled.column>
+          <styled.title>Sitemap</styled.title>
+          <styled.list>
+            <styled.listItem>
               <Link href="/about">About us</Link>
-            </li>
-            <li>
+            </styled.listItem>
+            <styled.listItem>
               <Link href="/careers">Careers</Link>
-            </li>
-            <li>
+            </styled.listItem>
+            <styled.listItem>
               <Link href="/services">Services</Link>
-            </li>
-            <li>
+            </styled.listItem>
+            <styled.listItem>
               <Link href="/pricing">Pricing</Link>
-            </li>
-            <li>
+            </styled.listItem>
+            <styled.listItem>
               <Link href="/integrations">Integrations</Link>
-            </li>
-            <li>
+            </styled.listItem>
+            <styled.listItem>
               <Link href="/contact">Contact Us</Link>
-            </li>
-            <li>
+            </styled.listItem>
+            <styled.listItem>
               <Link href="/support">FAQs</Link>
-            </li>
-            <li>
+            </styled.listItem>
+            <styled.listItem>
               <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
                 Create an account
               </a>
-            </li>
-          </ul>
-        </div>
+            </styled.listItem>
+          </styled.list>
+        </styled.column>
 
-        <div className="tools footer-column">
-          <div className="footer-header">Helpfull Tools</div>
-          <ul>
-            <li>
+        <styled.column>
+          <styled.title>Helpfull Tools</styled.title>
+          <styled.list>
+            <styled.listItem>
               <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
                 Free Shipment Prep Tool
               </a>
-            </li>
-            <li>
+            </styled.listItem>
+            <styled.listItem>
               <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
                 Quote Tool
               </a>
-            </li>
-            <li>
+            </styled.listItem>
+            <styled.listItem>
               <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
                 Pay Bill Online
               </a>
-            </li>
-            <li>
+            </styled.listItem>
+            <styled.listItem>
               <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
                 Pickup scheduler
               </a>
-            </li>
-          </ul>
-          <div className="trust-badge-container-desktop">{renderTrustBadge()}</div>
-        </div>
+            </styled.listItem>
+          </styled.list>
+          <styled.badgeContainerDesktop>{renderTrustBadge()}</styled.badgeContainerDesktop>
+        </styled.column>
 
-        <div className="legal footer-column">
-          <div className="footer-header">Legal</div>
-          <ul>
-            <li>
+        <styled.column>
+          <styled.title>Legal</styled.title>
+          <styled.list>
+            <styled.listItem>
               <Link href="/terms-of-service">Terms Of Service</Link>
-            </li>
-            <li>
+            </styled.listItem>
+            <styled.listItem>
               <Link href="/privacy-policy">Privacy policy</Link>
-            </li>
-            <li className="hidden" />
-          </ul>
-          <div className="business-owner">&#10086; Woman Owned business</div>
-        </div>
+            </styled.listItem>
+            <styled.listItemHidden />
+          </styled.list>
+          <styled.businessOwner>&#10086; Woman Owned business</styled.businessOwner>
+        </styled.column>
 
-        <div className="trust-badge-container-mobile">{renderTrustBadge()}</div>
-      </footer>
+        <styled.badgeContainerMobile>{renderTrustBadge()}</styled.badgeContainerMobile>
+      </styled.footer>
     );
   }
 

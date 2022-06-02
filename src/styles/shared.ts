@@ -22,6 +22,9 @@ export const colors = {
   dark_hover: '#484957'
 };
 
+export const navHeight = '8rem';
+export const navHeightMobile = '10rem';
+
 export const dropShadow = '1rem 1rem 1rem rgba(107, 107, 107, 0.1)';
 
 export const boxShadow = '0 0.4rem 2.4rem rgba(0, 0, 0, 0.25)';
@@ -114,10 +117,16 @@ export const mainFontSmallSpacing = css`
   letter-spacing: -0.022em;
 `;
 
+export const largeFont = css`
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.03rem;
+`;
+
 export const mediaQueries = {
   mobile: 'screen and (min-width: 576px)',
   tablet: 'screen and (min-width: 768px)',
-  laptop: 'screen and (min-width: 1200px)'
+  laptop: 'screen and (max-width: 1200px)'
 };
 
 export const input = css`

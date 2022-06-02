@@ -2,8 +2,6 @@
 @use 'utilities/variables' as v;
 
 @import './fonts.scss';
-@import '../components/common/Navigation/navigation.module.scss';
-@import '../components/common/Footer/footer.module.scss';
 @import '../components/common/Button/button.module.scss';
 @import '../components/common/Circles/circles.module.scss';
 @import '../components/common/Tooltip/tooltip.module.scss';
