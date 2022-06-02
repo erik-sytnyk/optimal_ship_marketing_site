@@ -1,0 +1,121 @@
+{
+  "title": "Careers",
+  "description": "We are looking to add more talented people to our dynamic teams. Our employees are confident, excellent communicators, passionate about building relationships with new people, and providing world-class service. If this sounds like you, and you too want to enjoy a work experience that has a purpose, is fulfilling, and financially rewarding then quickly apply.",
+  "benefits": {
+    "title": "Benefits of Joining OptimalShip:",
+    "list": ["Competitive Pay", "Flexible Schedule", "Paid Holidays", "Opportunity for Growth"]
+  },
+  "positions": {
+    "title": "Open positions",
+    "items": [
+      {
+        "title": "CSR - Customer Service Representative",
+        "list": [
+          {
+            "subtitle": "Responsibilities:",
+            "list": [
+              "Take an active role in educating customers about our company",
+              "Answering inbound calls and placing outbound client retention calls",
+              "Process over the phone payments",
+              "Understanding client needs and offering solutions and support",
+              "Presenting and delivering information to clients",
+              "Handling all client's questions in a professional and timely manner"
+            ]
+          },
+          {
+            "subtitle": "Qualifications (Required):",
+            "list": [
+              "Customer service experience",
+              "Available Monday through Friday",
+              "Basic knowledge of Microsoft Office"
+            ]
+          },
+          {
+            "subtitle": "Qualifications (Preferred):",
+            "list": [
+              "QuickBooks experience",
+              "Ability to multitask while working with customers",
+              "Detail-oriented",
+              "Proficient typing skills",
+              "Team player",
+              "Friendly and willing to solve problems",
+              "Bilingual is a plus",
+              "Job Type: Part-time",
+              "Pay: $14.00 - $15.00 per hour"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Accounts Receivable Representative",
+        "list": [
+          {
+            "subtitle": "Responsibilities:",
+            "list": [
+              "Email copies of invoices to clients",
+              "Handle payment transactions",
+              "Understanding client needs and offering solutions and support",
+              "Handling all client's questions in a professional and timely manner"
+            ]
+          },
+          {
+            "subtitle": "Qualifications (Required):",
+            "list": [
+              "Prior bookkeeping, customer service, or account receivable experience",
+              "Available Monday through Friday",
+              "Basic knowledge of Microsoft Office"
+            ]
+          },
+          {
+            "subtitle": "Qualifications (Preferred):",
+            "list": [
+              "Problem-solving and organization skills",
+              "Negotiation skills",
+              "QuickBooks experience",
+              "Detail-oriented",
+              "Proficient typing skills",
+              "Bilingual is a plus",
+              "Job Type: Part-time",
+              "Pay: $15.00 - $17.00 per hour"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Retention Specialist",
+        "list": [
+          {
+            "subtitle": "Responsibilities:",
+            "list": [
+              "Take an active role in educating customers about our company",
+              "Making multiple outbound calls daily",
+              "Understanding client needs and offering solutions and support",
+              "Presenting and delivering information to clients regarding their account"
+            ]
+          },
+          {
+            "subtitle": "Qualifications (Required):",
+            "list": [
+              "Customer service experience",
+              "Available Monday through Friday",
+              "Basic knowledge of Microsoft Office"
+            ]
+          },
+          {
+            "subtitle": "Qualifications (Preferred):",
+            "list": [
+              "Detail-oriented",
+              "Proficient typing skills",
+              "Team player",
+              "Friendly and willing to solve problems",
+              "Bilingual is a plus"
+            ]
+          }
+        ],
+        "footer": "<strong>Job Type:</strong> Part-time <br/> Pay: $13.00 - $14.00 per hour"
+      }
+    ],
+    "additionalQuestions": "If you have any additional questions about open positions, please email us to <a href=\"mailto:jobs.allen@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">jobs.allen@optimalship.com</a>",
+    "footer": "Join our OptimalTeam!"
+  }
+}

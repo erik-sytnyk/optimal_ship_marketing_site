@@ -1,0 +1,35 @@
+{
+  "images": [
+    {
+      "url": "/images/careers/delimiter/delimiter-1.png",
+      "alt": "Delimiter",
+      "width": 920,
+      "height": 672
+    },
+    {
+      "url": "/images/careers/delimiter/delimiter-2.png",
+      "alt": "Delimiter",
+      "width": 1008,
+      "height": 672
+    },
+    {
+      "url": "/images/careers/delimiter/delimiter-3.png",
+      "alt": "Delimiter",
+      "width": 916,
+      "height": 672
+    },
+    {
+      "url": "/images/careers/delimiter/delimiter-4.png",
+      "alt": "Delimiter",
+      "width": 1008,
+      "height": 672
+    },
+    {
+      "url": "/images/careers/delimiter/delimiter-5.png",
+      "alt": "Delimiter",
+      "width": 1008,
+      "height": 672
+    }
+  ],
+  "items": ["Assertive", "Goal oriented", "Respectfull", "Committed"]
+}
