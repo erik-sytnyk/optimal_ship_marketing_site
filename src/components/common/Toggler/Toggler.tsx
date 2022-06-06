@@ -1,13 +1,18 @@
 import * as styled from './styled';
 
 interface Props {
-  direction: 'top' | 'down';
+  direction: 'top' | 'down' | 'left' | 'right';
   onToggle: () => void;
+  className?: string;
 }
 
-function Toggler({direction, onToggle}: Props) {
+Toggler.defaultProps = {
+  className: ''
+};
+
+function Toggler({direction, onToggle, className}: Props) {
   return (
-    <styled.button onClick={onToggle}>
+    <styled.button className={className} onClick={onToggle}>
       <styled.arrow direction={direction} />
     </styled.button>
   );

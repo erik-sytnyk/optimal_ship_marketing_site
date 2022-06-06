@@ -25,6 +25,8 @@ export const colors = {
 export const navHeight = '8rem';
 export const navHeightMobile = '10rem';
 
+export const togglerWidth = '3.3rem';
+
 export const dropShadow = '1rem 1rem 1rem rgba(107, 107, 107, 0.1)';
 
 export const boxShadow = '0 0.4rem 2.4rem rgba(0, 0, 0, 0.25)';

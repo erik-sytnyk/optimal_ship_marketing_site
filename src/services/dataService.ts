@@ -22,6 +22,9 @@ const dataService = {
   getTermsOfServices,
   getPrivacyPolicy,
   getContactUs,
+  getCareersIntro,
+  getCareersDelimiter,
+  getCareersFeedback,
   getIntegrations,
   getIntegrationShipStation,
   getIntegrationWoocommerce,
@@ -169,6 +172,23 @@ function getPrivacyPolicy() {
 
 function getContactUs() {
   const data = require('../../data/pages/contact_us/contactUs.json');
+  return data;
+}
+
+// careers page
+
+function getCareersIntro() {
+  const data = require('../../data/pages/careers/careers.json');
+  return data;
+}
+
+function getCareersDelimiter() {
+  const data = require('../../data/pages/careers/delimiter.json');
+  return data;
+}
+
+function getCareersFeedback() {
+  const data = require('../../data/pages/careers/feedback.json');
   return data;
 }
 

@@ -2,23 +2,33 @@ import styled, {css} from 'styled-components';
 
 import Button from 'src/components/common/Button';
 
-import {colors} from 'src/styles/shared';
+import {colors, togglerWidth} from 'src/styles/shared';
 
 export const button = styled(Button)`
-  width: 3.3rem;
-  height: 3.3rem;
+  width: ${togglerWidth};
+  height: ${togglerWidth};
   padding: 0;
   border-radius: 0.3rem;
-  min-width: 3.3rem;
+  min-width: ${togglerWidth};
   box-shadow: none;
 `;
 
 export const arrow = styled.span`
   display: inline-block;
-  transform: rotate(90deg);
+  transform: ${props => (props.direction === 'top' || props.direction === 'down' ? 'rotate(90deg)' : 'rotate(0deg)')};
   color: ${colors.white};
 
   &::before {
-    content: '${props => (props.direction === 'top' ? '\\276E' : '\\276F')}';
+    ${props =>
+      (props.direction === 'top' || props.direction === 'left') &&
+      css`
+        content: '\\276E';
+      `};
+
+    ${props =>
+      (props.direction === 'down' || props.direction === 'right') &&
+      css`
+        content: '\\276F';
+      `};
   }
 `;
