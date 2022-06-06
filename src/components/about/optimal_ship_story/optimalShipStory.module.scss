@@ -51,17 +51,6 @@
         background-color: colors.$bg-accent-orange;
         z-index: 5;
       }
-      #wave-story-top {
-        width: 5.5rem;
-        right: 0;
-        top: 8.1rem;
-        z-index: 15;
-      }
-      #wave-story-bottom {
-        width: 11rem;
-        top: 53.5rem;
-        left: 0;
-      }
       #optimal-story-statistics {
         position: absolute;
         bottom: 0;
@@ -142,15 +131,6 @@
         #optimal-story-rectangle {
           width: 35.6rem;
           top: 3rem;
-        }
-        #wave-story-top {
-          width: 11.5rem;
-          top: 55.6rem;
-        }
-        #wave-story-bottom {
-          width: 16rem;
-          top: 89.4rem;
-          left: 15.7rem;
         }
         #optimal-story-statistics {
           bottom: 0;

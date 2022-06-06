@@ -1,21 +1,11 @@
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
-
-Wave.props = {
-  id: PropTypes.string
-};
+import * as styled from './Wave.styled';
 
 Wave.defaultProps = {
   className: ''
 };
 
-function Wave({id, className}) {
-  const waveClass = classNames({
-    wave: true,
-    [className]: className ? true : false
-  });
-
-  return <div id={id} className={waveClass} />;
+function Wave({className}) {
+  return <styled.container className={className} />;
 }
 
 export default Wave;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Image from 'next/image';
 
-import Circles from 'src/components/common/Circles/circles';
+import Circles from 'src/components/common/Circles';
 import Wave from 'src/components/common/Wave';
 import Tooltip from 'src/components/common/Tooltip';
 

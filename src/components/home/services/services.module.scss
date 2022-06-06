@@ -66,9 +66,6 @@
         border-right: none;
         z-index: 5;
       }
-      .circle-external {
-        display: none;
-      }
       #tooltip-0 {
         padding: 3.2rem 1.5rem 2.4rem 3rem;
         width: 95%;
@@ -104,13 +101,6 @@
         border-right: none;
         z-index: 5;
       }
-      #service-wave-1 {
-        right: 0;
-        bottom: 3.8rem;
-        width: 12rem;
-        height: 4.8rem;
-        z-index: 15;
-      }
       #tooltip-1 {
         padding: 3.2rem 1rem 3.2rem 1.6rem;
         width: 100%;
@@ -143,12 +133,6 @@
         border: v.$main-border;
         border-right: none;
         z-index: 5;
-      }
-      .circle-external {
-        position: absolute;
-        top: 4rem;
-        right: 0rem;
-        z-index: 15;
       }
       #tooltip-2 {
         position: absolute;
@@ -184,13 +168,6 @@
         border: v.$main-border;
         border-right: none;
         z-index: 5;
-      }
-      #service-wave-3 {
-        right: 0;
-        top: 3.2rem;
-        width: 12rem;
-        height: 4.8rem;
-        z-index: 15;
       }
       #tooltip-3 {
         position: absolute;
@@ -254,13 +231,6 @@
           left: 0;
           border: v.$main-border;
         }
-        .circle-external {
-          position: absolute;
-          display: flex;
-          top: 0;
-          right: 4rem;
-          z-index: 20;
-        }
         #tooltip-0 {
           padding: 3.2rem 3rem;
           width: 42rem;
@@ -285,12 +255,6 @@
           width: 36.3rem;
           right: 2rem;
           border: v.$main-border;
-        }
-        #service-wave-1 {
-          right: 15.7rem;
-          bottom: 3.8rem;
-          width: 16rem;
-          height: 4.8rem;
         }
         #tooltip-1 {
           padding: 3.2rem;
@@ -320,10 +284,6 @@
           right: 12.9rem;
           border: v.$main-border;
         }
-        .circle-external {
-          top: 3.9rem;
-          right: 4.1rem;
-        }
         #tooltip-2 {
           width: 47.2rem;
           padding: 4.2rem 3rem 3.2rem;
@@ -349,10 +309,6 @@
           width: 36.3rem;
           right: 11.9rem;
           border: v.$main-border;
-        }
-        #service-wave-3 {
-          width: 16rem;
-          right: 2rem;
         }
         #tooltip-3 {
           width: 44.2rem;

@@ -4,9 +4,9 @@ import Image from 'next/image';
 import dataService from 'src/services/dataService';
 
 import Button from 'src/components/common/Button';
-import Circles from 'src/components/common/Circles';
 import Tooltip from 'src/components/common/Tooltip';
-import Wave from 'src/components/common/Wave';
+
+import * as styled from './Services.styled';
 
 function Services() {
   const data = dataService.getServices();
@@ -40,7 +40,7 @@ function Services() {
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
           </div>
           <div id={`service-rectangle-${index}`} />
-          <Circles />
+          <styled.firstCircles />
           <Tooltip id={`tooltip-${index}`} tooltip={service.tooltip} />
         </div>
       );
@@ -53,7 +53,7 @@ function Services() {
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
           </div>
           <div id={`service-rectangle-${index}`} />
-          <Wave id={`service-wave-${index}`} />
+          <styled.firstWave />
           <Tooltip id={`tooltip-${index}`} tooltip={service.tooltip} />
         </div>
       );
@@ -66,7 +66,7 @@ function Services() {
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
           </div>
           <div id={`service-rectangle-${index}`} />
-          <Circles />
+          <styled.secondCircles />
           <Tooltip id={`tooltip-${index}`} tooltip={service.tooltip} />
         </div>
       );
@@ -79,7 +79,7 @@ function Services() {
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
           </div>
           <div id={`service-rectangle-${index}`} />
-          <Wave id={`service-wave-${index}`} />
+          <styled.secondWave />
           <Tooltip id={`tooltip-${index}`} tooltip={service.tooltip} />
         </div>
       );

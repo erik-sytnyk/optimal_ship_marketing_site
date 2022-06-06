@@ -4,7 +4,8 @@ import Image from 'next/image';
 import dataService from 'src/services/dataService';
 
 import Tooltip from 'src/components/common/Tooltip';
-import Wave from 'src/components/common/Wave';
+
+import * as styled from './OptimalShipStory.styled';
 
 function OptimalShipStory() {
   const data = dataService.getOptimalShipStory();
@@ -40,8 +41,8 @@ function OptimalShipStory() {
           </div>
           <Tooltip id="optimal-story-tooltip" tooltip={data.tooltip} />
           <div id="optimal-story-rectangle" />
-          <Wave id="wave-story-top" />
-          <Wave id="wave-story-bottom" />
+          <styled.waveTop />
+          <styled.waveBottom />
 
           <div id="optimal-story-statistics">
             {successNumbers.items.map((item, index) => {
