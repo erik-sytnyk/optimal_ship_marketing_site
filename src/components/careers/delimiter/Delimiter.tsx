@@ -3,6 +3,8 @@ import {useState} from 'react';
 
 import dataService from 'src/services/dataService';
 
+import Strip from 'src/components/common/Strip';
+
 import * as styled from './Delimiter.styled';
 
 function Delimiter() {
@@ -38,6 +40,8 @@ function Delimiter() {
         <styled.leftButton direction="left" onToggle={onLeftClick} />
         <styled.rightButton direction="right" onToggle={onRightClick} />
       </styled.imagesContainer>
+
+      <Strip items={data.items} page="careers" />
     </div>
   );
 }

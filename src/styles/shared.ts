@@ -33,6 +33,7 @@ export const boxShadow = '0 0.4rem 2.4rem rgba(0, 0, 0, 0.25)';
 export const boxShadow_2 = '0 0.4rem 2rem rgba(0, 0, 0, 0.12)';
 
 export const mainBorder = `0.4rem solid ${colors.accent_orange}`;
+export const darkBorder = `0.1rem solid ${colors.type_dark}`;
 
 export const link = css`
   text-decoration: none;
