@@ -32,7 +32,7 @@ function Delimiter() {
         {images.map((image, index) => {
           return (
             <styled.imageContainer key={index}>
-              <Image src={image.url} alt={image.alt} layout="fill" objectFit="cover" />
+              <Image src={image.url} alt={image.alt} layout="fill" objectFit="cover" priority={false} />
             </styled.imageContainer>
           );
         })}
