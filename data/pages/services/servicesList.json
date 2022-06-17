@@ -17,7 +17,7 @@
     },
     {
       "title": "Optimal Logistics",
-      "description": "OptimalShip takes care of your transportation needs allowing you the freedom to devote your time to doing what you do best – growing your business and increasing the distribution of your products. Our representatives are standing by to offer you the service(s) that is best tailored to your shipping needs.",
+      "description": "OptimalShip takes care of your transportation needs, allowing you the freedom to devote your time to doing what you do best — growing your business and increasing the distribution of your products. Our representatives are standing by to offer you the service or services that are best tailored to your shipping needs.",
       "buttons": [],
       "image": {
         "url": "/images/services/services_list/optimal-logistics.png",
@@ -29,7 +29,7 @@
     },
     {
       "title": "E-Commerce Integrations",
-      "description": "OptimalShip can take care of all your e-commerce needs. Our IT representatives are happy to assist you in integrating with your already existing shipping API, that allows you to receive your OptimalShip rates. We currently have integrations available for most shipping platforms. Follow the link below to check if your platform is supported.",
+      "description": "OptimalShip can take care of all your e-commerce needs. Our IT representatives are happy to assist you in integrating with your already existing shipping API, which will allow you to receive your OptimalShip rates. We currently have integrations available for most shipping platforms. Follow the link below to check if your platform is supported.",
       "buttons": [{"title": "See All Integrations", "url": "/integration"}],
       "image": {
         "url": "/images/services/services_list/platform-integrations.png",
@@ -65,7 +65,7 @@
     },
     {
       "title": "Online \n Bill Pay",
-      "description": "OptimalShip aims to make paying bills as easy as possible with our secure online bill pay tool. Using this tool, you can update your billing contact information in seconds, view your statements, enter your payment information, and even set up automatic payments. Our friendly representatives are available to answer your questions and are happy to personalize your invoices and reports, to your companies’ specific needs.",
+      "description": "OptimalShip aims to make paying bills as easy as possible with our secure Online Bill Pay Tool. Using this tool, you can update your billing contact information in seconds, view your statements, enter your payment information, and even set up automatic payments. Our friendly representatives are available to answer your questions and are happy to personalize your invoices and reports to your company’s specific needs.",
       "buttons": [{"title": "Pay Bill", "url": "https://portal.optimalship.com/dashboard"}],
       "image": {
         "url": "/images/services/services_list/online-bill-pay.png",
@@ -76,9 +76,9 @@
       "extraImage": null
     },
     {
-      "title": "Schedule a \n Pick-up",
-      "description": "You can schedule your pickup(s) online with OptimalShip. Same day pick up is available in most areas. OptimalShip clients have the benefit of free outbound international pickups with DHL and competitive pick-up rates for domestic shipments.",
-      "buttons": [{"title": "Schedule a Pick-Up", "url": "https://portal.optimalship.com/dashboard"}],
+      "title": "Schedule a \n Pickup",
+      "description": "You can schedule your pickups online with OptimalShip. Same-day pickup is available in most areas. OptimalShip clients have the benefit of free outbound international pickups with DHL and competitive pickup rates for domestic shipments.",
+      "buttons": [{"title": "Schedule a Pickup", "url": "https://portal.optimalship.com/dashboard"}],
       "image": {
         "url": "/images/services/services_list/schedule-pickup.png",
         "alt": "Schedule Pickup",
