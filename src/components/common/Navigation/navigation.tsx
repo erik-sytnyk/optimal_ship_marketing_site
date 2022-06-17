@@ -53,7 +53,7 @@ function Navigation() {
       <styled.navLinks>
         <styled.navLink active={router.pathname === '/about' ? true : false}>
           <Link href="/about" passHref>
-            <styled.link onClick={() => toggleMenu()}>About us</styled.link>
+            <styled.link onClick={() => toggleMenu()}>About Us</styled.link>
           </Link>
         </styled.navLink>
         <styled.navLink active={router.pathname === '/services' ? true : false}>

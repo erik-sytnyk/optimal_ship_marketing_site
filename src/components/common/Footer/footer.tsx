@@ -70,7 +70,7 @@ function Footer() {
           {renderLocation()}
 
           <styled.socialMedia>
-            OptimalShip on Social media:
+            OptimalShip on Social Media:
             <styled.socialIcons className="social-icons">
               <styled.socialIcon href={config.socialMedia.facebook} target="_blank" rel="noreferrer">
                 <Image src={facebookImage} alt="Facebook" />
@@ -91,7 +91,7 @@ function Footer() {
           <styled.title>Sitemap</styled.title>
           <styled.list>
             <styled.listItem>
-              <Link href="/about">About us</Link>
+              <Link href="/about">About Us</Link>
             </styled.listItem>
             <styled.listItem>
               <Link href="/careers">Careers</Link>
@@ -113,14 +113,14 @@ function Footer() {
             </styled.listItem>
             <styled.listItem>
               <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
-                Create an account
+                Create an Account
               </a>
             </styled.listItem>
           </styled.list>
         </styled.column>
 
         <styled.column>
-          <styled.title>Helpfull Tools</styled.title>
+          <styled.title>Helpful Tools</styled.title>
           <styled.list>
             <styled.listItem>
               <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
@@ -139,7 +139,7 @@ function Footer() {
             </styled.listItem>
             <styled.listItem>
               <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
-                Pickup scheduler
+                Pickup Scheduler
               </a>
             </styled.listItem>
           </styled.list>
@@ -150,14 +150,14 @@ function Footer() {
           <styled.title>Legal</styled.title>
           <styled.list>
             <styled.listItem>
-              <Link href="/terms-of-service">Terms Of Service</Link>
+              <Link href="/terms-of-service">Terms of Service</Link>
             </styled.listItem>
             <styled.listItem>
-              <Link href="/privacy-policy">Privacy policy</Link>
+              <Link href="/privacy-policy">Privacy Policy</Link>
             </styled.listItem>
             <styled.listItemHidden />
           </styled.list>
-          <styled.businessOwner>&#10086; Woman Owned business</styled.businessOwner>
+          <styled.businessOwner>&#10086; Woman-Owned Business</styled.businessOwner>
         </styled.column>
 
         <styled.badgeContainerMobile>{renderTrustBadge()}</styled.badgeContainerMobile>

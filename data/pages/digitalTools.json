@@ -3,7 +3,7 @@
   "list": [
     {
       "title": "Free Quote Tool",
-      "description": "Receive international or domestic shipping quotes using this simple to navigate tool. OptimalShip offers substantial discounts no matter where you’re shipping to!",
+      "description": "Receive international or domestic shipping quotes using this simple-to-navigate tool. OptimalShip offers substantial discounts no matter where you’re shipping to!",
       "button": "Get a Quote",
       "url": "https://portal.optimalship.com/dashboard"
     },
@@ -20,9 +20,9 @@
       "url": "https://portal.optimalship.com/dashboard"
     },
     {
-      "title": "Schedule Pick-up",
-      "description": "Use this straightforward tool to schedule your pickups quickly. Same day pickups may often be available!",
-      "button": "Schedule a Pick-up",
+      "title": "Schedule Pickup",
+      "description": "Use this straightforward tool to schedule your pickups quickly. Same-day pickups may often be available!",
+      "button": "Schedule a Pickup",
       "url": "https://portal.optimalship.com/dashboard"
     }
   ],
