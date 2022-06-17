@@ -33,7 +33,7 @@ function Navigation() {
   function renderOldWebsiteButton() {
     return (
       <styled.oldWebsiteButton onClick={navigateToOldWebsite}>
-        Take me to old Website
+        Take me to old website
         <styled.icon>
           <Image src="/images/airship.png" alt="Old Website" width="56" height="56" layout="fixed" />
         </styled.icon>
