@@ -129,12 +129,12 @@ function Footer() {
             </styled.listItem>
             <styled.listItem>
               <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
-                Quote Tool
+                Free Quote Tool
               </a>
             </styled.listItem>
             <styled.listItem>
               <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
-                Pay Bill Online
+                Online Bill Pay
               </a>
             </styled.listItem>
             <styled.listItem>

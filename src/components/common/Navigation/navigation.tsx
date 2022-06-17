@@ -38,10 +38,10 @@ function Navigation() {
           <Image src="/images/airship.png" alt="Old Website" width="56" height="56" layout="fixed" />
         </styled.icon>
         <styled.oldWebsiteTooltip>
-          We have currently redesigned our website <br /> but you would rather still use old one?
+          We have recently redesigned our website, <br /> but would you rather use the old one?
           <br />
           <b>
-            No problem, you can still use the old <br /> one!
+            No problem, you can still use it here!
           </b>
         </styled.oldWebsiteTooltip>
       </styled.oldWebsiteButton>

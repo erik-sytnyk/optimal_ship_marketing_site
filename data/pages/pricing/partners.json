@@ -3,15 +3,14 @@
   "list": [
     {
       "partnerName": "DHL",
-      "header": "Shipping to over 220 countries and territories, DHL is the leader in worldwide logistics with great rates wherever the destination may be.",
+      "header": "Shipping to over 220 countries and territories, DHL is the leader in worldwide logistics with great rates, wherever the destination may be.",
       "icon": {
         "url": "/images/pricing/partners/dhl.png",
         "alt": "DHL",
         "width": 85,
         "height": 64
       },
-      "title": "DHL - Shipping to over 220 countries and territories, DHL is the leader in worldwide logistics with great rates wherever the destination may be.",
-      "description": "DHL is our carrier of choice when it comes to international shipping. They have been in business since 1969 and service over 220 countries and territories. They offer a variety of great services at little cost to you.",
+      "title": "DHL is our carrier of choice when it comes to international shipping. They have been in business since 1969 and service over 220 countries and territories. They offer a variety of great services at little cost to you.",
       "items": [
         {
           "title": "DISCOUNTED RATES",
@@ -19,12 +18,12 @@
         },
         {
           "title": "FREE PICKUPS",
-          "description": "DHL Air Express offers free pickups to most non-remote locations. You can find the nearest DHL service station or drop off station near you here:",
+          "description": "DHL Air Express offers free pickups in most non-remote locations. You can find the nearest DHL service station or drop-off station near you here:",
           "link": "https://locator.dhl.com/"
         },
         {
           "title": "DOOR TO DOOR",
-          "description": "DHL Air Express provides a door to door service. DHL also acts as your broker and clears the shipment on your behalf. You can relax while DHL handles everything for you."
+          "description": "DHL Air Express provides door-to-door service. DHL also acts as your broker and clears the shipment on your behalf. You can relax while DHL handles everything for you."
         },
         {
           "title": "3RD PARTY BILLING",
@@ -73,7 +72,6 @@
         "width": 136,
         "height": 38
       },
-      "title": "Easily Create Discounted UPS Shipping Labels with ShipStation",
       "items": [
         {
           "title": "DISCOUNTED RATES",
@@ -82,6 +80,10 @@
         {
           "title": "EXPEDITED SERVICES",
           "description": "You choose when you want your shipment to arrive. From Next Day shipping to regular Ground shipping, we can make sure it arrives on time for the price that you love."
+        },
+        {
+          "title": "EASY SHIPMENT PREPARATION",
+          "description": "It is a fast and easy process to create FedEx shipping labels. You can create your documentation, schedule your pickup, and be on with your day. We are always happy to prepare documentation for you, too."
         }
       ]
     }

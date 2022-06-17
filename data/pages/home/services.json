@@ -19,7 +19,7 @@
     },
     {
       "title": "Free \n Quote Tool",
-      "description": "Using our free Quote Tool, you can quickly view just how much money you are saving by using OptimalShip. To obtain a shipping quote, all you need is the origin and destination countries, weight, and dimensions.",
+      "description": "Using our Free Quote Tool, you can quickly view just how much money you are saving by using OptimalShip. To obtain a shipping quote, all you need is the origin and destination countries, weight, and dimensions.",
       "button": "Get a Quote",
       "url": "https://portal.optimalship.com/dashboard",
       "image": {
@@ -50,7 +50,7 @@
       }
     },
     {
-      "title": "Schedule a \n Pickup",
+      "title": "Pickup \n Scheduler",
       "description": "Quickly and easily schedule a pickup.  Same-day pickups are available in most locations for domestic and international shipments.",
       "button": "Schedule a Pickup",
       "url": "https://portal.optimalship.com/dashboard",
