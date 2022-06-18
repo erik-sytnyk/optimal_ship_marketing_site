@@ -7,7 +7,7 @@
       "title": "Download the <a href=\"https://www.optimalship.com/helps/magento_1.9/Optimal_Shipping-1.0.0.tgz\" target=\"_blank\" rel=\"noreferrer\">TGZ file here</a>"
     },
     {
-      "title": "Open your Wordpress Admin panel, click on Plugins, and select Add New",
+      "title": "Open your Wordpress Admin panel, click on <strong>Plugins</strong>, and select <strong>Add New</strong>.",
       "image": {
         "url": "/images/integrations/magento/magento-1.png",
         "alt": "Add New",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "title": "Go to System → Magento Connect → Magento Connect Manager",
+      "title": "Go to <strong>System</strong> tab, click <strong>Magento Connect</strong>, then select <strong>Magento Connect Manager</strong>.",
       "image": {
         "url": "/images/integrations/magento/magento-2.png",
         "alt": "Connect Manager",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "title": "Scroll down to \"Direct package file upload\" and click \"Choose file\"",
+      "title": "Scroll down to <strong>Direct package file upload</strong> and click <strong>Choose File</strong>.",
       "image": {
         "url": "/images/integrations/magento/magento-3.png",
         "alt": "Close File",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "title": "Select \"Optimal_Shipping-1.0.0.tgz\" and then click Upload.",
+      "title": "Select <strong>Optimal_Shipping-1.0.0.tgz</strong> and then click <strong>Upload</strong>.",
       "image": {
         "url": "/images/integrations/magento/magento-4.png",
         "alt": "Upload",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "title": "Wait for the module to install and click Refresh.",
+      "title": "Wait for the module to install then click <strong>Refresh</strong>.",
       "image": {
         "url": "/images/integrations/magento/magento-5.png",
         "alt": "Refresh",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "title": "Under \"Manage existing extensions,\" verify that Optimal_Shipping now exists.",
+      "title": "Under <strong>Manage existing extensions</strong>, verify that <strong>Optimal_Shipping</strong> now exists.",
       "image": {
         "url": "/images/integrations/magento/magento-6.png",
         "alt": "Verification",
@@ -61,10 +61,10 @@
       }
     },
     {
-      "title": "Click \"Return to Admin\" at the top of the Magento Connect Manager screen and navigate to Settings → Configuration."
+      "title": "Click <strong>Return to Admin</strong> at the top of the Magento Connect Manager screen and navigate to <strong>Settings</strong> and select <strong>Configuration</strong>."
     },
     {
-      "title": "Under \"Configuration\" on the left toolbar, scroll down to SALES and select Shipping Methods.",
+      "title": "Under <strong>Configuration</strong> on the left toolbar, scroll down to <strong>Sales</strong> and select <strong>Shipping Methods</strong>.",
       "image": {
         "url": "/images/integrations/magento/magento-7.png",
         "alt": "Shipping Methods",
@@ -73,17 +73,17 @@
       }
     },
     {
-      "title": "Under \"DHL with OptimalShip,\" complete the following:",
+      "title": "Under <strong>DHL with OptimalShip</strong>, complete the following:",
       "content": {
         "unorderedList": [
-          "<strong>Enabled:</strong> Select \"Yes.\" <br/>",
+          "<strong>Enabled:</strong> Select <strong>Yes</strong>. <br/>",
           "<strong>Account Number:</strong> Enter the account number given to you by OptimalShip. <br/>",
           "<strong>Surcharge:</strong> Add an additional flat fee that will be applied to the DHL with OptimalShip shipping rate in your customer's shopping cart. <br/>",
           "<strong>Carrier title:</strong> The name of the OptimalShip shipping option as it will appear in your customer's shopping cart. <br/>",
-          "<strong>Available for specific countries only:</strong> Select \"Specific Countries.\" <br/>",
-          "<strong>Ship to specific countries:</strong> Select all countries for which the OptimalShip will provide a rate quote. Hold CTRL to select/unselect multiple countries. Press CTRL + A to select all countries. Unselect \"United States\" as an option. <br/>",
+          "<strong>Available for specific countries only:</strong> Select <strong>Specific Countries</strong>. <br/>",
+          "<strong>Ship to specific countries:</strong> Select all countries for which the OptimalShip will provide a rate quote. Hold CTRL to select/unselect multiple countries. Press CTRL + A to select all countries then CTRL + click to unselect <strong>United States</strong> as an option since we only do international shipping. <br/>",
           "<strong>Max product weight:</strong> Leave as the default value unless you prefer to limit DHL shipments at a lower weight. <br/>",
-          "Click \"Save Changes\""
+          "Click <strong>Save Changes</strong>."
         ],
         "image": {
           "url": "/images/integrations/magento/magento-8.png",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "title": "Verify that DHL with OptimalShip appears as a shipping option in your store's shopping cart for international shipments.",
+      "title": "Verify that <strong>DHL with OptimalShip</strong> (or the <strong>Carrier title</strong> you entered) appears as a shipping option in your store's shopping cart for international shipments.",
       "image": {
         "url": "/images/integrations/magento/magento-9.png",
         "alt": "Verification",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "title": "11. Verify that DHL with OptimalShip appears as a shipping option in your store's shopping cart for international shipments.",
+      "title": "2. Under Manage existing extensions, go to Optimal_Shipping, select Uninstall from the drop-down menu, and then click Commit Changes.",
       "image": {
         "url": "/images/integrations/magento/magento-11.png",
         "alt": "Verification",
