@@ -1,10 +1,12 @@
 {
   "title": "OpenCart",
+  "description": "To install the module, you will need to download the file below:",
+  "button": {
+    "url": "https://www.optimalship.com/helps/opencart/optimalship.ocmod.zip",
+    "text": "Download Zip File"
+  },
   "subtitle": "Steps for OpenCart integration:",
   "list": [
-    {
-      "title": "Download optimalship.ocmod.zip file:"
-    },
     {
       "title": "Login to your OpenCart admin panel."
     },
@@ -12,7 +14,7 @@
       "title": "Go to Extensions -> Installer"
     },
     {
-      "title": "Click Upload and select the downloaded zip file from Step 1"
+      "title": "Click Upload and select the zip file you downloaded."
     },
     {
       "title": "Once installed, go to Extensions -> Extensions and under “Choose the extension type”, select “Shipping”"

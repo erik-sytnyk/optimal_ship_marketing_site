@@ -1,11 +1,12 @@
 {
   "title": "Magento 1.9",
-  "description": "<strong>Note:</strong> It is always recommended that you evaluate any extension on a test or beta website <strong>prior to installation on your live website</strong>. <br/><br/> The rates provided by this shipping module are estimates based only on the weight of the items in the shopping cart. DHL determines the final shipping cost based on package weight or the dimensional weight of the package, whichever is greater. If the dimensional weight exceeds the weight of the package, the rates calculated by this module will not be accurate. To add a buffer for the situation, the surcharge field may be used.",
+  "description": "<strong>Note:</strong> It is always recommended that you evaluate any extension on a test or beta website <strong>prior to installation on your live website</strong>. <br/><br/> The rates provided by this shipping module are estimates based only on the weight of the items in the shopping cart. DHL determines the final shipping cost based on package weight or the dimensional weight of the package, whichever is greater. If the dimensional weight exceeds the weight of the package, the rates calculated by this module will not be accurate. To add a buffer for the situation, the surcharge field may be used. </br> </br> To install the module, you will need to download the file below:",
+  "button": {
+    "url": "https://www.optimalship.com/helps/magento_1.9/Optimal_Shipping-1.0.0.tgz",
+    "text": "Download TGZ File"
+  },
   "subtitleToInstall": "Steps to Install OptimalShip Module",
   "installList": [
-    {
-      "title": "Download the <a href=\"https://www.optimalship.com/helps/magento_1.9/Optimal_Shipping-1.0.0.tgz\" target=\"_blank\" rel=\"noreferrer\">TGZ file here</a>"
-    },
     {
       "title": "Open your Wordpress Admin panel, click on <strong>Plugins</strong>, and select <strong>Add New</strong>.",
       "image": {

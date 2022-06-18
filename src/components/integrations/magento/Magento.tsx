@@ -9,7 +9,7 @@ import * as styled from './Magento.styled';
 function Magento() {
   const data = dataService.getIntegrationMagento();
 
-  const index = 9;
+  const index = 8;
   const content = data.installList[index].content;
   const contentImage = content.image;
 
@@ -31,6 +31,7 @@ function Magento() {
     <IntegrationContainer
       title={data.title}
       description={data.description}
+      button={data.button}
       subtitle={data.subtitleToInstall}
       items={data.installList}
       customItems={customItems}>

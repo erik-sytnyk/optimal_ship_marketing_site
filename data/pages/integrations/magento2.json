@@ -1,6 +1,6 @@
 {
   "title": "Magento 2.0",
-  "description": "<strong>Note:</strong> These rates are estimates only. They are purely based on the item's weight. OptimalShip does pricing based on weight or dimensions, whichever is greater. There may be some discrepancies based on dimensional weight and actual weight.",
+  "description": "<strong>Note:</strong> These rates are estimates only. They are purely based on the item's weight. OptimalShip does pricing based on weight or dimensions, whichever is greater. There may be some discrepancies based on dimensional weight and actual weight. </br></br> To install the module, you will need to download the file below:",
   "button": {
     "url": "https://www.optimalship.com/helps/magento_/OptimalShip.zip",
     "text": "Download Zip File"
