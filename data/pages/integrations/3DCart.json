@@ -3,7 +3,7 @@
   "subtitle": "Steps for 3DCart  integration:",
   "list": [
     {
-      "title": "Add DHL as a shipping option with an OptimalShip neutral account #",
+      "title": "Add DHL as a shipping option with an OptimalShip neutral account number.",
       "image": {
         "url": "/images/integrations/3d_cart/3dcart_1.png",
         "alt": "Add DHL",
@@ -12,12 +12,12 @@
       },
       "content": {
         "orderedList": [
-          "In your 3dcart admin panel click on \"Settings\"",
-          "Click on Shipping",
-          "In the Shipping Settings section click on \"Edit Settings\"",
-          "Click Enter Credentials for DHL",
-          "Enter DHL Neutral Account # for OptimalShip",
-          "Click Save"
+          "In your 3Dcart admin panel, click on <strong>Settings</strong>.",
+          "Click on <strong>Shipping</strong>.",
+          "In the <strong>Shipping Settings</strong> section, click on <strong>Edit Settings</strong>.",
+          "Click <strong>Enter Credentials</strong> for DHL.",
+          "Enter DHL Neutral Account number for OptimalShip.",
+          "Click <strong>Save</strong>."
         ],
         "images": {
           "2": {
@@ -51,17 +51,17 @@
       },
       "content": {
         "orderedList": [
-          "In your 3dcart admin panel click on \"Settings\"",
-          "Click on Shipping",
-          "In the Shipping Methods section click on \"Select Methods\"",
-          "Find DHL and click \"add methods\"",
-          "Set Shipping Country to \"ALL\" and Shipping State to \"ALL\"",
-          "Select \"Express Worldwide\"",
-          "Click \"Add\"",
-          "In the Express WorldWide method that you just created click \"Settings”",
-          "Enter the discount amount given to you by OptimalShip. Make sure the '%' box is checked and you have a '-' in front to indicate a discounted rate.",
-          "Click \"Save\" in the top right corner of the page",
-          "Appropriate DHL Express rates should now populate for international shipments"
+          "In your 3Dcart admin panel click on <strong>Settings</strong>.",
+          "Click on <strong>Shipping</strong>.",
+          "In the <strong>Shipping Methods</strong> section click on <strong>Select Methods</strong>.",
+          "Find <strong>DHL</strong> and click <strong>Add Methods</strong>.",
+          "Set Shipping Country to <strong>ALL</strong> and Shipping State to <strong>ALL</strong>.",
+          "Select <strong>Express Worldwide</strong>.",
+          "Click <strong>Add</strong>.",
+          "In the <strong>Express WorldWide</strong> method that you just created click <strong>Settings</strong>.",
+          "Enter the discount amount given to you by OptimalShip. Make sure the <strong>%</strong> box is checked, and you have a \"-\" (minus) in front to indicate a discounted rate.",
+          "Click <strong>Save</strong> in the top right corner of the page.",
+          "Appropriate DHL Express rates should now populate for international shipments."
         ],
         "images": {
           "2": {

@@ -17,9 +17,9 @@ function OrderedList({list, images}: Props) {
           <styled.listItem key={index}>
             <span dangerouslySetInnerHTML={{__html: item}} />
             {image && (
-              <div>
+              <styled.imageContainer>
                 <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
-              </div>
+              </styled.imageContainer>
             )}
           </styled.listItem>
         );

@@ -5,5 +5,9 @@ export const orderedList = styled.ol`
 `;
 
 export const listItem = styled.li`
-  margin-left: 2rem;
+  margin: 0 0 4rem 2rem;
+`;
+
+export const imageContainer = styled.div`
+  margin-bottom: -4rem;
 `;

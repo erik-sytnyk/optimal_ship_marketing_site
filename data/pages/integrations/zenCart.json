@@ -1,16 +1,17 @@
 {
   "title": "Zen Cart",
-  "description": "Once installed in Zen Cart, this plugin will show your DHL Express through OptimalShip rates in your online store.",
+  "description": "Download the latest version of the Zen Cart plugin (version 1.0.1) below. Once installed in Zen Cart, this plugin will show your DHL Express through OptimalShip rates in your online store.",
+  "button": {
+    "url": "https://www.optimalship.com/helps/zen-cart/optimalship-1.0.1.zip",
+    "text": "Download Zip File"
+  },
   "subtitle": "Steps to Configurate Zen Cart Account",
   "list": [
     {
-      "title": "Download the latest version of the Zen Cart plugin (version 1.0.1). Click here to download: <a href=\"https://www.optimalship.com/helps/zen-cart/optimalship-1.0.1.zip\" target=\"_blank\" rel=\"noreferrer\">optimalship-1.0.1.zip</a>"
+      "title": "Extract the contents of the Zip and move the files into their respective locations in your store's installation files. The file path should match the Zip file from your site's root folder. There are two files to add: one to <code>root\\includes\\modules\\shipping\\</code> and the other to <code>root\\includes\\languages\\english\\modules\\shipping\\</code>."
     },
     {
-      "title": "Extract the contents of the zip and move the files into their respective locations in your store's installation files. The file path should match the zip file from your site's root folder. There are two files to add: one to root\\includes\\modules\\shipping\\ and the other to root\\includes\\languages\\english\\modules\\shipping\\."
-    },
-    {
-      "title": "From your store's admin page, go to <strong>Modules</strong> and select <strong>Shipping</strong>",
+      "title": "From your store's admin page, go to <strong>Modules</strong> and select <strong>Shipping</strong>.",
       "image": {
         "url": "/images/integrations/zen_cart/zen_cart-3.png",
         "alt": "From your store's admin page, go to Modules and select Shipping",
@@ -19,7 +20,7 @@
       }
     },
     {
-      "title": "Find the module named <strong>DHL Express with Optimalship</strong> under Shipping Modules. If necessary, click <strong>Install Module</strong>",
+      "title": "Find the module named <strong>DHL Express with Optimalship</strong> under Shipping Modules. If necessary, click <strong>Install Module</strong>.",
       "image": {
         "url": "/images/integrations/zen_cart/zen_cart-4.png",
         "alt": "Find the module named",
@@ -31,10 +32,10 @@
       "title": "Once the module is installed, edit the settings as needed:",
       "content": {
         "unorderedList": [
-          "<strong>Enable DHL Express Shipping</strong>: Select True to enable DHL Express rates in your store's shopping cart.",
+          "<strong>Enable DHL Express Shipping</strong>: Select <strong>True</strong> to enable DHL Express rates in your store's shopping cart.",
           "<strong>OptimalShip Account Number</strong>: Enter your account number provided by OptimalShip.",
           "<strong>Shipping Surcharge</strong>: Add a flat fee to your shipping rates for your clients. Enter '0.00' for no fee.",
-          "<strong>Shipping Zone</strong>: Select shipping zones where to display DHL Express shipping rates.",
+          "<strong>Shipping Zone</strong>: Select shipping zones where you would like to display DHL Express shipping rates.",
           "<strong>Sort Order</strong>: Adjust number to order DHL Express against other shipping methods offered."
         ],
         "title": "Click <strong>Update</strong> to save configuration.",
@@ -47,7 +48,7 @@
       }
     },
     {
-      "title": "DHL Express with OptimalShip will now appear as a shipping option for <strong>international shipments</strong>",
+      "title": "<strong>DHL Express with OptimalShip</strong> will now appear as a shipping option for international shipments.",
       "image": {
         "url": "/images/integrations/zen_cart/zen_cart-6.png",
         "alt": "DHL Express with OptimalShip will now appear as a shipping option",
