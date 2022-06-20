@@ -18,8 +18,10 @@ export const extraTitle = styled(title)`
   }
 `;
 
-export const contentTitle = styled(text)`
-  margin-bottom: 3rem;
+export const caption = styled(text)`
+  margin: -2rem 0 3rem 3rem;
+  font-size: 2rem;
+  opacity: 0.75;
 `;
 
 export const listItem = styled.li`

@@ -9,11 +9,11 @@ function OpenCart() {
 
   const customItems = {
     6: (
-      <ol type="a">
-        {data.list[6].content.orderedList.map((item, index) => {
-          return <styled.listItem key={index}>{item}</styled.listItem>;
-        })}
-      </ol>
+      <ul>
+      {data.list[6].content.unorderedList.map((item, index) => {
+        return <styled.listItem key={index} dangerouslySetInnerHTML={{__html: item}} />;
+      })}
+    </ul>
     )
   };
 

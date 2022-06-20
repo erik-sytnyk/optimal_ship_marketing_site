@@ -28,15 +28,15 @@
     {
       "title": "Enter the following:",
       "content": {
-        "orderedList": [
-          "Your Export Number for the Account Number.",
-          "Add a surcharge if you’d like, or keep it at 0. This will be added as a flat fee on top of our total charge.",
-          "Enter “DHL with OptimalShip” as the Carrier Title.",
-          "Select countries to ship to. You can click “Select All” at the bottom. This will be all countries minus the US.",
-          "Under Tax Class, select “Taxable Goods.” (This is the most likely case, however select a different option if it applies to you.)",
-          "For Enable Dimensional Weight, select “Enabled.” This requires that your products have dimensions associated with them. (If you do not enable this option, shipping estimates may be incorrect.)",
-          "For Status, select “Enabled.”",
-          "For Sort Order, select 1 is the top of the list."
+        "unorderedList": [
+          "<strong>Account Number</strong>: Enter your Export Number.",
+          "<strong>Surcharge</strong>: Add a surcharge if you’d like, or keep it at 0. This will be added as a flat fee on top of our total charge.",
+          "<strong>Carrier Title</strong>: Enter <strong>DHL with OptimalShip</strong>.",
+          "<strong>Countries</strong>: Select countries to ship to. You can click <strong>Select All</strong> at the bottom. This will be all countries minus the US.",
+          "<strong>Tax Class</strong>: Select <strong>Taxable Goods</strong>. (This is the most likely case, however select a different option if it applies to you.)",
+          "<strong>Enable Dimensional Weight</strong>: Select <strong>Enabled</strong>. This requires that your products have dimensions associated with them. (If you do not enable this option, shipping estimates may be incorrect.)",
+          "<strong>Status</strong>: Select <strong>Enabled</strong>.",
+          "<strong>Sort Order</strong>: Select 1 is the top of the list."
         ]
       }
     },
