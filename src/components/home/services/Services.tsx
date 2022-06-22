@@ -1,10 +1,8 @@
-import classNames from 'classnames';
 import Image from 'next/image';
 
 import dataService from 'src/services/dataService';
 
 import Button from 'src/components/common/Button';
-import Tooltip from 'src/components/common/Tooltip';
 
 import * as styled from './Services.styled';
 
@@ -19,71 +17,75 @@ function Services() {
 
   function renderContent(service, header = '') {
     return (
-      <div className="service-content">
-        <div className="service-content-container">
-          {header && <div id="service-header">{header}</div>}
-          <div className="service-title">{service.title}</div>
-          <div className="service-description">{service.description}</div>
+      <styled.content>
+        <styled.contentContainer>
+          {header && <styled.header>{header}</styled.header>}
+          <styled.title>{service.title}</styled.title>
+          <styled.description>{service.description}</styled.description>
           <Button fullWidth onClick={() => redirectTo(service.url)}>
             {service.button}
           </Button>
-        </div>
-      </div>
+        </styled.contentContainer>
+      </styled.content>
     );
   }
 
   function renderImages(service, index) {
     const image = service.image;
 
+    // preparation tool
     if (index === 0) {
       return (
-        <div id={`service-images-container-${index}`}>
-          <div id={`service-image-${index}`}>
+        <styled.preparationImagesContainer>
+          <styled.preparationImageContainer>
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
-          </div>
-          <div id={`service-rectangle-${index}`} />
+          </styled.preparationImageContainer>
+          <styled.preparationRectangle />
           <styled.preparationCircles />
           <styled.preparationTooltip tooltip={service.tooltip} />
-        </div>
+        </styled.preparationImagesContainer>
       );
     }
 
+    // quote tool
     if (index === 1) {
       return (
-        <div id={`service-images-container-${index}`}>
-          <div id={`service-image-${index}`}>
+        <styled.quoteImagesContainer>
+          <styled.quoteImageContainer>
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
-          </div>
-          <div id={`service-rectangle-${index}`} />
+          </styled.quoteImageContainer>
+          <styled.quoteRectangle />
           <styled.quoteWave />
           <styled.quoteTooltip tooltip={service.tooltip} />
-        </div>
+        </styled.quoteImagesContainer>
       );
     }
 
+    // bill pay tool
     if (index === 2) {
       return (
-        <div id={`service-images-container-${index}`}>
-          <div id={`service-image-${index}`}>
+        <styled.billPayImagesContainer>
+          <styled.billPayImageContainer>
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
-          </div>
-          <div id={`service-rectangle-${index}`} />
+          </styled.billPayImageContainer>
+          <styled.billPayRectangle />
           <styled.billPayCircles />
           <styled.billPayTooltip tooltip={service.tooltip} />
-        </div>
+        </styled.billPayImagesContainer>
       );
     }
 
+    // pickup tool
     if (index === 3) {
       return (
-        <div id={`service-images-container-${index}`}>
-          <div id={`service-image-${index}`}>
+        <styled.pickupImagesContainer>
+          <styled.pickupImageContainer>
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
-          </div>
-          <div id={`service-rectangle-${index}`} />
+          </styled.pickupImageContainer>
+          <styled.pickupRectangle />
           <styled.pickupWave />
           <styled.pickupTooltip tooltip={service.tooltip} />
-        </div>
+        </styled.pickupImagesContainer>
       );
     }
 
@@ -92,32 +94,28 @@ function Services() {
 
   function render() {
     return (
-      <div id="services">
+      <styled.wrapper>
         {services.map((service, index) => {
+          const key = service.title;
           const header = index === 0 ? data.title : '';
-
-          const rowClass = classNames({
-            'service-row': true,
-            [`service-row-${index}`]: true
-          });
 
           if (index % 2) {
             return (
-              <div key={service.title} className={rowClass}>
+              <styled.serviceRow key={key} index={index}>
                 {renderImages(service, index)}
                 {renderContent(service)}
-              </div>
+              </styled.serviceRow>
             );
           }
 
           return (
-            <div key={service.title} className={rowClass}>
+            <styled.serviceRow key={key} index={index}>
               {renderContent(service, header)}
               {renderImages(service, index)}
-            </div>
+            </styled.serviceRow>
           );
         })}
-      </div>
+      </styled.wrapper>
     );
   }
 

@@ -12,7 +12,7 @@ function ReadyToShip() {
   function renderItem(item) {
     return (
       <>
-        <div className="tool-description">{item.description}</div>
+        <styled.description>{item.description}</styled.description>
         <styled.button outline={item.outline} onClick={() => redirectTo(item.url)}>
           {item.title}
         </styled.button>
@@ -22,17 +22,19 @@ function ReadyToShip() {
 
   function render() {
     return (
-      <div id="ready-to-ship">
-        <div id="ready-to-ship-container">
-          <div className="title">{data.title}</div>
+      <styled.wrapper>
+        <styled.container>
+          <styled.title>{data.title}</styled.title>
 
           {renderItem(data.list[0])}
-          <div className="tool-divider">
+
+          <styled.divider>
             <div /> <span>or</span> <div />
-          </div>
+          </styled.divider>
+
           {renderItem(data.list[1])}
-        </div>
-      </div>
+        </styled.container>
+      </styled.wrapper>
     );
   }
 

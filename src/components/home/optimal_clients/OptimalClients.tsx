@@ -15,20 +15,21 @@ function OptimalClients() {
   }
 
   return (
-    <div id="optimal-clients">
-      <div id="optimal-clients-content">
-        <div id="optimal-clients-title">{data.title}</div>
-        <div id="optimal-clients-description">{data.description}</div>
+    <styled.wrapper>
+      <styled.content>
+        <styled.title>{data.title}</styled.title>
+        <styled.description>{data.description}</styled.description>
         <styled.button onClick={redirectToAboutUsPage}>{data.button}</styled.button>
-      </div>
-      <div id="optimal-clients-images">
-        <div id="optimal-clients-image">
+      </styled.content>
+
+      <styled.imagesContainer>
+        <styled.imageContainer>
           <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
-        </div>
-        <div id="optimal-clients-rectangle" />
+        </styled.imageContainer>
+        <styled.rectangle />
         <styled.tooltip tooltip={data.tooltip} />
-      </div>
-    </div>
+      </styled.imagesContainer>
+    </styled.wrapper>
   );
 }
 

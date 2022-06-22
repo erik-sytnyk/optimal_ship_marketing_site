@@ -40,12 +40,12 @@ function CustomersSay() {
     const image = feedback.image;
 
     return (
-      <div id="customers-say">
-        <div id="customers-say-images">
-          <div id="customers-say-image">
+      <styled.wrapper>
+        <styled.imagesContainer>
+          <styled.imageContainer>
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
-          </div>
-          <div className="rectangle" />
+          </styled.imageContainer>
+          <styled.rectangle />
 
           <styled.tooltip tooltip={feedback}>
             <styled.tooltipToolbar>
@@ -58,15 +58,15 @@ function CustomersSay() {
               </styled.toolbarLink>
             </styled.tooltipToolbar>
           </styled.tooltip>
-        </div>
+        </styled.imagesContainer>
 
-        <div id="customers-say-content">
-          <div id="customers-say-title">{data.title}</div>
-          <Link href="/about#customer-stories-section">
-            <a>{data.button}</a>
+        <styled.content>
+          <styled.title>{data.title}</styled.title>
+          <Link href="/about#customer-stories-section" passHref>
+            <styled.link>{data.button}</styled.link>
           </Link>
-        </div>
-      </div>
+        </styled.content>
+      </styled.wrapper>
     );
   }
 
