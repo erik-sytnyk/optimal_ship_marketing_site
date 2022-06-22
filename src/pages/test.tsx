@@ -1,7 +1,7 @@
 import {createClient} from '../../prismicio';
 import Image from 'next/image';
 
-import Layout from 'src/components/common/layout';
+import Layout from 'src/components/common/Layout/Layout';
 
 function Test(props) {
   const homeData = props?.homePage?.data;

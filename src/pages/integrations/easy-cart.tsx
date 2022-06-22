@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import Layout, {siteTitle} from 'src/components/common/layout';
+import Layout, {siteTitle} from 'src/components/common/Layout/Layout';
 
 import EasyCart from 'src/components/integrations/easy-cart/EasyCart';
 

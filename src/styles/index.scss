@@ -1,11 +1,4 @@
-@use 'utilities/colors';
-@use 'utilities/variables' as v;
-
 @import './fonts.scss';
-
-@import '../components/about/optimal_ship_story/optimalShipStory.module.scss';
-@import '../components/about/our_principles/ourPrinciples.module.scss';
-@import '../components/about/leadership_team/leadershipTeam.module.scss';
 
 *,
 *::before,
@@ -25,22 +18,7 @@ body {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: colors.$white;
-  color: colors.$type-dark;
+  background-color: white;
+  color: #363740;
   overflow-x: hidden;
-}
-
-#root {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.content {
-  margin-top: v.$nav-height-mobile;
-
-  @media (min-width: v.$layout-breakpoint-mobile) {
-    margin-top: v.$nav-height;
-  }
 }

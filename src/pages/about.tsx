@@ -1,10 +1,10 @@
 import Head from 'next/head';
 
-import Layout, {siteTitle} from 'src/components/common/layout';
+import Layout, {siteTitle} from 'src/components/common/Layout/Layout';
 import DigitalTools from 'src/components/common/DigitalTools';
 
 import OptimalShipStory from 'src/components/about/optimal_ship_story/OptimalShipStory';
-import OurPrinciples from 'src/components/about/our_principles/OurPrinciples';
+import OurPrinciples from 'src/components/about/OurPrinciples';
 import LeadershipTeam from 'src/components/about/leadership_team/LeadershipTeam';
 import CustomersStories from 'src/components/about/customers_stories/CustomersStories';
 

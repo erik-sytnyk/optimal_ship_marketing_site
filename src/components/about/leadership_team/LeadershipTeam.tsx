@@ -13,26 +13,26 @@ function LeadershipTeam() {
   }
 
   return (
-    <div id="leadership-team">
-      <div id="leadership-team-title">{data.title}</div>
-      <div id="leadership-container">
+    <styled.wrapper>
+      <styled.title>{data.title}</styled.title>
+      <styled.itemsContainer>
         {data.list.map(item => {
           const image = item.image;
 
           return (
-            <div key={item.name} className="leadership-item">
+            <styled.itemContainer key={item.name}>
               <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
-              <div className="leadership-name">{item.name}</div>
-              <div className="leadership-position">{item.position}</div>
-            </div>
+              <styled.personName>{item.name}</styled.personName>
+              <styled.personPosition>{item.position}</styled.personPosition>
+            </styled.itemContainer>
           );
         })}
-      </div>
+      </styled.itemsContainer>
 
-      <div id="leadership-divider" />
-      <div id="leadership-team-question">{data.subtitle}</div>
+      <styled.divider />
+      <styled.question>{data.subtitle}</styled.question>
       <styled.button onClick={seeOurOpenPositions}>{data.button}</styled.button>
-    </div>
+    </styled.wrapper>
   );
 }
 

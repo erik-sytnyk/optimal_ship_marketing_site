@@ -12,37 +12,34 @@ function OptimalShipStory() {
   const image = data.image;
 
   return (
-    <div id="optimal-ship-story">
-      <div id="story-container">
-        <div id="story-content">
-          <div id="story-title">{data.title}</div>
+    <div>
+      <styled.storyContainer>
+        <styled.content>
+          <styled.title>{data.title}</styled.title>
+
           {data.description.map((item, index) => {
             if (index % 2) {
-              return (
-                <div key={index} className="story-description">
-                  {item}
-                </div>
-              );
+              return <styled.description key={index}>{item}</styled.description>;
             }
 
             return (
-              <div key={index} className="story-description">
+              <styled.description key={index}>
                 <strong>{item}</strong>
-              </div>
+              </styled.description>
             );
           })}
-        </div>
+        </styled.content>
 
-        <div id="story-images">
-          <div id="story-image">
+        <styled.imagesContainer>
+          <styled.imageContainer>
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
-          </div>
+          </styled.imageContainer>
           <styled.tooltip tooltip={data.tooltip} />
-          <div id="optimal-story-rectangle" />
+          <styled.rectangle />
           <styled.waveTop />
           <styled.waveBottom />
 
-          <div id="optimal-story-statistics">
+          <styled.statistics>
             {successNumbers.items.map((item, index) => {
               if (!index) return null;
 
@@ -51,21 +48,21 @@ function OptimalShipStory() {
               return (
                 <Fragment key={item.header}>
                   <div>
-                    <span className="statistics-text">{item.header}</span>
-                    <div className="success-number">{item.content}</div>
-                    <span className="statistics-text">{item.footer}</span>
+                    <styled.statisticsText>{item.header}</styled.statisticsText>
+                    <styled.successNumber>{item.content}</styled.successNumber>
+                    <styled.statisticsText>{item.footer}</styled.statisticsText>
                   </div>
-                  {!lastIndex && <div className="divider" />}
+                  {!lastIndex && <styled.divider />}
                 </Fragment>
               );
             })}
-          </div>
-        </div>
-      </div>
+          </styled.statistics>
+        </styled.imagesContainer>
+      </styled.storyContainer>
 
-      <div id="optimal-ship-remark-container">
-        <div>{data.remark}</div>
-      </div>
+      <styled.remarkContainer>
+        <styled.remark>{data.remark}</styled.remark>
+      </styled.remarkContainer>
     </div>
   );
 }

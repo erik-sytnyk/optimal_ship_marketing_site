@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import Layout, {siteTitle} from 'src/components/common/layout';
+import Layout, {siteTitle} from 'src/components/common/Layout/Layout';
 
 import PrivacyPolicyComponent from 'src/components/privacy_policy/PrivacyPolicy';
 

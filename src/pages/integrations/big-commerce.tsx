@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import Layout, {siteTitle} from 'src/components/common/layout';
+import Layout, {siteTitle} from 'src/components/common/Layout/Layout';
 
 import BigCommerce from 'src/components/integrations/big_commerce/BigCommerce';
 

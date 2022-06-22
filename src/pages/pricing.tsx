@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import Layout, {siteTitle} from 'src/components/common/layout';
+import Layout, {siteTitle} from 'src/components/common/Layout/Layout';
 
 import Intro from 'src/components/pricing/intro/Intro';
 import Offer from 'src/components/pricing/offer/Offer';

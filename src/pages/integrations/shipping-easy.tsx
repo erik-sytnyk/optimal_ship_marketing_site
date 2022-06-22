@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import Layout, {siteTitle} from 'src/components/common/layout';
+import Layout, {siteTitle} from 'src/components/common/Layout/Layout';
 
 import ShippingEasy from 'src/components/integrations/shipping_easy/ShippingEasy';
 

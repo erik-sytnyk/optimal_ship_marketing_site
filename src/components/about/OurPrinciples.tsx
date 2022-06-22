@@ -1,15 +1,11 @@
 import dataService from 'src/services/dataService';
 
+import Strip from '../common/Strip';
+
 function OurPrinciples() {
   const data = dataService.getOurPrinciples();
 
-  return (
-    <div id="our-principles">
-      {data.items.map(item => {
-        return <div key={item}>{item}</div>;
-      })}
-    </div>
-  );
+  return <Strip items={data.items} page="about" />;
 }
 
 export default OurPrinciples;

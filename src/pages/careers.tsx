@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import Layout, {siteTitle} from 'src/components/common/layout';
+import Layout, {siteTitle} from 'src/components/common/Layout/Layout';
 
 import Careers from 'src/components/careers/intro/Careers';
 import Delimiter from 'src/components/careers/delimiter/Delimiter';

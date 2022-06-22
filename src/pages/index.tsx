@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import Layout, {siteTitle} from 'src/components/common/layout';
+import Layout, {siteTitle} from 'src/components/common/Layout/Layout';
 import DigitalTools from 'src/components/common/DigitalTools';
 
 import IntelligentSupplyChainSolutions from 'src/components/home/intelligent_supply/IntelligentSupplyChainSolutions';
