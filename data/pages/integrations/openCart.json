@@ -1,48 +1,50 @@
 {
   "title": "OpenCart",
+  "description": "To install the module, you will need to download the file below:",
+  "button": {
+    "url": "https://www.optimalship.com/helps/opencart/optimalship.ocmod.zip",
+    "text": "Download Zip File"
+  },
   "subtitle": "Steps for OpenCart integration:",
   "list": [
-    {
-      "title": "Download optimalship.ocmod.zip file:"
-    },
     {
       "title": "Login to your OpenCart admin panel."
     },
     {
-      "title": "Go to Extensions -> Installer"
+      "title": "Go to <strong>Extensions</strong> then <strong>Installer</strong>."
     },
     {
-      "title": "Click Upload and select the downloaded zip file from Step 1"
+      "title": "Click <strong>Upload</strong> and select the zip file you downloaded."
     },
     {
-      "title": "Once installed, go to Extensions -> Extensions and under “Choose the extension type”, select “Shipping”"
+      "title": "Once installed, go to <strong>Extensions</strong>, select <strong>Extensions</strong> and under <strong>Choose the extension type</strong>, select <strong>Shipping</strong>."
     },
     {
-      "title": "Find OptimalShip in list of extension. If the module shows a red minus icon, it is already installed. If the green + icon is showing, click the icon to install the extension."
+      "title": "Find <strong>OptimalShip</strong> in the list of extensions. If the module shows a red minus icon, it is already installed. If the green plus icon is showing, click the icon to install the extension."
     },
     {
-      "title": "Click the Edit icon for the OptimalShip extension"
+      "title": "Click the <strong>Edit</strong> icon for the OptimalShip extension."
     },
     {
       "title": "Enter the following:",
       "content": {
-        "orderedList": [
-          "your Export Number for the Account Number",
-          "add a surcharge if you’d like (it can stay 0) – this will be added as a flat fee on top of our total charge",
-          "Enter the Carrier Title – “DHL with OptimalShip”",
-          "Select countries to ship to – you can click “Select All” at the bottom. This will be all countries minus the US.",
-          "Under Tax Class – most likely select “Taxable Goods”",
-          "Enable Dimensional Weight – select “Enabled” – this requires that your products have dimensions associated with them",
-          "Status – select “Enabled”",
-          "Sort Order – 1 is the top of the list"
+        "unorderedList": [
+          "<strong>Account Number</strong>: Enter your Export Number.",
+          "<strong>Surcharge</strong>: Add a surcharge if you’d like, or keep it at 0. This will be added as a flat fee on top of our total charge.",
+          "<strong>Carrier Title</strong>: Enter <strong>DHL with OptimalShip</strong>.",
+          "<strong>Countries</strong>: Select countries to ship to. You can click <strong>Select All</strong> at the bottom. This will be all countries minus the US.",
+          "<strong>Tax Class</strong>: Select <strong>Taxable Goods</strong>. (This is the most likely case, however select a different option if it applies to you.)",
+          "<strong>Enable Dimensional Weight</strong>: Select <strong>Enabled</strong>. This requires that your products have dimensions associated with them. (If you do not enable this option, shipping estimates may be incorrect.)",
+          "<strong>Status</strong>: Select <strong>Enabled</strong>.",
+          "<strong>Sort Order</strong>: Select 1 is the top of the list."
         ]
       }
     },
     {
-      "title": "Click the Save icon at the top of the page"
+      "title": "Click the <strong>Save</strong> icon at the top of the page."
     },
     {
-      "title": "Go into your store and test it out. Please make sure you try it on an international address."
+      "title": "Go into your store and test it out to make sure <strong>DHL with OptimalShip</strong> appears as a shipping option. Please make sure you try it on an international address."
     }
   ]
 }

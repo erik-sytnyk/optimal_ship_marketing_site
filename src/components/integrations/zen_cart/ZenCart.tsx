@@ -9,7 +9,7 @@ import * as styled from './ZenCart.styled';
 function ZenCart() {
   const data = dataService.getIntegrationZenCart();
 
-  const index = 4;
+  const index = 3;
   const content = data.list[index].content;
   const contentImage = content.image;
 
@@ -32,6 +32,7 @@ function ZenCart() {
     <IntegrationContainer
       title={data.title}
       description={data.description}
+      button={data.button}
       subtitle={data.subtitle}
       items={data.list}
       customItems={customItems}

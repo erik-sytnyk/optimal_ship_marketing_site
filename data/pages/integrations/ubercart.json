@@ -1,37 +1,41 @@
 {
   "title": "Drupal-Ubercart",
-  "subtitle": "Steps for Drupal-Ubercart  integration:",
+  "description": "To install the module, you will need to download the Zip file below:",
+  "button": {
+    "url": "https://www.optimalship.com/helps/drupal/optimal_shipping-master.zip",
+    "text": "Download Zip File"
+  },
+  "subtitle": "Steps for Drupal-Ubercart integration:",
   "list": [
     {
-      "title": "Install OptimalShip Module",
+      "title": "Install OptimalShip module",
       "content": {
         "orderedList": [
-          "Download the OptimalShip module for Drupal/Ubercart. This can be found here: <a href=\"https://www.optimalship.com/helps/drupal/optimal_shipping-master.zip\" target=\"_blank\" rel=\"noreferrer\">Download ZIP file</a>",
-          "Go to the Admin Panel of your Drupal/Ubercart store. Click Modules.",
-          "Click \"Install new module\" in the Modules window.",
-          "Click on \"Choose File\" and find the download module ZIP file. Click \"Install.\"",
-          "The Update Manager should show that the installation was successful. <br/> Then click \"Enable newly added modules.\""
+          "Go to the Admin Panel of your Drupal/Ubercart store. Click <strong>Modules</strong>.",
+          "Click <strong>Install new module</strong> in the Modules window.",
+          "Click <strong>Choose File</strong> and find the download module Zip file. Click <strong>Install</strong>.",
+          "The Update Manager should show that the installation was successful. Then click <strong>Enable newly added modules</strong>."
         ],
         "images": {
-          "1": {
+          "0": {
             "url": "/images/integrations/ubercart/ubercart-1b.png",
             "alt": "Ubercart 1",
             "width": 862,
             "height": 80
           },
-          "2": {
+          "1": {
             "url": "/images/integrations/ubercart/ubercart-1c.png",
             "alt": "Ubercart 2",
             "width": 862,
             "height": 228
           },
-          "3": {
+          "2": {
             "url": "/images/integrations/ubercart/ubercart-1d.png",
             "alt": "Ubercart 3",
             "width": 862,
             "height": 322
           },
-          "4": {
+          "3": {
             "url": "/images/integrations/ubercart/ubercart-1e.png",
             "alt": "Ubercart 4",
             "width": 862,
@@ -44,8 +48,8 @@
       "title": "Enable OptimalShip Module",
       "content": {
         "orderedList": [
-          "Scroll down to the section entitled \"UBERCART-FULFILLMENT\" and click the checkbox for \"OptimalShip.\" If needed, enable any required modules listed for the OptimalShip module.",
-          "Scroll down to the section entitled \"UBERCART-FULFILLMENT\" and click the checkbox for \"OptimalShip.\" If needed, enable any required modules listed for the OptimalShip module."
+          "Scroll down to the section entitled <strong>UBERCART-FULFILLMENT</strong> and click the checkbox for <strong>OptimalShip.</strong> If needed, enable any required modules listed for the OptimalShip module.",
+          "Click <strong>Save configuration</strong>."
         ],
         "images": {
           "0": {
@@ -67,9 +71,9 @@
       "title": "Configure OptimalShip Module",
       "content": {
         "orderedList": [
-          "Scroll back down to the section entitled \"UBERCART-FULFILLMENT\" and click the Configure link for \"OptimalShip\"",
-          "In the Shipping Quotes window, click on the OPTIMAL button",
-          "Enter your OptimalShip Export Number. Click both checkboxes to enable the rates and to calculate dimensional weights based on package dimensions. Click Save Configuration."
+          "Scroll back down to the section entitled <strong>UBERCART-FULFILLMENT</strong> and click the <strong>Configure</strong> link for <strong>OptimalShip</strong>.",
+          "In the <strong>Shipping Quotes</strong> window, click on the <strong>OPTIMAL</strong> button.",
+          "Enter your OptimalShip Export Number. Click both checkboxes to enable the rates and to calculate dimensional weights based on package dimensions. Click <strong>Save configuration</strong>."
         ],
         "images": {
           "0": {
@@ -97,7 +101,7 @@
       "title": "Verify Functionality",
       "content": {
         "orderedList": [
-          "DHL with OptimalShip should now appear in your store's shopping cart for International shipping destinations"
+          "<strong>DHL with OptimalShip</strong> should now appear in your store's shopping cart for international shipping destinations."
         ],
         "images": {
           "0": {

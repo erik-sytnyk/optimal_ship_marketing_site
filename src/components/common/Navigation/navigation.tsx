@@ -33,15 +33,15 @@ function Navigation() {
   function renderOldWebsiteButton() {
     return (
       <styled.oldWebsiteButton onClick={navigateToOldWebsite}>
-        Take me to old Website
+        Take me to old website
         <styled.icon>
           <Image src="/images/airship.png" alt="Old Website" width="56" height="56" layout="fixed" />
         </styled.icon>
         <styled.oldWebsiteTooltip>
-          We have currently redesigned our website <br /> but you would rather still use old one?
+          We have recently redesigned our website, <br /> but would you rather use the old one?
           <br />
           <b>
-            No problem, you can still use the old <br /> one!
+            No problem, you can still use it here!
           </b>
         </styled.oldWebsiteTooltip>
       </styled.oldWebsiteButton>
@@ -53,7 +53,7 @@ function Navigation() {
       <styled.navLinks>
         <styled.navLink active={router.pathname === '/about' ? true : false}>
           <Link href="/about" passHref>
-            <styled.link onClick={() => toggleMenu()}>About us</styled.link>
+            <styled.link onClick={() => toggleMenu()}>About Us</styled.link>
           </Link>
         </styled.navLink>
         <styled.navLink active={router.pathname === '/services' ? true : false}>

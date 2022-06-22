@@ -16,8 +16,8 @@ function BigCommerce() {
   const content2 = data.list[6].content;
 
   const customItems = {
-    [5]: <styled.contentTitle>{content1.title}</styled.contentTitle>,
-    [6]: <styled.contentTitle>{content2.title}</styled.contentTitle>
+    [5]: <styled.caption>{content1.title}</styled.caption>,
+    [6]: <styled.caption>{content2.title}</styled.caption>
   };
 
   return (
@@ -46,7 +46,7 @@ function BigCommerce() {
           width={contentExtra.image.width}
           height={contentExtra.image.height}
         />
-        <styled.text>{contentExtra.description}</styled.text>
+        <styled.caption>{contentExtra.description}</styled.caption>
       </styled.contentExtra>
     </IntegrationContainer>
   );

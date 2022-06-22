@@ -1,6 +1,6 @@
 {
   "title": "Careers",
-  "description": "We are looking to add more talented people to our dynamic teams. Our employees are confident, excellent communicators, passionate about building relationships with new people, and providing world-class service. If this sounds like you, and you too want to enjoy a work experience that has a purpose, is fulfilling, and financially rewarding then quickly apply.",
+  "description": "We are looking to add more talented people to our dynamic teams. Our employees are confident, excellent communicators, and passionate about building relationships with new people and providing world-class service. If this sounds like you, and you too want to enjoy a work experience that has a purpose, is fulfilling, and is financially rewarding, then quickly apply.",
   "benefits": {
     "title": "Benefits of Joining OptimalShip:",
     "list": ["Competitive Pay", "Flexible Schedule", "Paid Holidays", "Opportunity for Growth"]
@@ -15,11 +15,11 @@
             "subtitle": "Responsibilities:",
             "list": [
               "Take an active role in educating customers about our company",
-              "Answering inbound calls and placing outbound client retention calls",
-              "Process over the phone payments",
-              "Understanding client needs and offering solutions and support",
-              "Presenting and delivering information to clients",
-              "Handling all client's questions in a professional and timely manner"
+              "Answer inbound calls and place outbound client retention calls",
+              "Process over-the-phone payments",
+              "Understand client needs and offer solutions and support",
+              "Present and deliver information to clients",
+              "Handle all clients’ questions in a professional and timely manner"
             ]
           },
           {
@@ -54,8 +54,8 @@
             "list": [
               "Email copies of invoices to clients",
               "Handle payment transactions",
-              "Understanding client needs and offering solutions and support",
-              "Handling all client's questions in a professional and timely manner"
+              "Understand client needs and offer solutions and support",
+              "Handle all clients’ questions in a professional and timely manner"
             ]
           },
           {
@@ -69,7 +69,7 @@
           {
             "subtitle": "Qualifications (Preferred):",
             "list": [
-              "Problem-solving and organization skills",
+              "Problem-solving and organizational skills",
               "Negotiation skills",
               "QuickBooks experience",
               "Detail-oriented",
@@ -88,9 +88,9 @@
             "subtitle": "Responsibilities:",
             "list": [
               "Take an active role in educating customers about our company",
-              "Making multiple outbound calls daily",
-              "Understanding client needs and offering solutions and support",
-              "Presenting and delivering information to clients regarding their account"
+              "Make multiple outbound calls daily",
+              "Understand client needs and offer solutions and support",
+              "Present and deliver information to clients regarding their account"
             ]
           },
           {
@@ -115,7 +115,7 @@
         "footer": "<strong>Job Type:</strong> Part-time <br/> Pay: $13.00 - $14.00 per hour"
       }
     ],
-    "additionalQuestions": "If you have any additional questions about open positions, please email us to <a href=\"mailto:jobs.allen@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">jobs.allen@optimalship.com</a>",
+    "additionalQuestions": "If you have any additional questions about open positions, please email us at <a href=\"mailto:jobs.allen@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">jobs.allen@optimalship.com</a>",
     "footer": "Join our OptimalTeam!"
   }
 }

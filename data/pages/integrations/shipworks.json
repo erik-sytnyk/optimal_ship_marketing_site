@@ -4,7 +4,7 @@
   "subtitle": "Steps to Configurate Shipworks Account",
   "list": [
     {
-      "title": "Log into Shipworks and go to <strong>Manage → Shipping Settings</strong>",
+      "title": "Log into Shipworks and go to <strong>Manage → Shipping Settings</strong>.",
       "image": {
         "url": "/images/integrations/shipworks/shipworks-1.png",
         "alt": "Shipworks 1",
@@ -13,7 +13,7 @@
       }
     },
     {
-      "title": "Select <strong>DHL Express</strong> and then click <strong>Setup</strong>",
+      "title": "Select <strong>DHL Express</strong> and then click <strong>Setup</strong>.",
       "image": {
         "url": "/images/integrations/shipworks/shipworks-2.png",
         "alt": "Shipworks 2",
@@ -22,7 +22,7 @@
       }
     },
     {
-      "title": "Enter your DHL export or import number provided to you by OptimalShip and click <strong>Next</strong>",
+      "title": "Enter your DHL export or import number provided to you by OptimalShip and click <strong>Next</strong>.",
       "image": {
         "url": "/images/integrations/shipworks/shipworks-3.png",
         "alt": "Shipworks 3",

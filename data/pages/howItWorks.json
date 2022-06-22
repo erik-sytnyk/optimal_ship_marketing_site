@@ -5,7 +5,7 @@
     {
       "index": "1",
       "title": "Get a Quote",
-      "description": "Use our Free Quote Tool to obtain a shipping quote",
+      "description": "Use our Free Quote Tool to obtain a shipping quote.",
       "image": {
         "url": "/images/home/how_it_works/quote.png",
         "alt": "Get a Quote",

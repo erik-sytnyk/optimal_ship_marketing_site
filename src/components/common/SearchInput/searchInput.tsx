@@ -20,7 +20,7 @@ function SearchInput() {
     <styled.container>
       <styled.input
         name="trackingNumber"
-        placeholder="Enter Any Tracking Nr."
+        placeholder="Enter Any Tracking Number"
         value={trackingNumber}
         onChange={e => setTrackingNumber(e.target.value)}
       />

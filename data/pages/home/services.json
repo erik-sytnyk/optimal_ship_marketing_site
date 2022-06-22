@@ -3,7 +3,7 @@
   "list": [
     {
       "title": "Free Shipment Preparation Tool",
-      "description": "Whether you need to generate international or domestic shipping documents - we have you covered. Our free, and easy to use shipment preparation tool will get you on your way to successful shipments. You can even view your shipping quote and schedule a pickup while you are preparing your shipping documents with this tool.",
+      "description": "Whether you need to generate international or domestic shipping documents, we have you covered. Our free and easy-to-use shipment preparation tool will get you on your way to successful shipments. You can even view your shipping quote and schedule a pickup while you are preparing your shipping documents with this tool.",
       "button": "Prepare a Shipment",
       "url": "https://portal.optimalship.com/dashboard",
       "image": {
@@ -13,13 +13,13 @@
         "height": 520
       },
       "tooltip": {
-        "quote": "I have worked with the Optimal ship team for over five years, but more closely over the past few. Joe, Alyse, and their team always do their best to put my needs as the customer first, whether it is helping expedite shipments, resolve customs issues, or ensure that we are getting the best rates for our shipments.",
+        "quote": "“I have worked with the OptimalShip team for over five years, but more closely over the past few. Joe, Alyse, and their team always do their best to put my needs as the customer first, whether it is helping to expedite shipments, resolve customs issues, or ensure that we are getting the best rates for our shipments.”",
         "author": "Kyle Schaffer, Director of Operations, \n Audio Control"
       }
     },
     {
       "title": "Free \n Quote Tool",
-      "description": "Using our free Quote Tool, you can quickly view just how much money you are saving by using OptimalShip. To obtain a shipping quote, all you need is the origin and destination countries, weight, and dimensions.",
+      "description": "Using our Free Quote Tool, you can quickly view just how much money you are saving by using OptimalShip. To obtain a shipping quote, all you need is the origin and destination countries, weight, and dimensions.",
       "button": "Get a Quote",
       "url": "https://portal.optimalship.com/dashboard",
       "image": {
@@ -29,13 +29,13 @@
         "height": 525
       },
       "tooltip": {
-        "quote": "OptimalShip has proven to be the most efficient way to ship my shipments by DHL air service around the world. They provide top-notch service and are there to help with all my shipping needs. I highly recommend OptimalShip for your shipping needs.",
-        "author": "Paul Chinen, \n DIVERSIFIED COMPONENTS Inc."
+        "quote": "“OptimalShip has proven to be the most efficient way to ship my shipments by DHL air service around the world. They provide top-notch service and are there to help with all my shipping needs. I highly recommend OptimalShip for your shipping needs.”",
+        "author": "Paul Chinen, \n Diversified Components Inc."
       }
     },
     {
       "title": "Online \n Bill Pay",
-      "description": "Pay invoices quickly and securely online. Our Online Bill Pay allows you to view your invoice history, store payment methods and schedule auto payments at your convenience.",
+      "description": "Pay invoices quickly and securely online. Our Online Bill Pay allows you to view your invoice history, store payment methods, and schedule automatic payments at your convenience.",
       "button": "Pay Bill",
       "url": "https://portal.optimalship.com/dashboard",
       "image": {
@@ -45,24 +45,24 @@
         "height": 595
       },
       "tooltip": {
-        "quote": "Since we have started sending more international, OptimalShip has been a LIFESAVER for me. I fill out the form and 20 minutes later, the shipping docs appear in my inbox. If you do have questions, it is refreshing to get a live person calling me with a question. There have been multiple times that we needed revised shipping documents and that is never a problem. I was just telling my co-worker yesterday that OptimalShip is worth every penny we spend. Yesterday, with 3 separate shipments using OptimalShip, you saved my day!",
+        "quote": "“Since we have started sending more international, OptimalShip has been a LIFESAVER for me. I fill out the form, and 20 minutes later, the shipping docs appear in my inbox. If I do have questions, it is refreshing to get a live person calling me with an answer. There have been multiple times that we needed revised shipping documents, and that is never a problem. I was just telling my co-worker yesterday that OptimalShip is worth every penny we spend. Yesterday, with three separate shipments using OptimalShip, you saved my day!”",
         "author": "Kim Pope, \n Neusoft Medical Systems"
       }
     },
     {
-      "title": "Schedule a \n Pick-up",
-      "description": "Quickly and easily schedule a pick-up.  Same day pickups are available in most locations for domestic and international shipments.",
-      "button": "Schedule a Pick-up",
+      "title": "Pickup \n Scheduler",
+      "description": "Quickly and easily schedule a pickup.  Same-day pickups are available in most locations for domestic and international shipments.",
+      "button": "Schedule a Pickup",
       "url": "https://portal.optimalship.com/dashboard",
       "image": {
         "url": "/images/home/services/schedule-pickup.png",
-        "alt": "Schedule a Pick-up",
+        "alt": "Schedule a Pickup",
         "width": 539,
         "height": 522
       },
       "tooltip": {
-        "quote": "We have been using Optimal Ship exclusively for our shipments due to their quality service and making it happen fast. Their customer support team is always dedicated to helping us get our shipments to our customers around the world promptly. We have tried other shipment carriers in the past and none have successfully helped our business achieve keeping our supply chain moving more than OptimalShip.",
-        "author": "Ralph D'Agosta, President, America's Acres Inc. \n Animal Health & Safety Products"
+        "quote": "“We have been using OptimalShip exclusively for our shipments due to their quality service and making it happen fast. Their customer support team is always dedicated to helping us get our shipments to our customers around the world promptly. We have tried other shipment carriers in the past, and none have successfully helped our business achieve keeping our supply chain moving more than OptimalShip.”",
+        "author": "Ralph D'Agosta, President, \n America's Acres Inc. Animal Health & Safety Products"
       }
     }
   ]

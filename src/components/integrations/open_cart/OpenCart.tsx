@@ -4,21 +4,16 @@ import IntegrationContainer from '../components/IntegrationContainer';
 
 import * as styled from './OpenCart.styled';
 
-function ShipStation() {
+function OpenCart() {
   const data = dataService.getIntegrationOpenCart();
 
-  function downloadFile() {
-    window.open('https://www.optimalship.com/helps/opencart/optimalship.ocmod.zip', '_blank');
-  }
-
   const customItems = {
-    0: <styled.button onClick={downloadFile}>Download OpenChart File</styled.button>,
-    7: (
-      <ol type="a">
-        {data.list[7].content.orderedList.map((item, index) => {
-          return <styled.listItem key={index}>{item}</styled.listItem>;
-        })}
-      </ol>
+    6: (
+      <ul>
+      {data.list[6].content.unorderedList.map((item, index) => {
+        return <styled.listItem key={index} dangerouslySetInnerHTML={{__html: item}} />;
+      })}
+    </ul>
     )
   };
 
@@ -26,6 +21,7 @@ function ShipStation() {
     <IntegrationContainer
       title={data.title}
       description={data.description}
+      button={data.button}
       subtitle={data.subtitle}
       items={data.list}
       customItems={customItems}
@@ -33,4 +29,4 @@ function ShipStation() {
   );
 }
 
-export default ShipStation;
+export default OpenCart;

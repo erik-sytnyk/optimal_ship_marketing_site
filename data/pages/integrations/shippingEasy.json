@@ -1,10 +1,10 @@
 {
   "title": "ShippingEasy",
-  "description": "DHL Express shipment preparation is available through ShippingEasy using your export or import number provided to you by OptimalShip. Your DHL shipping rates will not appear within ShippingEasy. In order to check your rates prior to shipping with DHL, please use the OptimalShip quote tool found here: <a href=\"https://portal.optimalship.com/dashboard\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Quote Tool</a>",
+  "description": "DHL Express shipment preparation is available through ShippingEasy using your export or import number provided to you by OptimalShip. <strong>Your DHL shipping rates will not appear within ShippingEasy.</strong> In order to check your rates prior to shipping with DHL, please use the OptimalShip quote tool found here: <a href=\"https://portal.optimalship.com/dashboard\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Quote Tool</a>",
   "subtitle": "Steps to Configurate ShippingEasy Account",
   "list": [
     {
-      "title": "Log into ShippingEasy and go to <strong>Settings</strong> and select <strong>One Balance and Carriers</strong>",
+      "title": "Log into ShippingEasy, go to <strong>Settings</strong>, and select <strong>One Balance and Carriers</strong>.",
       "images": [
         {
           "url": "/images/integrations/shipping_easy/shipping-easy-1_1.png",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "title": "Select <strong>DHL Express</strong> and then click <strong>Setup</strong>",
+      "title": "Select <strong>DHL Express</strong> and then click <strong>Setup</strong>.",
       "image": {
         "url": "/images/integrations/shipping_easy/shipping-easy-2.png",
         "alt": "Shipping Easy 2",
@@ -30,7 +30,7 @@
       }
     },
     {
-      "title": "Enter your DHL export or import number provided to you by OptimalShip and click <strong>Connect Account</strong>",
+      "title": "Enter your DHL export or import number provided to you by OptimalShip and click <strong>Connect Account</strong>.",
       "image": {
         "url": "/images/integrations/shipping_easy/shipping-easy-3.png",
         "alt": "Shipping Easy 3",
@@ -40,7 +40,9 @@
     },
     {
       "title": "Complete setup by adding and confirming the remainder of the shipper information."
+    },
+    {
+      "title": "Once the shipping account is configured, ShippingEasy will allow you to print labels and retrieve tracking details. ShippingEasy will not be able to pull the shipment rate internally, but you can still complete your shipment within the system."
     }
-  ],
-  "context": "Once the shipping account is configured, ShippingEasy will allow you to print labels and retrieve tracking details. ShippingEasy will not be able to pull the shipment rate internally, but you can still complete your shipment within the system."
+  ]
 }

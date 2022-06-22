@@ -9,7 +9,7 @@ import * as styled from './Woocommerce.styled';
 function Woocommerce() {
   const data = dataService.getIntegrationWoocommerce();
 
-  const index = 6;
+  const index = 5;
   const content = data.list[index].content;
   const contentImage = content.image;
 
@@ -30,7 +30,7 @@ function Woocommerce() {
   };
 
   return (
-    <IntegrationContainer title={data.title} subtitle={data.subtitle} items={data.list} customItems={customItems} />
+    <IntegrationContainer title={data.title} description={data.description} button={data.button} subtitle={data.subtitle} items={data.list} customItems={customItems} />
   );
 }
 

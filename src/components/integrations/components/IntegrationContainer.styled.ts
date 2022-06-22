@@ -41,10 +41,10 @@ export const description = styled.div`
 `;
 
 export const button = styled(Button)`
-  margin: 0 auto 2rem;
+  margin: 0 auto 3.2rem;
 
   @media ${mediaQueries.tablet} {
-    margin: 0 1.6rem 1.6rem;
+    margin: 0 1.6rem 3.2rem;
   }
 `;
 

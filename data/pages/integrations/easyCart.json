@@ -1,28 +1,28 @@
 {
   "title": "EasyCart",
-  "description": "WP EasyCart is a WordPress E-commerce plugin that installs into new or existing WordPress blogs and websites. After installing EasyCart two new menu items will appear in your admin dashboard – WP EasyCart and Extensions – where you can manage your E-commerce site separate from your WordPress site.",
+  "description": "WP EasyCart is a WordPress e-commerce plugin that installs into new or existing WordPress blogs and websites. After installing EasyCart, two new menu items will appear in your admin dashboard, WP EasyCart and Extensions, where you can manage your e-commerce site separate from your WordPress site.",
   "subtitle": "Steps to Configurate EasyCart Account",
   "list": [
     {
-      "title": "In order to use the OptimalShip extension with EasyCart you must have the premium edition of EasyCart: <a href=\"https://www.optimalship.com/helps/easycart.php\" target=\"_blank\" rel=\"noreferrer\">Get Premium</a>"
+      "title": "In order to use the OptimalShip extension with EasyCart you must have the premium edition of EasyCart: <a href=\"https://www.wpeasycart.com/wordpress-ecommerce-premium-edition/\" target=\"_blank\" rel=\"noreferrer\">Get Premium</a>"
     },
     {
-      "title": "If you just created your premium EasyCart account, you will need to head back to your site and install the license according to EasyCarts instructions"
+      "title": "If you just created your premium EasyCart account, you will need to head back to your site and install the license according to the EasyCarts instructions."
     },
     {
       "title": "Click on the <strong>Extensions</strong> menu item in your WordPress dashboard. When the extension page loads, scroll down to the Optimal Ship extension. You should see a button on the extension that says <strong>Download Extension</strong>. If you do not see this button go back to the previous step. If you do see the download button, click on it"
     },
     {
-      "title": "You should have been taken to EasyCart to verify your premium status. Once verified, you can download the OptimalShip extension as a compressed ZIP file. Do not extract this file"
+      "title": "You should have been taken to EasyCart to verify your premium status. Once verified, you can download the OptimalShip extension as a compressed Zip file. Do not extract this file."
     },
     {
-      "title": "Follow the install instructions provided by EasyCart: <br/> <a href=\"https://www.optimalship.com/helps/easycart.php\" target=\"_blank\" rel=\"noreferrer\">How to Install an EasyCart Extension</a>"
+      "title": "Follow the install instructions provided by EasyCart: <br/> <a href=\"https://docs.wpeasycart.com/docs/extension-guides/installing-all-extensions/\" target=\"_blank\" rel=\"noreferrer\">How to Install an EasyCart Extension</a>"
     },
     {
-      "title": "Now all that is left to do is to configure the OptimalShip extension to integrate with your custom rates. EasyCart provides a simple walk through guide for you: <a href=\"https://www.optimalship.com/helps/easycart.php\" target=\"_blank\" rel=\"noreferrer\">Begin Using OptimalShip</a>"
+      "title": "Now all that is left to do is to configure the OptimalShip extension to integrate with your custom rates. EasyCart provides a simple walkthrough for you: <a href=\"https://docs.wpeasycart.com/docs/extension-guides/optimal-logistics-extension/\" target=\"_blank\" rel=\"noreferrer\">Begin Using OptimalShip</a>"
     },
     {
-      "title": "Go into your store and test it out. Please make sure you try it on an international address"
+      "title": "Go into your store and test it out. Please make sure you try it on an international address."
     }
   ]
 }

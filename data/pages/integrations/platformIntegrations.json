@@ -6,12 +6,12 @@
         "You can now receive your discounted OptimalShip shipping rates with the following platform integrations. We have created tutorials on how to receive our discounted shipping rates with each platform.",
         "<strong>Not finding an integration for your platform? Send us a request by clicking <a href=\"/contact-us\">here</a>.</strong>",
         "We are continually adding more platforms. Contact IT with any platform you recommend we add.",
-        "If your platform prompts you to enter a site <strong>ID</strong> and <strong>password</strong>, you will need to register for these credentials through DHL XML Services which can be found at <a href=\"https://xmlportal.dhl.com/register\" target=\"_blank\" rel=\"noreferrer\">https://xmlportal.dhl.com/register</a>. DHL will typically send you these credentials within 1-2 days."
+        "If your platform prompts you to enter a site <strong>ID</strong> and <strong>password</strong>, you will need to register for these credentials through DHL XML Services which can be found at <a href=\"https://xmlportal.dhl.com/register\" target=\"_blank\" rel=\"noreferrer\">https://xmlportal.dhl.com/register</a>. DHL will typically send you these credentials within 1–2 days."
       ],
       "list": [
         {
           "title": "ShipStation",
-          "description": "This integration helps businesses with e-commerce order fulfillment and automation, with a monthly subscription fee.",
+          "description": "This integration helps businesses with e-commerce order fulfillment and automation with a monthly subscription fee.",
           "icon": {
             "url": "/images/integrations/icons/shipstation.png",
             "alt": "ShipStation",
@@ -22,7 +22,7 @@
         },
         {
           "title": "Shopify",
-          "description": "This integration helps businesses with e-commerce order fulfillment and automation, with a monthly subscription fee.",
+          "description": "This integration helps businesses with e-commerce order fulfillment and automation with a monthly subscription fee.",
           "icon": {
             "url": "/images/integrations/icons/shopify.png",
             "alt": "Shopify",
@@ -33,7 +33,7 @@
         },
         {
           "title": "WooCommerce",
-          "description": "The e-commerce platform of WordPress, WooCommerce, offers full customizability and a customer service team.",
+          "description": "WooCommerce, the e-commerce platform of WordPress, offers full customizability and a customer service team.",
           "icon": {
             "url": "/images/integrations/icons/woocommerce.png",
             "alt": "WooCommerce",
@@ -44,7 +44,7 @@
         },
         {
           "title": "Magento",
-          "description": "An Adobe Company, Magento Commerce, strives to give users the most customizable and engaging shopping solutions.",
+          "description": "Magento Commerce, an Adobe Company, strives to give users the most customizable and engaging shopping solutions.",
           "icon": {
             "url": "/images/integrations/icons/magento.png",
             "alt": "Magento",
@@ -64,7 +64,7 @@
         },
         {
           "title": "OpenCart",
-          "description": "This platform offers free and open.source e.commerce with built-in SEO features, as well as a supportive community.",
+          "description": "This platform offers free and open-source e-commerce with built-in SEO features, as well as a supportive community.",
           "icon": {
             "url": "/images/integrations/icons/opencart.png",
             "alt": "OpenCart",
@@ -75,7 +75,7 @@
         },
         {
           "title": "3DCart",
-          "description": "As an all-in-one software, 3dcart can help entrepreneurs who want to increase visitors, sales, and conversion rates",
+          "description": "As an all-in-one software, 3DCart can help entrepreneurs who want to increase visitors, sales, and conversion rates.",
           "icon": {
             "url": "/images/integrations/icons/3dcart.png",
             "alt": "3DCart",
@@ -86,7 +86,7 @@
         },
         {
           "title": "Volusion",
-          "description": "With a monthly subscription fee, Volusion offers clients who do not write code, the ability to create unique e-commerce stores",
+          "description": "With a monthly subscription fee, Volusion offers clients who do not write code the ability to create unique e-commerce stores.",
           "icon": {
             "url": "/images/integrations/icons/volusion.png",
             "alt": "Volusion",
@@ -97,7 +97,7 @@
         },
         {
           "title": "Ubercart",
-          "description": "Web developers can use Ubercart \n (a selling point) with Drupal (an entire PHP platform). Ubercart also offers full customizability.",
+          "description": "Web developers can use Ubercart, \n a selling point, with Drupal, an entire PHP platform. Ubercart also offers full customizability.",
           "icon": {
             "url": "/images/integrations/icons/ubercart.png",
             "alt": "Ubercart",
@@ -108,7 +108,7 @@
         },
         {
           "title": "ShipWorks",
-          "description": "Paid service shipment preparation.",
+          "description": "Paid service for shipment preparation.",
           "icon": {
             "url": "/images/integrations/icons/shipworks.png",
             "alt": "ShipWorks",
@@ -130,7 +130,7 @@
         },
         {
           "title": "Zen-Cart",
-          "description": "Open Source eCommerce Platform",
+          "description": "Open Source eCommerce Platform.",
           "icon": {
             "url": "/images/integrations/icons/zencart.png",
             "alt": "Zen-Cart",
@@ -188,7 +188,7 @@
         },
         {
           "title": "WorldShip",
-          "description": "UPS Proprietarity/Free software. Does not offer DHL Express integration.",
+          "description": "UPS proprietarity/free software. Does not offer DHL Express integration.",
           "icon": {
             "url": "/images/integrations/icons/ups.png",
             "alt": "WorldShip",

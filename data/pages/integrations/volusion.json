@@ -3,17 +3,17 @@
   "subtitle": "Steps for Volusion integration:",
   "list": [
     {
-      "title": "Add DHL International Express as a shiping option",
+      "title": "Add DHL International Express as a shiping option.",
       "content": {
-        "title": "<br/>*Currently the DHL international express option does not work on volusion.* <br/> It does not connect to their rates and has an error and will give back the back up rate. <br/> If they do get this fixed, this walk through will show you how to set up DHL rates to reflect your optimal ship discounts.",
+        "title": "<br/><strong>*Currently the DHL international express option does not work on volusion.*</strong> <br/> It does not connect to their rates and has an error and will give back the back up rate. If they do get this fixed, this walk through will show you how to set up DHL rates to reflect your OptimalShip discounts.",
         "orderedList": [
-          "From the admin panel click Settings -> Shipping",
-          "Scroll down to advanced settings",
-          "Click \"View All Shipping Methods\"",
-          "Find DHL Worldwide Express",
-          "Check the active button",
-          "Click “Save”",
-          "Go back to shipping settings, you should now see DHL worldwide express as a method"
+          "From the admin panel, click <strong>Settings</strong> then <strong>Shipping</strong>.",
+          "Scroll down to <strong>Advanced Settings</strong>.",
+          "Click <strong>View All Shipping Methods</strong>.",
+          "Find <strong>DHL Worldwide Express</strong>.",
+          "Check the <strong>Active</strong> button.",
+          "Click <strong>Save</strong>.",
+          "Go back to shipping settings. You should now see <strong>DHL Worldwide Express</strong> as a method."
         ],
         "images": {
           "0": {
@@ -44,13 +44,13 @@
       }
     },
     {
-      "title": "Modify DHL Express rates to match OptimalShip rates",
+      "title": "Modify DHL Express rates to match OptimalShip rates.",
       "content": {
         "orderedList": [
-          "In Settings -> Shipping click DHL Worldwide Express under Live Rates",
-          "Make sure you add all countries you want to ship to",
-          "Find Pricing Options, On the right there should be an extra shipping cost. <br/> Add your discount to extra shipping cost percent box. <br/> (Make sure you use the negative sign to indicate a discount and don't use the % sign) I.E (-40) would be (-40%) <br/> If you don't know what number to use please call a customer service representative to find out. <a href=\"tel:800-418-2273\">(800) 418-2273</a>",
-          "Verify it works, You should see DHL worldwide express now for qualifying orders."
+          "In <strong>Settings</strong> → <strong>Shipping</strong> click <strong>DHL Worldwide Express</strong> under <strong>Live Rates</strong>.",
+          "Make sure you add all countries you want to ship to and exclude the US.",
+          "Find <strong>Pricing Options</strong>. On the right, there should be an extra shipping cost. Add your discount to the extra shipping cost percent box. Make sure you use the negative sign to indicate a discount and don't use the % sign, i.e. \"-40\" would be a 40% discount. If you don't know what number to use, please call a customer service representative to find out: <a href=\"tel:800-418-2273\">(800) 418-2273</a>",
+          "Verify it works. You should see <strong>DHL Worldwide Express</strong> now for qualifying orders."
         ],
         "images": {
           "0": {

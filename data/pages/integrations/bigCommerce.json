@@ -1,12 +1,12 @@
 {
   "title": "Big Commerce",
-  "description": "Optimal Ship Rates is a free Big Commerce app (extension) managed by OptimalShip, that allows you to use your OptimalShip rates for international shipments in your Big Commerce store. To start using Optimal Ship Rates today follow the steps below. Please pay careful attention to the warnings.",
+  "description": "Optimal Ship Rates is a free Big Commerce app managed by OptimalShip that allows you to use your OptimalShip rates for international shipments in your Big Commerce store. To start using Optimal Ship Rates today follow the steps below. Please pay careful attention to the warnings.",
   "content": {
     "title": "Warnings",
     "description": "There are two very important things you must be aware of before configuring Optimal Ship Rates:",
     "list": [
       "Optimal Ship Rates will not provide transit times even if the <strong>Show Transit Time</strong> option is checked when configuring shipping options.",
-      "Every product must include dimensions and weight! You can find this setting under <strong>Products > View > [select a product] > Dimensions & Weight;</strong> the fulfillment section when editing a product. Without this information Optimal Ship Rates will not provide accurate rates"
+      "<strong>Every product must include dimensions and weight!</strong> You can find this setting under <strong>Products → View → [select a product] → Dimensions & Weight</strong>, the fulfillment section when editing a product. Without this information, Optimal Ship Rates will not provide accurate rates."
     ]
   },
   "contentExtra": {
@@ -22,22 +22,22 @@
   "subtitle": "Steps to Configurate Big Commerce Account",
   "list": [
     {
-      "title": "Have a user with admin privileges login to your Big Commerce store"
+      "title": "Have a user with admin privileges login to your Big Commerce store."
     },
     {
-      "title": "From your stores dashboard navigate to the App Marketplace: <br/> <strong>App > Marketplace</strong>"
+      "title": "From your stores dashboard navigate to the App Marketplace: <br/> <strong>App → Marketplace</strong>."
     },
     {
-      "title": "Depending on the version of Big Commerce you are using you will either see the App Marketplace now, or a button inviting you to visit the App Marketplace. If you see the button click it to view the App Marketplace. Now search for <strong>Optimal Ship Rates</strong>"
+      "title": "Depending on the version of Big Commerce you are using you will either see the App Marketplace now, or a button inviting you to visit the App Marketplace. If you see the button click it to view the App Marketplace. Now search for <strong>Optimal Ship Rates</strong>."
     },
     {
-      "title": "Now click on the <strong>Optimal Ship Rates</strong> app and the app page will load. Click on <strong>Get This App</strong> and then <strong>Existing Big Commerce Store</strong>; assuming you setup a store already"
+      "title": "Now click on the <strong>Optimal Ship Rates</strong> app, and the app page will load. Click on <strong>Get This App</strong> and then <strong>Existing Big Commerce Store</strong>, assuming you set up a store already."
     },
     {
-      "title": "You will be taken back to your store where you will be presented with the Optimal Ship Rates app again. Click the Install button at the top of the page. You may be prompted to login again and/or enter a one time code that was emailed to for security <br/><br/> If you have to login again or enter a one time code you may have to start the install process again. This is a limitation in Big Commerce. Just repeat the last 2 steps"
+      "title": "You will be taken back to your store where you will be presented with the Optimal Ship Rates app again. Click the <strong>Install</strong> button at the top of the page. You may be prompted to login again and/or enter a one time code that was emailed to for security. <br/><br/> If you have to login again or enter a one time code, you may have to start the install process again. This is a limitation in Big Commerce. Just repeat the last 2 steps."
     },
     {
-      "title": "You will know the installation is working when after clicking the <strong>Install</strong> button at the top of the page, a new page loads asking for your final confirmation. Make sure to agree to the OAuth permissions and the <strong>Optimal Ship Rates</strong> app will be added to your store. Below is an example of what this page will look like. These permissions are needed in order for the app to work:",
+      "title": "You will know the installation is working when, after clicking the <strong>Install</strong> button at the top of the page, a new page loads asking for your final confirmation. Make sure to agree to the OAuth permissions and the <strong>Optimal Ship Rates</strong> app will be added to your store. Below is an example of what this page will look like. These permissions are needed in order for the app to work:",
       "image": {
         "url": "/images/integrations/big_commerce/big-commerce-2.png",
         "alt": "Confirm Optimal Ship Rates Installation",
@@ -49,7 +49,7 @@
       }
     },
     {
-      "title": "You are now done with the installation of the Optimal Ship Rates app! Your next step is to setup or modify your stores shipping settings so the app uses Optimal Ship Rates for international shipments. Under <strong>Apps</strong> click on the <strong>Optimal Ship Rates</strong> app and follow the listed instructions:",
+      "title": "You are now done with the installation of the Optimal Ship Rates app! Your next step is to setup or modify your stores shipping settings so the app uses Optimal Ship Rates for international shipments. Under <strong>Apps</strong>, click on the <strong>Optimal Ship Rates</strong> app and follow the listed instructions:",
       "image": {
         "url": "/images/integrations/big_commerce/big-commerce-3.png",
         "alt": "",

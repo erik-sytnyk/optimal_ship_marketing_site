@@ -1,6 +1,6 @@
 {
   "title": "ShipStation",
-  "description": "Our current integration with ShipStation requires use of the DHL Express carrier in ShipStation. <br/><br/> DHL shipment preparation is available through ShipStation using your export or import number provided to you by OptimalShip. Your DHL shipping rates will not appear within ShipStation. In order to check your rates prior to shipping with DHL, please use the OptimalShip quote tool found here: <a href=\"https://portal.optimalship.com/dashboard\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Quote Tool</a>.<br/><br/> If prompted for a site ID and password, you will need to register for these credentials through DHL XML Services which can be found at <a href=\"https://xmlportal.dhl.com/register\" target=\"_blank\" rel=\"noreferrer\">https://xmlportal.dhl.com/register</a>. DHL will typically send you these credentials within 1-2 days.",
+  "description": "Our current integration with ShipStation requires use of the DHL Express carrier in ShipStation. <br/><br/> DHL shipment preparation is available through ShipStation using your export or import number provided to you by OptimalShip. Your DHL shipping rates will not appear within ShipStation. In order to check your rates prior to shipping with DHL, please use the <a href=\"https://portal.optimalship.com/dashboard\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Quote Tool</a>.<br/><br/> If prompted for a site ID and password, you will need to register for these credentials through DHL XML Services which can be found at <a href=\"https://xmlportal.dhl.com/register\" target=\"_blank\" rel=\"noreferrer\">https://xmlportal.dhl.com/register</a>. DHL will typically send you these credentials within 1–2 days.",
   "subtitle": "Add DHL Express as a Shipping Carrier",
   "list": [
     {
@@ -13,7 +13,7 @@
       }
     },
     {
-      "title": "Select <strong>DHL Express</strong> and click <strong>Connect</strong>",
+      "title": "Select <strong>DHL Express</strong> and click <strong>Connect</strong>.",
       "image": {
         "url": "/images/integrations/ship_station/ship-station-2.png",
         "alt": "Connect",
