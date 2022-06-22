@@ -19,9 +19,10 @@ export const extraTitle = styled(title)`
 `;
 
 export const caption = styled(text)`
-  margin: -2rem 0 3rem 3rem;
+  margin: -2rem 0 3rem 0;
   font-size: 1rem;
   opacity: 0.75;
+  text-align: center;
 
   @media ${mediaQueries.tablet} {
     font-size: 2rem;
