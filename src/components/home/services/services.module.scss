@@ -63,12 +63,6 @@
         border-right: none;
         z-index: 5;
       }
-      #tooltip-0 {
-        padding: 3.2rem 1.5rem 2.4rem 3rem;
-        width: 95%;
-        bottom: 0;
-        right: 0;
-      }
     }
   }
   .service-row-1 {
@@ -98,11 +92,6 @@
         border-right: none;
         z-index: 5;
       }
-      #tooltip-1 {
-        padding: 3.2rem 1rem 3.2rem 1.6rem;
-        width: 100%;
-        top: 11.4rem;
-      }
     }
   }
   .service-row-2 {
@@ -131,13 +120,6 @@
         border-right: none;
         z-index: 5;
       }
-      #tooltip-2 {
-        position: absolute;
-        right: 0;
-        bottom: 1.6rem;
-        padding: 3.2rem 1.8rem 3.2rem 2.8rem;
-        width: 95%;
-      }
     }
   }
   .service-row-3 {
@@ -165,17 +147,6 @@
         border: v.$main-border;
         border-right: none;
         z-index: 5;
-      }
-      #tooltip-3 {
-        position: absolute;
-        left: 0;
-        bottom: 4rem;
-        padding: 3.2rem 2.8rem 3.2rem 1.8rem;
-        width: 95%;
-
-        .author {
-          white-space: normal;
-        }
       }
     }
   }
@@ -228,12 +199,6 @@
           left: 0;
           border: v.$main-border;
         }
-        #tooltip-0 {
-          padding: 3.2rem 3rem;
-          width: 42rem;
-          bottom: 0;
-          right: 8.9rem;
-        }
       }
     }
     .service-row-1 {
@@ -252,12 +217,6 @@
           width: 36.3rem;
           right: 2rem;
           border: v.$main-border;
-        }
-        #tooltip-1 {
-          padding: 3.2rem;
-          width: 42.4rem;
-          left: 0;
-          top: 15.4rem;
         }
       }
     }
@@ -281,10 +240,6 @@
           right: 12.9rem;
           border: v.$main-border;
         }
-        #tooltip-2 {
-          width: 47.2rem;
-          padding: 4.2rem 3rem 3.2rem;
-        }
       }
     }
     .service-row-3 {
@@ -306,17 +261,6 @@
           width: 36.3rem;
           right: 11.9rem;
           border: v.$main-border;
-        }
-        #tooltip-3 {
-          width: 44.2rem;
-          padding: 3.2rem 3rem;
-          right: 0;
-          left: auto;
-          bottom: 4rem;
-
-          .author {
-            white-space: pre-line;
-          }
         }
       }
     }

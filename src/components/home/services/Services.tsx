@@ -42,8 +42,8 @@ function Services() {
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
           </div>
           <div id={`service-rectangle-${index}`} />
-          <styled.firstCircles />
-          <Tooltip id={`tooltip-${index}`} tooltip={service.tooltip} />
+          <styled.preparationCircles />
+          <styled.preparationTooltip tooltip={service.tooltip} />
         </div>
       );
     }
@@ -55,8 +55,8 @@ function Services() {
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
           </div>
           <div id={`service-rectangle-${index}`} />
-          <styled.firstWave />
-          <Tooltip id={`tooltip-${index}`} tooltip={service.tooltip} />
+          <styled.quoteWave />
+          <styled.quoteTooltip tooltip={service.tooltip} />
         </div>
       );
     }
@@ -68,8 +68,8 @@ function Services() {
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
           </div>
           <div id={`service-rectangle-${index}`} />
-          <styled.secondCircles />
-          <Tooltip id={`tooltip-${index}`} tooltip={service.tooltip} />
+          <styled.billPayCircles />
+          <styled.billPayTooltip tooltip={service.tooltip} />
         </div>
       );
     }
@@ -81,8 +81,8 @@ function Services() {
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
           </div>
           <div id={`service-rectangle-${index}`} />
-          <styled.secondWave />
-          <Tooltip id={`tooltip-${index}`} tooltip={service.tooltip} />
+          <styled.pickupWave />
+          <styled.pickupTooltip tooltip={service.tooltip} />
         </div>
       );
     }

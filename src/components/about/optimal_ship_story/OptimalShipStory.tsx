@@ -3,8 +3,6 @@ import Image from 'next/image';
 
 import dataService from 'src/services/dataService';
 
-import Tooltip from 'src/components/common/Tooltip';
-
 import * as styled from './OptimalShipStory.styled';
 
 function OptimalShipStory() {
@@ -39,7 +37,7 @@ function OptimalShipStory() {
           <div id="story-image">
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
           </div>
-          <Tooltip id="optimal-story-tooltip" tooltip={data.tooltip} />
+          <styled.tooltip tooltip={data.tooltip} />
           <div id="optimal-story-rectangle" />
           <styled.waveTop />
           <styled.waveBottom />

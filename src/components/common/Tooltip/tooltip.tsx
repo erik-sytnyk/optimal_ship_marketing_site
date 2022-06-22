@@ -1,26 +1,22 @@
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
+import * as styled from './Tooltip.styled';
 
-Tooltip.propTypes = {
-  id: PropTypes.string,
-  tooltip: PropTypes.object.isRequired
-};
+interface Props {
+  tooltip: any;
+  children?: any;
+  className?: string;
+}
 
 Tooltip.defaultProps = {
   className: ''
 };
 
-function Tooltip({id, tooltip, className}) {
-  const tooltipClass = classNames({
-    tooltip: true,
-    [className]: className ? true : false
-  });
-
+function Tooltip({tooltip, children, className}: Props) {
   return (
-    <div id={id} className={tooltipClass}>
-      <div className="quote">{tooltip.quote}</div>
-      <div className="author">{tooltip.author}</div>
-    </div>
+    <styled.container className={className}>
+      <styled.quote className="quote">{tooltip.quote}</styled.quote>
+      <styled.author className="author">{tooltip.author}</styled.author>
+      {children}
+    </styled.container>
   );
 }
 

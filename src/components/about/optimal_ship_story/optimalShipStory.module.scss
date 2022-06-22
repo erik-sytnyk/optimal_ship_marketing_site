@@ -30,18 +30,6 @@
         top: 3rem;
         z-index: 10;
       }
-      #optimal-story-tooltip {
-        width: 34.8rem;
-        padding: 3.2rem 3.6rem 4rem 3.3rem;
-        top: 11rem;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-
-        .quote {
-          margin-bottom: 1.6rem;
-        }
-      }
       #optimal-story-rectangle {
         position: absolute;
         width: 79%;
@@ -122,11 +110,6 @@
           right: 0;
           top: 6rem;
           width: auto;
-        }
-        #optimal-story-tooltip {
-          left: 0;
-          top: 14rem;
-          margin: 0;
         }
         #optimal-story-rectangle {
           width: 35.6rem;

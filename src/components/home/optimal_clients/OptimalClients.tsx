@@ -3,8 +3,6 @@ import Router from 'next/router';
 
 import dataService from 'src/services/dataService';
 
-import Tooltip from 'src/components/common/Tooltip';
-
 import * as styled from './OptimalClients.styled';
 
 function OptimalClients() {
@@ -28,7 +26,7 @@ function OptimalClients() {
           <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
         </div>
         <div id="optimal-clients-rectangle" />
-        <Tooltip id="optimal-clients-tooltip" tooltip={data.tooltip} />
+        <styled.tooltip tooltip={data.tooltip} />
       </div>
     </div>
   );

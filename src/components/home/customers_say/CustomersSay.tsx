@@ -4,6 +4,8 @@ import Link from 'next/link';
 
 import dataService from 'src/services/dataService';
 
+import * as styled from './CustomersSay.styled';
+
 function CustomersSay() {
   const data = dataService.getCustomersFeedback();
   const list = data?.list || [];
@@ -34,36 +36,41 @@ function CustomersSay() {
     }
   }
 
-  const image = feedback.image;
+  function render() {
+    const image = feedback.image;
 
-  return (
-    <div id="customers-say">
-      <div id="customers-say-images">
-        <div id="customers-say-image">
-          <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
-        </div>
-        <div className="rectangle" />
-        <div id="feedback-tooltip" className="tooltip">
-          <div className="quote">{feedback?.quote}</div>
-          <div className="author">{feedback?.author}</div>
-          <div className="toolbar">
-            <a onClick={onLeftClick}>
-              <span className="arrow left" />
-            </a>
-            <a onClick={onRightClick}>
-              <span className="arrow right" />
-            </a>
+    return (
+      <div id="customers-say">
+        <div id="customers-say-images">
+          <div id="customers-say-image">
+            <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
           </div>
+          <div className="rectangle" />
+
+          <styled.tooltip tooltip={feedback}>
+            <styled.tooltipToolbar>
+              <styled.toolbarLink onClick={onLeftClick}>
+                <styled.toolbarArrow position="left" />
+              </styled.toolbarLink>
+
+              <styled.toolbarLink onClick={onRightClick}>
+                <styled.toolbarArrow position="right" />
+              </styled.toolbarLink>
+            </styled.tooltipToolbar>
+          </styled.tooltip>
+        </div>
+
+        <div id="customers-say-content">
+          <div id="customers-say-title">{data.title}</div>
+          <Link href="/about#customer-stories-section">
+            <a>{data.button}</a>
+          </Link>
         </div>
       </div>
-      <div id="customers-say-content">
-        <div id="customers-say-title">{data.title}</div>
-        <Link href="/about#customer-stories-section">
-          <a>{data.button}</a>
-        </Link>
-      </div>
-    </div>
-  );
+    );
+  }
+
+  return render();
 }
 
 export default CustomersSay;
