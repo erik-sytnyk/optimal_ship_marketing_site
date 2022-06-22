@@ -1,41 +1,41 @@
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
+import * as styled from './Button.styled';
 
-Button.propTypes = {
-  searchButton: PropTypes.bool,
-  outline: PropTypes.bool,
-  onClick: PropTypes.func,
-  disabled: PropTypes.bool
-};
+interface Props {
+  search?: boolean;
+  outline?: boolean;
+  fullWidth?: boolean;
+  onClick: () => void;
+  disabled?: boolean;
+  children: any;
+  className?: string;
+}
 
 Button.defaultProps = {
+  search: false,
+  outline: false,
+  fullWidth: false,
   className: '',
   disabled: false
 };
 
-function Button({children, searchButton, outline, disabled, onClick, className}) {
+function Button({children, search, outline, fullWidth, disabled, onClick, className}: Props) {
   function clickButton() {
     if (!onClick) return;
 
     onClick();
   }
 
-  function render() {
-    const buttonClass = classNames({
-      'custom-button': true,
-      'search-button': searchButton,
-      outline,
-      [className]: className ? true : false
-    });
-
-    return (
-      <button className={buttonClass} disabled={disabled} onClick={clickButton}>
-        {children}
-      </button>
-    );
-  }
-
-  return render();
+  return (
+    <styled.button
+      search={search}
+      outline={outline}
+      fullWidth={fullWidth}
+      className={className}
+      disabled={disabled}
+      onClick={clickButton}>
+      {children}
+    </styled.button>
+  );
 }
 
 export default Button;

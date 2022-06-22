@@ -25,7 +25,7 @@ function SearchInput() {
         onChange={e => setTrackingNumber(e.target.value)}
       />
 
-      <Button searchButton onClick={trackingHandler}>
+      <Button search onClick={trackingHandler}>
         Search
       </Button>
     </styled.container>

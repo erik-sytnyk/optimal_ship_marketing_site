@@ -1,6 +1,6 @@
 import dataService from 'src/services/dataService';
 
-import Button from 'src/components/common/Button';
+import * as styled from './ReadyToShip.styled';
 
 function ReadyToShip() {
   const data = dataService.getReadyToShip();
@@ -13,9 +13,9 @@ function ReadyToShip() {
     return (
       <>
         <div className="tool-description">{item.description}</div>
-        <Button outline={item.outline} onClick={() => redirectTo(item.url)}>
+        <styled.button outline={item.outline} onClick={() => redirectTo(item.url)}>
           {item.title}
-        </Button>
+        </styled.button>
       </>
     );
   }

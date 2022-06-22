@@ -24,7 +24,9 @@ function Services() {
           {header && <div id="service-header">{header}</div>}
           <div className="service-title">{service.title}</div>
           <div className="service-description">{service.description}</div>
-          <Button onClick={() => redirectTo(service.url)}>{service.button}</Button>
+          <Button fullWidth onClick={() => redirectTo(service.url)}>
+            {service.button}
+          </Button>
         </div>
       </div>
     );

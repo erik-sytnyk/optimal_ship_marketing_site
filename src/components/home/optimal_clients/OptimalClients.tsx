@@ -3,8 +3,9 @@ import Router from 'next/router';
 
 import dataService from 'src/services/dataService';
 
-import Button from 'src/components/common/Button';
 import Tooltip from 'src/components/common/Tooltip';
+
+import * as styled from './OptimalClients.styled';
 
 function OptimalClients() {
   const data = dataService.getOptimalClients();
@@ -20,7 +21,7 @@ function OptimalClients() {
       <div id="optimal-clients-content">
         <div id="optimal-clients-title">{data.title}</div>
         <div id="optimal-clients-description">{data.description}</div>
-        <Button onClick={redirectToAboutUsPage}>{data.button}</Button>
+        <styled.button onClick={redirectToAboutUsPage}>{data.button}</styled.button>
       </div>
       <div id="optimal-clients-images">
         <div id="optimal-clients-image">

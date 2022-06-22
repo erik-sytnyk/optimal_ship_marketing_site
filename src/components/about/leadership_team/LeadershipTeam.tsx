@@ -3,7 +3,7 @@ import Router from 'next/router';
 
 import dataService from 'src/services/dataService';
 
-import Button from 'src/components/common/Button';
+import * as styled from './LeadershipTeam.styled';
 
 function LeadershipTeam() {
   const data = dataService.getLeadershipTeam();
@@ -31,7 +31,7 @@ function LeadershipTeam() {
 
       <div id="leadership-divider" />
       <div id="leadership-team-question">{data.subtitle}</div>
-      <Button onClick={seeOurOpenPositions}>{data.button}</Button>
+      <styled.button onClick={seeOurOpenPositions}>{data.button}</styled.button>
     </div>
   );
 }
