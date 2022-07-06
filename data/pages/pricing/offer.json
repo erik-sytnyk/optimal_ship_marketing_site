@@ -2,7 +2,7 @@
   "title": "All OptimalShip customers get:",
   "list": [
     {
-      "text": "Discounted Shipping rates; saving an average of 40% versus retail",
+      "text": "Discounted shipping rates, saving an average of 40% versus retail",
       "icon": {
         "url": "/images/pricing/offer/icons/savings.png",
         "alt": "Savings",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "text": "Free Pick-up Scheduling Tool",
+      "text": "Free Pickup Scheduling Tool",
       "icon": {
         "url": "/images/pricing/offer/icons/pickup.png",
         "alt": "Pickup",
@@ -66,7 +66,7 @@
     }
   ],
   "button": "Get a Quote",
-  "url": "https://portal.optimalship.com/dashboard",
+  "url": "https://prep.optimalship.com/get-quote",
   "image": {
     "url": "/images/pricing/offer/background.png",
     "alt": "Background",

@@ -4,13 +4,13 @@
     {
       "title": "Prepare a Shipment",
       "description": "Check out our new OptimalShip Shipment Preparation Tool and start shipping!",
-      "url": "https://portal.optimalship.com/dashboard",
+      "url": "https://prep.optimalship.com/prepare-shipment",
       "outline": false
     },
     {
       "title": "Get a Quote",
       "description": "Try our free Quote tool!",
-      "url": "https://portal.optimalship.com/dashboard",
+      "url": "https://prep.optimalship.com/get-quote",
       "outline": true
     }
   ]

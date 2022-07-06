@@ -11,8 +11,27 @@ export const wrapper = styled.div`
   flex-wrap: wrap;
   padding: 7rem 0 7.6rem;
 
+  // Have "What our customers say" work as a title when there is no link to more stories
+  ${props =>
+    props.displayLinkToMoreStories === false &&
+    css`
+      flex-wrap: wrap-reverse;
+    `}
+
   @media ${mediaQueries.tablet} {
     padding: 8rem 0 5.2rem;
+  }
+
+  // Fix for text sliding into image in some screen sizes
+  @media screen and (max-width: 1229px) and (min-width: 768px) {
+    flex-wrap: no-wrap;
+    flex-direction: column;
+
+    ${props =>
+      props.displayLinkToMoreStories === false &&
+      css`
+        flex-direction: column-reverse;
+      `}
   }
 `;
 
@@ -123,6 +142,22 @@ export const content = styled.div`
     width: 38.6rem;
     margin: 8.1rem 13.5rem 0 0;
     padding-top: 0;
+
+    ${props =>
+      props.displayLinkToMoreStories === false &&
+      css`
+        display: flex;
+        align-items: center;
+      `}
+  }
+
+  // Fix for text sliding into image in some screen sizes
+  @media screen and (max-width: 1370px) and (min-width: 1229px) {
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: 1229px) and (min-width: 768px) {
+    margin: 0 auto;
   }
 `;
 

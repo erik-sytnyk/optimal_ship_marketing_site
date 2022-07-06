@@ -9,6 +9,8 @@ import * as styled from './CustomersSay.styled';
 function CustomersSay() {
   const data = dataService.getCustomersFeedback();
   const list = data?.list || [];
+  // We are removing the link to more customer stories in the about section as we don't have any right now.
+  const displayLinkToMoreStories = false;
 
   const [feedback, setFeedback] = useState(list[0]);
 
@@ -40,7 +42,7 @@ function CustomersSay() {
     const image = feedback.image;
 
     return (
-      <styled.wrapper>
+      <styled.wrapper displayLinkToMoreStories={displayLinkToMoreStories}>
         <styled.imagesContainer>
           <styled.imageContainer>
             <Image src={image.url} alt={image.alt} width={image.width} height={image.height} />
@@ -60,11 +62,12 @@ function CustomersSay() {
           </styled.tooltip>
         </styled.imagesContainer>
 
-        <styled.content>
+        <styled.content displayLinkToMoreStories={displayLinkToMoreStories}>
           <styled.title>{data.title}</styled.title>
-          <Link href="/about#customer-stories-section" passHref>
-            <styled.link>{data.button}</styled.link>
-          </Link>
+          {displayLinkToMoreStories && <Link href="/about#customer-stories-section" passHref>
+              <styled.link>{data.button}</styled.link>
+            </Link>
+          }
         </styled.content>
       </styled.wrapper>
     );

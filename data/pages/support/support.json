@@ -12,11 +12,11 @@
       "questions": [
         {
           "question": "I cannot locate the DHL Export or Import numbers Optimal Logistics provided me. What can I do?",
-          "answer": "Our customer service department can provide you with your import and export numbers. To get in contact with us, please send an email to <a href=\"mailto:customerservice@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">customerservice@optimalship.com</a> or call <a href=\"tel:+1-972-383-9901\">972-383-9901</a> (7:00 AM - 7:00 PM CST, M-F)."
+          "answer": "Our customer service department can provide you with your import and export numbers. To get in contact with us, please send an email to <a href=\"mailto:customerservice@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">customerservice@optimalship.com</a> or call <a href=\"tel:+1-972-383-9901\">972-383-9901</a>. We are available from 7:00 AM - 7:00 PM CST, Monday through Friday."
         },
         {
           "question": "I have forgotten my username or password for OptimalShip Online Tools. What can I do?",
-          "answer": "You can still create a shipment or get a quote with just your export or import number. You can also contact <a href=\"mailto:customerservice@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">customerservice@optimalship.com</a> or <a href=\"tel:+1-972-383-9901\">972-383-9901</a> to reset your password."
+          "answer": "You can still create a shipment or get a quote with just your export or import number. You can also contact <a href=\"mailto:customerservice@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">customerservice@optimalship.com</a> or <a href=\"tel:+1-972-383-9901\">972-383-9901</a> to reset your password. We are available from 7:00 AM - 7:00 PM CST, Monday through Friday."
         }
       ]
     },
@@ -39,7 +39,7 @@
         },
         {
           "question": "How do I get a quote?",
-          "answer": "You can get a quote by using our <a href=\"https://portal.optimalship.com/dashboard\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Online Tool</a>. <br/><br/> You can also call our customer service team at <a href=\"tel:+1-972-383-9901\">972-383-9901</a> or send an email to <a href=\"mailto:usaship@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">usaship@optimalship.com</a>. <br/><br/> The information needed to provide you with an accurate quote is origin zip code, destination zip code, shipment weight, and shipment dimensions."
+          "answer": "You can get a quote by using our <a href=\"https://prep.optimalship.com/get-quote\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Online Tool</a>. <br/><br/> You can also call our customer service team at <a href=\"tel:+1-972-383-9901\">972-383-9901</a> or send an email to <a href=\"mailto:usaship@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">usaship@optimalship.com</a>. <br/><br/> The information needed to provide you with an accurate quote is origin zip code, destination zip code, shipment weight, and shipment dimensions."
         },
         {
           "question": "How frequently does the fuel-surcharge percentage change?",
@@ -51,7 +51,7 @@
         },
         {
           "question": "How do I schedule a pickup?",
-          "answer": "There are three ways to schedule a pickup: <br/><br/> You can schedule a pick up on the <a href=\"https://portal.optimalship.com/dashboard\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Online Tool</a>. <br/><br/> Or you can contact <a href=\"mailto:customerservice@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">customerservice@optimalship.com</a> <br/><br/> Or call us at <a href=\"tel:+1-972-383-9901\">972-383-9901</a>."
+          "answer": "There are three ways to schedule a pickup: <br/><br/> You can schedule a pick up on the <a href=\"https://prep.optimalship.com/schedule-pickup\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Online Tool</a>. <br/><br/> Or you can contact <a href=\"mailto:customerservice@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">customerservice@optimalship.com</a> <br/><br/> Or call us at <a href=\"tel:+1-972-383-9901\">972-383-9901</a>."
         },
         {
           "question": "How will I receive my invoice for my domestic shipment?",
@@ -135,7 +135,7 @@
           },
           {
             "question": "How do I schedule a pickup for my packages?",
-            "answer": "There are three ways to schedule a pickup: <br/><br/> You can schedule a pick up on the <a href=\"https://portal.optimalship.com/dashboard\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Online Tool</a>. <br/><br/> Or you can contact <a href=\"mailto:customerservice@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">customerservice@optimalship.com</a> <br/><br/> Or call us at <a href=\"tel:+1-972-383-9901\">972-383-9901</a>."
+            "answer": "There are three ways to schedule a pickup: <br/><br/> You can schedule a pick up on the <a href=\"https://prep.optimalship.com/schedule-pickup\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Online Tool</a>. <br/><br/> Or you can contact <a href=\"mailto:customerservice@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">customerservice@optimalship.com</a> <br/><br/> Or call us at <a href=\"tel:+1-972-383-9901\">972-383-9901</a>."
           }
         ],
         "REMOTE LOCATIONS": [

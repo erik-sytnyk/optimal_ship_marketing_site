@@ -5,7 +5,7 @@
       "title": "Free Shipment Preparation Tool",
       "description": "Whether you need to generate international or domestic shipping documents, we have you covered. Our free and easy-to-use shipment preparation tool will get you on your way to successful shipments. You can even view your shipping quote and schedule a pickup while you are preparing your shipping documents with this tool.",
       "button": "Prepare a Shipment",
-      "url": "https://portal.optimalship.com/dashboard",
+      "url": "https://prep.optimalship.com/prepare-shipment",
       "image": {
         "url": "/images/home/services/prepare-shipment.png",
         "alt": "Prepare a Shipment",
@@ -21,7 +21,7 @@
       "title": "Free \n Quote Tool",
       "description": "Using our Free Quote Tool, you can quickly view just how much money you are saving by using OptimalShip. To obtain a shipping quote, all you need is the origin and destination countries, weight, and dimensions.",
       "button": "Get a Quote",
-      "url": "https://portal.optimalship.com/dashboard",
+      "url": "https://prep.optimalship.com/get-quote",
       "image": {
         "url": "/images/home/services/free-quote.png",
         "alt": "Free Quote Tool",
@@ -53,7 +53,7 @@
       "title": "Pickup \n Scheduler",
       "description": "Quickly and easily schedule a pickup.  Same-day pickups are available in most locations for domestic and international shipments.",
       "button": "Schedule a Pickup",
-      "url": "https://portal.optimalship.com/dashboard",
+      "url": "https://prep.optimalship.com/schedule-pickup",
       "image": {
         "url": "/images/home/services/schedule-pickup.png",
         "alt": "Schedule a Pickup",

@@ -112,7 +112,7 @@ function Footer() {
               <Link href="/support">FAQs</Link>
             </styled.listItem>
             <styled.listItem>
-              <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
+              <a href="https://prep.optimalship.com/sign-up" target="_blank" rel="noreferrer">
                 Create an Account
               </a>
             </styled.listItem>
@@ -123,12 +123,12 @@ function Footer() {
           <styled.title>Helpful Tools</styled.title>
           <styled.list>
             <styled.listItem>
-              <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
+              <a href="https://prep.optimalship.com/prepare-shipment" target="_blank" rel="noreferrer">
                 Free Shipment Prep Tool
               </a>
             </styled.listItem>
             <styled.listItem>
-              <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
+              <a href="https://prep.optimalship.com/get-quote" target="_blank" rel="noreferrer">
                 Free Quote Tool
               </a>
             </styled.listItem>
@@ -138,7 +138,7 @@ function Footer() {
               </a>
             </styled.listItem>
             <styled.listItem>
-              <a href="https://portal.optimalship.com/dashboard" target="_blank" rel="noreferrer">
+              <a href="https://prep.optimalship.com/schedule-pickup" target="_blank" rel="noreferrer">
                 Pickup Scheduler
               </a>
             </styled.listItem>
