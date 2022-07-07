@@ -75,7 +75,7 @@
           },
           {
             "question": "Is there a charge for shipping dangerous goods?",
-            "answer": "Shipments containing dangerous goods incur an additional fee of <strong>$117.50</strong>."
+            "answer": "Shipments containing fully regulated dangerous goods incur an additional fee of <strong>$130.00</strong>."
           },
           {
             "question": "How do I contact a DHL Dangerous Goods Specialist?",
@@ -89,7 +89,7 @@
           },
           {
             "question": "Who pays duty and tax fees?",
-            "answer": "Duties and taxes can be paid by either the shipper or receiver. The selection of who pays duties and taxes is chosen when the shipping documents are created. A $15 fee applies if the duties and taxes get billed back to the shipper’s account."
+            "answer": "Duties and taxes can be paid by either the shipper or receiver. The selection of who pays duties and taxes is chosen when the shipping documents are created. An $18 fee applies if the duties and taxes get billed back to the shipper’s account."
           },
           {
             "question": "Will there be charges if a product is designated as a duty free good?",
@@ -113,21 +113,21 @@
         "OVERWEIGHT OR OVERSIZED PACKAGE": [
           {
             "question": "Why did I receive an overweight/oversized fee?",
-            "answer": "DHL deems a shipment overweight if it weights <strong>150 lbs</strong>. or more (actual weight or dimensional weight) and oversized if any single dimensions exceed <strong>48 inches</strong>. Each piece in your shipment that falls into these categories, will incur the overweight/oversized fee of <strong>$94.00</strong>"
+            "answer": "DHL deems a shipment overweight if it weights <strong>150 lbs</strong> or more (actual weight or dimensional weight) and oversized if any single dimensions exceed <strong>48 inches</strong>. Each piece in your shipment that falls into these categories, will incur the overweight/oversized fee of <strong>$94.00</strong>"
           },
           {
             "question": "Does DHL Express have a maximum weight and size limit?",
-            "answer": "Yes, DHL has a weight limit of <strong>660 lbs.</strong> per piece and the total weight for a multi-piece shipment cannot exceed <strong>2,200 lbs.</strong> <br/><br/> Length, width, and height of a piece cannot surpass <strong>118 inches</strong>."
+            "answer": "Yes, DHL has a weight limit of <strong>2,200 lbs</strong> per piece and the total weight for a multi-piece shipment cannot exceed <strong>6,600 lbs</strong>. <br/><br/> The size limits have increased to: <br/><br/> <ul><li>Max Piece Length: <strong>300 cm (118 inches)</strong></li><br/><li>Max Piece Width: <strong>200 cm (78 inches)</strong></li><br/><li>Max Piece Height: <strong>160 cm (63 inches)</strong></li></ul>"
           }
         ],
         "PICK UP AND DELIVERY": [
           {
             "question": "Will I be charged a pickup fee?",
-            "answer": "Optimal Logistics customers receive free pickups for their international shipments."
+            "answer": "Optimal Logistics clients receive free pickups for their international shipments unless pickup is in a Remote Area as defined by DHL."
           },
           {
             "question": "Does Optimal Logistics charge a delivery fee?",
-            "answer": "There is no charge for delivery, unless a delivery is to a residential address <strong>($4.95)</strong>, or if the delivery is to an extremely rural international location <strong>($0.42 per lb., min. $42)</strong>."
+            "answer": "There is no charge for delivery, unless a delivery is to a residential address <strong>($5.30)</strong>, or if the delivery is to an extremely rural international location <strong>($0.45 per lb., min. $45.00)</strong>."
           },
           {
             "question": "I was not home when the driver attempted delivery. Will DHL make another attempt?",
@@ -135,7 +135,7 @@
           },
           {
             "question": "How do I schedule a pickup for my packages?",
-            "answer": "There are three ways to schedule a pickup: <br/><br/> You can schedule a pick up on the <a href=\"https://prep.optimalship.com/schedule-pickup\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Online Tool</a>. <br/><br/> Or you can contact <a href=\"mailto:customerservice@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">customerservice@optimalship.com</a> <br/><br/> Or call us at <a href=\"tel:+1-972-383-9901\">972-383-9901</a>."
+            "answer": "There are three ways to schedule a pickup: <br/><br/> You can schedule a pick up on the <a href=\"https://prep.optimalship.com/schedule-pickup\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Online Tool</a>. <br/><br/> Or you can contact <a href=\"mailto:customerservice@optimalship.com\" target=\"_blank\" rel=\"noreferrer\">customerservice@optimalship.com</a>. <br/><br/> Or call us at <a href=\"tel:+1-972-383-9901\">972-383-9901</a>."
           }
         ],
         "REMOTE LOCATIONS": [
@@ -145,13 +145,13 @@
           },
           {
             "question": "Is there a charge for delivery to a Remote Location?",
-            "answer": "Yes.  The DHL fee for delivery to a remote location is <strong>$42.00</strong> or <strong>$0.42</strong> per pound, if more than <strong>100 lbs</strong>."
+            "answer": "Yes, the DHL fee for delivery to a remote location is <strong>$0.45</strong> per pound, minimum <strong>$45.00</strong>."
           }
         ],
         "SHIPPING QUESTIONS": [
           {
             "question": "Does DHL Express deliver to APO box addresses?",
-            "answer": "Although DHL Express cannot deliver to PO, APO, or FPO box address you may request the shipment to be held for pickup at the nearest service station. The receiver will need to make pick up arrangements.  Note: The receiver address is still required for customs on international shipments."
+            "answer": "Although DHL Express cannot deliver to PO, APO, or FPO box address you may request the shipment to be held for pickup at the nearest service station. The receiver will need to make pick up arrangements. <br/><br/> Note: The receiver address is still required for customs on international shipments. <br/><br/> DHL Express can deliver to PO Boxes in only 7 countries: Qatar, Australia, Israel, Saudi Arabia, UAE, Jordan, & St. Lucia."
           },
           {
             "question": "How can I request an Internal Transaction Number (ITN) for high value commodities \n (Exports valued at $2500 or more) while preparing my waybill?",

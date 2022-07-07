@@ -1,6 +1,6 @@
 {
   "title": "ShippingEasy",
-  "description": "DHL Express shipment preparation is available through ShippingEasy using your export or import number provided to you by OptimalShip. <strong>Your DHL shipping rates will not appear within ShippingEasy.</strong> In order to check your rates prior to shipping with DHL, please use the OptimalShip quote tool found here: <a href=\"https://portal.optimalship.com/dashboard\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Quote Tool</a>",
+  "description": "DHL Express shipment preparation is available through ShippingEasy using your export or import number provided to you by OptimalShip. <strong>Your DHL shipping rates will not appear within ShippingEasy.</strong> In order to check your rates prior to shipping with DHL, please use the OptimalShip quote tool found here: <a href=\"https://prep.optimalship.com/get-quote\" target=\"_blank\" rel=\"noreferrer\">OptimalShip Quote Tool</a>",
   "subtitle": "Steps to Configurate ShippingEasy Account",
   "list": [
     {
