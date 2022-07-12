@@ -8,7 +8,7 @@ function Contact() {
   return (
     <Layout>
       <Head>
-        <title>{siteTitle} - Contact Us</title>
+        <title>{`${siteTitle} - Contact Us`}</title>
       </Head>
 
       <ContactUs />

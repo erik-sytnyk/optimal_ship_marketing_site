@@ -8,7 +8,7 @@ function Integrations() {
   return (
     <Layout>
       <Head>
-        <title>{siteTitle} - Integrations</title>
+        <title>{`${siteTitle} - Integrations`}</title>
       </Head>
 
       <IntegrationsComponent />

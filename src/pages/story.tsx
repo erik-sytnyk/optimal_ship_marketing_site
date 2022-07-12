@@ -8,7 +8,7 @@ function Story() {
   return (
     <Layout>
       <Head>
-        <title>{siteTitle} - Story</title>
+        <title>{`${siteTitle} - Story`}</title>
       </Head>
 
       <UnderConstruction />

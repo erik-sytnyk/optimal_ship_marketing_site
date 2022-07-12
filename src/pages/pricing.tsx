@@ -11,7 +11,7 @@ function Pricing() {
   return (
     <Layout>
       <Head>
-        <title>{siteTitle} - Pricing</title>
+        <title>{`${siteTitle} - Pricing`}</title>
       </Head>
 
       <Intro />

@@ -16,7 +16,7 @@ function Home() {
     return (
       <Layout>
         <Head>
-          <title>{siteTitle} - Home</title>
+          <title>{`${siteTitle} - Home`}</title>
         </Head>
 
         <IntelligentSupplyChainSolutions />

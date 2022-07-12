@@ -8,7 +8,7 @@ function TermsOfService() {
   return (
     <Layout>
       <Head>
-        <title>{siteTitle} - Terms Of Service</title>
+        <title>{`${siteTitle} - Terms Of Service`}</title>
       </Head>
 
       <TermsOfServicesComponent />

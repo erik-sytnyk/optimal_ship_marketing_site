@@ -11,7 +11,7 @@ function Services() {
   return (
     <Layout>
       <Head>
-        <title>{siteTitle} - Services</title>
+        <title>{`${siteTitle} - Services`}</title>
       </Head>
 
       <ShippingExperience />

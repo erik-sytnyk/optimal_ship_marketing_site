@@ -8,7 +8,7 @@ function PrivacyPolicy() {
   return (
     <Layout>
       <Head>
-        <title>{siteTitle} - Privacy Policy</title>
+        <title>{`${siteTitle} - Privacy Policy`}</title>
       </Head>
 
       <PrivacyPolicyComponent />

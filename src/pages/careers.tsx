@@ -10,7 +10,7 @@ function CareersPage() {
   return (
     <Layout>
       <Head>
-        <title>{siteTitle} - Careers</title>
+        <title>{`${siteTitle} - Careers`}</title>
       </Head>
 
       <Careers />

@@ -8,7 +8,7 @@ function Support() {
   return (
     <Layout>
       <Head>
-        <title>{siteTitle} - Support</title>
+        <title>{`${siteTitle} - Support`}</title>
       </Head>
 
       <SupportFQA />

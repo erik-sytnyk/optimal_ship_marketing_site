@@ -13,7 +13,7 @@ function About() {
     return (
       <Layout>
         <Head>
-          <title>{siteTitle} - About Us</title>
+          <title>{`${siteTitle} - About Us`}</title>
         </Head>
 
         <OptimalShipStory />
