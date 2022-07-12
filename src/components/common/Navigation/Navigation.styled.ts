@@ -25,7 +25,7 @@ export const nav = styled.nav`
   align-items: center;
   z-index: 100;
 
-  @media ${mediaQueries.tablet} {
+  @media ${mediaQueries.laptop} {
     height: ${navHeight};
     box-shadow: none;
     padding: 0 3.2rem 0 1.2rem;
@@ -36,7 +36,7 @@ export const nav = styled.nav`
 export const navCollapse = styled.div`
   display: none;
 
-  @media ${mediaQueries.tablet} {
+  @media ${mediaQueries.laptop} {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@ export const logo = styled.div`
 export const searchContainer = styled.div`
   display: none;
 
-  @media ${mediaQueries.tablet} {
+  @media ${mediaQueries.laptop} {
     display: flex;
     align-items: center;
   }
@@ -61,7 +61,7 @@ export const navLinks = styled.ul`
   flex-direction: column;
   list-style-type: none;
 
-  @media ${mediaQueries.tablet} {
+  @media ${mediaQueries.laptop} {
     flex-direction: row;
   }
 `;
@@ -69,7 +69,7 @@ export const navLinks = styled.ul`
 export const navLink = styled.li`
   padding: 1.4rem 1.6rem;
 
-  @media ${mediaQueries.tablet} {
+  @media ${mediaQueries.laptop} {
     padding: 0;
     border-bottom: ${props => (props.active ? mainBorder : '0.4rem solid transparent')};
   }
@@ -80,7 +80,7 @@ export const link = styled.a`
   color: ${colors.type_dark};
   ${largeFont};
 
-  @media ${mediaQueries.tablet} {
+  @media ${mediaQueries.laptop} {
     letter-spacing: -0.022em;
     height: ${navHeight};
     width: 11.1rem;
@@ -92,7 +92,7 @@ export const link = styled.a`
 `;
 
 export const oldWebsiteTooltip = styled.div`
-  @media ${mediaQueries.tablet} {
+  @media ${mediaQueries.laptop} {
     display: none;
   }
 `;
@@ -141,19 +141,41 @@ export const oldWebsiteButton = styled.div`
     }
   }
 
-  @media ${mediaQueries.laptop} {
+  @media screen and (max-width: 1410px) {
+    width: 200px;
+    height: 62px;
+
+    &:hover ${oldWebsiteTooltip} {
+      left: -9.5rem;
+    }
+  }
+
+  @media screen and (max-width: 1300px) {
     display: none;
   }
 `;
 
 export const icon = styled.div`
   margin-left: 0.4rem;
+
+  @media screen and (max-width: 1410px) {
+    display: none;
+  }
+`;
+
+export const boxIcon = styled.div`
+  margin-top: 0.55rem;
+  margin-left: 0.6rem;
+
+  @media screen and (max-width: 1410px) {
+    display: none;
+  }
 `;
 
 export const toggler = styled.div`
   cursor: pointer;
 
-  @media ${mediaQueries.tablet} {
+  @media ${mediaQueries.laptop} {
     display: none;
   }
 `;
@@ -174,7 +196,7 @@ export const navMenu = styled.div`
       transition: 0.5s;
     `}
 
-  @media ${mediaQueries.tablet} {
+  @media ${mediaQueries.laptop} {
     display: none;
   }
 `;
@@ -183,4 +205,95 @@ export const navMenuContainer = styled.div`
   height: 100%;
   background-color: ${colors.white};
   margin-right: 1.6rem;
+`;
+
+export const dropDownLink = styled.a`
+  text-decoration: none;
+  color: ${colors.type_dark};
+  ${largeFont};
+  cursor: pointer;
+
+  @media ${mediaQueries.laptop} {
+    letter-spacing: -0.022em;
+    height: 4.5rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ${mainFont};
+  }
+`;
+
+export const toolLinks = styled.ul`
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+`;
+
+export const toolLink = styled.li`
+  padding: 1.4rem 1.6rem;
+
+  @media ${mediaQueries.laptop} {
+    padding: 0;
+  }
+`;
+
+export const toolsDropDown = styled.div`
+  @media ${mediaQueries.laptop} {
+    display: none;
+  }
+`;
+
+export const toolsButton = styled.div`
+  position: relative;
+  background: ${colors.white};
+  box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.8rem;
+  padding: 0 1.6rem;
+  display: flex;
+  align-items: center;
+  margin-left: 1.4rem;
+  white-space: nowrap;
+  cursor: pointer;
+  ${mainFont};
+  height: 62px;
+  transition: all 200ms linear;
+  width: 180px;
+  justify-content: center;
+  text-align: center;
+  border: none;
+
+  &:hover {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: ${colors.accent_orange_light};
+  }
+
+  &:hover ${toolsDropDown} {
+    background-color: ${colors.white};
+    border-radius: 0.8rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: initial;
+    position: absolute;
+    top: 62px;
+    left: 0;
+    white-space: normal;
+    width: 180px;
+    padding: 1rem;
+    text-align: center;
+    filter: drop-shadow(${boxShadow});
+  }
+
+  @media screen and (max-width: 1410px) {
+    width: 140px;
+
+    &:hover ${toolsDropDown} {
+      width: 140px;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    display: none;
+  }
 `;

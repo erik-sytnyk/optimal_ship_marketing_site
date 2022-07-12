@@ -18,12 +18,16 @@ function Navigation() {
 
   const [menuVisible, setMenuVisible] = useState(false);
 
+  function navigateToHomePage() {
+    router.push('/');
+  }
+
   function toggleMenu() {
     setMenuVisible(!menuVisible);
   }
 
-  function navigateToHomePage() {
-    router.push('/');
+  function navigateToTools(toolName: string) {
+    window.open(config.onlineTools[toolName], '_blank');
   }
 
   function navigateToOldWebsite() {
@@ -40,11 +44,40 @@ function Navigation() {
         <styled.oldWebsiteTooltip>
           We have recently redesigned our website, <br /> but would you rather use the old one?
           <br />
-          <b>
-            No problem, you can still use it here!
-          </b>
+          <b>No problem, you can still use it here!</b>
         </styled.oldWebsiteTooltip>
       </styled.oldWebsiteButton>
+    );
+  }
+
+  function renderToolsButton() {
+    return (
+      <styled.toolsButton onClick={() => navigateToTools('home')}>
+        Start Shipping
+        <styled.boxIcon>
+          <Image src="/images/box.ico" alt="Cardboard box" width="28" height="28" layout="fixed" />
+        </styled.boxIcon>
+        <styled.toolsDropDown>{renderToolsLinks()}</styled.toolsDropDown>
+      </styled.toolsButton>
+    );
+  }
+
+  function renderToolLink(path: string, label: string) {
+    return (
+      <styled.toolLink>
+        <styled.dropDownLink onClick={() => navigateToTools(path)}>{label}</styled.dropDownLink>
+      </styled.toolLink>
+    );
+  }
+
+  function renderToolsLinks() {
+    return (
+      <styled.toolLinks>
+        {renderToolLink('quote', 'Get Quote')}
+        {renderToolLink('shipment', 'Prepare Shipment')}
+        {renderToolLink('bill', 'Pay Bill')}
+        {renderToolLink('pickup', 'Schedule Pickup')}
+      </styled.toolLinks>
     );
   }
 
@@ -87,6 +120,7 @@ function Navigation() {
             <styled.navMenuContainer>
               <SearchInput />
               {renderNavLinks()}
+              {renderToolsLinks()}
             </styled.navMenuContainer>
           </styled.navMenu>
         )}
@@ -100,6 +134,8 @@ function Navigation() {
         <styled.logo onClick={navigateToHomePage}>
           <Image src={logoImage} alt="Logo" width={170} height={29} layout="fixed" />
         </styled.logo>
+
+        <styled.searchContainer>{renderToolsButton()}</styled.searchContainer>
 
         <styled.navCollapse>{renderNavLinks()}</styled.navCollapse>
 

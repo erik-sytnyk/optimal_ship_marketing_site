@@ -57,7 +57,7 @@ export const firstStoryImage = styled.div`
     z-index: 20;
   }
 
-  @media ${mediaQueries.laptop} {
+  @media ${mediaQueries.desktop} {
     display: none;
   }
 `;
@@ -123,7 +123,7 @@ export const secondStoryImage = styled.div`
     z-index: 20;
   }
 
-  @media ${mediaQueries.laptop} {
+  @media ${mediaQueries.desktop} {
     display: none;
   }
 `;
@@ -185,7 +185,7 @@ export const thirdStoryImage = styled.div`
     z-index: 20;
   }
 
-  @media ${mediaQueries.laptop} {
+  @media ${mediaQueries.desktop} {
     display: none;
   }
 `;

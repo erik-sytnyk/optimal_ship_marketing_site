@@ -151,7 +151,7 @@
         "SHIPPING QUESTIONS": [
           {
             "question": "Does DHL Express deliver to APO box addresses?",
-            "answer": "Although DHL Express cannot deliver to PO, APO, or FPO box address you may request the shipment to be held for pickup at the nearest service station. The receiver will need to make pick up arrangements. <br/><br/> Note: The receiver address is still required for customs on international shipments. <br/><br/> DHL Express can deliver to PO Boxes in only 7 countries: Qatar, Australia, Israel, Saudi Arabia, UAE, Jordan, & St. Lucia."
+            "answer": "Although DHL Express cannot deliver to APO or FPO box addresses you may request the shipment to be held for pickup at the nearest service station. The receiver will need to make pick up arrangements. <br/><br/> Note: The receiver address is still required for customs on international shipments. <br/><br/> DHL Express can deliver to PO Boxes in only 7 countries: Qatar, Australia, Israel, Saudi Arabia, UAE, Jordan, & St. Lucia."
           },
           {
             "question": "How can I request an Internal Transaction Number (ITN) for high value commodities \n (Exports valued at $2500 or more) while preparing my waybill?",
