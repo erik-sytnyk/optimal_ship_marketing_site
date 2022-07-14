@@ -130,7 +130,8 @@ export const mediaQueries = {
   mobile: 'screen and (min-width: 576px)',
   tablet: 'screen and (min-width: 768px)',
   laptop: 'screen and (min-width: 950px)',
-  desktop: 'screen and (max-width: 1200px)'
+  desktop: 'screen and (max-width: 1200px)',
+  desktopLarge: 'screen and (max-width: 1410px)'
 };
 
 export const input = css`

@@ -52,13 +52,15 @@ function Navigation() {
 
   function renderToolsButton() {
     return (
-      <styled.toolsButton onClick={() => navigateToTools('home')}>
-        Start Shipping
-        <styled.boxIcon>
-          <Image src="/images/box.ico" alt="Cardboard box" width="28" height="28" layout="fixed" />
-        </styled.boxIcon>
+      <styled.toolsWrapper>
+        <styled.toolsButton onClick={() => navigateToTools('home')}>
+          Start Shipping
+          <styled.boxIcon>
+            <Image src="/images/box.ico" alt="Cardboard box" width="28" height="28" layout="fixed" />
+          </styled.boxIcon>
+        </styled.toolsButton>
         <styled.toolsDropDown>{renderToolsLinks()}</styled.toolsDropDown>
-      </styled.toolsButton>
+      </styled.toolsWrapper>
     );
   }
 

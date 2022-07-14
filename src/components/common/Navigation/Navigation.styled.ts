@@ -11,6 +11,11 @@ import {
   boxShadow
 } from 'src/styles/shared';
 
+const BORDER_RADIUS = '0.8rem';
+const TOOLS_BUTTON_MAX_WIDTH = '18rem';
+const TOOLS_BUTTON_MIN_WIDTH = '14rem';
+const BUTTON_HEIGHT = '6.2rem';
+
 export const nav = styled.nav`
   position: fixed;
   top: 0;
@@ -102,7 +107,7 @@ export const oldWebsiteButton = styled.div`
     position: relative;
     background: ${colors.white};
     box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.15);
-    border-radius: 0.8rem;
+    border-radius: ${BORDER_RADIUS};
     padding: 0 1.6rem;
     display: flex;
     align-items: center;
@@ -141,9 +146,9 @@ export const oldWebsiteButton = styled.div`
     }
   }
 
-  @media screen and (max-width: 1410px) {
-    width: 200px;
-    height: 62px;
+  @media ${mediaQueries.desktopLarge} {
+    width: 20rem;
+    height: ${BUTTON_HEIGHT};
 
     &:hover ${oldWebsiteTooltip} {
       left: -9.5rem;
@@ -158,7 +163,7 @@ export const oldWebsiteButton = styled.div`
 export const icon = styled.div`
   margin-left: 0.4rem;
 
-  @media screen and (max-width: 1410px) {
+  @media ${mediaQueries.desktopLarge} {
     display: none;
   }
 `;
@@ -167,7 +172,7 @@ export const boxIcon = styled.div`
   margin-top: 0.55rem;
   margin-left: 0.6rem;
 
-  @media screen and (max-width: 1410px) {
+  @media ${mediaQueries.desktopLarge} {
     display: none;
   }
 `;
@@ -215,7 +220,7 @@ export const dropDownLink = styled.a`
 
   @media ${mediaQueries.laptop} {
     letter-spacing: -0.022em;
-    height: 4.5rem;
+    height: ${BUTTON_HEIGHT};
     padding: 0;
     display: flex;
     justify-content: center;
@@ -235,6 +240,33 @@ export const toolLink = styled.li`
 
   @media ${mediaQueries.laptop} {
     padding: 0;
+
+    &:hover {
+      background-color: ${colors.accent_orange_light};
+    }
+
+    &:last-child {
+      border-bottom-left-radius: ${BORDER_RADIUS};
+      border-bottom-right-radius: ${BORDER_RADIUS};
+    }
+  }
+`;
+
+export const toolsButton = styled.div`
+  height: ${BUTTON_HEIGHT};
+  width: ${TOOLS_BUTTON_MAX_WIDTH};
+  padding: 0 1.6rem;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    background-color: ${colors.accent_orange_light};
+    border-top-left-radius: ${BORDER_RADIUS};
+    border-top-right-radius: ${BORDER_RADIUS};
+  }
+
+  @media ${mediaQueries.desktopLarge} {
+    width: ${TOOLS_BUTTON_MIN_WIDTH};
   }
 `;
 
@@ -242,54 +274,46 @@ export const toolsDropDown = styled.div`
   @media ${mediaQueries.laptop} {
     display: none;
   }
+
+  @media ${mediaQueries.desktopLarge} {
+    width: ${TOOLS_BUTTON_MIN_WIDTH};
+  }
 `;
 
-export const toolsButton = styled.div`
+export const toolsWrapper = styled.div`
   position: relative;
   background: ${colors.white};
   box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.15);
-  border-radius: 0.8rem;
-  padding: 0 1.6rem;
-  display: flex;
-  align-items: center;
+  border-radius: ${BORDER_RADIUS};
   margin-left: 1.4rem;
   white-space: nowrap;
   cursor: pointer;
   ${mainFont};
-  height: 62px;
-  transition: all 200ms linear;
-  width: 180px;
-  justify-content: center;
   text-align: center;
   border: none;
 
   &:hover {
+    filter: drop-shadow(${boxShadow});
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    background-color: ${colors.accent_orange_light};
   }
 
   &:hover ${toolsDropDown} {
     background-color: ${colors.white};
-    border-radius: 0.8rem;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+    border-radius: 0 0 ${BORDER_RADIUS} ${BORDER_RADIUS};
     display: initial;
     position: absolute;
-    top: 62px;
+    top: ${BUTTON_HEIGHT};
     left: 0;
-    white-space: normal;
-    width: 180px;
-    padding: 1rem;
+    width: ${TOOLS_BUTTON_MAX_WIDTH};
     text-align: center;
-    filter: drop-shadow(${boxShadow});
   }
 
-  @media screen and (max-width: 1410px) {
-    width: 140px;
+  @media ${mediaQueries.desktopLarge} {
+    width: ${TOOLS_BUTTON_MIN_WIDTH};
 
     &:hover ${toolsDropDown} {
-      width: 140px;
+      width: ${TOOLS_BUTTON_MIN_WIDTH};
     }
   }
 
