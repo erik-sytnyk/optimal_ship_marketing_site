@@ -13,6 +13,8 @@ import ReadyToShip from 'src/components/home/ready_to_ship/ReadyToShip';
 
 function Home() {
   function render() {
+    console.log('Heap ID:', process.env.REACT_APP_HEAP_ID);
+    console.log('Env variable:', process.env.APP_ENV);
     return (
       <Layout>
         <Head>

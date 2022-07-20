@@ -37,11 +37,21 @@ General instructions here:
 - create heroku remote
 
 ```
-heroku create -a optimalship-marketing-qa
+
+heroku git:remote -a {heroku_app_name} --remote {env}
 ```
+
+For `heroku_app_name` use heroku instance name for particular environment (`qa`/`production`)
 
 Push to heroku remote for new deployment
 
 ```
-git push heroku develop:main
+git push {env} develop:main
+```
+
+For example for `qa` environment use following commands:
+
+```
+heroku git:remote -a optimalship-marketing-qa --remote qa
+git push qa develop:main
 ```
