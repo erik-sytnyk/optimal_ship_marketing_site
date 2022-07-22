@@ -1,7 +1,8 @@
 const baseUrl = 'https://prep.optimalship.com';
 
 let env = 'local';
-console.log(process.env.NODE_ENV);
+console.log('app_env', process.env.APP_ENV);
+console.log('node_env', process.env.NODE_ENV);
 
 const config = {
   baseUrl,
