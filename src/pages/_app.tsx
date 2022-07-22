@@ -1,35 +1,12 @@
 import Script from 'next/script';
-import {useRouter} from 'next/router';
 
 import config from 'src/config';
 
 import '../styles/index.scss';
 
 function MyApp({Component, pageProps}) {
-  const router = useRouter();
-
-  const env = process.env.NODE_ENV;
-  const isQaEnvironment = router.basePath.includes('optimalship-marketing-qa');
-  console.log('href', window.location.href);
-  console.log('base path', router.basePath);
-  function getHeapId() {
-    if (isQaEnvironment) return config.heapId.qa;
-
-    if (env === 'production') return config.heapId.production;
-
-    return null;
-  }
-
-  function getGoogleId() {
-    if (isQaEnvironment) return null;
-
-    if (env === 'production') return config.googleAnalytics;
-
-    return null;
-  }
-
-  const heapId = getHeapId();
-  const googleId = getGoogleId();
+  const heapId = config.heapId;
+  const googleId = config.googleAnalyticsId;
 
   console.log('heapId', heapId);
   console.log('googleId', googleId);

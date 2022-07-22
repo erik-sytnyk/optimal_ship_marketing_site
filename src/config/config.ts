@@ -1,5 +1,15 @@
 const baseUrl = 'https://prep.optimalship.com';
 
+let env: string = process.env.NODE_ENV;
+
+if (typeof window !== 'undefined') {
+  const hostname = window.location.hostname;
+
+  if (hostname.includes('optimalship-marketing-qa')) {
+    env = 'qa';
+  }
+}
+
 const config = {
   baseUrl,
   dhlTrackingNumberUrl: 'https://www.dhl.com/us-en/home/tracking/tracking-express.html',
@@ -17,11 +27,24 @@ const config = {
     instagram: 'https://www.instagram.com/optimalshipteam/',
     linkedIn: 'https://www.linkedin.com/company/optimal-logistics---dallas'
   },
-  heapId: {
-    qa: '2466015289',
-    production: '2751061922'
-  },
-  googleAnalytics: 'UA-56168409-2'
+  heapId: getHeapId(),
+  googleAnalyticsId: getGoogleId()
 };
+
+function getHeapId() {
+  if (env === 'qa') return '2466015289';
+
+  if (env === 'production') return '2751061922';
+
+  return null;
+}
+
+function getGoogleId() {
+  if (env === 'qa') return null;
+
+  if (env === 'production') return 'UA-56168409-2';
+
+  return null;
+}
 
 export default config;
