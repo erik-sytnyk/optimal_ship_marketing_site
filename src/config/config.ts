@@ -1,5 +1,8 @@
 const baseUrl = 'https://prep.optimalship.com';
 
+let env = 'local';
+console.log(process.env.NODE_ENV);
+
 const config = {
   baseUrl,
   dhlTrackingNumberUrl: 'https://www.dhl.com/us-en/home/tracking/tracking-express.html',
