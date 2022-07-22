@@ -8,9 +8,6 @@ function MyApp({Component, pageProps}) {
   const heapId = config.heapId;
   const googleId = config.googleAnalyticsId;
 
-  console.log('heapId', heapId);
-  console.log('googleId', googleId);
-
   return (
     <>
       <Script src="/__ENV.js" strategy="afterInteractive" />
@@ -23,7 +20,7 @@ function MyApp({Component, pageProps}) {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', ${googleId}, {
+              gtag('config', '${googleId}', {
               page_path: window.location.pathname,
               });
             `}
