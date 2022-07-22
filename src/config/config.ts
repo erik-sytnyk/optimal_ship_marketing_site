@@ -42,7 +42,7 @@ function getHeapId() {
 function getGoogleId() {
   if (env === 'qa') return null;
 
-  if (env === 'production') return 'UA-56168409-2';
+  if (env === 'production') return 'UA-56168409-1';
 
   return null;
 }
