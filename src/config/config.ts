@@ -13,7 +13,7 @@ if (typeof window !== 'undefined') {
 const config = {
   baseUrl,
   dhlTrackingNumberUrl: 'https://www.dhl.com/us-en/home/tracking/tracking-express.html',
-  oldWebSiteUrl: 'https://www.optimalship.com/',
+  oldWebSiteUrl: 'https://www.optimalship.com/?classic',
   onlineTools: {
     bill: 'https://portal.optimalship.com/dashboard',
     createAccount: `${baseUrl}/sign-up`,
