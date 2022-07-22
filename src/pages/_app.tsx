@@ -10,7 +10,8 @@ function MyApp({Component, pageProps}) {
 
   const env = process.env.NODE_ENV;
   const isQaEnvironment = router.basePath.includes('optimalship-marketing-qa');
-
+  console.log('href', window.location.href);
+  console.log('base path', router.basePath);
   function getHeapId() {
     if (isQaEnvironment) return config.heapId.qa;
 
