@@ -3,7 +3,7 @@ import Script from 'next/script';
 import env from '@beam-australia/react-env';
 
 function MyApp({Component, pageProps}) {
-  const heapId = process.env.NEXT_PUBLIC_HEAP_ID;
+  const heapId = env(process.env.NEXT_PUBLIC_HEAP_ID);
   console.log(heapId);
 
   return (
