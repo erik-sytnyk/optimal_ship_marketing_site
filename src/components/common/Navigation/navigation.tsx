@@ -134,7 +134,7 @@ function Navigation() {
     return (
       <styled.nav>
         <styled.logo onClick={navigateToHomePage}>
-          <Image src={logoImage} alt="Logo" width={170} height={29} layout="fixed" />
+          <Image src={logoImage} alt="Logo" width={158} height={30} layout="fixed" />
         </styled.logo>
 
         <styled.searchContainer>{renderToolsButton()}</styled.searchContainer>
