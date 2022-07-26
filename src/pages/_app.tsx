@@ -34,7 +34,7 @@ function MyApp({Component, pageProps}) {
       heap.load('${heapId}');`}
         </Script>
       )}
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }
