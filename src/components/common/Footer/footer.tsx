@@ -11,6 +11,7 @@ import mailImage from 'public/images/footer/mail.png';
 import facebookImage from 'public/images/footer/facebook.png';
 import instagramImage from 'public/images/footer/instagram.png';
 import linkedinImage from 'public/images/footer/linkedin.png';
+import twitterImage from 'public/images/footer/twitter.png'
 import trustBadgeImage from 'public/images/footer/trust-badge.png';
 
 import * as styled from './Footer.styled';
@@ -82,6 +83,9 @@ function Footer() {
 
               <styled.socialIcon href={config.socialMedia.linkedIn} target="_blank" rel="noreferrer">
                 <Image src={linkedinImage} alt="LinkedIn" />
+              </styled.socialIcon>
+              <styled.socialIcon href={config.socialMedia.twitter} target="_blank" rel="noreferrer">
+                <Image src={twitterImage} alt="Twitter" />
               </styled.socialIcon>
             </styled.socialIcons>
           </styled.socialMedia>

@@ -23,9 +23,10 @@ const config = {
     shipment: `${baseUrl}/prepare-shipment`
   },
   socialMedia: {
-    facebook: 'https://www.facebook.com/OptimalShipRexburg/',
+    facebook: 'https://www.facebook.com/OptimalShip.DHLWholesale',
     instagram: 'https://www.instagram.com/optimalshipteam/',
-    linkedIn: 'https://www.linkedin.com/company/optimal-logistics---dallas'
+    linkedIn: 'https://www.linkedin.com/company/optimal-logistics---dallas',
+    twitter: 'https://twitter.com/OptimalShip'
   },
   heapId: getHeapId(),
   googleAnalyticsId: getGoogleId()
