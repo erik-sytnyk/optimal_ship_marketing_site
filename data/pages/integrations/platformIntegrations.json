@@ -188,7 +188,7 @@
         },
         {
           "title": "WorldShip",
-          "description": "UPS proprietarity/free software. Does not offer DHL Express integration.",
+          "description": "UPS proprietary/free software. Does not offer DHL Express integration.",
           "icon": {
             "url": "/images/integrations/icons/ups.png",
             "alt": "WorldShip",
