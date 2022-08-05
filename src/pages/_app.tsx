@@ -25,7 +25,6 @@ function MyApp({Component, pageProps}) {
               });
             `}
           </Script>
-          )
         </>
       )}
       {heapId && (
