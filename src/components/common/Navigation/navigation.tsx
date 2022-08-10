@@ -52,15 +52,15 @@ function Navigation() {
 
   function renderToolsButton() {
     return (
-      <styled.toolsWrapper>
-        <styled.toolsButton onClick={() => navigateToTools('home')}>
+      <styled.dropdownWrapper>
+        <styled.dropdownButton onClick={() => navigateToTools('home')}>
           Start Shipping
           <styled.boxIcon>
             <Image src="/images/box.ico" alt="Cardboard box" width="28" height="28" layout="fixed" />
           </styled.boxIcon>
-        </styled.toolsButton>
-        <styled.toolsDropDown>{renderToolsLinks()}</styled.toolsDropDown>
-      </styled.toolsWrapper>
+        </styled.dropdownButton>
+        <styled.dropDown>{renderToolsLinks()}</styled.dropDown>
+      </styled.dropdownWrapper>
     );
   }
 
@@ -112,12 +112,12 @@ function Navigation() {
 
   function renderNavigationButton() {
     return (
-      <styled.toolsWrapper>
-        <styled.toolsButton onClick={navigateToHomePage}>
+      <styled.dropdownWrapper>
+        <styled.dropdownButton onClick={navigateToHomePage}>
           Navigation
-        </styled.toolsButton>
-        <styled.toolsDropDown>{renderNavLinks()}</styled.toolsDropDown>
-      </styled.toolsWrapper>
+        </styled.dropdownButton>
+        <styled.dropDown>{renderNavLinks()}</styled.dropDown>
+      </styled.dropdownWrapper>
     );
   }
 

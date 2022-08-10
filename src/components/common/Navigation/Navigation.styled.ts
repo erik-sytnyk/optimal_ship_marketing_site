@@ -12,8 +12,8 @@ import {
 } from 'src/styles/shared';
 
 const BORDER_RADIUS = '0.8rem';
-const TOOLS_BUTTON_MAX_WIDTH = '18rem';
-const TOOLS_BUTTON_MIN_WIDTH = '14rem';
+const DROPDOWN_BUTTON_MAX_WIDTH = '18rem';
+const DROPDOWN_BUTTON_MIN_WIDTH = '14rem';
 const BUTTON_HEIGHT = '6.2rem';
 const MARGIN_X = '1.4rem';
 const MOBILE_LINK_PADDING = '1.4rem 1.6rem';
@@ -289,9 +289,9 @@ export const toolLink = styled.li`
   }
 `;
 
-export const toolsButton = styled.div`
+export const dropdownButton = styled.div`
   height: ${BUTTON_HEIGHT};
-  width: ${TOOLS_BUTTON_MAX_WIDTH};
+  width: ${DROPDOWN_BUTTON_MAX_WIDTH};
   padding: 0 1.6rem;
   display: flex;
   align-items: center;
@@ -304,21 +304,21 @@ export const toolsButton = styled.div`
   }
 
   @media ${mediaQueries.desktopLarge} {
-    width: ${TOOLS_BUTTON_MIN_WIDTH};
+    width: ${DROPDOWN_BUTTON_MIN_WIDTH};
   }
 `;
 
-export const toolsDropDown = styled.div`
+export const dropDown = styled.div`
   @media ${MEDIA_TABLET_MIN} {
     display: none;
   }
 
   @media ${mediaQueries.desktopLarge} {
-    width: ${TOOLS_BUTTON_MIN_WIDTH};
+    width: ${DROPDOWN_BUTTON_MIN_WIDTH};
   }
 `;
 
-export const toolsWrapper = styled.div`
+export const dropdownWrapper = styled.div`
   position: relative;
   background: ${colors.white};
   box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.15);
@@ -336,22 +336,22 @@ export const toolsWrapper = styled.div`
     border-bottom-right-radius: 0;
   }
 
-  &:hover ${toolsDropDown} {
+  &:hover ${dropDown} {
     background-color: ${colors.white};
     border-radius: 0 0 ${BORDER_RADIUS} ${BORDER_RADIUS};
     display: initial;
     position: absolute;
     top: ${BUTTON_HEIGHT};
     left: 0;
-    width: ${TOOLS_BUTTON_MAX_WIDTH};
+    width: ${DROPDOWN_BUTTON_MAX_WIDTH};
     text-align: center;
   }
 
   @media ${mediaQueries.desktopLarge} {
-    width: ${TOOLS_BUTTON_MIN_WIDTH};
+    width: ${DROPDOWN_BUTTON_MIN_WIDTH};
 
-    &:hover ${toolsDropDown} {
-      width: ${TOOLS_BUTTON_MIN_WIDTH};
+    &:hover ${dropDown} {
+      width: ${DROPDOWN_BUTTON_MIN_WIDTH};
     }
   }
 
