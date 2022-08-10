@@ -8,7 +8,7 @@ export const container = styled.div`
   width: calc(100% - 1.6rem);
   padding: 2.4rem 1.6rem 4.8rem;
 
-  @media ${mediaQueries.tablet} {
+  @media ${mediaQueries.tabletLargeMin} {
     width: 30.9rem;
     padding: 0;
   }
