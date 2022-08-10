@@ -15,6 +15,10 @@ const BORDER_RADIUS = '0.8rem';
 const TOOLS_BUTTON_MAX_WIDTH = '18rem';
 const TOOLS_BUTTON_MIN_WIDTH = '14rem';
 const BUTTON_HEIGHT = '6.2rem';
+const MARGIN_X = '1.4rem';
+const MOBILE_LINK_PADDING = '1.4rem 1.6rem';
+const MEDIA_TABLET_MAX = mediaQueries.tabletLargeMax;
+const MEDIA_TABLET_MIN = mediaQueries.tabletLargeMin;
 
 export const nav = styled.nav`
   position: fixed;
@@ -30,7 +34,7 @@ export const nav = styled.nav`
   align-items: center;
   z-index: 100;
 
-  @media ${mediaQueries.laptop} {
+  @media ${MEDIA_TABLET_MIN} {
     height: ${navHeight};
     box-shadow: none;
     padding: 0 3.2rem 0 1.2rem;
@@ -55,9 +59,24 @@ export const logo = styled.div`
 export const searchContainer = styled.div`
   display: none;
 
-  @media ${mediaQueries.laptop} {
+  @media ${MEDIA_TABLET_MIN} {
     display: flex;
     align-items: center;
+  }
+`;
+
+export const navButtonContainer = styled.div`
+  display: none;
+
+  @media ${MEDIA_TABLET_MIN} {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: ${MARGIN_X};
+  }
+
+  @media ${mediaQueries.laptop} {
+    display: none;
   }
 `;
 
@@ -72,10 +91,22 @@ export const navLinks = styled.ul`
 `;
 
 export const navLink = styled.li`
-  padding: 1.4rem 1.6rem;
+  padding: ${MOBILE_LINK_PADDING};
+
+  @media ${MEDIA_TABLET_MIN} {
+    padding: 0;
+
+    &:hover {
+      background-color: ${colors.accent_orange_light};
+    }
+
+    &:last-child {
+      border-bottom-left-radius: ${BORDER_RADIUS};
+      border-bottom-right-radius: ${BORDER_RADIUS};
+    }
+  }
 
   @media ${mediaQueries.laptop} {
-    padding: 0;
     border-bottom: ${props => (props.active ? mainBorder : '0.4rem solid transparent')};
   }
 `;
@@ -85,25 +116,31 @@ export const link = styled.a`
   color: ${colors.type_dark};
   ${largeFont};
 
-  @media ${mediaQueries.laptop} {
+  @media ${MEDIA_TABLET_MIN} {
     letter-spacing: -0.022em;
-    height: ${navHeight};
-    width: 11.1rem;
+    height: ${BUTTON_HEIGHT};
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    ${mainFont};
+  }
+
+  @media ${mediaQueries.laptop} {
+    ${largeFont};
+    height: ${navHeight};
+    width: 11.1rem;
   }
 `;
 
 export const oldWebsiteTooltip = styled.div`
-  @media ${mediaQueries.laptop} {
+  @media ${MEDIA_TABLET_MIN} {
     display: none;
   }
 `;
 
 export const oldWebsiteButton = styled.div`
-  @media ${mediaQueries.tablet} {
+  @media ${MEDIA_TABLET_MIN} {
     position: relative;
     background: ${colors.white};
     box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.15);
@@ -111,7 +148,7 @@ export const oldWebsiteButton = styled.div`
     padding: 0 1.6rem;
     display: flex;
     align-items: center;
-    margin-right: 1.4rem;
+    margin-right: ${MARGIN_X};
     white-space: nowrap;
     cursor: pointer;
     ${mainFont};
@@ -180,7 +217,7 @@ export const boxIcon = styled.div`
 export const toggler = styled.div`
   cursor: pointer;
 
-  @media ${mediaQueries.laptop} {
+  @media ${MEDIA_TABLET_MIN} {
     display: none;
   }
 `;
@@ -201,7 +238,7 @@ export const navMenu = styled.div`
       transition: 0.5s;
     `}
 
-  @media ${mediaQueries.laptop} {
+  @media ${MEDIA_TABLET_MIN} {
     display: none;
   }
 `;
@@ -218,7 +255,7 @@ export const dropDownLink = styled.a`
   ${largeFont};
   cursor: pointer;
 
-  @media ${mediaQueries.laptop} {
+  @media ${MEDIA_TABLET_MIN} {
     letter-spacing: -0.022em;
     height: ${BUTTON_HEIGHT};
     padding: 0;
@@ -236,9 +273,9 @@ export const toolLinks = styled.ul`
 `;
 
 export const toolLink = styled.li`
-  padding: 1.4rem 1.6rem;
+  padding: ${MOBILE_LINK_PADDING};
 
-  @media ${mediaQueries.laptop} {
+  @media ${MEDIA_TABLET_MIN} {
     padding: 0;
 
     &:hover {
@@ -258,6 +295,7 @@ export const toolsButton = styled.div`
   padding: 0 1.6rem;
   display: flex;
   align-items: center;
+  justify-content: center;
 
   &:hover {
     background-color: ${colors.accent_orange_light};
@@ -271,7 +309,7 @@ export const toolsButton = styled.div`
 `;
 
 export const toolsDropDown = styled.div`
-  @media ${mediaQueries.laptop} {
+  @media ${MEDIA_TABLET_MIN} {
     display: none;
   }
 
@@ -285,7 +323,7 @@ export const toolsWrapper = styled.div`
   background: ${colors.white};
   box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.15);
   border-radius: ${BORDER_RADIUS};
-  margin-left: 1.4rem;
+  margin-left: ${MARGIN_X};
   white-space: nowrap;
   cursor: pointer;
   ${mainFont};
@@ -317,7 +355,7 @@ export const toolsWrapper = styled.div`
     }
   }
 
-  @media screen and (max-width: 1100px) {
+  @media ${MEDIA_TABLET_MAX} {
     display: none;
   }
 `;

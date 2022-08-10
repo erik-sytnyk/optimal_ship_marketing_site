@@ -110,6 +110,17 @@ function Navigation() {
     );
   }
 
+  function renderNavigationButton() {
+    return (
+      <styled.toolsWrapper>
+        <styled.toolsButton onClick={navigateToHomePage}>
+          Navigation
+        </styled.toolsButton>
+        <styled.toolsDropDown>{renderNavLinks()}</styled.toolsDropDown>
+      </styled.toolsWrapper>
+    );
+  }
+
   function renderMobileNavigation() {
     return (
       <>
@@ -138,6 +149,8 @@ function Navigation() {
         </styled.logo>
 
         <styled.searchContainer>{renderToolsButton()}</styled.searchContainer>
+
+        <styled.navButtonContainer>{renderNavigationButton()}</styled.navButtonContainer>
 
         <styled.navCollapse>{renderNavLinks()}</styled.navCollapse>
 
