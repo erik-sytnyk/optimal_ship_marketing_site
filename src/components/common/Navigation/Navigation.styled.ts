@@ -17,8 +17,51 @@ const DROPDOWN_BUTTON_MIN_WIDTH = '14rem';
 const BUTTON_HEIGHT = '6.2rem';
 const MARGIN_X = '1.4rem';
 const MOBILE_LINK_PADDING = '1.4rem 1.6rem';
+const BUTTON_BOX_SHADOW = `0 0.4rem 2rem rgba(0, 0, 0, 0.15)`;
 const MEDIA_TABLET_MAX = mediaQueries.tabletLargeMax;
 const MEDIA_TABLET_MIN = mediaQueries.tabletLargeMin;
+const HIGHLIGHT_LINK_STYLES = `
+  padding: ${MOBILE_LINK_PADDING};
+
+    @media ${MEDIA_TABLET_MIN} {
+      padding: 0;
+
+      &:hover {
+        background-color: ${colors.accent_orange_light};
+      }
+
+      &:last-child {
+        border-bottom-left-radius: ${BORDER_RADIUS};
+        border-bottom-right-radius: ${BORDER_RADIUS};
+      }
+    }
+`;
+const UNDO_HIGHLIGHT_LINK_STYLES = `
+  &:hover {
+    background-color: ${colors.white};
+  }
+
+  &:last-child {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+`;
+const DROPDOWN_LINK_STYLES = `
+  text-decoration: none;
+  color: ${colors.type_dark};
+  ${largeFont};
+  cursor: pointer;
+
+  @media ${MEDIA_TABLET_MIN} {
+    letter-spacing: -0.022em;
+    height: ${BUTTON_HEIGHT};
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ${mainFont};
+    }
+`;
 
 export const nav = styled.nav`
   position: fixed;
@@ -91,40 +134,17 @@ export const navLinks = styled.ul`
 `;
 
 export const navLink = styled.li`
-  padding: ${MOBILE_LINK_PADDING};
-
-  @media ${MEDIA_TABLET_MIN} {
-    padding: 0;
-
-    &:hover {
-      background-color: ${colors.accent_orange_light};
-    }
-
-    &:last-child {
-      border-bottom-left-radius: ${BORDER_RADIUS};
-      border-bottom-right-radius: ${BORDER_RADIUS};
-    }
-  }
+  ${HIGHLIGHT_LINK_STYLES};
 
   @media ${mediaQueries.laptop} {
+    ${UNDO_HIGHLIGHT_LINK_STYLES};
+
     border-bottom: ${props => (props.active ? mainBorder : '0.4rem solid transparent')};
   }
 `;
 
 export const link = styled.a`
-  text-decoration: none;
-  color: ${colors.type_dark};
-  ${largeFont};
-
-  @media ${MEDIA_TABLET_MIN} {
-    letter-spacing: -0.022em;
-    height: ${BUTTON_HEIGHT};
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    ${mainFont};
-  }
+  ${DROPDOWN_LINK_STYLES};
 
   @media ${mediaQueries.laptop} {
     ${largeFont};
@@ -143,7 +163,7 @@ export const oldWebsiteButton = styled.div`
   @media ${MEDIA_TABLET_MIN} {
     position: relative;
     background: ${colors.white};
-    box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.15);
+    box-shadow: ${BUTTON_BOX_SHADOW};
     border-radius: ${BORDER_RADIUS};
     padding: 0 1.6rem;
     display: flex;
@@ -250,20 +270,7 @@ export const navMenuContainer = styled.div`
 `;
 
 export const dropDownLink = styled.a`
-  text-decoration: none;
-  color: ${colors.type_dark};
-  ${largeFont};
-  cursor: pointer;
-
-  @media ${MEDIA_TABLET_MIN} {
-    letter-spacing: -0.022em;
-    height: ${BUTTON_HEIGHT};
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    ${mainFont};
-  }
+  ${DROPDOWN_LINK_STYLES};
 `;
 
 export const toolLinks = styled.ul`
@@ -273,20 +280,7 @@ export const toolLinks = styled.ul`
 `;
 
 export const toolLink = styled.li`
-  padding: ${MOBILE_LINK_PADDING};
-
-  @media ${MEDIA_TABLET_MIN} {
-    padding: 0;
-
-    &:hover {
-      background-color: ${colors.accent_orange_light};
-    }
-
-    &:last-child {
-      border-bottom-left-radius: ${BORDER_RADIUS};
-      border-bottom-right-radius: ${BORDER_RADIUS};
-    }
-  }
+  ${HIGHLIGHT_LINK_STYLES};
 `;
 
 export const dropdownButton = styled.div`
@@ -321,7 +315,7 @@ export const dropDown = styled.div`
 export const dropdownWrapper = styled.div`
   position: relative;
   background: ${colors.white};
-  box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.15);
+  box-shadow: ${BUTTON_BOX_SHADOW};
   border-radius: ${BORDER_RADIUS};
   margin-left: ${MARGIN_X};
   white-space: nowrap;
