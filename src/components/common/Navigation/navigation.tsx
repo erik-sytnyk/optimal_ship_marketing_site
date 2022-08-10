@@ -130,11 +130,13 @@ function Navigation() {
 
         {menuVisible && (
           <styled.navMenu visible={menuVisible}>
-            <styled.navMenuContainer>
-              <SearchInput />
-              {renderNavLinks()}
-              {renderToolsLinks()}
-            </styled.navMenuContainer>
+            <styled.navMenuWrapper>
+              <styled.navMenuContainer>
+                <SearchInput />
+                {renderNavLinks()}
+                {renderToolsLinks()}
+              </styled.navMenuContainer>
+            </styled.navMenuWrapper>
           </styled.navMenu>
         )}
       </>

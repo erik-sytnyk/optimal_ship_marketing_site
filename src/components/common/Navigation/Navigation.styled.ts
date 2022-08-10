@@ -263,10 +263,18 @@ export const navMenu = styled.div`
   }
 `;
 
+export const navMenuWrapper = styled.div`
+  height: 100%;
+  padding-top: ${navHeightMobile};
+`;
+
 export const navMenuContainer = styled.div`
+  margin-top: -${navHeightMobile};
   height: 100%;
   background-color: ${colors.white};
   margin-right: 1.6rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
 `;
 
 export const dropDownLink = styled.a`
