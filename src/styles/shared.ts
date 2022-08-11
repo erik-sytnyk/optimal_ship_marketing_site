@@ -129,7 +129,9 @@ export const largeFont = css`
 export const mediaQueries = {
   mobile: 'screen and (min-width: 576px)',
   tablet: 'screen and (min-width: 768px)',
-  laptop: 'screen and (min-width: 950px)',
+  tabletLargeMin: 'screen and (min-width: 818px)',
+  tabletLargeMax: 'screen and (max-width: 818px)',
+  laptop: 'screen and (min-width: 1100px)',
   desktop: 'screen and (max-width: 1200px)',
   desktopLarge: 'screen and (max-width: 1410px)'
 };

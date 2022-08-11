@@ -52,15 +52,15 @@ function Navigation() {
 
   function renderToolsButton() {
     return (
-      <styled.toolsWrapper>
-        <styled.toolsButton onClick={() => navigateToTools('home')}>
+      <styled.dropdownWrapper>
+        <styled.dropdownButton onClick={() => navigateToTools('home')}>
           Start Shipping
           <styled.boxIcon>
             <Image src="/images/box.ico" alt="Cardboard box" width="28" height="28" layout="fixed" />
           </styled.boxIcon>
-        </styled.toolsButton>
-        <styled.toolsDropDown>{renderToolsLinks()}</styled.toolsDropDown>
-      </styled.toolsWrapper>
+        </styled.dropdownButton>
+        <styled.dropDown>{renderToolsLinks()}</styled.dropDown>
+      </styled.dropdownWrapper>
     );
   }
 
@@ -110,6 +110,17 @@ function Navigation() {
     );
   }
 
+  function renderNavigationButton() {
+    return (
+      <styled.dropdownWrapper>
+        <styled.dropdownButton onClick={navigateToHomePage}>
+          Navigation
+        </styled.dropdownButton>
+        <styled.dropDown>{renderNavLinks()}</styled.dropDown>
+      </styled.dropdownWrapper>
+    );
+  }
+
   function renderMobileNavigation() {
     return (
       <>
@@ -119,11 +130,13 @@ function Navigation() {
 
         {menuVisible && (
           <styled.navMenu visible={menuVisible}>
-            <styled.navMenuContainer>
-              <SearchInput />
-              {renderNavLinks()}
-              {renderToolsLinks()}
-            </styled.navMenuContainer>
+            <styled.navMenuWrapper>
+              <styled.navMenuContainer>
+                <SearchInput />
+                {renderNavLinks()}
+                {renderToolsLinks()}
+              </styled.navMenuContainer>
+            </styled.navMenuWrapper>
           </styled.navMenu>
         )}
       </>
@@ -138,6 +151,8 @@ function Navigation() {
         </styled.logo>
 
         <styled.searchContainer>{renderToolsButton()}</styled.searchContainer>
+
+        <styled.navButtonContainer>{renderNavigationButton()}</styled.navButtonContainer>
 
         <styled.navCollapse>{renderNavLinks()}</styled.navCollapse>
 
