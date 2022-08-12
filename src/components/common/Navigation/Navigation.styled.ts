@@ -38,7 +38,7 @@ const HIGHLIGHT_LINK_STYLES = `
 `;
 const UNDO_HIGHLIGHT_LINK_STYLES = `
   &:hover {
-    background-color: ${colors.white};
+    background-color: unset;
   }
 
   &:last-child {
