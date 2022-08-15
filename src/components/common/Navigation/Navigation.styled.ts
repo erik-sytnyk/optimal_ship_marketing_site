@@ -254,7 +254,7 @@ export const navMenu = styled.div`
   ${props =>
     props.visible &&
     css`
-      width: 100%;
+      width: 100vw;
       transition: 0.5s;
     `}
 
@@ -271,6 +271,7 @@ export const navMenuWrapper = styled.div`
 export const navMenuContainer = styled.div`
   margin-top: -${navHeightMobile};
   height: 100%;
+  width: 100vw;
   background-color: ${colors.white};
   margin-right: 1.6rem;
   overflow-x: hidden;
