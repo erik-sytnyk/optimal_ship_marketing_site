@@ -6,7 +6,7 @@ export const container = styled.div`
   display: flex;
   position: relative;
   width: calc(100% - 1.6rem);
-  padding: 2.4rem 1.6rem 4.8rem;
+  padding: 1.6rem 1.6rem 1.6rem;
 
   @media ${mediaQueries.tabletLargeMin} {
     width: 30.9rem;
