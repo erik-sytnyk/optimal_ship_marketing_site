@@ -54,6 +54,8 @@ For example for `qa` environment use following commands:
 ```
 heroku git:remote -a optimalship-marketing-qa --remote qa
 git push qa develop:main
+
+git push demo stubs_deploy:main
 ```
 
 To reset git history for particular environment use following command
