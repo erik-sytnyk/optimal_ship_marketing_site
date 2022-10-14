@@ -27,25 +27,7 @@ const config = {
     instagram: 'https://www.instagram.com/optimalshipteam/',
     linkedIn: 'https://www.linkedin.com/company/optimal-logistics---dallas',
     twitter: 'https://twitter.com/OptimalShip'
-  },
-  heapId: getHeapId(),
-  googleAnalyticsId: getGoogleId()
+  }
 };
-
-function getHeapId() {
-  if (env === 'qa') return '2466015289';
-
-  if (env === 'production') return '2751061922';
-
-  return null;
-}
-
-function getGoogleId() {
-  if (env === 'qa') return null;
-
-  if (env === 'production') return 'UA-56168409-1';
-
-  return null;
-}
 
 export default config;
